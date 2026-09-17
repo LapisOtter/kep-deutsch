@@ -133,16 +133,16 @@ BillsHousePokemonListText1:
 	text_end
 
 BillsMonListText:
-	db   "EEVEE"
-	next "FLAREON"
-	next "JOLTEON"
-	next "VAPOREON"
-	;next "ESPEON" The menu needs to scroll - the first few work fine.
-	;next "UMBREON"
-	;next "LEAFEON"
-	;next "GLACEON"
-	;next "SYLVEON"
-	next "CANCEL@"
+	db   "EVOLI"
+	next "FLAMARA"
+	next "BLITZA"
+	next "AQUANA"
+	;next "PSIANA" The menu needs to scroll - the first few work fine.
+	;next "NACHTARA"
+	;next "FOLIPURBA"
+	;next "GLAZIOLA"
+	;next "FEELINARA"
+	next "ZURÜCK@"
 
 BillsHousePokemonListText2:
 	text_far _BillsHousePokemonListText2

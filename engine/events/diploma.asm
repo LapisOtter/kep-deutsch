@@ -36,7 +36,7 @@ DisplayDiploma::
 	pop bc
 	dec c
 	jr nz, .placeTextLoop
-	hlcoord 10, 4
+	hlcoord 9, 6
 	ld de, wPlayerName
 	call PlaceString
 	ld a, [wPlayerSex]
@@ -106,27 +106,26 @@ ENDM
 
 DiplomaTextPointersAndCoords:
 	; x, y, text
-	diploma_text  5,  2, DiplomaText
-	diploma_text  3,  4, DiplomaPlayer
-	diploma_text 15,  4, DiplomaEmptyText
-	diploma_text  2,  6, DiplomaCongrats
+	diploma_text  6,  2, DiplomaText
+	diploma_text  2,  4, DiplomaPlayer
+	diploma_text  2,  6, DiplomaEmptyText
+	diploma_text  2,  8, DiplomaCongrats
 	diploma_text  9, 16, DiplomaGameFreak
 
 DiplomaText:
-	db CIRCLE_TILE_ID, "Diploma", CIRCLE_TILE_ID, "@"
+	db CIRCLE_TILE_ID, "Diplom", CIRCLE_TILE_ID, "@"
 
 DiplomaPlayer:
-	db "Player@"
+	db "Herzlichen Glück-@"
 
 DiplomaEmptyText:
-	db "@"
+	db "wunsch         !@"
 
 DiplomaCongrats:
-	db   "Congrats! This"
-	next "diploma certifies"
-	next "that you have"
-	next "completed your"
-	next "#DEX.@"
+	db "Du hast es ge-"
+	next "schafft, den"
+	next "#DEX zu"
+	next "vervollständigen@"
 
 DiplomaGameFreak:
 	db "GAME FREAK@"

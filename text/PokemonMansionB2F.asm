@@ -1,101 +1,117 @@
 _B2FBook1::
-	text "Diary: Feb 20"
-	line "The clone project"
-	cont "was a success."
+	text "TAGEBUCH:"
+	line "20. FEBRUAR"
 	
-	para "We are getting"
-	line "high energy"
-	cont "readings from"
-	cont "MEWTWO's psychic"
-	cont "power!"
+	para "Das Klon-Projekt"
+	line "war ein großer"
+	cont "Erfolg."
 	
-	para "But..."
+	para "Wir erhalten hohe"
+	line "Energielesungen"
+	cont "von MEWTUs"
+	cont "Psycho-Kräften!"
 	
-	para "What are they"
-	line "talking about?"
+	para "Aber..."
+	
+	para "Über was reden"
+	line "sie denn?"
 	
 	done
 
 _B2FBook2::
-	text "Diary: Apr 24"
-	line "All clones have"
-	cont "perished."
+	text "TAGEBUCH:"
+	line "24. APRIL"
 	
-	para "MEWTWO remains."
-	line "However..."
+	para "Alle Klone sind"
+	line "verstorben."
 	
-	para "It has seemed to"
-	line "react to the"
-	cont "situation."
+	para "MEWTU verbleibt."
+	line "Doch..."
 	
-	para "Tranquilizers were"
-	line "administered."
+	para "Es scheint auf die"
+	line "Situation"
+	cont "reagiert zu"
+	cont "haben."
 	
-	para "We should never"
-	line "have gone to"
-	cont "Guyana. I must"
-	cont "hide that map..."
+	para "Es wurden"
+	line "Betäubungsmittel"
+	cont "verabreicht."
 	
-	para "Somewhere no one"
-	line "will ever look."
-	cont "With any luck,"
-	cont "it'll end up at"
-	cont "the bottom of"
-	cont "the sea..."
+	para "Wir hätten niemals"
+	line "ins Niemandsland"
+	cont "aufbrechen"
+	cont "sollen."
+	
+	para "Ich muss die Karte"
+	line "verstecken... an"
+	cont "einem Ort, wo"
+	cont "niemand sie"
+	cont "finden kann."
+	
+	para "Mit etwas Glück"
+	line "wird sie am"
+	cont "Boden des Meeres"
+	cont "landen..."
 	
 	done
 
 _B2FPicture::
-	text "It's a charred"
-	line "picture of a"
-	cont "happy family."
+	text "Ein angebranntes"
+	line "Bild einer"
+	cont "glücklichen"
+	cont "Familie."
 	
 	done
 
 _B2FComputer1::
-	text "The screen is"
-	line "cracked, but 5"
-	cont "graphs are"
-	cont "visible."
+	text "Der Bildschirm ist"
+	line "rissig, doch 5"
+	cont "Diagramme sind"
+	cont "sichtbar."
 	
 	done
 
 _B2FComputer2::
-	text "The screen is"
-	line "broken beyond"
-	cont "repair..."
+	text "Der Bildschirm ist"
+	line "irreparabel"
+	cont "beschädigt..."
 	
 	done
 
 _B2FMissingNo::
-	text "Badly corrupted"
-	line "graphics are on"
-	cont "this screen..."
-
-	para "It's best to"
-	line "leave it alone."
+	text "Stark korrumpierte"
+	line "Grafiken sind"
+	cont "auf diesen"
+	cont "Bildschirm..."
+	
+	para "Es ist besser,"
+	line "man läßt die"
+	cont "Finger davon."
 
 	done
 
 _TrioPods::
-	text "Stagnant fluid"
-	line "floats inside"
-	cont "the pod..."
+	text "Eine Abgestandene"
+	line "Flüssigkeit"
+	cont "treibt im inneren"
+	cont "der Kapsel"
+	cont "herum..."
 	
 	done
 
 _AmberPod::
-	text "This pod is"
-	line "empty."
+	text "Diese Kapsel ist"
+	line "leer."
 	
 	done
 
 _MewtwoPod::
-	text "Smashed glass"
-	line "surrounds this"
-	cont "pod..."
+	text "Zerschmettertes"
+	line "Glas umgibt diese"
+	cont "Kapsel..."
 	
-	para "What could have"
-	line "done this?"
+	para "Was könnte das"
+	line "bloß verursacht"
+	cont "haben?"
 	
 	done

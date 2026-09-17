@@ -1,19 +1,21 @@
 _FarawayIslandSign::
-	text "The writing is"
-	line "fading as if it"
-	cont "was written a"
-	cont "long time ago..."
+	text "Die Schrift ist"
+	line "verblasst, so als"
+	cont "sei sie vor"
+	cont "uralten Zeiten"
+	cont "geschrieben"
+	cont "worden..."
 	
-	para "...ber, 6th day"
+	para "Sollte ein Mensch"
+	line "jemals wieder..."
+	cont "seinen Fuß auf"
+	cont "die Insel... ffe,"
+	cont "dass es ein"
+	cont "weichherziger"
+	cont "Mens..."
 	
-	para "If any human..."
-	line "sets foot here..."
-	cont "again...et it be"
-	cont "a kindhearted"
-	cont "pers..."
-	
-	para "...ith that hope,"
-	line "I depar..."
+	para "...it dieser"
+	line "Hoffnung gehe"
+	cont "i..."
 	cont "...JI"
-	
 	done

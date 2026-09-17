@@ -1,45 +1,50 @@
 _MoveDeleterGreetingText::
-	text "Mom says I'm so"
-	line "forgetful that it"
-	cont "is contagious."
+	text "Mama sagt, dass"
+	line "ich so vergess-"
+	cont "lich bin, dass es"
+	cont "ansteckend ist."
 	
-	para "Want me to make a"
-	line "#MON forget a"
-	cont "move?"
+	para "Willst Du, dass"
+	line "ich ein #MON"
+	cont "eine Attacke"
+	cont "vergessen lasse?"
 	done
 
 _MoveDeleterSaidYesText::
-	text "Which #MON"
-	line "should forget a"
-	cont "move?"
+	text "Welches #MON"
+	line "soll eine Attacke"
+	cont "vergessen?"
 	prompt
 
 _MoveDeleterWhichMoveText::
-	text "Which move should"
-	line "it forget, then?"
+	text "Welche Attacke"
+	line "soll es denn"
+	cont "vergessen?"
 	done
 
 _MoveDeleterConfirmText::
-	text "Make it forget"
-	line "@"
+	text "Soll es @"
 	text_ram wStringBuffer
-	text "?"
+	text_start
+	line "vergessen?"
 	prompt
 
 _MoveDeleterForgotText::
 	text "@"
 	text_ram wStringBuffer
-	text " was"
-	line "forgotten!"
+	text " wurde"
+	line "vergessen!"
 	prompt
 
 _MoveDeleterByeText::
-	text "Come visit me"
-	line "again!"
+	text "Besuche mich Mal"
+	line "wieder!"
 	done
 
 _MoveDeleterOneMoveText::
-	text "That #mon"
-	line "has one move."
-	cont "Pick another?"
+	text "Dieses #MON"
+	line "Hat bloß eine"
+	cont "Attacke. Wählst"
+	cont "Du ein anderes"
+	cont "aus?"
 	done

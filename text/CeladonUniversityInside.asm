@@ -1,76 +1,81 @@
 _CeladonUniversityInsideText1::
-	text "My name is PROF."
-	line "WESTWOOD V!"
+	text "Ich bin PROF."
+	line "WESTWOOD V.!"
 	
-	para "My ancestors"
-	line "created the"
-	cont "# BALL!"
-	
+	para "Meine Vorfahren"
+	line "haben den #-"
+	cont "BALL erfunden!"
 	done
 
 _CeladonUniversityInsideText2::
-	text "It's an invoice"
-	line "selling the #"
-	cont "BALL to SILPH."
+	text "Eine Rechnung von"
+	line "SILPH, welches"
+	cont "den #BALL"
+	cont "gekauft hat." ; Is this a correct translation of "It's an invoice selling the #BALL to SILPH."?
 	
 	done
 
 _CeladonUniversityInsideText3::
-	text "It's a paper"
-	line "speculating on"
-	cont "the idea of a"
-	cont "man-made #MON."
+	text "Ein Thesenpapier,"
+	line "welches Spekula-"
+	cont "tion zum Thema"
+	cont "Menschengemachter"
+	cont "#MON enthält."
 	
 	done
 
 _KHRP::
-	text "Eureka!"
+	text "Heureka!"
 	
-	para "This MAGIKARP can"
-	line "use DRAGON RAGE!"
+	para "Dieses KARPADOR"
+	line "kann DRACHENWUT"
+	cont "einsetzen!"
 	
-	para "Huh? You want to"
-	line "teach yours?"
+	para "Wie? Du möchtest"
+	line "Es Deinem auch"
+	cont "beibringen?"
 	
-	para "Sure! Take this!"
+	para "Aber sicher doch!"
+	line "Hier, für Dich!"
 	
 	prompt
 
 _CeladonUniversityInsideMagikarpText::
-	text "Name: MAGIKARP"
+	text "Name: KARPADOR"
 
-	para "Like ancient"
-	line "specimens, it"
-	cont "can use DRAGON"
-	cont "RAGE."
+	para "Wie urzeitliche"
+	line "Exemplare kann es"
+	cont "DRACHENWUT"
+	cont "verwenden."
 	
 	prompt
 
 _BookcaseText1::
-	text "The fossil record"
-	line "of #MON dates"
-	cont "back around 2"
-	cont "million years."
-	
+	text "Fossilbefunde von"
+	line "#MON gehen bis"
+	cont "etwa 2 Millionen"
+	cont "Jahre zurück."
+
 	para "BARON TAJIRIN"
-	line "of France found"
-	cont "30 species in"
-	cont "the 18th century."
-	
+	line "aus Frankreich"
+	cont "hat im 18. Jahr-"
+	cont "hundert 30 Arten"
+	cont "entdeckt."
 	done
 
 _BookcaseText2::
-	text "In 1899, PROF."
-	line "WESTWOOD of Japan"
-	cont "discovered #-"
-	cont "MON evolution,"
-	cont "documenting 50"
-	cont "species."
-	
-	para "PROF. OAK"
-	line "has since"
-	cont "documented a"
-	cont "further 120." ; Total: 200.
+	text "Im Jahr 1899 hat"
+	line "PROF. WESTWOOD"
+	cont "aus Japan #-"
+	cont "MON-Entwicklung"
+	cont "entdeckt und"
+	cont "50 Arten"
+	cont "dokumentiert."
+
+	para "Seitdem hat PROF."
+	line "EICH 120 weitere"
+	cont "Arten"
+	cont "dokumentiert." ; Total: 200.
 	
 	done
 	
@@ -86,11 +91,12 @@ _BookcaseText3::
 	;cont "PRIMEAPE."
 	; too long and doesn't seem to fit.
 	
-	text "The modern #"
-	line "BALL was made by"
-	cont "researchers at"
-	cont "CELADON UNIVER-"
-	cont "SITY in 1925."
+	text "Der moderne #-"
+	line "BALL wurde 1925"
+	cont "von Forschern in"
+	cont "der UNIVERSITÄT"
+	cont "VON PRISMANIA"
+	cont "erschaffen."
 	
 	done
 
@@ -98,33 +104,35 @@ _SlowbroCry::
 	text "..."
 	para "..."
 	para "..."
-	para "...BRO?"
+	para "...LAAAAHM..." ; instead of asking you "BRO?" it now calls you lame
 	
 	done
 
 _ComputerScreen::
-	text "Chaotic graphs are"
-	line "visible on the PC"
-	cont "screen."
+	text "Chaotische Graphen"
+	line "sind auf dem PC"
+	cont "abgebildet."
 	
 	done
 
 _ReceivedTM23Text::
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _TM23ExplanationText::
-	text "TM23 is DRAGON"
-	line "RAGE!"
+	text "TM23 ist"
+	line "DRACHENWUT!"
 
-	para "Use it against"
-	line "weak #MON!"
+	para "Sie eignet sich"
+	line "gut gegen"
+	cont "schwache #MON!"
 	done
 
 _TM23NoRoomText::
-	text "You don't have"
-	line "room for this!"
+	text "Du hast momentan"
+	line "keinen Platz für"
+	cont "weitere ITEMs!"
 	done

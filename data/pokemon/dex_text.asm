@@ -1,1510 +1,1510 @@
 _RhydonDexEntry:: ; new entry
-	text "After standing on"
-	next "its hind legs, its"
-	next "brain developed."
+	text "Durch das Stehen"
+	next "auf 2 Beinen hat"
+	next "sich sein Gehirn"
 
-	page "It can punch holes"
-	next "through boulders"
-	next "with its horn"
+	page "entwickelt. Mit"
+	next "seinem Horn kann"
+	next "es Felsen löchern"
 	dex
 
 _KangaskhanDexEntry:: ; new entry
-	text "The female raises"
-	next "its offspring in"
-	next "its belly pouch."
+	text "Das Weibchen zieht"
+	next "seinen Nachwuchs"
+	next "in seiner Bauch-"
 
-	page "It is adept at"
-	next "attacking using"
-	next "COMET PUNCH"
+	page "tasche auf. Es"
+	next "setzt talentiert"
+	next "KOMETENHIEB ein"
 	dex
 
 _NidoranMDexEntry::
-	text "When listening to"
-	next "distant sounds, it"
-	next "flaps its ears"
+	text "Flattert mit den"
+	next "Ohren wie Flügel,"
+	next "wenn es entfernte"
 
-	page "like wings. Its"
-	next "horn secretes a"
-	next "powerful venom"
+	page "Geräusche hört."
+	next "Sein Horn enthält"
+	next "ein starkes Gift"
 	dex
 
 _ClefairyDexEntry:: ; new entry, altered from the original.
-	text "Its magical and"
-	next "cute appeal has"
-	next "many admirers."
+	text "Viele bewundern"
+	next "es wegen seines"
+	next "possierlichen Aus-"
 
-	page "Occasionally, it"
-	next "surprises itself"
-	next "with METRONOME"
+	page "sehens. Überrascht"
+	next "sich mit METRONOM"
+	next "manchmal selbst"
 	dex
 
 _SpearowDexEntry:: ; new entry
-	text "More aggressive"
-	next "than PIDGEY. It"
-	next "busily flits about"
+	text "Es ist Aggressiver"
+	next "als TAUBSI. Eifrig"
+	next "huscht es durch"
 
-	page "in tall grass,"
-	next "searching for"
-	next "insects to eat"
+	page "hohes Gras auf der"
+	next "Suche nach seiner"
+	next "Nahrung: Insekten"
 	dex
 
 _VoltorbDexEntry::
-	text "Sometimes migrates"
-	next "to urban areas by"
-	next "traveling on"
+	text "Gelangen in Stadt-" ; removed "sometimes"
+	next "gebiete, indem sie"
+	next "auf Freileitungen"
 
-	page "power lines. It"
-	next "tends to explode"
-	next "without warning"
+	page "rollen. Es neigt"
+	next "dazu, plötzlich"
+	next "zu explodieren"
 	dex
 
 _NidokingDexEntry:: ; new entry
-	text "Recognised by its"
-	next "rock-hard hide and"
-	next "venomous horn."
+	text "Man erkennt es an"
+	next "seiner steinharten"
+	next "Haut und dem gif-"
 
-	page "It will shy away"
-	next "from fighting"
-	next "NIDOQUEEN"
+	page "tigen Horn. Scheut"
+	next "sich vor Kämpfe"
+	next "gegen NIDOQUEEN"
 	dex
 
 _SlowbroDexEntry:: ; new entry
-	text "A SLOWPOKE that"
-	next "hunts in the sea"
-	next "may be bitten by"
+	text "Als FLEGMON im"
+	next "Meer jagen ging,"
+	next "biss ihn ein"
 	
-	page "a wild DISTURBAN,"
-	next "making it evolve"
-	next "into SLOWBRO"
+	page "EGELHAUPT. Dadurch"
+	next "entwickelte es"
+	next "sich zu LAHMUS"
 	dex
 
 _IvysaurDexEntry:: ; new entry
-	text "Can often be seen"
-	next "sunbathing. After"
-	next "absorbing enough"
+	text "Badet oft in der"
+	next "Sonne. Nachdem es"
+	next "genug Licht und"
 
-	page "nutrients and sun-"
-	next "light, its bud"
-	next "will blossom"
+	page "Nährstoffe absor-"
+	next "biert hat, blüht"
+	next "seine Knospe auf"
 	dex
 
 _ExeggutorDexEntry::
-	text "Also known as The"
-	next "Walking Tropical"
-	next "Rainforest, each"
+	text "Auch bekannt als"
+	next "der Wandernde" ; Phrasing from FireRed, but I changed "Wandelnde" to the more accurate "Wandernde"
+	next "Regenwald. Jede"
 
-	page "of the fruits"
-	next "has a face and"
-	next "will of its own"
+	page "Frucht hat ein"
+	next "eigenes Gesicht &"
+	next "eigenen Willen"
 	dex
 
 _LickitungDexEntry:: ; new entry
-	text "Has a lazy nature"
-	next "and a ravenous"
-	next "appetite, moving"
+	text "Es ist faul und"
+	next "gefräßig. Mit"
+	next "seiner langen"
 	
-	page "its long tongue"
-	next "like a human arm"
-	next "for grabbing food"
+	page "Zunge greift es"
+	next "wie mit einem"
+	next "Arm nach Essen"
 	dex
 
 _ExeggcuteDexEntry:: ; new entry
-	text "Genetically akin"
-	next "to plant seeds."
-	next "It's argued to be"
+	text "Seine Gene ähneln"
+	next "den von Pflanzen-"
+	next "samen. Es wird"
 
-	page "related to the"
-	next "plant that grows"
-	next "on BULBASAUR"
+	page "spekuliert, es sei"
+	next "verwandt mit"
+	next "BISASAMs Pflanze" ; it just says "it could be related to Bulbasaur's plant", not specifying where it is, because of space. ~Lapis
 	dex
 
 _GrimerDexEntry:: ; new entry
-	text "Sludge mutated by"
-	next "x-rays from the"
-	next "moon eventually"
+	text "Schlamm, mutiert"
+	next "durch Röntgen-"
+	next "strahlen vom Mond,"
 
-	page "became GRIMER."
-	next "Loves to feed on"
-	next "filthy things"
+	page "wird irgendwann zu"
+	next "SLEIMA. Es frißt"
+	next "am liebsten Unrat"
 	dex
 
 _GengarDexEntry:: ; new entry
-	text "Shrines have been"
-	next "built to honor it."
-	next "Said to emerge"
+	text "Es wurden Schreine"
+	next "Zu seinem Ehren"
+	next "erbaut. Man sagt,"
 
-	page "from the dark to"
-	next "kill people lost"
-	next "on mountains"
+	page "es tötet Leute,"
+	next "die sich auf den"
+	next "Bergen verirren"
 	dex
 
 _NidoranFDexEntry:: ; new entry
-	text "Breeds in spring"
-	next "every year, laying"
-	next "two eggs at the"
+	text "Jedes Jahr paart"
+	next "es sich im Früh-"
+	next "ling und legt im"
 
-	page "end of summer. The"
-	next "babies are only"
-	next "4 inches long"
+	page "Sommer zwei Eier."
+	next "Die Babys sind"
+	next "bloß 10 cm lang"
 	dex
 
 _NidoqueenDexEntry:: ; new entry
-	text "Covered in needle-"
-	next "like scales that"
-	next "stand up when it"
+	text "Die nadelartigen"
+	next "Schuppen richten"
+	next "sich auf, wenn es"
 
-	page "becomes agitated,"
-	next "which it uses to"
-	next "protect its young"
+	page "gereizt wird. Mit"
+	next "ihnen beschützt es"
+	next "seinen Nachwuchs"
 	dex
 
 _CuboneDexEntry:: ; new entry
-	text "It dons the skull"
-	next "of its deceased"
-	next "mother. When it"
+	text "Es trägt den"
+	next "Schädel seiner"
+	next "toten Mutter. Wenn"
 
-	page "cries, the skull"
-	next "rattles, making a"
-	next "clattering sound"
+	page "es weint, macht"
+	next "sein Schädel ein"
+	next "Klappergeräusch"
 	dex
 
 _RhyhornDexEntry:: ; new entry
-	text "While dim, its"
-	next "ramming is strong"
-	next "enough to destroy"
+	text "Es ist nicht klug,"
+	next "kann aber Gebäude"
+	next "einreißen, indem"
 	
-	page "buildings. Due to"
-	next "this, it isn't a"
-	next "very suitable pet"
+	page "es sie anrammt."
+	next "Als Haustier ist"
+	next "es nicht geeignet"
 	dex
 
 _LaprasDexEntry:: ; new entry
-	text "Placid in nature,"
-	next "little progress"
-	next "has been made in"
+	text "Es hat ein fried-"
+	next "liches Wesen. Da"
+	next "es von Wilderern"
 
-	page "studying it due"
-	next "to overhunting"
-	next "by poachers"
+	page "überjagt wurde,"
+	next "ist nur wenig über"
+	next "LAPRAS bekannt"
 	dex
 
 _ArcanineDexEntry:: ; new entry
-	text "Often depicted in"
-	next "Chinese folklore"
-	next "and legends, this"
+	text "Es wird oft in"
+	next "chinesischer"
+	next "Folklore gezeigt."
 
-	page "#MON is capable"
-	next "of outrunning"
-	next "a racing car"
+	page "Es kann sogar"
+	next "ein Rennauto"
+	next "überholen"
 	dex
 
 _MewDexEntry:: ; does not have an entry in the book, so based it off FireRed's
-	text "A rare #MON of"
-	next "South America that"
-	next "was presumed to be"
+	text "Ein seltenes" ; the german version of that game's entry is really barebones. I put in some details originally omitted
+	next "#MON aus Süd-"
+	next "amerika, das als"
 
-	page "extinct. It can"
-	next "learn almost any"
-	next "technique"
+	page "ausgestorben galt."
+	next "Es kann fast jede"
+	next "Attacke erlernen"
 	dex
 
 _GyaradosDexEntry:: ; new entry
-	text "Lives on the sea"
-	next "floor. Its scales"
-	next "are used to make"
+	text "Lebt am Boden des"
+	next "Meeres. Aus seinen"
+	next "Schuppen werden"
 
-	page "jewelery, which"
-	next "command extremely"
-	next "high prices"
+	page "unfassbar teure"
+	next "Schmuckstücke"
+	next "hergestellt"
 	dex
 
 _ShellderDexEntry:: ; new entry
-	text "Encased in a shell"
-	next "that is harder" 
-	next "than diamond. The"
+	text "Sein Panzer ist"
+	next "härter als ein" 
+	next "Diamant. Sein"
 
-	page "body inside the"
-	next "shell, however,"
-	next "is very tender"
+	page "Inneres ist jedoch"
+	next "überraschend"
+	next "weich"
 	dex
 
 _TentacoolDexEntry:: ; new entry
-	text "Emits odd lights"
-	next "from its eyes to"
-	next "confuse plankton."
+	text "Verwirrt Plankton"
+	next "mit seltsamen"
+	next "Strahlen aus"
 
-	page "99 percent of its"
-	next "body is made up"
-	next "of water"
+	page "seinen Augen. Es"
+	next "besteht zu 99 Pro-"
+	next "zent aus Wasser"
 	dex
 
 _GastlyDexEntry::		; Dex entry from Green, swapping the Indian Elephant for Trampel. ~M
-	text "A being that"	; this will stay as it uses details from the pokedex book
-	next "exists as a thin"
-	next "gas. The gas is"
+	text "Ein Wesen, das aus"	; this will stay as it uses details from the pokedex book
+	next "Gas besteht. Es"
+	next "kann ein STAMPFANT"
 	
-	page "potent enough to"
-	next "fell a TRAMPEL"
-	next "in two seconds"
+	page "umstoßen, indem es"
+	next "ihn zwei Sekunden"
+	next "lang einhüllt"
 	dex
 
 _ScytherDexEntry:: ; new entry
-	text "Few specimens have"
-	next "ever been caught."
-	next "While capable of"
+	text "Es wurden bloß"
+	next "wenige Exemplare"
+	next "gefangen. Es kann"
 
-	page "flight using its"
-	next "wings, it rarely"
-	next "seems to do this"
+	page "mit seinen Flügeln"
+	next "fliegen, doch das"
+	next "tut es nur selten"
 	dex
 
 _StaryuDexEntry:: ; new entry
-	text "It possesses both"
-	next "male and female"
-	next "reproductive"
+	text "Es hat sowohl"
+	next "männliche als auch"
+	next "weibliche Fort-"
 
-	page "organs. At night,"
-	next "its central core"
-	next "flashes brightly"
+	page "pflanzungsorgane."
+	next "Sein Kern flackert"
+	next "Nachts hell auf"
 	dex
 
 _BlastoiseDexEntry:: ; new entry
-	text "It can faint foes"
-	next "by squashing them"
-	next "with its heavy"
+	text "Es zerquetscht"
+	next "Gegner mit seinem"
+	next "schweren Körper."
 
-	page "body. The shell"
-	next "protects it from"
-	next "most attacks"
+	page "Sein Panzer bietet"
+	next "vor den meisten"
+	next "Attacken Schutz"
 	dex
 
 _PinsirDexEntry:: ; new entry
-	text "Once it grips its"
-	next "prey, it will not"
-	next "let go until it"
+	text "Sobald es seine"
+	next "Beute gepackt hat,"
+	next "lässt es sie erst"
 
-	page "is torn apart. It"
-	next "appears to like"
-	next "the color green"
+	page "los, wenn sie zer-"
+	next "fetzt ist. Es mag"
+	next "die Farbe Grün"
 	dex
 
 _TangelaDexEntry:: ; new entry
-	text "Researchers have"
-	next "tried to reveal"
-	next "TANGELA's true"
+	text "Forscher versuch-"
+	next "ten, TANGELAs"
+	next "wahre Gestalt zu"
 
-	page "form, but all"
-	next "fail due to its"
-	next "resistance"
+	page "offenbaren, doch"
+	next "sein Widerstand"
+	next "ist zu groß"
 	dex
 
 _GrowlitheDexEntry:: ; new entry
-	text "It's very friendly"
-	next "and faithful to"
-	next "people. CINNABAR's"
+	text "Das Ökosystem der"
+	next "ZINNOBERINSEL"
+	next "könnte es beein-"
 	
-	page "ecosystem may have"
-	next "influenced its"
-	next "development"
+	page "flusst haben. Es"
+	next "ist friedlich und"
+	next "bleibt einem treu"
 	dex
 
 _OnixDexEntry:: ; new entry
-	text "It usually lives"
-	next "underground. It"
-	next "searches for prey"
+	text "Es lebt gewöhnlich"
+	next "unter der Erde."
+	next "Auf der Suche nach"
 
-	page "while boring its"
-	next "way through the"
-	next "earth at 50mph"
+	page "Beute bohrt es"
+	next "sich mit 80 km/h"
+	next "durchs Erdreich"
 	dex
 
 _FearowDexEntry:: ; new entry
-	text "It soars in the"
-	next "sky all day long."
-	next "Its long, powerful"
+	text "Es verbringt den"
+	next "ganzen Tag in der"
+	next "Luft. Mit seinem"
 
-	page "beak allows it to"
-	next "swallow prey like"
-	next "RATTATA whole"
+	page "Schnabel kann es"
+	next "RATTFRATZ im"
+	next "ganzen verspeisen"
 	dex
 
 _PidgeyDexEntry:: ; new entry
-	text "Does not like to"
-	next "fight. It prefers"
-	next "to hide in tall"
+	text "Es verabscheut"
+	next "Kämpfe. Versteckt"
+	next "sich lieber im"
 
-	page "grass, feeding on"
-	next "bugs like CATERPIE"
-	next "and GENTLARVA"
+	page "Gras, wo es zum"
+	next "fressen LINDERLING"
+	next "und RAUPY sucht"
 	dex
 
 _SlowpokeDexEntry::
-	text "While some people"
-	next "become relaxed"
-	next "around SLOWPOKE,"
+	text "Manche Leute"
+	next "werden in der Nähe"
+	next "von FLEGMON ruhig."
 	
-	page "others may become"
-	next "irritated by its"
-	next "dim, vacant look"
+	page "Anderen irritiert"
+	next "sein einfältiger,"
+	next "hohler Blick"
 	dex
 
 _KadabraDexEntry:: ; new entry
-	text "Its popularity has"
-	next "increased after"
-	next "the release of a"
+	text "Diese Art erfreute"
+	next "sich dank einer"
+	next "Kurzgeschichte, wo"
 
-	page "short story about"
-	next "a boy who turned"
-	next "into a KADABRA"
+	page "ein Junge zu einem"
+	next "KADABRA wurde, an"
+	next "viel Beliebtheit"
 	dex
 
 _GravelerDexEntry:: ; new entry
-	text "Often seen quickly"
-	next "rolling down"
-	next "mountain trails."
+	text "Dieses #MON" ; "oftenly" was altered to "likes to", and the "Novice HIKERs" was changed to "some HIKERs"
+	next "rollt sich gerne"
+	next "Berge hinunter."
 
-	page "Its strange smile"
-	next "can be unnerving"
-	next "to novice HIKERs"
+	page "Manche WANDERER"
+	next "finden sein Läch-"
+	next "eln verstörend"
 	dex
 
 _ChanseyDexEntry:: ; new entry
-	text "It lays several"
-	next "delicious eggs"
-	next "a day. A nursing"
+	text "Es legt mehrere"
+	next "schmackhafte Eier"
+	next "am Tag. Es ist"
 
-	page "#MON, it's very"
-	next "peaceful and does"
-	next "not like fights"
+	page "sehr friedlich"
+	next "und verabscheut"
+	next "das Kämpfen"
 	dex
 
 _MachokeDexEntry:: ; new entry
-	text "Its powerful body"
-	next "never gets tired,"
-	next "so it is often"
+	text "Sein durch-"
+	next "trainierter Körper"
+	next "wird nie müde."
 
-	page "employed to help"
-	next "people transport"
-	next "heavy cargo"
+	page "Es hilft Menschen,"
+	next "indem es schweres"
+	next "Frachtgut trägt"
 	dex
 
 _MrMimeDexEntry:: ; new entry
-	text "It is said to"
-	next "create invisible"
-	next "walls by miming."
+	text "Man sagt, es könne"
+	next "unsichtbare Wände"
+	next "nur durch Mimen"
 
-	page "Its fingertips"
-	next "have suction pads"
-	next "to climb them"
+	page "erschaffen, die es"
+	next "dank Saugnäpfen"
+	next "beklettern kann"
 	dex
 
 _HitmonleeDexEntry:: ; new entry
-	text "Sometimes called"
-	next "The Demon of"
-	next "Kickboxing."
+	text "Es ist als der"
+	next "'Kickbox-Dämon'"
+	next "bekannt. Außerhalb"
 	
-	page "Despite this, it"
-	next "is very docile"
-	next "when not fighting"
+	page "von Kämpfen ist es"
+	next "jedoch überrasch-"
+	next "end friedlich"
 	dex
 
 _HitmonchanDexEntry:: ; new entry
-	text "It is inhabited"
-	next "by the spirit of"
-	next "a pro boxer."
+	text "Der Geist eines"
+	next "Profi-Boxers wohnt"
+	next "in ihm. Es schlägt"
 	
-	page "It throws punches"
-	next "that can outspeed"
-	next "a bullet train"
+	page "schneller als ein"
+	next "Hochgeschwindig-"
+	next "keitszug"
 	dex
 
 _ArbokDexEntry:: ; new entry
-	text "Weak foes flee at"
-	next "the sight of its"
-	next "belly pattern. It"
+	text "Schwache Gegner"
+	next "fliehen schon beim"
+	next "Anblick seines"
 
-	page "fights viciously"
-	next "with its mortal"
-	next "enemy, RATICATE"
+	page "Bauchmusters. Hält"
+	next "brutale Kämpfe mit" ; the "mortal enemy" part had to be omitted
+	next "RATTIKARL ab"
 	dex
 
 _ParasectDexEntry:: ; new entry
-	text "It lives in dark,"
-	next "damp forests. In"
-	next "China, the toxic"
+	text "Lebt in dunklen,"
+	next "feuchten Wäldern."
+	next "In China werden"
 	
-	page "spores it scatters"
-	next "are sometimes used"
-	next "to make medicine"
+	page "aus den toxischen"
+	next "Giftsporen Medizin"
+	next "hergestellt."
 	dex
 
 _PsyduckDexEntry:: ; new entry
-	text "Always suffering"
-	next "from a constant"
-	next "headache. If its"
+	text "Leidet andauernd"
+	next "an Kopfschmerzen."
+	next "Verschlimmern sich"
 
-	page "headache worsens,"
-	next "it unleashes its"
-	next "psychokinesis"
+	page "seine Schmerzen,"
+	next "entfesselt es"
+	next "Psycho-Kräfte"
 	dex
 
 _DrowzeeDexEntry:: ; new entry
-	text "Said to be a"
-	next "decendant of the"
-	next "legendary Baku,"
+	text "Anscheinend der"
+	next "Nachfahre des"
+	next "legendären Baku."
 
-	page "it is often seen"
-	next "eerily muttering"
-	next "to itself"
+	page "Oft murmelt es"
+	next "unheimlich vor"
+	next "sich hin"
 	dex
 
 _GolemDexEntry:: ; new entry
-	text "Its rugged shell"
-	next "is made from rock-"
-	next "like slabs. Each"
+	text "Sein schroffer"
+	next "Panzer besteht aus"
+	next "Steintafeln."
 
-	page "year, it sheds its"
-	next "shell in order to"
-	next "grow even larger"
+	page "Jedes Jahr häutet"
+	next "es sich, um noch"
+	next "größer zu werden"
 	dex
 
 _MagmarDexEntry:: ; new entry, modified from the original
-	text "This rare species"
-	next "has been sighted"
-	next "in volcanic areas."
+	text "Diese seltene Art"
+	next "wurde in der Nähe"
+	next "von Vulkanen"
 
-	page "The temperature of"
-	next "its body can reach"
-	next "2,200 degrees F"
+	page "gefunden. Sein"
+	next "Körper wird bis zu"
+	next "1200 Grad C heiß"
 	dex
 
 _ElectabuzzDexEntry:: ; new entry
-	text "Occasionally seen"
-	next "in power plants,"
-	next "feeding on strong"
+	text "Ist manchmal beim"
+	next "Fressen von Elek-"
+	next "trizität zu sehen."
 
-	page "electricity. The"
-	next "color red appears"
-	next "to enrage it"
+	page "Die Farbe Rot"
+	next "scheint es in Rage"
+	next "zu versetzen"
 	dex
 
 _MagnetonDexEntry:: ; new entry
-	text "A linked cluster"
-	next "of MAGNEMITE. It"
-	next "discharges high-"
+	text "Ein verbundener"
+	next "Haufen MAGNETILO."
+	next "Seine Hochspan-"
 	
-	page "voltage magnetic"
-	next "rays that harm"
-	next "man-made devices"
+	page "nungsmagnetwellen"
+	next "sind schädlich für"
+	next "Elektro-Geräte"
 	dex
 
 _KoffingDexEntry:: ; new entry
-	text "The toxic gases"
-	next "that it emits can"
-	next "induce tears."
+	text "Seine Giftgase"
+	next "können einem zum"
+	next "tränen bringen. Es"
 
-	page "It was originally"
-	next "discovered in a"
-	next "munitions factory"
+	page "wurde erstmals in"
+	next "einer Munitions-"
+	next "fabrik entdeckt"
 	dex
 
 _MankeyDexEntry:: ; new entry
-	text "It's believed that"
-	next "MANKEY's habit of"
-	next "suddenly rampaging"
+	text "Man glaubt, die"
+	next "Häufigkeit seiner"
+	next "Tobsuchtsanfälle"
 	
-	page "could be due to a"
-	next "calcium deficiency"
-	next "in its diet"
+	page "liegt an einem"
+	next "Mangel an Kalzium"
+	next "in seiner Nahrung"
 	dex
 
 _SeelDexEntry::
-	text "Lives in cold sea"
-	next "caves. Its thick"
-	next "hide allows it to"
+	text "Lebt in kalten"
+	next "Höhlen am Meer."
+	next "Seine dicke Haut"
 
-	page "stay active in"
-	next "temperatures of"
-	next "-40 degrees F"
+	page "erlaubt es JUROB,"
+	next "bei -40 Grad C"
+	next "aktiv zu bleiben"
 	dex
 
 _DiglettDexEntry:: ; new entry
-	text "It burrows through"
-	next "the earth, seeking"
-	next "ONIX's leftovers."
+	text "Gräbt sich durch"
+	next "die Erde auf der"
+	next "Suche nach ONIXs"
 	
-	page "The trails of soil"
-	next "it leaves behind"
-	next "reveal its path"
+	page "Essensresten. Es"
+	next "hinterlässt Pfade"
+	next "aufgewühlter Erde"
 	dex
 
 _TaurosDexEntry:: ; new entry - modified first line from the original
-	text "If provoked by an"
-	next "enemy, it charges"
-	next "furiously while"
+	text "Provoziert man es,"
+	next "stürmt es zornig"
+	next "auf einen los,"
 
-	page "whipping its body"
-	next "with its three"
-	next "long tails"
+	page "während es sich"
+	next "mit seinen drei"
+	next "Schweifen geißelt"
 	dex
 
 _FarfetchdDexEntry:: ; new entry
-	text "The FARFETCH'D"
-	next "population has"
-	next "declined due to"
+	text "Wegen seinem"
+	next "leckeren Fleisch"
+	next "und Lauch wurde es"
 
-	page "being hunted for"
-	next "its tasty meat"
-	next "and leek"
+	page "überjagt. Die"
+	next "PORENTA-Population"
+	next "litt daran stark"
 	dex
 
 _VenonatDexEntry:: ; new entry
-	text "Its eyes serve as"
-	next "radars, emitting"
-	next "bright beams of"
+	text "Seine Augen"
+	next "fungieren als ein"
+	next "leuchtendes Radar."
 	
-	page "light. This lets"
-	next "VENONAT remain"
-	next "active at night"	
+	page "Dank ihnen kann es"
+	next "auch in der Nacht"
+	next "aktiv bleiben"	
 	dex
 
 _DragoniteDexEntry:: ; new entry
-	text "Has the ability to"
-	next "outspeed a jet,"
-	next "despite its bulk."
+	text "Trotz seiner Größe"
+	next "kann es ein Jet"
+	next "überholen. Es wird"
 
-	page "Feared as a god"
-	next "of destruction due"
-	next "to its strength"
+	page "wegen seiner Kraft"
+	next "als Zerstörungs-"
+	next "gott gefürchtet"
 	dex
 
 _DoduoDexEntry:: ; new entry
-	text "A sudden mutation"
-	next "first discovered"
-	next "3 years ago. Its"
+	text "Eine plötzliche"
+	next "Mutation, die vor"
+	next "3 Jahren entdeckt"
 
-	page "tiny wings make"
-	next "flying difficult,"
-	next "so prefers to run"
+	page "wurde. Es rennt,"
+	next "weil ihm das Flie-"
+	next "gen schwer fällt"
 	dex
 
 _PoliwagDexEntry:: ; new entry
-	text "The thin, white"
-	next "skin reveals its"
-	next "internal organs."
+	text "Seine Innereien"
+	next "sind durch seine"
+	next "dünne, weiße Haut"
 
-	page "Some believe it's"
-	next "a mutation of"
-	next "a common tadpole"
+	page "Sichtbar. Man hält"
+	next "es für eine Kaul-"
+	next "quappen-Mutation"
 	dex
 
 _JynxDexEntry:: ; new entry
-	text "While it speaks in"
-	next "a language that"
-	next "sounds human, it"
+	text "Es spricht eine"
+	next "Sprache, die wie"
+	next "die von Menschen"
 
-	page "is currently"
-	next "impossible to"
-	next "fully translate"
+	page "klingt, aber noch"
+	next "nicht übersetzt"
+	next "werden kann"
 	
 	dex
 
 _MoltresDexEntry:: ; new entry
-	text "With its dazzling,"
-	next "fiery wings, it is"
-	next "said that MOLTRES"
+	text "Seine flammenden"
+	next "Schwingen gelten"
+	next "als wunderschön."
 
-	page "is the inspiration"
-	next "behind the legend"
-	next "of the phoenix"
+	page "Man sagt, es hat"
+	next "die Legende vom"
+	next "Phönix inspiriert"
 	dex
 
 _ArticunoDexEntry:: ; new entry
-	text "Folklore states"
-	next "that those who"
-	next "see ARTICUNO will"
+	text "Man sagt, beim"
+	next "Anblick seiner"
+	next "Schönheit wird man"
 	
-	page "die rooted to"
-	next "the spot, caught"
-	next "up in its beauty"
+	page "so hingerissen,"
+	next "dass man regungs-"
+	next "los erfriert"
 	dex
 
 _ZapdosDexEntry:: ; new entry
-	text "Said to be the"
-	next "divine bird that"
-	next "presides over the"
+	text "Es verbringt Jahr-"
+	next "tausende in der"
+	next "Luft. Man hält es"
 
-	page "heavens, ZAPDOS"
-	next "spends milennia"
-	next "above the clouds"
+	page "für den heiligen"
+	next "Vogel, der im"
+	next "Himmel wohnt"
 	dex
 
 _DittoDexEntry:: ; does not need a new entry
-	text "Capable of copying"
-	next "an enemy's genetic"
-	next "code to instantly"
+	text "Dieses #MON"
+	next "kann die Gene von"
+	next "Gegnern kopieren"
 
-	page "transform itself"
-	next "into a duplicate"
-	next "of the enemy"
+	page "und sich sofort in"
+	next "deren Ebenbild"
+	next "verwandeln"
 	dex
 
 _MeowthDexEntry:: ; new entry
-	text "Sleeps through the"
-	next "day before waking"
-	next "at night. With"
+	text "Schläft meistens"
+	next "durch den Tag und"
+	next "wird Nachts wach."
 
-	page "eyes aglow, it"
-	next "searches around"
-	next "for loose change"
+	page "Mit glitzernden"
+	next "Augen sucht es"
+	next "nach Kleingeld"
 	dex
 
 _KrabbyDexEntry:: ; new entry
-	text "Raises its pincers"
-	next "in the air to"
-	next "intimidate foes."
+	text "Es hebt seine gro-"
+	next "ßen Scheren in die"
+	next "Luft, um größer zu"
 
-	page "It typically"
-	next "prefers to avoid"
-	next "fighting, though"
+	page "wirken. Allerdings"
+	next "bevorzugt es,"
+	next "Kämpfe zu meiden"
 	dex
 
 _VulpixDexEntry::			        ; Changed to make it not too similar to Mikon's dex entry. ~M
-	text "Upon evolving, its"		; second page altered ~ PvK 7-12-2022
-	next "three tails split"
-	next "into six. This"
+	text "Angeblich sollte"		; second page altered ~ PvK 7-12-2022
+	next "es mit Füchsen"
+	next "verwandt sein. Mit"
 	
-	page "#MON is often"
-	next "thought to be"
-	next "related to foxes"
+	page "der Entwicklung"
+	next "teilten sich seine"
+	next "Schweife in sechs"
 	dex
 
 _NinetalesDexEntry:: ; new entry
-	text "A proverb exists"
-	next "that refers to"
-	next "its longevity:"
+	text "'VULNONA, Tausend"
+	next "Jahre, SCHILTALGA,"
+	next "Zehntausend Jahre'"
 	
-	page "'NINETALES, 1,000"
-	next "years, TOTARTLE,"
-	next "10,000 years.'"
+	page "ist ein Sprichwort"
+	next "zum Merken seiner"
+	next "langen Lebenszeit"
 	dex
 
 _PikachuDexEntry:: ; new entry
-	text "Lives in forests,"
-	next "feeding on nuts."
-	next "If provoked, it"
+	text "Ernährt sich von"
+	next "Nüssen in Wäldern."
+	next "Wird es provo-"
 
-	page "electrocutes its"
-	next "attacker using"
-	next "THUNDERSHOCK"
+	page "ziert, schockt es"
+	next "Angreifer mit"
+	next "DONNERSCHOCK" ; for space reasons, the fact it lives in forests is more of an implication
 	dex
 
 _RaichuDexEntry:: ; new entry, reworded since Trampel is a Ground type so cannot be KO'd by an electric move...
-	text "A THUNDERBOLT from"
-	next "RAICHU contains"
-	next "such high voltage"
+	text "Nicht einmal die"
+	next "dicke Haut von"
+	next "STAMPFANT kann die"
 
-	page "that a TRAMPEL's"
-	next "thick skin can't"
-	next "withstand it"
+	page "hohe Spannung von"
+	next "RAICHUs DONNER-"
+	next "BLITZ überstehen"
 	dex
 
 _DratiniDexEntry:: ; new entry, doctored the entry with the originally intended lore.
-	text "Long considered a"
-	next "mythical #MON"
-	next "until recently,"
+	text "Es wurde lange"
+	next "bloß als Mythos"
+	next "gehalten, bis ein"
 
-	page "when a fisherman"
-	next "hooked one inside"
-	next "the SAFARI ZONE"
+	page "ANGLER es kürzlich" ; referring to the Fisher trainer class in all caps letters
+	next "in der SAFARI-ZONE"
+	next "gefangen hat"
 	dex
 
 _DragonairDexEntry:: ; new entry, altered original
-	text "A mystical #MON"
-	next "that can summon"
-	next "rain and snow."
+	text "Ein mysteriöses"
+	next "#MON, welches"
+	next "Regen und Schnee"
 
-	page "Though it lacks"
-	next "wings, it can"
-	next "fly in the sky"
+	page "beschwören kann."
+	next "Es ist Flügellos,"
+	next "kann aber fliegen"
 	dex
 
 _KabutoDexEntry:: ; new entry
-	text "Said to be the"
-	next "ancestor of hermit"
-	next "crabs and turtles,"
+	text "Angeblich der Vor-"
+	next "fahre von Einsied-"
+	next "lerkrebsen und"
 
-	page "it had a tough"
-	next "shell, but was a"
-	next "slow swimmer"
+	page "Schildkröten. Es"
+	next "war zäh, doch es"
+	next "schwomm langsam"
 	dex
 
 _KabutopsDexEntry:: ; new entry
-	text "When it evolved,"
-	next "its nature turned"
-	next "aggressive. The"
+	text "Die Entwicklung"
+	next "machte es aggres-"
+	next "siv. Das einzige"
 
-	page "only complete"
-	next "fossil was found"
-	next "only 6 years ago"
+	page "vollständige Fos-"
+	next "sil wurde erst vor"
+	next "6 Jahren gefunden"
 	dex
 
 _HorseaDexEntry:: ; new entry
-	text "Spits black ink"
-	next "when threatened."
-	next "It lays thousands"
+	text "Bei Gefahr ver-"
+	next "sprüht es schwarze"
+	next "Tinte. Die meisten"
 
-	page "of eggs in spring"
-	next "but many are"
-	next "eaten by GOLDEEN"
+	page "Eier, die es legt,"
+	next "werden von GOLDINI"
+	next "gefressen" ; the amount of eggs laid and when it lays them had to be omitted. i hate it too.
 	dex
 
 _SeadraDexEntry::
-	text "A vicious #MON."
-	next "SEADRA's sharp,"
-	next "venomous spikes"
+	text "Ein boshaftes"
+	next "#MON. Seine"
+	next "spitzen, giftigen"
 	
-	page "are so painful to"
-	next "touch, they can"
-	next "cause fainting"
+	page "Stacheln können"
+	next "einem vor Schmerz"
+	next "bewusstlos machen"
 	dex
 
 _SandshrewDexEntry:: ; new entry.
-	text "It lives inside"
-	next "deep underground"
-	next "burrows. It curls"
+	text "Seine Nester sind"
+	next "tief in der Erde."
+	next "Es schützt sich"
 
-	page "itself up into a"
-	next "ball to protect"
-	next "against attacks"
+	page "vor Angriffen,"
+	next "indem es sich in"
+	next "eine Kugel rollt"
 	dex
 
 _SandslashDexEntry::
-	text "Adept at attacking"
-	next "with the spines"
-	next "on its back and"
+	text "Ein Experte darin,"
+	next "im Sprint mit den"
+	next "Stacheln auf"
 
-	page "its sharp claws"
-	next "while quickly"
-	next "scurrying about"
+	page "seinem Rücken und"
+	next "seinen Klauen"
+	next "anzugreifen"
 	dex
 
 _OmanyteDexEntry:: ; new entry
-	text "It swam by waving"
-	next "its ten tentacles"
-	next "about. It fed on"
+	text "Ein Verwandter von"
+	next "Kalmaren. Es fraß"
+	next "Fische und Plank-"
 
-	page "small fish and"
-	next "plankton, and was"
-	next "related to squids"
+	page "ton, und bewegte"
+	next "seine 10 Tentakel"
+	next "zum schwimmen"
 	dex
 
 _OmastarDexEntry:: ; new entry
-	text "This prehistoric"
-	next "#MON hunted by"
-	next "ensnaring prey"
+	text "Dieses URZEIT-"
+	next "#MON hat Beute"
+	next "mit seinen gelen-"
 
-	page "with its dexterous"
-	next "tentacles, then"
-	next "biting them"
+	page "kigen Tentakeln"
+	next "gegriffen und"
+	next "dann gebissen"
 	dex
 
 _JigglypuffDexEntry:: ; new entry
-	text "It uses its huge"
-	next "eyes to draw in"
-	next "foes before"
+	text "Zieht Gegner mit"
+	next "seinen Augen an,"
+	next "bevor es sie in"
 
-	page "singing them to"
-	next "sleep. It puffs"
-	next "up when angered"
+	page "den Schlaf singt."
+	next "Ist es wütend,"
+	next "bläst es sich auf"
 	dex
 
 _WigglytuffDexEntry:: ; new entry
-	text "WIGGLYTUFF's dense"
-	next "and supple fur is"
-	next "sold as a luxury"
+	text "Sein dichtes und"
+	next "weiches Fell ist"
+	next "ein Luxusartikel,"
 
-	page "item to a large"
-	next "number of rich,"
-	next "foreign buyers"
+	page "der an eine Menge"
+	next "Reiche im Ausland"
+	next "verkauft wird"
 	dex
 
 _EeveeDexEntry:: ; new entry
-	text "A special #MON"
-	next "that can evolve"
-	next "in multiple ways,"
+	text "Ein besonderes"
+	next "#MON, das sich"
+	next "dank eines einzig-"
 
-	page "due to a unique"
-	next "genetic code that"
-	next "it possesses"
+	page "artigen Gen-Codes"
+	next "verschiedenst"
+	next "Entwickeln kann"
 	dex
 
 _FlareonDexEntry:: ; new entry, sort of modified off the original
-	text "It has a flame"
-	next "sac in its body."
-	next "After inhaling,"
+	text "In seinem Körper"
+	next "ist eine Flammen-"
+	next "tasche. Es atmet"
 
-	page "it blows out"
-	next "flames that reach"
-	next "3,100 degrees F"		; changed to imperial
+	page "Flammen aus, die"
+	next "bis 1700 Grad C"		; changed back to metric
+	next "heiß sein können"
 	dex
 
 _JolteonDexEntry:: ; new entry
-	text "When angered or"
-	next "startled, its fur"
-	next "stands upright,"
+	text "Bei Schreck oder"
+	next "Zorn steht sein"
+	next "Fell aufrecht."
 
-	page "then uses its"
-	next "needle-like body"
-	next "to puncture foes"
+	page "Dann ersticht es"
+	next "Feinde mit seinem"
+	next "spitzen Körper"
 	dex
 
 _VaporeonDexEntry:: ; new entry
-	text "It has a cellular"
-	next "structure similar"
-	next "to water, giving"
+	text "Seine Zellstruktur"
+	next "ähnelt dem von"
+	next "Wasser, womit es"
 
-	page "it the ability to"
-	next "melt invisibly"
-	next "as it swims"
+	page "beim Schwimmen"
+	next "hinschmilzt und"
+	next "unsichtbar wird"
 	dex
 
 _MachopDexEntry:: ; new entry, modified from the original.
-	text "Its whole body is"
-	next "musclebound. Even"
-	next "though it's the"
+	text "Sein ganzer Körper"
+	next "besteht aus Mus-"
+	next "keln. Trotz seiner"
 
-	page "size of a child,"
-	next "it can throw up"
-	next "to 100 adults"
+	page "kleinen Größe kann"
+	next "es 100 Erwachsene"
+	next "jonglieren"
 	dex
 
 _ZubatDexEntry:: ; new entry
-	text "Because it lives"
-	next "in darkness, its"
-	next "eyes disappeared."
+	text "Da es in der"
+	next "Dunkelheit lebt,"
+	next "verlor es mit der"
 
-	page "It emits ultra-"
-	next "sonic cries to"
-	next "locate prey"
+	page "Zeit seine Augen."
+	next "Es ortet Beute mit"
+	next "Ultraschallwellen"
 	dex
 
 _EkansDexEntry:: ; new entry
-	text "EKANS flicks its"
-	next "tongue to check"
-	next "for danger. If it"
+	text "Gefahren kann es"
+	next "mittels Züngeln"
+	next "wahrnehmen. Ein"
 
-	page "eats a RATTATA, it"
-	next "won't need to eat"
-	next "again for a month"
+	page "einziges RATTFRATZ"
+	next "sättigt es einen"
+	next "ganzen Monat lang"
 	dex
 
 _ParasDexEntry:: ; new entry
-	text "The mushrooms on"
-	next "the bug's back are"
-	next "called tochukaso."
+	text "Die Pilze auf dem"
+	next "Rücken des Käfers"
+	next "heißen Tochukaso."
 
-	page "These mushrooms"
-	next "grow alongside"
-	next "the host"
+	page "Diese Pilze"
+	next "wachsen gemeinsam"
+	next "mit ihrem Wirt"
 	dex
 
 _PoliwhirlDexEntry:: ; new entry
-	text "Its two legs are"
-	next "well-developed."
-	next "Though capable of"
+	text "Mit seinen gut"
+	next "entwickelten"
+	next "Beinen kann es am"
 
-	page "living on land, it"
-	next "much prefers life"
-	next "in the water"
+	page "Land leben, aber"
+	next "es bevorzugt das"
+	next "Leben im Wasser"
 	dex
 
 _PoliwrathDexEntry:: ; new entry, modified from original.
-	text "An adept swimmer,"
-	next "faster than any"
-	next "Olympic athlete."
+	text "Schwimmt schneller"
+	next "als jegliche"
+	next "Olympiasieger."
 
-	page "Why it remains in"
-	next "a tadpole form is"
-	next "still unknown"
+	page "Warum es noch eine"
+	next "Kaulquappe bleibt,"
+	next "ist unbekannt"
 	dex
 
 _WeedleDexEntry:: ; new entry, modified from the original, including adding the omitted gingko leaf bit
-	text "It's often found"
-	next "in forests eating"
-	next "gingko leaves."
+	text "Frisst oft Ginkgo-"
+	next "blätter im Wald."
+	next "Es schwenkt seinen"
 
-	page "It wiggles its"
-	next "sharp stinger to"
-	next "intimidate foes"
+	page "spitzen Stachel"
+	next "herum, um Feinde"
+	next "einzuschüchtern"
 	dex
 
 _KakunaDexEntry::
-	text "Almost incapable"
-	next "of moving. In an"
-	next "attempt to protect"
+	text "Beinahe Bewegungs-"
+	next "unfähig. Um sich"
+	next "zu schützen, fährt"
 
-	page "itself, it may"
-	next "extend its hidden"
-	next "poisonous barb"
+	page "es seinen ver-"
+	next "steckten giftigen"
+	next "Stachel aus"
 	dex
 
 _BeedrillDexEntry:: ; new entry
-	text "Often appears in"
-	next "swarms. It buzzes"
-	next "around at high"
+	text "Oft in Schwärmen"
+	next "unterwegs. Es"
+	next "schwirrt schnell"
 
-	page "speeds, attacking"
-	next "with its three"
-	next "venomous stingers"
+	page "durch die Luft und"
+	next "greift mit seinen"
+	next "3 Giftstacheln an"
 	dex
 
 _DodrioDexEntry:: ; new entry
-	text "Historians claim"
-	next "that an ancient"
-	next "religion in"
+	text "Historiker"
+	next "behaupten, eine"
+	next "alte Religion"
 
-	page "Central America"
-	next "revered DODRIO as"
-	next "their symbol"
+	page "Mittelamerikas"
+	next "huldigte DODRI"
+	next "als ihr Symbol"
 	dex
 
 _PrimeapeDexEntry:: ; this entry is just like the pokedex, so no new one
-	text "Always furious"
-	next "and tenacious to"
-	next "boot. It will not"
+	text "Dieses #MON ist"
+	next "sehr wild und"
+	next "ausdauernd. "
 
-	page "abandon chasing"
-	next "its quarry until"
-	next "it is caught"
+	page "Es verfolgt seine"
+	next "Beute, bis es sie"
+	next "gefangen hat"
 	dex
 
 _DugtrioDexEntry:: ; new entry, modified from the original
-	text "A team of DIGLETT"
-	next "triplets. It digs"
-	next "deep underground"
+	text "Drei DIGDA bilden"
+	next "dieses #MON. Es"
+	next "versteckt sich im"
 
-	page "to hide itself"
-	next "before striking"
-	next "its opponent"
+	page "Untergrund, bevor"
+	next "es seine arglosen"
+	next "Gegner angreift"
 	dex
 
 _VenomothDexEntry:: ; new entry
-	text "It scatters highly"
-	next "toxic dust around"
-	next "as it flies, due"
+	text "Wegen der staub-"
+	next "artigen Schuppen"
+	next "auf seinen Flügeln"
 
-	page "to the powdery"
-	next "scales that cover"
-	next "its wings"
+	page "verstreut es mit"
+	next "jeden Flügelschlag"
+	next "giftigen Puder"
 	dex
 
 _DewgongDexEntry:: ; new entry
-	text "Its blubber can"
-	next "be up to 12 inches"
-	next "thick. Unusually,"
+	text "Unüblicherweise"
+	next "wird es bei kalten"
+	next "Temperatüren"
 
-	page "they are more"
-	next "active at lower"
-	next "temperatures"
+	page "aktiver. Sein"
+	next "Speck kann bis zu"
+	next "12 cm dick werden"
 	dex
 
 _CaterpieDexEntry:: ; new page
-	text "PIDGEY is its"
-	next "archenemy. If it"
-	next "senses that it's"
+	text "TAUBSI ist sein"
+	next "Erzfeind. Bemerkt"
+	next "RAUPY, dass TAUBSI"
 
-	page "around, it will"
-	next "quickly burrow"
-	next "underground"
+	page "in der Nähe ist,"
+	next "gräbt es sich zü-"
+	next "gig in den Boden"
 	dex
 
 _MetapodDexEntry:: ; new entry
-	text "Although encased"
-	next "in a sturdy shell,"
-	next "the body inside is"
+	text "Trotz seiner"
+	next "harten Schale ist"
+	next "das innere schwach"
 
-	page "weak and soft. It"
-	next "cannot withstand"
-	next "a harsh attack"
+	page "und weich. Brutale"
+	next "Angriffe kann es"
+	next "nicht überstehen"
 	dex
 
 _ButterfreeDexEntry:: ; new entry
-	text "Its wings are"
-	next "covered in water-"
-	next "repellent scales"
+	text "Seine Flügel sind"
+	next "mit wasserabwei-"
+	next "sendem Staub über-"
 
-	page "that allow it to"
-	next "fly, even on"
-	next "rainy days"
+	page "zogen, mit denen"
+	next "es sogar im Regen"
+	next "fliegen kann"
 	dex
 
 _MachampDexEntry:: ; new entry
-	text "It can launch a"
-	next "flurry of 1,000"
-	next "punches in just"
+	text "Es kann innerhalb"
+	next "von nur 2 Sekunden"
+	next "1000 Schläge aus-"
 
-	page "two seconds. What"
-	next "triggers it to"
-	next "evolve is unclear"
+	page "teilen. Was es zum"
+	next "Entwickeln brach-"
+	next "te, ist unklar"
 	dex
 
 _GolduckDexEntry:: ; new entry
-	text "Its webbed hands"
-	next "and feet make it"
-	next "a superb swimmer."
+	text "Seine Schwimmhäute"
+	next "machen es zu einem"
+	next "hervorragenden"
 	
-	page "At top speed, it"
-	next "can even overtake"
-	next "a motorboat"
+	page "Schwimmer. Es kann"
+	next "sogar ein Motor-"
+	next "boot überholen"
 	dex
 
 _HypnoDexEntry:: ; new entry
-	text "It carries a"
-	next "pendulum-like"
-	next "device. Wherever"
+	text "Trägt ein Pendel-"
+	next "artiges Objekt mit"
+	next "sich. An Orten, wo"
 
-	page "HYPNO travels,"
-	next "cases of missing"
-	next "children surge"
+	page "HYPNO auftaucht,"
+	next "steigen Fälle"
+	next "vermisster Kinder"
 	dex
 
 _GolbatDexEntry:: ; new entry
-	text "Using its sharp"
-	next "fangs, it latches"
-	next "onto its prey,"
+	text "Es beißt sich mit"
+	next "seinen scharfen"
+	next "Zähnen an seine"
 	
-	page "then drains over"
-	next "10 ounces of blood"
-	next "in one bite"
+	page "Beute und saugt"
+	next "in einem Bissen"
+	next "300 ml Blut ab"
 	dex
 
-_MewtwoDexEntry:: ; does not need a new entry
-	text "It was created by"
-	next "a scientist after"
-	next "years of horrific"
+_MewtwoDexEntry:: ; added additional information that was omitted from the german orginal
+	text "Dieses #MON"
+	next "ist das Resultat"
+	next "jahrelanger"
 
-	page "gene splicing and"
-	next "DNA engineering"
-	next "experiments"
+	page "skrupelloser Gen-"
+	next "experimente eines"
+	next "Wissenschaftlers"
 	dex
 
 _SnorlaxDexEntry:: ; new entry
-	text "Isn't satisfied"
-	next "unless it eats"
-	next "over 880 lbs of"
+	text "Es ist erst satt,"
+	next "wenn es über 400"
+	next "kg Nahrung am Tag"
 
-	page "food every day."
-	next "When done, it"
-	next "falls asleep"
+	page "gefressen hat. Ist"
+	next "es fertig, schläft"
+	next "es sofort ein"
 	dex
 
 _MagikarpDexEntry:: ; new entry
-	text "Virtually hopeless"
-	next "in both power"
-	next "and speed. Recent"
+	text "In Sachen Kraft &"
+	next "Geschwindigkeit"
+	next "nutzlos. Neuer-"
 
-	page "studies have found"
-	next "dragon cells in"
-	next "its body, however"
+	page "dings wurden aber"
+	next "Drachen-Zellen in"
+	next "KARPADOR entdeckt"
 	dex
 
 _MukDexEntry:: ; new entry
-	text "Hides itself by"
-	next "blending in with"
-	next "soil. Analysis of"
+	text "Es versteckt sich,"
+	next "indem es sich mit"
+	next "der Erde mischt."
 
-	page "its cells revealed"
-	next "many unnatural"
-	next "substances"
+	page "In seinen Zellen"
+	next "sind unzählige un-"
+	next "natürliche Stoffe"
 	dex
 
-_KinglerDexEntry:: ; does not need a new entry
-	text "The large pincer"
-	next "has 10,000 hp of"
-	next "crushing power."
+_KinglerDexEntry:: ; was originally identical to Red and Blue's, but its german equivalent was really badly mistranslated.
+	text "Die Kraft der" ; so I based it off of LeafGreen's retranslation instead
+	next "großen Schere ent-"
+	next "spricht 10000 PS,"
 
-	page "However, its huge"
-	next "size makes it"
-	next "unwieldy to use"
+	page "doch wegen ihrer"
+	next "Größe ist sie"
+	next "sehr unpraktisch"
 	dex
 
 _CloysterDexEntry:: ; new entry
-	text "Its hard shell is"
-	next "extremely durable."
-	next "Even napalm bombs"
+	text "Sein harter Panzer"
+	next "hält extrem viel"
+	next "aus. Nicht einmal"
 
-	page "have failed to"
-	next "reveal what's"
-	next "inside its shell"
+	page "Napalmbomben"
+	next "können sein"
+	next "Inneres enthüllen"
 	dex
 
 _ElectrodeDexEntry:: ; new entry
-	text "A feared #MON"
-	next "that explodes in"
-	next "response to even"
+	text "Ein gefürchtetes"
+	next "#MON, das beim"
+	next "kleinsten Reiz"
 	
-	page "minor stimuli. It"
-	next "has been called"
-	next "the Bomb Ball"
+	page "explodiert. So er-"
+	next "hielt es den Namen"
+	next "'Die Bombenkugel'."
 	dex
 
 _ClefableDexEntry:: ; new entry
-	text "Its hearing is"
-	next "incredibly well-"
-	next "developed. It can"
+	text "Sein Hörvermögen"
+	next "ist ausgezeichnet." ; changed "well developed" to something that means "excellent"
+	next "Es kann den Fall"
 
-	page "hear a pin drop"
-	next "from over half"
-	next "a mile away"
+	page "einer Nadel von"
+	next "1 km weiter"
+	next "Entfernung hören"
 	dex
 
 _WeezingDexEntry:: ; new entry
-	text "A rare mutation"
-	next "caused 2 KOFFING"
-	next "to fuse together."
+	text "Durch eine seltene"
+	next "Mutation haben"
+	next "sich 2 SMOGON ver-"
 	
-	page "Researchers are"
-	next "trying to bleach"
-	next "its toxicity"
+	page "bunden. Forscher"
+	next "versuchen, seine"
+	next "Gase zu bleichen"
 	dex
 
 _PersianDexEntry:: ; new entry
-	text "Has a ferocious"
-	next "temperament, but"
-	next "it's loved for its"
+	text "Hat ein grausames"
+	next "Temperament, wird"
+	next "aber wegen seinem"
 
-	page "gorgeous coat."
-	next "It's often kept"
-	next "as a trophy pet"
+	page "sagenhaften Pelz"
+	next "geliebt. Gilt als"
+	next "Prestige-Haustier"
 	dex
 
 _MarowakDexEntry:: ; new entry
-	text "Although it's"
-	next "weak when young,"
-	next "it develops a"
+	text "Es ist im jungen"
+	next "Alter schwach,"
+	next "doch wenn es"
 
-	page "violent nature"
-	next "when it learns"
-	next "to use BONEMERANG"
+	page "KNOCHMERANG lernt,"
+	next "entwickelt es ein"
+	next "brutales Wesen"
 	dex
 
 _HaunterDexEntry:: ; new entry
-	text "If you get the"
-	next "feeling of being"
-	next "watched in the"
+	text "Falls Du Alleine"
+	next "im Dunkeln das"
+	next "Gefühl hast,"
 
-	page "darkness while"
-	next "alone, HAUNTER"
-	next "may be lurking"
+	page "beobachtet zu"
+	next "werden, könnte ein"
+	next "ALPOLLO lauern"
 	dex
 
 _AbraDexEntry:: ; new entry
-	text "Even when asleep,"
-	next "ABRA can use"
-	next "telekinetic"
+	text "Es kann sogar im"
+	next "Schlaf telekine-"
+	next "tische Kräfte"
 
-	page "powers. It is"
-	next "rare due to a"
-	next "small population"
+	page "verwenden. Ein"
+	next "niedriger Bestand"
+	next "macht es selten"
 	dex
 
 _AlakazamDexEntry:: ; new entry
-	text "Disdainful of"
-	next "physical attacks,"
-	next "ALAKAZAM uses"
+	text "Es hasst physische"
+	next "Attacken und"
+	next "bevorzugt Psycho-"
 
-	page "PSI moves instead."
-	next "In battle, it is"
-	next "expressionless"
+	page "Kräfte. Im Kampf"
+	next "ist sein Gesicht"
+	next "ausdruckslos"
 	dex
 
 _PidgeottoDexEntry:: ; new entry
-	text "Dives from heights"
-	next "of 900 yards to"
-	next "catch prey. Its"
+	text "Taucht von 800 m"
+	next "Höhe hinab, um"
+	next "Beute zu fangen."
 
-	page "developed talons"
-	next "let it easily"
-	next "carry EXEGGCUTE"
+	page "Mit seinen Krallen"
+	next "kann es problemlos"
+	next "OWEI herumtragen"
 	dex
 
 _PidgeotDexEntry:: ; new entry
-	text "Flies at speeds of"
-	next "up to Mach-2. It"
-	next "spreads its broad,"
+	text "Schüchtert Feinde"
+	next "mit seinen pracht-"
+	next "vollen Schwingen"
 
-	page "gorgeous wings"
-	next "widely for"
-	next "intimidation"
+	page "ein. Kann beim"
+	next "Fliegen so schnell"
+	next "wie Mach 2 werden"
 	dex
 
 _StarmieDexEntry:: ; new entry
-	text "Little is known"
-	next "about STARMIE."
-	next "Locally, due to"
+	text "Über STARMIE ist"
+	next "nur wenig bekannt."
+	next "Einheimische"
 
-	page "its body shape,"
-	next "it is believed"
-	next "to be an alien"
+	page "halten es wegen"
+	next "seiner Körperform"
+	next "für ein Alien"
 	dex
 
 _BulbasaurDexEntry:: ; new entry
-	text "Researchers have"
-	next "argued for 6 years"
-	next "about whether"
+	text "Sechs Jahre lang"
+	next "diskutierten"
+	next "Forscher darüber,"
 	
-	page "BULBASAUR should"
-	next "be classed as a"
-	next "plant or animal"
+	page "ob BISASAM als"
+	next "Pflanze oder Tier"
+	next "gelten sollte"
 	dex
 
 _VenusaurDexEntry:: ; new entry
-	text "Its flower wafts"
-	next "a pacifying aroma."
-	next "Because it rests"
+	text "Die Blume hat ein"
+	next "besänftigendes"
+	next "Aroma. Da es oft"
 
-	page "in sunlit places,"
-	next "some think that it"
-	next "photosynthesizes"
+	page "in der Sonne ruht,"
+	next "sagen manche, es"
+	next "photosynthesiert"
 	dex
 
 _TentacruelDexEntry:: ; new entry
-	text "Also known as the"
-	next "Gangster of the"
-	next "Sea, it uses its"
+	text "Auch bekannt als"
+	next "der Räuber der"
+	next "Meere. Mit seinen" ; german equivalent to "Gangster of the sea" taken from a dex entry from the anime
 
-	page "80 tentacles to"
-	next "ensnare and"
-	next "feast on prey"
+	page "achtzig Tentakeln"
+	next "umschlingt und"
+	next "verzehrt es Beute"
 	dex
 
 _GoldeenDexEntry:: ; new entry
-	text "It can swim at"
-	next "speeds of up to"
-	next "5 knots. Known to"
+	text "Kann bis zu fünf"
+	next "Knoten schnell"
+	next "schwimmen."
 
-	page "inadvertently"
-	next "swim into the"
-	next "mouth of GYARADOS"
+	page "Oft schwimmt es"
+	next "versehentlich ins"
+	next "Maul von GARADOS"
 	dex
 
 _SeakingDexEntry:: ; new entry
-	text "Using its drill-"
-	next "like horn, it can"
-	next "hollow out river"
+	text "Mit seinem Bohrer-"
+	next "artigen Horn kann"
+	next "es Löcher in"
 
-	page "boulders, making"
-	next "nests to prepare"
-	next "to spawn ORFRY"
+	page "Felsen bohren,"
+	next "in die es dann"
+	next "GOLPIN-Eier legt"
 	dex
 
 _PonytaDexEntry:: ; new entry
-	text "With its light"
-	next "body and powerful"
-	next "legs, PONYTA can"
+	text "Es hat kräftige"
+	next "Beine und einen"
+	next "leichten Körper."
 
-	page "clear the SILPH"
-	next "CO. building in"
-	next "a single leap"
+	page "Mit einem Sprung"
+	next "überwindet es das"
+	next "SILPH CO.-Gebäude"
 	dex
 
 _RapidashDexEntry:: ; new entry
-	text "It dutifully obeys"
-	next "a trainer it has"
-	next "bonded with. At"
+	text "Es folgt brav den"
+	next "Befehlen seines"
+	next "Trainers. Es kann"
 
-	page "top speed, it can"
-	next "keep pace with a"
-	next "bullet train"
+	page "mit einem Hochge-"
+	next "geschwindigkeits-"
+	next "zug standhalten"
 	dex
 
 _RattataDexEntry:: ; new entry
-	text "It gnaws on hard"
-	next "material to keep"
-	next "its fangs short."
+	text "Knabbert hartes"
+	next "Zeug an, um seine"
+	next "Zähne kurz zu"
 
-	page "It feasts on nuts"
-	next "and acorns, but"
-	next "also likes cheese"
+	page "Halten. Frißt Nüße" ; the ß allows me to squeeze this in
+	next "und Eicheln, doch"
+	next "es mag auch Käse"
 	dex
 
 _RaticateDexEntry:: ; new entry
-	text "Its hind feet are"
-	next "webbed, allowing"
-	next "it to swim across"
+	text "Hat an den Füßen"
+	next "Schwimmhäute, um"
+	next "Flüsse zu durch-"
 
-	page "rivers in order"
-	next "to hunt for and"
-	next "eat fish"
+	page "queren, damit es"
+	next "Fische jagen und"
+	next "fressen kann"
 	dex
 
 _NidorinoDexEntry:: ; new entry
-	text "Quick-tempered and"
-	next "aggressive, its"
-	next "horn can pierce"
+	text "Jähzornig und"
+	next "aggressiv. Wenn es"
+	next "sein Horn wild um-"
 
-	page "through diamond"
-	next "when it swings it"
-	next "around wildly"
+	page "her schwingt, kann"
+	next "es sogar durch"
+	next "Diamanten stoßen"
 	dex
 
 _NidorinaDexEntry:: ; new entry
-	text "Emits ultrasonic"
-	next "cries that can"
-	next "allure foes. It"
+	text "Es verführt Gegner"
+	next "mithilfe von"
+	next "Ultraschallwellen."
 
-	page "lost the ability"
-	next "to lay eggs"
-	next "upon evolving"
+	page "Durch die Entwick-"
+	next "lung kann es keine"
+	next "Eier mehr legen"
 	dex
 
 _GeodudeDexEntry:: ; new entry
-	text "Being round and"
-	next "easy to hold, it"
-	next "is often tossed"
+	text "Da seine Form so"
+	next "rund und handlich"
+	next "ist, werfen manche"
 
-	page "around by people"
-	next "as if it were in"
-	next "a snowball fight"
+	page "es wie in einer"
+	next "Schneeballschlacht"
+	next "aufeinander"
 	dex
 
 _PorygonDexEntry:: ; new entry
-	text "It was created in"
-	next "1995 by SILPH CO."
-	next "Cases of illegal"
+	text "PORYGON wurde 1995"
+	next "von der SILPH CO."
+	next "erschaffen. Es"
 
-	page "prize PORYGON are"
-	next "currently under"
-	next "investigation"
+	page "werden gegen Fälle"
+	next "illegaler Preis-"
+	next "PORYGON ermittelt"
 	dex
 
 _AerodactylDexEntry:: ; new entry
-	text "The progenitor of"
-	next "birds. It flew"
-	next "on broad wings,"
+	text "Der Vorfahre der"
+	next "Vögel. Es flog mit"
+	next "breiten Flügeln"
 
-	page "communicating by"
-	next "emitting high-"
-	next "pitched cries"
+	page "und kommunizierte"
+	next "mit sehr hohen und"
+	next "lauten Schreien"
 	dex
 
 _MagnemiteDexEntry:: ; new entry altered from original
-	text "Uses anti-gravity"
-	next "to stay suspended."
-	next "The magnets on"
+	text "Dieses #MON"
+	next "überlistet die"
+	next "Schwerkraft, um zu"
 
-	page "its sides radiate"
-	next "strange electro-"
-	next "magnetic waves"
+	page "schweben. Seltsame"
+	next "EM-Wellen strömen"
+	next "aus den Magneten"
 	dex
 
 _CharmanderDexEntry:: ; new entry
-	text "It is born with a"
-	next "flame on its tail,"
-	next "which it needs to"
+	text "Benötigt das Feuer"
+	next "auf seinem Schweif"
+	next "zum Überleben."
 	
-	page "survive. Sometimes"
-	next "kept by smokers to"
-	next "use as a lighter"
+	page "Raucher halten es,"
+	next "um es als Feuer-"
+	next "zeug zu verwenden"
 	dex
 
-_SquirtleDexEntry:: ; new entry
-	text "After retracting"
-	next "its long neck"
-	next "into its shell,"
+_SquirtleDexEntry:: ; i wrote my own translation of this entry before realizing its basically identical to the entry in firered. oh well
+	text "Zieht es seinen"
+	next "langen Hals in"
+	next "seinen Panzer"
 	
-	page "it squirts out"
-	next "water with"
-	next "vigorous force"
+	page "zurück, verspritzt"
+	next "es Wasser mit"
+	next "unbändiger Kraft"
 	dex
 
 _CharmeleonDexEntry:: ; new entry
-	text "Its tail can lift"
-	next "up to 660 lbs. It"
-	next "flails it to knock"
+	text "Es kann 300 kg mit"
+	next "seinem Schweif"
+	next "hochheben. Es"
 
-	page "foes down, then"
-	next "rends them with"
-	next "its sharp claws"
+	page "schlägt damit um"
+	next "sich und zerreißt"
+	next "Gegner mit Klauen"
 	dex
 
 _WartortleDexEntry:: ; new entry
-	text "Its fur-covered"
-	next "tail is a symbol"
-	next "of longevity."
+	text "Sein buschiger"
+	next "Schweif ist ein"
+	next "Symbol der Lang-"
 
-	page "Highly popular as"
-	next "a pet for its"
-	next "cute profile"
+	page "lebigkeit. Es ist"
+	next "als niedliches"
+	next "Haustier beliebt"
 	dex
 
 _CharizardDexEntry:: ; new entry
-	text "Thought to be"
-	next "capable of flying"
-	next "up to 4,500 feet"
+	text "Losung von GLURAK"
+	next "wurde auf dem Vul-"
+	next "kan Fuji gefunden."
 	
-	page "in altitude after"
-	next "its droppings were"
-	next "found on Mt. Fuji"
+	page "Das bedeutet, es"
+	next "könnte über 1 km"
+	next "hoch fliegen"
 	dex
 
 _OddishDexEntry:: ; new entry
-	text "It is also known"
-	next "as Walkimendes."
-	next "Said to walk up"
+	text "Sein Kosename ist"
+	next "Walkimendes. Man"
+	next "sagt, in der Nacht"
 
-	page "to 1,000 feet on"
-	next "its two roots"
-	next "at night"
+	page "legt es auf seinen"
+	next "Wurzeln bis zu"
+	next "300 Meter zurück"
 	dex
 
 _GloomDexEntry:: ; new entry
-	text "Its pistil emits"
-	next "an incredibly foul"
-	next "odor. The stench"
+	text "Sein Stempel gibt"
+	next "einen unglaublich"
+	next "faulen Gestank ab,"
 
-	page "alone can cause"
-	next "fainting from over"
-	next "a mile away"
+	page "Der selbst 2 km"
+	next "entfernte Gegner"
+	next "bewusstlos macht"
 	dex
 
 _VileplumeDexEntry:: ; new entry
-	text "VILEPLUME's petals"
-	next "are the largest in"
-	next "the world. Its"
+	text "GIFLORs Blüten"
+	next "sind die größten"
+	next "der Welt. Seine"
 
-	page "pollen can cause"
-	next "severe allergic"
-	next "reactions"
+	page "Pollen verursachen"
+	next "heftige aller-"
+	next "gische Reaktionen"
 	dex
 
 _BellsproutDexEntry:: ; new entry
-	text "Because its bud"
-	next "slightly resembles"
-	next "a human face, it"
+	text "Da sein Gesicht"
+	next "dem eines Menschen"
+	next "ähnelt, wird es"
 
-	page "is said to be a"
-	next "type of legendary"
-	next "mandrake root"
+	page "für eine legendäre"
+	next "Mandragora-Wurzel-"
+	next "art gehalten"
 	dex
 
 _WeepinbellDexEntry:: ; new entry
-	text "It shreds foes,"
-	next "using its leaves"
-	next "like cutters."
+	text "Zerstückelt Gegner"
+	next "mit seinen Sichel-"
+	next "artigen Blättern."
 
-	page "Watching one feed"
-	next "is a very bizarre"
-	next "spectacle"
+	page "Ihm beim fressen"
+	next "zuzusehen ist ein"
+	next "bizarres Erlebnis"
 	dex
 
 _VictreebelDexEntry:: ; new entry
-	text "Lures prey with a"
-	next "honeylike aroma."
-	next "Omnivorous, it"
+	text "Ein Allesfresser,"
+	next "der Beute mit"
+	next "einem Honigaroma"
 
-	page "will eat anything"
-	next "that can fit"
-	next "inside its mouth"
+	page "anlockt und alles,"
+	next "was in seinem Mund"
+	next "passt, verspeißt"
 	dex

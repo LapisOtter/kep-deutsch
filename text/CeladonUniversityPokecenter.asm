@@ -1,59 +1,66 @@
 _CeladonUniversityPokecenterText4::
-	text "Thanks to recent"
-	line "funding from"
-	cont "SILPH CO., we"
-	cont "can upgrade"
-	cont "PORYGON now!"
+	text "Dank neuester"
+	line "Finanzierung"
+	cont "von SILPH CO."
+	cont "können wir nun"
+	cont "PORYGON ein"
+	cont "Upgrade geben!"
 	
-	para "I wonder if"
-	line "we'll ever see"
-	cont "PORYGON3?"
+	para "Ob wir jemals"
+	line "PORYGON3 sehen"
+	cont "werden?"
 	
 	done
 
 _CuboneSalesmanText1::
-	text "SALESMAN: Hey,"
-	line "kid! Interested"
-	cont "in another great"
-	cont "deal?"
+	text "HÄNDLER: Hey,"
+	line "Kiddie! Wie wär's"
+	cont "mit noch einem"
+	cont "großartigen"
+	cont "Geschäft?"
+
+	para "Mit TRAGOSSO"
+	line "kannst Du noch"
+	cont "heute Schrecken"
+	cont "in die Herzen"
+	cont "deiner Feinde"
+	cont "jagen!"
 	
-	para "Strike fear into"
-	line "the hearts of"
-	cont "your foes with"
-	cont "CUBONE today!"
+	para "Siehst Du diesen"
+	line "Schädel auf"
+	cont "seinem Kopf!"
 	
-	para "See that skull"
-	line "on its face?"
-	
-	para "Just ¥500! You"
-	line "can't refuse"
-	cont "an offer like"
-	cont "that!"
+	para "Nur für ¥500!"
+	line "Sowas kann man"
+	cont "einfach nicht"
+	cont "ablehnen!"
 	
 	done
 
 _CuboneSalesmanNoText::
-	text "No? It's a"
-	line "limited time"
-	cont "offer, pal!"
+	text "Nein?"
+	line "Aber es ist ein"
+	cont "Sonderangebot!"
 	done
 
 _CuboneSalesmanNoMoneyText::
-	text "You'll need more"
-	line "money than that!"
+	text "Schade, Du hast"
+	line "nicht genug Geld!"
 	done
 
 _CuboneSalesmanText2::
-	text "SALESMAN: Again,"
-	line "no refunds!"
+	text "HÄNDLER: Wie"
+	line "immer, der"
+	cont "Umtausch ist"
+	cont "ausgeschlossen!"
 	done
 
 _CeladonUniversityPokecenterText8::
-	text "I wonder how"
-	line "DRAGONAIR can fly"
-	cont "without wings..."
+	text "Wie DRAGONIR nur"
+	line "ohne Flügel"
+	cont "fliegen kann..."
 	
-	para "#MON are odd"
-	line "creatures..."
+	para "#MON sind"
+	line "seltsame Wesen..."
 	
 	done

@@ -1,7 +1,9 @@
 _MtMoonPokecenterText1::
-	text "I've 6 # BALLs"
-	line "set in my belt."
+	text "An meinem Gürtel"
+	line "hängen sechs"
+	cont "#BÄLLE."
 
-	para "At most, you can"
-	line "carry 6 #MON."
+	para "Man kann maximal"
+	line "sechs #MON"
+	cont "mit sich führen."
 	done

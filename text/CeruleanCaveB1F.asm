@@ -3,9 +3,9 @@ _MewtwoBattleText::
 
 	para "..."
 
-	para "...Mew!!!@"
+	para "...Mewtu!!!@"
 	text_end
 
 _MewBattleText::
-	text "Myuu...@"
+	text "Miuu...@"
 	text_end

@@ -1,184 +1,209 @@
 _SilphCoPresidentText::
-	text "CHIEF: Thank"
-	line "you for saving"
-	cont "SILPH!"
+	text "SILPH-CHEF: Ich"
+	line "danke Dir für die"
+	cont "Rettung der"
+	cont "SILPH CO.!"
 	
-	para "And...sorry about"
-	line "that OMEGADGE."
-	cont "It must have seen"
-	cont "you as a threat."
+	para "Oh, und...das mit"
+	line "dem ARTILOMEGA"
+	cont "tut mir äußerst"
+	cont "leid. Scheinbar"
+	cont "hat es Dich"
+	cont "als Bedrohung"
+	cont "eingestuft."
 	
-	para "Anyway!"
+	para "Jedenfalls!"
 
-	para "I will never"
-	line "forget you saved"
-	cont "us in our moment"
-	cont "of peril!"
+	para "Ich werde niemals"
+	line "vergessen, wie Du"
+	cont "uns trotz größter"
+	cont "Gefahren tapfer"
+	cont "gerettet hast!"
 
-	para "I have to thank"
-	line "you in some way!"
+	para "Wie kann ich Dir"
+	line "bloß meinen Dank"
+	cont "aussprechen?"
 
-	para "Because I am rich,"
-	line "I can give you"
-	cont "anything!"
+	para "Ich bin reich,"
+	line "ich könnte Dir"
+	cont "alles geben!"
 
-	para "Here, maybe this"
-	line "will do!"
+	para "Aber vielleicht"
+	line "ist das hier eher"
+	cont "etwas für Dich!"
 	prompt
 
 _ReceivedSilphCoMasterBallText::
-	text "<PLAYER> got a"
-	line "@"
+	text "<PLAYER> erhält"
+	line "einen @"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SilphCo10Text_6231c::
-	text "CHIEF: You"
-	line "can't buy that"
-	cont "anywhere!"
+	text "SILPH-CHEF: Man"
+	line "kann das nirgends"
+	cont "kaufen!"
 
-	para "It's our secret"
-	line "prototype MASTER"
-	cont "BALL!"
+	para "Es ist der"
+	line "streng geheime"
+	cont "Prototyp des"
+	cont "MEISTERBALLS!"
 
-	para "It will catch any"
-	line "#MON without"
-	cont "fail!"
+	para "Du kannst mit ihm"
+	line "JEDES #MON"
+	cont "BEIM 1. VERSUCH"
+	cont "einfangen!"
 
-	para "You should be"
-	line "quiet about using"
-	cont "it, though."
+	para "Wäge jedoch"
+	line "sorgfältig ab,"
+	cont "wann Du ihn"
+	cont "einsetzt!"
 	done
 
 _SilphCoMasterBallNoRoomText::
-	text "You have no"
-	line "room for this."
+	text "Du hast keinen"
+	line "Platz mehr!"
 	done
 
 _SilphCo11Text2::
-	text "SECRETARY: Thank"
-	line "you for rescuing"
-	cont "all of us!"
+	text "SEKRETÄRIN: Wir"
+	line "danken Dir für"
+	cont "Deinen Heldenmut!"
 
-	para "Hmm? OMEGADGE?"
+	para "Hmm? ARTILOMEGA?"
 	
-	para "All I know is the"
-	line "CHIEF quickly"
-	cont "started making it"
-	cont "last year."
+	para "Ich weiß nur, das"
+	line "der SILPH-CHEF es"
+	cont "letztes Jahr"
+	cont "eilig erbaut hat."
 	
 	done
 
 _SilphCo11Text3::
 	text "Ah, <PLAYER>!"
-	line "So we meet again!"
+	line "So trifft man"
+	cont "sich wieder!"
 
-	para "The CHIEF and"
-	line "I are discussing"
-	cont "a vital business"
-	cont "proposition."
+	para "Ich führe gerade"
+	line "äußerst wichtige"
+	cont "Verhandlungen mit"
+	cont "dem SILPH-CHEF."
 
-	para "Keep your nose"
-	line "out of grown-up"
-	cont "matters..."
+	para "Halte Dich ein"
+	line "für allemal aus"
+	cont "den Geschäften"
+	cont "Erwachsener"
+	cont "heraus!"
 
-	para "Or, experience a"
-	line "world of pain!"
+	para "Oder Du lernst"
+	line "eine Welt voller"
+	cont "Schmerzen kennen!"
 	done
 
 _SilphCo10Text_62330::
 	text "Arrgh!"
-	line "I lost again!?"
+	line "Wieder verloren!"
 	prompt
 
 _SilphCo10Text_62335::
-	text "Blast it all!"
-	line "You ruined our"
-	cont "plans for SILPH!"
+	text "Verdammter Mist!"
+	line "Du hast unsere"
+	cont "Übernahme der"
+	cont "SILPH CO. "
+	cont "vereitelt!"
 
-	para "But, TEAM ROCKET"
-	line "will never fall!"
+	para "Aber das"
+	line "TEAM ROCKET wird"
+	cont "niemals aufgeben!"
 
-	para "<PLAYER>! Never"
-	line "forget that all"
-	cont "#MON exist"
-	cont "for TEAM ROCKET!"
+	para "<PLAYER>! Vergiß"
+	line "nicht, daß alle"
+	cont "#MON nur zum"
+	cont "Nutzen des TEAM"
+	cont "ROCKET da sind!"
 
-	para "I must go, but I"
-	line "shall return!"
+	para "Ich muß gehen,"
+	line "aber meine Zeit"
+	cont "wird kommen!"
 	done
 
 _SilphCo11BattleText1::
-	text "Stop right there!"
-	line "Don't you move!"
+	text "Halt! Keinen"
+	line "Schritt weiter!"
 	done
 
 _SilphCo11EndBattleText1::
-	text "Don't..."
-	line "Please!"
+	text "Bitte!"
+	line "Verschone mich..."
 	prompt
 
 _SilphCo11AfterBattleText1::
-	text "So, you want to"
-	line "see my BOSS?"
+	text "Du willst also"
+	line "zum BOSS?"
 	done
 
 _SilphCo11BattleText2::
-	text "Halt! Do you have"
-	line "an appointment"
-	cont "with my BOSS?"
+	text "Stop! Hast Du"
+	line "einen Termin"
+	cont "beim BOSS?"
 	done
 
 _SilphCo11EndBattleText2::
-	text "Gaah!"
-	line "Demolished!"
+	text "OK! Ich"
+	line "lasse Dich durch!"
 	prompt
 
 _SilphCo11AfterBattleText2::
-	text "Watch your step,"
-	line "my BOSS likes his"
-	cont "#MON tough!"
+	text "Die #MON von"
+	line "unserem BOSS"
+	cont "werden Dich"
+	cont "fertig machen!"
 	done
 
 _SilphCo10Text_6237b::
-	text "The monitor has"
-	line "#MON on it!"
+	text "Auf dem Monitor"
+	line "sind #MON"
+	cont "zu sehen!"
 	done
 
 _OmegaBattleText::
-	text "Bzzt! Clank!"
+	text "Bzzt! Klack!"
 	done
 
 ; Fun fact: For some reason, this text is stored in 10F. Seems to be a beta element - they ARE encountered in 11F.
 _SilphCoJessieJamesText1::
-	text "Hold it right"
-	line "there, brat!@"
+	text "Bleib sofort"
+	cont "stehen, Du Balg!@"
 	text_end
 
 _SilphCoJessieJamesText2::
-	text "Our BOSS is in a"
-	line "meeting!"
+	text "Unser BOSS ist"
+	line "gerade sehr"
+	cont "beschäftigt!"
 
-	para "You better not"
-	line "disturb him!"
+	para "Du solltest ihn"
+	line "besser nicht"
+	cont "stören!!!"
 	done
 
 _SilphCoJessieJamesText3::
-	text "Like"
-	line "always..."
+	text "Wie"
+	line "immer..."
 	prompt
 
 _SilphCoJessieJamesText4::
-	text "TEAM ROCKET, blast"
-	line "off at the speed"
-	cont "of light!"
+	text "Sieht so aus, als"
+	line "wäre das mal"
+	cont "wieder..."
 
-	para "Again...@"
+	para "...ein Schuss in"
+	line "den Ofen!@"		; text from LGPE, which is more accurate to the anime than german Yellow was.
 	text_end
 
 _SilphCo11FPorygonText::
-	text "The monitor has"
-	line "#MON on it!"
+	text "Auf dem Monitor"
+	line "sind #MON"
+	cont "zu sehen!"
 	prompt ; this fixes its strange scrolling issue
 

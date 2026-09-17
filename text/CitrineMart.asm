@@ -1,11 +1,11 @@
 _CitrineMartText2::
-	text "They have some"
-	line "strong vitamins"
-	cont "here. Which do"
-	cont "you want,"
-	cont "PERSIAN?"
+	text "Hier wird echt"
+	line "starke Medizin"
+	cont "verkauft. Welche"
+	cont "möchstest Du denn"
+	cont "haben, SNOBILIKAT?"
 	done
 
 _CitrineMartText3::
-	text "PERSIAN: Nyaaa!"
+	text "SNOBILIKAT: Miaau!"
 	done

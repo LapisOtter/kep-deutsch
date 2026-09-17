@@ -1,69 +1,79 @@
 _ProgrammerText::
-	text "Me? I'm the"
-	line "programmer!"
+	text "Ich? Ich bin der"
+	line "Programmierer!"
 	done
 
 _GraphicArtistText::
-	text "I'm the graphic"
-	line "artist!"
-	cont "I drew you!"
+	text "Ich bin der"
+	line "Grafiker!"
+	cont "Ich habe dies"
+	cont "alles gezeichnet!"
 	done
 
 _WriterText::
-	text "I wrote the story!"
-	line "Isn't ERIKA cute?"
+	text "Die Geschichte"
+	line "stammt von mir!"
+	cont "Ist ERIKA nicht"
+	cont "süß?"
 
-	para "I like MISTY a"
-	line "lot too!"
+	para "Aber MISTY mag"
+	line "ich auch gerne!"
 
-	para "Oh, and SABRINA,"
-	line "I like her!"
+	para "Und nicht zu"
+	line "vergessen,"
+	cont "SABRINA!"
 	done
 
 _GameDesignerText::
-	text "Is that right?"
+	text "Gefällt Dir das"
+	line "Spiel?"
 
-	para "I'm the game"
-	line "designer!"
+	para "Ich habe das"
+	line "Spiel gestaltet!"
 
-	para "Filling up your"
-	line "#DEX is tough,"
-	cont "but don't quit!"
+	para "Auch wenn es sehr"
+	line "mühsam ist, den"
+	cont "#DEX zu"
+	cont "erstellen: Gib"
+	cont "nicht auf!"
 
-	para "When you finish,"
-	line "come tell me!"
+	para "Zeige ihn mir,"
+	line "wenn er komplett"
+	cont "ist!"
 	done
 
 _CompletedDexText::
-	text "Wow! Excellent!"
-	line "You completed"
-	cont "your #DEX!"
-	cont "Congratulations!"
-	cont "...@"
+	text "Wow! Fantastisch!"
+	line "Dein #DEX"
+	cont "ist vollständig!"
+	cont "Herzlichen"
+	cont "Glückwunsch!@"
 	text_end
 
 _CeladonMansion3Text5::
-	text "It's the game"
-	line "program! Messing"
-	cont "with it could bug"
-	cont "out the game!"
+	text "Der Programmcode!"
+	line "Davon sollte man"
+	cont "besser die Finger"
+	cont "lassen!"
 	done
 
 _CeladonMansion3Text6::
-	text "Someone's playing"
-	line "a game instead of"
-	cont "working!"
+	text "Dort spielt"
+	line "jemand, anstatt"
+	cont "zu arbeiten!"
 	done
 
 _CeladonMansion3Text7::
-	text "It's the script!"
-	line "Better not look"
-	cont "at the ending!"
+	text "Das Drehbuch!"
+	line "Ich schaue mir"
+	cont "das Ende besser"
+	cont "nicht an!"
 	done
 
 _CeladonMansion3Text8::
 	text "GAME FREAK"
-	line "Development Room"
+	line "Entwicklungs-"
+	cont "Abteilung"
 	done
 
 ; Morimoto Boss Fight from LGPE.
@@ -71,42 +81,43 @@ _CeladonMansion3Text8::
 ; Eg. Cooltrainer > Coach Trainer.
 
 _CeladonMansionMorimotoGreeting:: ; LGPE
-	text "I'm MORIMOTO."
+	text "Hey, ich bin"
+	line "MORIMOTO."
 	
-	para "I help out all"
-	line "the COOLTRAINERs."
+	para "Ich helfe all den"
+	line "Ass-TRAINERN."
 ;	cont "I have my reasons." this is insanely cringe it's off by ONE CHARACTER
 	
-	para "Do you really want"
-	line "to battle me, the"
-	cont "strongest COOL-"
-	cont "TRAINER?"
+	para "Ich bin eines der"
+	line "stärksten. Willst"
+	cont "Du gegen mich"
+	cont "Kämpfen?" ; okay so the Ace Trainer Class is just known as "Trainer" in german RBY. This makes this dialogue really weird...
 	prompt
 
 _CeladonMansionMorimotoFight:: ; LGPE
-	text "Here I go!"
+	text "Legen wir los!"
 	prompt
 
 _CeladonMansionMorimotoNo:: ; USUM
-	text "Oh yeah?"
+	text "Verstehe."
+	line "Wie schade."
 	
-	para "Well, that's a"
-	line "real shame. I'm"
-	cont "really good,"
-	cont "after all."
+	para "Wo ich doch so"
+	line "stark bin!"
+	cont "Echt jetzt!"
 	done
 
 _CeladonMansionMorimotoDefeated:: ; LGPE, compressed
-	text "When"
-	line "it comes down"
-	cont "to it, you are"
-	cont "still the best!"
+	text "Wenn es"
+	line "drauf ankommt,"
+	cont "bist Du immer"
+	cont "noch ein Profi!" ; i deadass don't know what this is made of ~Lapis
 	prompt
 
 _CeladonMansionMorimotoWin:: ; BW/BW2, compressed & repositioned
-	text "I am"
-	line "the best, after"
-	cont "all!"
+	text "TRAINER: Natürlich" 
+	line "bin ich der"
+	cont "beste!" ; i also can't rlly find the specific dialogue that it references, maybe ill fix this in the future. But I think this may actually be unused so whatever ~Lapis
 	
-	para "Just kidding!"
+	para "...nicht!" ; okay now this just sounds like a ytp ~ lapis
 	prompt

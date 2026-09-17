@@ -1,28 +1,33 @@
 _FuchsiaHouse1Text1::
-	text "SAFARI ZONE's"
-	line "WARDEN is old,"
-	cont "but still active!"
+	text "Der Wärter der"
+	line "SAFARI-ZONE ist"
+	cont "sehr alt! Aber er"
+	cont "ist noch immer im"
+	cont "Dienst!"
 
-	para "All his teeth are"
-	line "false, though."
+	para "Allerdings trägt"
+	line "er ein Gebiß!"
 	done
 
 ; Now unused - see in_game_trades.asm
 ;_FuchsiaHouse1Text2::
-;	text "Hmm? You've met"
-;	line "BILL?"
-;
-;	para "He's my grandson!"
-;
-;	para "He always liked"
-;	line "collecting things"
-;	cont "even as a child!"
+;	text "Hast Du schon"
+;	line "BILL getroffen?"
+
+;	para "Er ist mein"
+;	line "Enkel!"
+
+;	para "Schon als kleines"
+;	line "Kind hat er gerne"
+;	cont "alles Mögliche"
+;	cont "gesammelt!"
 ;	done
 
 _FuchsiaHouse1Text3::
-	text "BILL files his"
-	line "own #MON data"
-	cont "on his PC!"
+	text "BILL sammelt auf"
+	line "seinem PC Daten"
+	cont "über #MON!"
 
-	para "Did he show you?"
+	para "Hat er sie Dir"
+	line "gezeigt?"
 	done

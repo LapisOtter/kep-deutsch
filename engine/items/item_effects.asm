@@ -951,8 +951,8 @@ ItemUseMedicine:
 	ld [wActionResultOrTookBattleTurn], a ; item use failed
 	jp PrintText
 .emptyPartyText
-	text "You don't have"
-	line "any #MON!"
+	text "Du besitzt noch"
+	line "keine #MON!"
 	prompt
 .notUsingSoftboiled
 	call DisplayPartyMenu
@@ -2332,8 +2332,8 @@ ItemUseTMHM:
 	call PrintText
 	ld hl, TeachMachineMoveText
 	call PrintText
-	hlcoord 14, 7
-	lb bc, 8, 15
+	hlcoord 13, 7
+	lb bc, 8, 14
 	ld a, TWO_OPTION_MENU
 	ld [wTextBoxID], a
 	call DisplayTextBoxID ; yes/no menu
@@ -2720,8 +2720,8 @@ TossItem_::
 	call CopyToStringBuffer
 	ld hl, IsItOKToTossItemText
 	call PrintText
-	hlcoord 14, 7
-	lb bc, 8, 15
+	hlcoord 13, 7
+	lb bc, 8, 14
 	ld a, TWO_OPTION_MENU
 	ld [wTextBoxID], a
 	call DisplayTextBoxID ; yes/no menu

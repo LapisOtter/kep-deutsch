@@ -1,28 +1,29 @@
 ;btlibs
 ; afters are farcallable for core.asm
+
 BTLib1:
-	db "ready@@@@"
-	db "prepared@"
-	db "excited@@"
-	db "hyped@@@@"
+	db "bereit@@@@@@" ; from 9 to 12 char
+	db "vorbereitet@"
+	db "aufgeregt@@@"
+	db "gespannt@@@@"
 	
 BTLib2:
-	db "go@@@@@"
-	db "do it@@"
-	db "battle@"
-	db "rock@@@"
+	db "beginnen@@" ; from 7 to 10 char
+	db "spielen@@@"
+	db "kämpfen@@@"
+	db "rocken@@@@"
 	
 BTLib3::
-	db "Oh no@@@@@"
-	db "Argh no@@@"
-	db "Oh well@@@"
-	db "My streak@"
+	db "Oh nein@@@@@" ; from 10 to 12 char
+	db "Auweia@@@@@@"
+	db "Verflixt@@@@"
+	db "So ein MIST@" ; echoing the shorts kid
 	
 BTLib4::
-	db "game@@@"
-	db "battle@"
-	db "play@@@"
-	db "job@@@@"
+	db "gut@@@" ; from 7 to 6 char
+	db "stark@"
+	db "toll@@" ; uses an adjective instead of a noun, its more flexible
+	db "cool@@"
 
 BTBeforeBattlePtrTable:
 	dw BTBeforeBattleTemplate1
@@ -45,65 +46,73 @@ BTAfterBattlePtrTable::
 	dw BTAfterBattleTemplate8
 
 BTBeforeBattleTemplate1:
-	text "I'm @"
+	text "Ich bin"
+	line "@"
 	text_ram wStringBuffer1
 	text "!"
 	done
 	
 BTBeforeBattleTemplate2:
-	text "Get @"
+	text "Bist du"
+	line "@"
 	text_ram wStringBuffer1
-	text "!"
+	text "?"
 	done
 	
 BTBeforeBattleTemplate3:
-	text "Let's @"
+	text "Laß uns"
+	line "@"
 	text_ram wStringBuffer2
 	text "!"
 	done
 	
 BTBeforeBattleTemplate4:
-	text "I'm @"
+	text "Ich bin"
+	line "@"
 	text_ram wStringBuffer1
-	db 0
-	line "for this!"
+	text "!"
 	
-	para "Let's @"
+	para "Laß uns"
+	line "@"
 	text_ram wStringBuffer2
 	text "!"
 	done
 	
 BTBeforeBattleTemplate5:
-	text "Here I come!"
+	text "Auf geht's!"
 	
-	line "Let's @"
+	line "Laß uns"
+	cont "@"
 	text_ram wStringBuffer2
 	text "!"
 	done
 	
 BTBeforeBattleTemplate6:
-	text "Let's @"
+	text "Laß uns"
+	line "gemeinsam"
+	cont "@"
 	text_ram wStringBuffer2
-	db 0
-	line "together!"
+	text "!"
 	done
 
 BTBeforeBattleTemplate7:
-	text "I'm waiting for"
-	line "a while now."
+	text "Ich habe schon"
+	line "drauf gewartet."
 	
-	para "Let's @"
+	para "Laß uns"
+	line "@"
 	text_ram wStringBuffer2
 	text "!"
 	done
 
 BTBeforeBattleTemplate8:
-	text "Well, I'm"
-	line "@"
+	text "Also, jetzt bin"
+	line "ich @"
 	text_ram wStringBuffer1
-	text " now."
+	text "."
 	
-	para "Let's @"
+	para "Lass uns"
+	line "@"
 	text_ram wStringBuffer2
 	text "."
 	done
@@ -113,7 +122,7 @@ BTAfterBattleTemplate1::
 	text_ram wStringBuffer1
 	text "!"
 	
-	para "Oh man.."
+	para "Oh Mann.."
 	prompt
 	
 BTAfterBattleTemplate2::
@@ -127,24 +136,23 @@ BTAfterBattleTemplate3::
 	text_ram wStringBuffer1
 	text "!"
 	
-	line "Good @"
+	line "Du bist @"
 	text_ram wStringBuffer2
 	text "!"
 	prompt
 	
 BTAfterBattleTemplate4::
-	text "That was a nice"
+	text "Du bist ein"
 	line "@"
 	text_ram wStringBuffer2
-	text "!"
+	text "er Trainer!"
 	prompt
 	
 BTAfterBattleTemplate5::
-	text "I did the best"
-	line "I could."
-	
-	para "I have no"
-	line "regrets!"
+	text "Ich habe alles"
+	line "gegeben, ich"
+	cont "schäme mich"
+	cont "nicht!" ; echoing the Nugget Bridge trainers
 	prompt
 
 BTAfterBattleTemplate6::
@@ -152,27 +160,27 @@ BTAfterBattleTemplate6::
 	text_ram wStringBuffer1
 	text "!"
 	
-	line "Nice @"
+	line "Ich bin nicht"
+	cont "@"
 	text_ram wStringBuffer2
-	text "!"
+	text " genug!"
 	prompt
 	
 BTAfterBattleTemplate7::
-	text "That was a nice"
+	text "Das war ein echt"
 	line "@"
 	text_ram wStringBuffer2
-	text ","
-	cont "don't you think?"
+	text "er Kampf,"
+	cont "findest du auch?"
 	prompt
 	
 BTAfterBattleTemplate8::
-	text "Awesome"
-	line "@"
+	text "Das war @"
 	text_ram wStringBuffer2
 	text "!"
 	
-	para "Shall we do this"
-	line "again?"
+	para "Laß uns wieder"
+	line "Kämpfen!"
 	prompt
 
 

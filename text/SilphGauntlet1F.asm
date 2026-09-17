@@ -1,113 +1,141 @@
 _SilphGauntlet1FBattleText1::
-	text "Hey! Welcome to"
+	text "Hey! Willkommen im"
 	line "SILPH GAUNTLET!"
 	
-	para "This whole place"
-	line "is full of really"
-	cont "strong trainers,"
-	cont "so let's see how"
-	cont "strong you are!"
+	para "Dieser ganze Ort"
+	line "ist voll mit"
+	cont "richtig starken"
+	cont "Trainern, also"
+	cont "lass uns sehen,"
+	cont "wie stark Du bist!"
 	done
 
 _SilphGauntlet1FEndBattleText1::
-	text "Whoa!"
-	line "Pretty good!"
+	text "Wow!"
+	line "Ziemlich gut!"
 	prompt
 
 _SilphGauntlet1FAfterBattleText1::
-	text "I'm still only the"
-	line "first trainer!"
-	cont "It gets tougher"
-	cont "from here!"
+	text "Ich bin bloß der"
+	line "erste Trainer!"
+	cont "Von hier an wird"
+	cont "es noch schwerer!"
 	done
 
 _SilphGauntlet1FBattleText2::
-	text "This indoor forest"
-	line "is so cool!"
+	text "Dieser Indoor-Wald"
+	line "ist so cool!"
 	
-	para "Don't you think it"
-	line "looks just like"
-	cont "VIRIDIAN FOREST?"
+	para "Er sieht genau"
+	line "so aus wie der"
+	cont "VERTANIA-WALD,"
+	cont "findest du nicht?"
 	done
 
 _SilphGauntlet1FEndBattleText2::
-	text "No!"
-	line "My bugs!"
+	text "Ah!"
+	line "Meine Käfer!"
 	prompt
 
 _SilphGauntlet1FAfterBattleText2::
-	text "I wonder what the"
-	line "upper floors look"
-	cont "like..."
+	text "Wie wohl die"
+	line "oberen Stockwerke"
+	cont "aussehen..."
 	done
 
 _SilphGauntlet1FBattleText3::
-	text "I'm at the top"
-	line "of my university!"
-	cont "It's only up from"
-	cont "here!"
+	text "Ich bin an der"
+	line "Spitze meiner"
+	cont "Universität! Von"
+	cont "hier an geht es"
+	cont "nur noch bergauf!"
 	done
 
 _SilphGauntlet1FEndBattleText3::
-	text "Not"
-	line "enough..."
+	text ""
+	line "Ungenügend..."
 	prompt
 
 _SilphGauntlet1FAfterBattleText3::
-	text "You could be a"
-	line "top STUDENT at"
-	cont "CELADON UNI!"
+	text "Du würdest Dich in"
+	line "der PRISMANIA-UNI"
+	cont "bestimmt gut"
+	cont "machen!"
 	done
 
 _SilphGauntlet1FBattleText4::
-	text "Camping here is"
-	line "fun, but I prefer"
-	cont "the outdoors..."
+	text "Es macht Spaß,"
+	line "hier drinnen zu"
+	cont "campen, doch ich"
+	cont "es ist nicht das"
+	cont "selbe wie"
+	cont "draußen..."
 	done
 
 _SilphGauntlet1FEndBattleText4::
-	text "What?"
-	line "How'd I lose?"
+	text "Was?"
+	line "Wie konnte ich"
+	cont "verlieren?"
 	prompt
 
 _SilphGauntlet1FAfterBattleText4::
-	text "I would've won if"
-	line "we were outside!"
+; Silph Gauntlet's Juggler makes a reference to another Juggler's "Dropped my Balls!" line, a joke that doesn't work in german.
+; to even it out, I decided to include a reference to the Shorts Youngster from Route 3, who in german complains about regretting wearing them in a place that has nettles.
+	text "Ich wette, meinem" 
+	line "Freund würde"
+	cont "diesen Indoor-"
+	cont "Wald besser"
+	cont "gefallen."
+	
+	para "Hier gibt es gar"
+	line "keine Brennesseln!"
 	done
 
+; more accurate translation:
+;	text "Wenn wir im Freien"
+;	line "gekämpft hätten,"
+;	cont "dann hätte ich"
+;	cont "gewonnen!"
+;	done
+
 _SilphGauntlet1FBattleText5::
-	text "I wish forests"
-	line "didn't have so"
-	cont "many gross bugs!"
+	text "Ich wünschte,"
+	line "Wälder hätten"
+	cont "nicht so viele"
+	cont "eklige Käfer!"
 	done
 
 _SilphGauntlet1FEndBattleText5::
-	text "Eek!"
-	line "No way!"
+	text "Huch!"
+	line "Unfassbar!"
 	prompt
 
 _SilphGauntlet1FAfterBattleText5::
-	text "BELLIGNAN loves"
-	line "eating bugs, so"
-	cont "it's a perfect"
-	cont "#MON for me!"
+	text "KESSALOTUS frißt"
+	line "liebend gern"
+	cont "Käfer, also paßt"
+	cont "es perfekt zu mir!"
 	done
 
 _SilphGauntlet1FBattleText6::
-	text "My bird #MON"
-	line "love perching on"
-	cont "the trees here."
+	text "Meine Vogel-"
+	line "#MON sitzen"
+	cont "liebend gern auf"
+	cont "den Bäumen hier."
 	done
 
 _SilphGauntlet1FEndBattleText6::
-	text "We"
-	line "still lost?"
+	text "Wir"
+	line "haben trotzdem"
+	cont "verloren?"
 	prompt
 
 _SilphGauntlet1FAfterBattleText6::
-	text "That CHIEF..."
+	text "Der CHEF von"
+	line "SILPH CO...."
 	
-	para "What does he want"
-	line "us for, anyway?"
+	para "Was will er"
+	line "eigentlich von"
+	cont "uns?"
 	done
 	

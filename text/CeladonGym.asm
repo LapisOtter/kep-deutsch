@@ -1,65 +1,68 @@
 _ErikaPreBattleText::
-	text "Hello. Lovely"
-	line "weather isn't it?"
-	cont "It's so pleasant."
+	text "Ist das Wetter"
+	line "nicht wundervoll?"
+	cont "Einfach herrlich!"
 
-	para "...Oh dear..."
-	line "I must have dozed"
-	cont "off. Welcome."
+	para "Du meine Güte..."
+	line "Ich muß kurz"
+	cont "eingenickt sein!"
+	cont "Willkommen!"
 
-	para "My name is ERIKA."
-	line "I am the LEADER"
-	cont "of CELADON GYM."
+	para "Ich bin ERIKA,"
+	line "die ARENALEITERIN"
+	cont "von PRISMANIA"
+	cont "CITY!"
 
-	para "I teach the art of"
-	line "flower arranging."
-	cont "My #MON are of"
-	cont "the GRASS-type."
+	para "Ich liebe die"
+	line "Kräfte der Natur!"
+	cont "Deshalb trainiere"
+	cont "ich PFLANZEN-"
+	cont "#MON."
 
-	para "Oh, I'm sorry, I"
-	line "had no idea that"
-	cont "you wished to"
-	cont "challenge me."
+	para "Du möchtest gegen"
+	line "mich antreten?"
+	cont "Also gut!"
 
-	para "Very well, but I"
-	line "shall not lose."
+	para "Ich werde ohnehin"
+	line "nicht verlieren!"
 	done
 
 _ReceivedRainbowBadgeText::
-	text "Oh!"
-	line "I concede defeat."
+	text "Ich muß"
+	line "meine Niederlage"
+	cont "eingestehen!"
 
-	para "You are remarkably"
-	line "strong."
+	para "Deine Stärke ist"
+	line "beachtlich!"
 
-	para "I must confer you"
-	line "the RAINBOWBADGE."
+	para "Ich übergebe Dir"
+	line "den FARBORDEN!"
 	prompt
 
 _ErikaPostBattleAdviceText::
-	text "You are cataloging"
-	line "#MON? I must"
-	cont "say I'm impressed."
+	text "Du katalogisierst"
+	line "#MON? Ich"
+	cont "bin beeindruckt!"
 
-	para "I would never"
-	line "collect #MON"
-	cont "if they were"
-	cont "unattractive."
+	para "Ich würde niemals"
+	line "#MON sammeln,"
+	cont "die mich nicht"
+	cont "interessieren!"
 	done
 
 _ErikaRainbowBadgeInfoText::
-	text "The RAINBOWBADGE"
-	line "allows your"
-	cont "#MON to use"
-	cont "STRENGTH outside"
-	cont "of battle."
+	text "Der FARBORDEN"
+	line "läßt deine #-"
+	cont "MON STÄRKE nun"
+	cont "außerhalb von"
+	cont "Kämpfen anwenden."
 
-	para "Please also take"
-	line "this with you."
+	para "Nimm bitte noch"
+	line "dieses Geschenk:"
 	done
 
 _ReceivedTM21Text::
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -68,182 +71,192 @@ _ReceivedTM21Text::
 _TM21ExplanationText::
 	text_start
 
-	para "TM21 contains"
-	line "MEGA DRAIN."
+	para "TM21 ist"
+	line "MEGASAUGER."
 
-	para "Half the damage"
-	line "it inflicts is"
-	cont "drained to heal"
-	cont "your #MON!"
+	para "Dein #MON"
+	line "erhält die Hälfte"
+	cont "der KP, die diese"
+	cont "Attacke dem"
+	cont "Gegner abzieht!"
 	done
 
 _TM21NoRoomText::
-	text "You should make"
-	line "room for this."
+	text "Du solltest etwas"
+	line "Platz schaffen!"
 	done
 
 _CeladonGymBattleText2::
-	text "Do you think a"   ; imported from Crystal
-	line "girls-only GYM"
-	cont "is rare?"
-	done
+	text "Glaubst Du, dass"   ; imported from Crystal
+	line "eine PKMN-ARENA"
+	cont "nur mit Mädchen"
+	cont "selten ist?"
 
 _CeladonGymEndBattleText2::
-	text "You're"
-	line "too rough!"
+	text "Sei nicht"
+	line "so grob zu mir!"
 	prompt
 
 _CeladonGymAfterBattleText2::
-	text "I was a little"
-	line "careless, that's"
-	cont "all!"
+	text "Ich wurde nur"
+	line "unvorsichtig, das"
+	cont "ist alles!"
 	done
 
 _CeladonGymBattleText3::
-	text "I was getting"
-	line "bored."
+	text "Mir wurde es"
+	line "schon langweilig!"
 	done
 
 _CeladonGymEndBattleText3::
-	text "My"
-	line "makeup!"
+	text ""
+	line "Meine Frisur!"
+	cont "Ganz zerzaust!"
 	prompt
 
 _CeladonGymAfterBattleText3::
-	text "GRASS-type #MON"
-	line "are tough against"
-	cont "the WATER-type!"
+	text "PFLANZEN-#MON"
+	line "sind gegenüber"
+	cont "WASSER-#MON"
+	cont "im Vorteil!"
 
-	para "They also have an"
-	line "advantage against"
-	cont "ROCK- and GROUND-"
-	cont "type #MON!"
+	para "Ebenso sind sie"
+	line "GESTEIN- und"
+	cont "BODEN-#MON"
+	cont "überlegen!"
 	done
 
 _CeladonGymBattleText4::
-	text "Were you looking"  ; imported from Crystal
-	line "at these flowers"
-	cont "or at me?"
+	text "Hast Du die"  ; imported from Crystal
+	line "Blumen betrachtet"
+	cont "oder mich?"
 	done
 
 _CeladonGymEndBattleText4::
-	text "I'm"
-	line "in shock!"
+	text "Ich"
+	line "bin schockiert!"
 	prompt
 
 _CeladonGymAfterBattleText4::
-	text "How do I go about"
-	line "becoming ladylike"
-	cont "like ERIKA?"
+	text "Wie werde ich nur"
+	line "so damenhaft"
+	cont "wie ERIKA?"
 	done
 
 _CeladonGymBattleText5::
-	text "Look at my GRASS-"
-	line "type #MON!"
+	text "Schau Dir meine"
+	line "PFLANZEN-#MON"
+	cont "an!"
 
-	para "They're so easy"
-	line "to raise!"
+	para "Man kann sie ohne"
+	line "Mühe trainieren!"
 	done
 
 _CeladonGymEndBattleText5::
-	text "No!"
+	text "Nein!"
 	prompt
 
 _CeladonGymAfterBattleText5::
-	text "We only use GRASS-"
-	line "type #MON at"
-	cont "our GYM!"
+	text "Wir trainieren"
+	line "ausschließlich"
+	cont "PFLANZEN-#MON"
+	cont "in unserer ARENA!"
 
-	para "We also use them"
-	line "for making flower"
-	cont "arrangements!"
+	para "Wir lieben die"
+	line "Kräfte der Natur!"
 	done
 
 _CeladonGymBattleText6::
-	text "Don't bring any"
-	line "BUG- or FIRE-"
-	cont "type #MON!"
+	text "Bringe bloß keine"
+	line "KÄFER- oder"
+	cont "FEUER-#MON"
+	cont "hierher!"
 	done
 
 _CeladonGymEndBattleText6::
 	text "Oh!"
-	line "You!"
+	line "Du Grobian!"
 	prompt
 
 _CeladonGymAfterBattleText6::
-	text "Our LEADER, ERIKA,"
-	line "might be quiet,"
-	cont "but she's also"
-	cont "very skilled!"
+	text "Wenngleich ERIKA"
+	line "schüchtern wirkt,"
+	cont "ist sie eine"
+	cont "sehr begabte"
+	cont "ARENALEITERIN!"
 	done
 
 _CeladonGymBattleText7::
-	text "Pleased to meet"
-	line "you. My hobby is"
-	cont "#MON training."
+	text "Ich habe die"
+	line "Ehre... Ich liebe"
+	cont "#MON-Kämpfe!"
 	done
 
 _CeladonGymEndBattleText7::
 	text "Oh!"
-	line "Splendid!"
+	line "Ausgezeichnet!"
 	prompt
 
 _CeladonGymAfterBattleText7::
-	text "I have a blind"
-	line "date coming up."
-	cont "I have to learn"
-	cont "to be polite."
+	text "Es war mir eine"
+	line "Ehre! Wunderbar!"
+	cont "Mein Benimm-Kurs"
+	cont "zeigt Wirkung!"
 	done
 
 _CeladonGymBattleText8::
-	text "Welcome to"
-	line "CELADON GYM!"
+	text "Willkommen in der"
+	line "PKMN-ARENA von"
+	cont "PRISMANIA CITY!"
 
-	para "You better not"
-	line "underestimate"
-	cont "girl power!"
+	para "Unterschätze"
+	line "niemals die"
+	cont "Girl-Power!"
 	done
 
 _CeladonGymEndBattleText8::
-	text "Oh!"
-	line "Beaten!"
+	text "Ich"
+	line "habe verloren!"
 	prompt
 
 _CeladonGymAfterBattleText8::
-	text "I didn't bring my"
-	line "best #MON!"
+	text "Meine besten"
+	line "#MON hatte"
+	cont "ich nicht dabei!"
 
-	para "Wait 'til next"
-	line "time!"
+	para "Warte nur, beim"
+	line "nächsten Mal..."
 	done
 
 _ErikaRematchPreBattleText::
-	text "If it isn't the"
-	line "one filling out"
-	cont "the #DEX."
+	text "Du bist doch die"
+	line "Person mit dem"
+	cont "#DEX, oder?"
 	
-	para "I do hope things"
-	line "have been going"
-	cont "well since our"
-	cont "last encounter."
+	para "Wie ist es dir"
+	line "seit unserem"
+	cont "letzten Treffen"
+	cont "ergangen?"
 	
-	para "...I see."
+	para "Anscheinend hast"
+	line "Du es schon echt"
+	cont "weit gebracht."
 	
-	para "You certainly"
-	line "have been busy."
+	para "Ich interessiere"
+	line "mich nicht so"
+	cont "sehr für das"
+	cont "Treiben in der"
+	cont "Welt da draußen."
 	
-	para "I'm not fond of"
-	line "those kinds of"
-	cont "public things..."
+	para "Kämpfe sind aber"
+	line "ein anderes"
+	cont "Thema."
 	
-	para "But battles are"
-	line "different. That's"
-	cont "what you came"
-	cont "for, isn't it?"
+	para "Deswegen bist Du"
+	line "doch hier, oder?"
 	done
 
 _ErikaRematchDefeatedText::
-	text "Oh! It"
-	line "appears it is"
-	cont "my loss..."
+	text "...Ich bin"
+	line "wie angewurzelt!"
 	prompt

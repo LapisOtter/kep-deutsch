@@ -49,22 +49,26 @@ CreditsTextPointers:
 	dw CredSaOota
 	dw CredYoshikawa
 	dw CredToOota
-	dw CredUSStaff
-	dw CredUSCoord
-	dw CredTilden
+	dw CredEUStaff
+	dw CredEUCoord
+	dw CredMoyse
+	dw CredPfitzner
+	dw CredKraft
 	dw CredKawakami
-	dw CredHiNakamura
-	dw CredGiese
-	dw CredOsborne
+	dw CredEdasawa
+	dw CredUesugi
+	dw CredYoshimura
 	dw CredTrans
-	dw CredOgasawara
-	dw CredIwata
+	dw CredFabri
+	dw CredNakamichi
 	dw CredIzushi
 	dw CredHarada
 	dw CredMurakawa
 	dw CredFukui
-	dw CredClub
-	dw CredPAAD
+	dw CredNoEProdTest
+	dw CredZehAndTappert
+	dw CredNoAProdTest
+	dw CredHudsonAndBuechele
 	dw CredKEP
 	dw CredKEPDevs
 	dw CredPvK
@@ -96,10 +100,14 @@ CreditsTextPointers:
 	dw CredVort
 	dw CredPret
 	dw CredDrLava
+	dw CredKEPDETrans
+	dw CredLapis
+	dw CredKowiAndAori
+	dw CredEinstein
 	assert_table_length NUM_CRED_STRINGS
 
 CredVersion:
-	db -8, "RBY VERSION STAFF@"
+	db -5, "RBG-EDITION@"
 CredTajiri:
 	db -6, "SATOSHI TAJIRI@"
 CredTaOota:
@@ -157,35 +165,35 @@ CredYuda:
 CredMon:
 	db -3, "#MON@"
 CredDirector:
-	db -3, "DIRECTOR@"
+	db -3, "LEITUNG@"
 CredProgrammers:
-	db -5, "PROGRAMMERS@"
+	db -6, "PROGRAMMIERER@"
 CredCharDesign:
-	db -7, "CHARACTER DESIGN@"
+	db -6, "FIGUREN-DESIGN@"
 CredMusic:
-	db -2, "MUSIC@"
+	db -2, "MUSIK@"
 CredSoundEffects:
-	db -6, "SOUND EFFECTS@"
+	db -6, "SOUND-EFFEKTE@"
 CredGameDesign:
-	db -5, "GAME DESIGN@"
+	db -5, "SPIEL-DESIGN@"
 CredMonsterDesign:
-	db -6, "MONSTER DESIGN@"
+	db -6, "MONSTER-DESIGN@"
 CredGameScene:
-	db -6, "GAME SCENARIO@"
+	db -6, "SPIEL-SZENARIO@"
 CredParam:
-	db -8, "PARAMETRIC DESIGN@"
+	db -7, "PARAMETR. DESIGN@"
 CredMap:
-	db -4, "MAP DESIGN@"
+	db -6, "KARTEN-DESIGN@"
 CredTest:
-	db -7, "PRODUCT TESTING@"
+	db -5, "PRODUKT-TEST@"
 CredSpecial:
-	db -6, "SPECIAL THANKS@"
+	db -7, "BESONDERER DANK@"
 CredProducers:
-	db -4, "PRODUCERS@"
+	db -5, "PRODUZENTEN@"
 CredProducer:
-	db -4, "PRODUCER@"
+	db -4, "PRODUZENT@"
 CredExecutive:
-	db -8, "EXECUTIVE PRODUCER@"
+	db -5, "AUSFÜHRENDER@"
 CredTamada:
 	db -6, "SOUSUKE TAMADA@"
 CredSaOota:
@@ -194,26 +202,30 @@ CredYoshikawa:
 	db -6, "RENA YOSHIKAWA@"
 CredToOota:
 	db -6, "TOMOMICHI OOTA@"
-CredUSStaff:
-	db -7, "US VERSION STAFF@"
-CredUSCoord:
-	db -7, "US COORDINATION@"
-CredTilden:
-	db -5, "GAIL TILDEN@"
+CredEUStaff:
+	db -8, "EUROPÄISCHES TEAM@" 		; credits from german version replacing the english team credits, starting here
+CredEUCoord:
+	db -9, "EUROPA-KOORDINATION@"
+CredMoyse:
+	db -7, "CLAUDE M. MOYSE@"
+CredPfitzner:
+	db -7, "MARKUS PFITZNER@"
+CredKraft:
+	db -6, "JOHN D. KRAFT@"
 CredKawakami:
 	db -6, "NAOKO KAWAKAMI@"
-CredHiNakamura:
-	db -6, "HIRO NAKAMURA@"
-CredGiese:
-	db -6, "WILLIAM GIESE@"
-CredOsborne:
-	db -5, "SARA OSBORNE@"
+CredEdasawa:
+	db -6, "YUSUKE EDASAWA@"
+CredUesugi:
+	db -5, "HIRO UESUGI@"
+CredYoshimura:
+	db -7, "KAMON YOSHIMURA@"
 CredTrans:
-	db -7, "TEXT TRANSLATION@"
-CredOgasawara:
-	db -6, "NOB OGASAWARA@"
-CredIwata:
-	db -5, "SATORU IWATA@"
+	db -6, "DEUTSCHER TEXT@"
+CredFabri:
+	db -6, "PATRICK FABRI@"
+CredNakamichi:
+	db -7, "KIMIKO NAKAMICHI@"
 CredIzushi:
 	db -7, "TAKEHIRO IZUSHI@"
 CredHarada:
@@ -222,14 +234,18 @@ CredMurakawa:
 	db -7, "TERUKI MURAKAWA@"
 CredFukui:
 	db -5, "KOHTA FUKUI@"
-CredClub:
-	db -9, "NCL SUPER MARIO CLUB@"
-CredPAAD:
-	db -5, "PAAD TESTING@"
+CredNoEProdTest:
+	db -9, "NOE PRODUCT TESTING@"
+CredZehAndTappert:
+	db -9, "KAI ZEH + F.TAPPERT@"
+CredNoAProdTest:
+	db -9, "NOA PRODUCT TESTING@"
+CredHudsonAndBuechele:
+	db -9, "K.HUDSON+T.BUECHELE@"
 CredKEP:
-	db -4, "KEP STAFF@"
+	db -4, "KEP TEAM@" 					; KEP credits start here
 CredKEPDevs:
-	db -6, "KEP DEVELOPERS@"
+	db -6, "KEP ENTWICKLER@"
 CredPvK:
 	db -7, "PLAGUE VON KARMA@"
 CredMAH:
@@ -247,7 +263,7 @@ CredFO:
 CredZetaNull:
 	db -4, "ZETA NULL@"
 CredPSDevs:
-	db -5, "SHOWDOWN MOD@"
+	db -5, "SHOWDOWN-MOD@"
 CredAus:
 	db -2, "AUSMA@"
 CredPaul:
@@ -255,7 +271,7 @@ CredPaul:
 CredDuo:
 	db -2, "DUOM2@"
 CredKEPMusic:
-	db -4, "KEP MUSIC@"
+	db -4, "KEP MUSIK@"
 CredLuci:
 	db -4, "LUCISHRIMP@"
 CredZumi:
@@ -263,7 +279,7 @@ CredZumi:
 CredBGVC:
 	db -2, "BGVC@"
 CredKEPThanks:
-	db -6, "SPECIAL THANKS@"
+	db -7, "BESONDERER DANK@"
 CredFrrf:
 	db -2, "FRRF@"
 CredMisty:
@@ -288,3 +304,12 @@ CredPret:
 	db -2, "PRET@"
 CredDrLava:
 	db -3, "DR.LAVA@"
+CredKEPDETrans:
+	db -8, "KEP DEUTSCHER TEXT@"		; hi
+CredLapis:
+	db -4, "LAPISOTTER@"
+CredKowiAndAori:
+	db -4, "KOWI + AORI@"
+CredEinstein:
+	db -4, "EINSTEIN95@"
+	

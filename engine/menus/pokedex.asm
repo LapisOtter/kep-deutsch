@@ -363,19 +363,19 @@ DrawPokedexVerticalLine:
 	ret
 
 PokedexSeenText:
-	db "SEEN@"
+	db "GES@"
 
 PokedexOwnText:
-	db "OWN@"
+	db "BES@"
 
 PokedexContentsText:
-	db "CONTENTS@"
+	db "INHALT@"
 
 PokedexMenuItemsText:
 	db   "DATA"
-	next "CRY"
-	next "AREA"
-	next "QUIT@"
+	next "RUF"
+	next "GEB."
+	next "ZUR.@"
 
 ; tests if a pokemon's bit is set in the seen or owned pokemon bit fields
 ; INPUT:
@@ -516,21 +516,23 @@ ShowPokedexDataInternal:
 	ld a, c
 	and a
 	jp z, .displaySeenBottomInfo ; if the pokemon has not been owned, don't print the height or weight, but show their type
-	inc de ; de = address of feet (height)
-	ld a, [de] ; reads feet, but a is overwritten without being used
-	hlcoord 12, 6
-	lb bc, 1, 2
-	call PrintNumber ; print feet (height)
-	ld a, "′"
-	ld [hl], a
-	inc de
-	inc de ; de = address of inches (height)
-	hlcoord 15, 6
-	lb bc, LEADING_ZEROES | 1, 2
-	call PrintNumber ; print inches (height)
-	ld a, "″"
-	ld [hl], a
-; now print the weight (note that weight is stored in tenths of pounds internally)
+	inc de ; de = address of decimetre (height)
+	ld a, [de] ; reads decimetre, but a is overwritten without being used
+	push af
+	hlcoord 13, 6
+	lb bc, 1, 3
+	call PrintNumber ; print decimetre (height)
+	hlcoord 14, 6
+	pop af
+	cp $a
+	jr nc, .heightNext
+	ld [hl], "0" ; if the height is less than 10, put a 0 before the decimal point
+.heightNext
+	inc hl
+	ld a, [hli]
+	ld [hld], a ; make space for the decimal point by moving the last digit forward one tile
+	ld [hl], "<DOT>" ; decimal point tile
+; now print the weight (note that weight is stored in tenths of kilograms internally)
 	inc de
 	inc de
 	inc de ; de = address of upper byte of weight
@@ -547,8 +549,8 @@ ShowPokedexDataInternal:
 	ld a, [de] ; a = lower byte of weight
 	ld [hl], a ; store lower byte of weight in [hDexWeight + 1]
 	ld de, hDexWeight
-	hlcoord 11, 8
-	lb bc, 2, 5 ; 2 bytes, 5 digits
+	hlcoord 12, 8
+	lb bc, 2, 4 ; 2 bytes, 4 digits
 	call PrintNumber ; print weight
 	hlcoord 14, 8
 	ldh a, [hDexWeight + 1]
@@ -592,28 +594,28 @@ ShowPokedexDataInternal:
 	hlcoord 15, 11
 	lb bc, 1, 3
 	call PrintNumber 
-	hlcoord 11, 12
+	hlcoord 10, 12
 	ld de, AtkText
 	call PlaceString
 	ld de, wMonHBaseAttack
 	hlcoord 15, 12
 	lb bc, 1, 3
 	call PrintNumber 
-	hlcoord 11, 13
+	hlcoord 10, 13
 	ld de, DefText
 	call PlaceString
 	ld de, wMonHBaseDefense
 	hlcoord 15, 13
 	lb bc, 1, 3
 	call PrintNumber
-	hlcoord 11, 14
+	hlcoord 10, 14
 	ld de, SpdText
 	call PlaceString
 	ld de, wMonHBaseSpeed
 	hlcoord 15, 14
 	lb bc, 1, 3
 	call PrintNumber
-	hlcoord 11, 15
+	hlcoord 10, 15
 	ld de, SpcText
 	call PlaceString
 	ld de, wMonHBaseSpecial
@@ -692,8 +694,8 @@ PrintMonTypes:
 	ret
 
 HeightWeightText:
-	db   "HT  ?′??″"
-	next "WT   ???lb@"
+	db   "GR.  ???<M>"
+	next "GEW  ???<K><G>@"
 
 ; XXX does anything point to this?
 PokeText:
@@ -769,28 +771,28 @@ PromptText:
 	text_end
 
 DexType1Text:
-	db "TYPE1/@"
+	db "TYP1/@"
 
 DexType2Text:
-	db "TYPE2/@"
+	db "TYP2/@"
 
 BaseStatsText:
-	db "BASE STATS@"
+	db "BASISWERTE@"
 
 HPText:
-	db "HP@"
+	db "KP@"
 
 AtkText:
-	db "ATK@"
+	db "ANGR@"
 
 DefText:
-	db "DEF@"
+	db "VERT@"
 
 SpdText:
-	db "SPD@"
+	db "INIT@"
 
 SpcText:
-	db "SPC@"
+	db "SPEZ@"
 
 TotalText:
-	db "TOTAL@"
+	db "SUMME@"

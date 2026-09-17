@@ -1,132 +1,160 @@
 _MomWakeUpText::
-	text "MOM: Right."
-	line "Everyone leaves"
-	cont "home some day."
-	cont "It said so on TV."
+	text "MUTTER: Richtig."
+	line "Irgendwann gehen"
+	cont "alle Kinder fort,"
+	cont "um ein Abenteuer"
+	cont "zu erleben!"
 
-	para "PROF.OAK, next"
-	line "door, is looking"
-	cont "for you."
+	para "PROF. EICH von"
+	line "nebenan hat nach"
+	cont "Dir gefragt."
 	done
 
 _MomHealText1::
-	text "MOM: <PLAYER>!"
-	line "You should take a"
-	cont "quick rest."
+	text "MUTTER: <PLAYER>!"
+	line "Du solltest eine"
+	cont "kurze Pause"
+	cont "einlegen."
 	prompt
 
 _MomHealText2::
-	text "MOM: Oh good!"
-	line "You and your"
-	cont "#MON are"
-	cont "looking great!"
-	cont "Take care now!"
+	text "MUTTER: Sehr gut!"
+	line "Du und Deine"
+	cont "#MON sehen"
+	cont "großartig aus!"
+	cont "Achte auf Dich!"
 	done
 
 _StandByMeText::
-	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
-	cont "railroad tracks."
+	text "Im Fernsehen"
+	line "läuft ein Film."
+	cont "Vier Jungen"
+	cont "laufen ein"
+	cont "Bahngleis"
+	cont "entlang!"
 
-	para "I better go too."
+	para "Den Film kenne"
+	line "ich schon! Ich"
+	cont "mache mich besser"
+	cont "auf den Weg!"
 	done
 
 _TVWrongSideText::
-	text "Oops, wrong side."
+	text "Ups,"
+	line "falsche Richtung!"
 	done
 
 _MomYoureBack::
-	text "MOM: <PLAYER>!"
-	line "Good morning!"
+	text "MUTTER: <PLAYER>!"
+	line "Guten Morgen!"
 	
-	para "I'm so proud of"
-	line "you, dear! You've"
-	cont "grown so much!"
+	para "Ich bin ja so"
+	line "stolz auf Dich,"
+	cont "mein Kind! Du"
+	cont "bist wirklich"
+	cont "groß geworden!"
 	
-	para "Oh! I nearly"
-	line "forgot..."
+	para "Oh! Beinähe hätte"
+	line "ich das schon"
+	cont "vergessen..."
 	
-	para "I received this"
-	line "letter from SILPH"
-	cont "CO. What does it"
-	cont "say?"
+	para "Ich habe diesen"
+	line "BRIEF von der"
+	cont "SILPH CO."
+	cont "bekommen. Was"
+	cont "steht da drin?"
 	prompt
 
 ; I want the letter text to play when we use the letter, so it's gonna be like this.
 _ReceivedChiefLetterText::
-	text "<PLAYER> received"
-	line "the @"
+	text "<PLAYER> erhält"
+	line "den @"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _ChiefLetterText::
-	text "Dear <PLAYER>!"
-	line "You are cordially"
-	cont "invited to my"
-	cont "greatest event!"
+	text "Guten Tag," ; there are no other professional sounding letter greetings that aren't affected by gender as far as im aware. -Lapis
+	line "<PLAYER>!"
+	cont "Ich lade Dich"
+	cont "herzlich zu meiner"
+	cont "großartigsten"
+	cont "Veranstaltung"
+	cont "ein!"
 	
-	para "I call it...the"
+	para "Ich nenne es...das"
 	line "SILPH GAUNTLET!"
 	
-	para "I have called the"
-	line "greatest trainers"
-	cont "in all of KANTO!"
+	para "Ich habe die"
+	line "STÄRKSTEN TRAINER" 	; When describing how the Master Ball works in the german version, Chief briefly uses all caps for regular words. Im trying to expand on this.
+	cont "VON GANZ KANTO"
+	cont "mit eingeladen!"
 	
-	para "Stronger than even" ; A sneaky trick - we can fit 18 characters, they just mess up the arrow.
-	line "the ELITE FOUR!" ; Thus, the para avoids the visual artefacting.
+	para "Stärker als selbst" ; A sneaky trick - we can fit 18 characters, they just mess up the arrow.
+	line "die TOP VIER!" ; Thus, the para avoids the visual artefacting.
 	
-	para "You will come to"
-	line "SILPH CO., yes?"
+	para "Sicherlich wirst"
+	line "Du doch zur SILPH"
+	cont "CO. kommen, ja?"
 	
-	para "See you then!"
-	line "    - CHIEF"
+	para "Wir sehen uns!"
+	line "    - SILPH-CHEF"
 	prompt
 
 _MomAmazing::
-	text "Oh! Isn't this"
-	line "amazing, sweetie?"
+	text "Oh! Ist das nicht"
+	line "wunderbar, Schatz?"
 	
-	para "I'm sure you'll do"
-	line "great!"
+	para "Ich bin mir"
+	line "sicher, Du wirst"
+	cont "Dich dort gut"
+	cont "schlagen!"
 	
-	para "By the way, PROF."
-	line "OAK was looking"
-	cont "for you. He said"
-	cont "he would be on"
-	cont "ROUTE 1."
+	para "Übrigens, PROF."
+	line "EICH hat nach dir"
+	cont "gesucht. Er hat"
+	cont "gesagt, er würde"
+	cont "auf ROUTE 1 sein."
 	
-	para "I wonder why..."
+	para "Ich frage mich,"
+	line "warum..."
 	done
 
 _MomBagFull::
-	text "Oh, your BAG is"
-	line "full! You must"
-	cont "have had such an"
-	cont "adventure!"
+	text "Oh, Dein BEUTEL"
+	line "ist voll! Du"
+	cont "hattest bestimmt"
+	cont "ein riesiges"
+	cont "Abenteuer!"
 	
-	para "Go upstairs and"
-	line "sort it out. I" ; Made me smile making this GSC mom reference.
-	cont "kept your room"
-	cont "tidy!"
+	para "Gehe nach oben"
+	line "und sortiere Dein"
+	cont "Zeug. Ich habe" ; Made me smile making this GSC mom reference.
+	cont "dein Zimmer für"
+	cont "Dich aufgeräumt!"
 	done
+	
 
 _MomSavedIt::
-	text "Did you sort out"
-	line "your BAG?"
+	text "Hast Du Deinen"
+	line "BEUTEL"
+	cont "durchsortiert?"
 	
-	para "You're just like"
-	line "when you were"
-	cont "ready to go!"
+	para "Es ist genau so"
+	line "wie damals, als"
+	cont "du Dich für die"
+	cont "Reise bereit"
+	cont "gemacht hast!"
 	
-	para "Anyway, here's the"
-	line "the LETTER. What"
-	cont "does it say?"
+	para "Jedenfalls, hier"
+	line "ist der BRIEF."
+	cont "Was steht drin?"
 	prompt
 
 _MomBagStillFull::
-	text "Silly! It's still"
-	line "full! Go on, sort"
-	cont "it out!"
+	text "Wie albern! Er ist"
+	line "immernoch voll!"
+	cont "Komm schon, lade"
+	cont "etwas Zeug bei"
+	cont "Deinem PC ab!"
 	done

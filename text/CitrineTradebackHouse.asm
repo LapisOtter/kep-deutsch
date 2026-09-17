@@ -1,15 +1,17 @@
 _CitrineTradebackHouseGuy::
-	text "This man is a"
-	line "legend in these"
-	cont "parts."
+	text "Dieser Mann hier"
+	line "gilt in dieser"
+	cont "Gegend als eine"
+	cont "Legende!"
 	
-	para "He taught my"
-	line "SNORLAX how to"
-	cont "use LOVELY KISS!"
+	para "Er hat mein RELAXO"
+	line "den TODESKUSS"
+	cont "beigebracht!"
 	done
 
 _CitrineTradebackHouseBooklet::
-	text "It's a book showing"
-	line "two strange bird"
-	cont "#MON."
+	text "Ein Buch, welches"
+	line "zwei sonderbare"
+	cont "Vogel-#MON"
+	cont "zeigt."
 	done

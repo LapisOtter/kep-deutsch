@@ -1,38 +1,40 @@
 _BrockPreBattleText::
-	text "I'm BROCK!"
-	line "I'm PEWTER's GYM"
-	cont "LEADER!"
+	text "Ich bin der"
+	line "ARENALEITER von"
+	cont "MARMORIA CITY,"
+	cont "ROCKO!"
 
-	para "I believe in rock"
-	line "hard defense and"
-	cont "determination!"
+	para "Meine Devise ist"
+	line "eine steinharte"
+	cont "Verteidigung und"
+	cont "felsenfeste"
+	cont "Entschlossenheit!"
 
-	para "That's why my"
-	line "#MON are all"
-	cont "the ROCK-type!"
+	para "Deshalb"
+	line "trainiere ich"
+	cont "GESTEINS-#MON!"
 
-	para "Do you still want"
-	line "to challenge me?"
-	cont "Fine then! Show"
-	cont "me your best!"
+	para "Willst Du es noch"
+	line "immer mit mir"
+	cont "aufnehmen? OK!"
+	cont "Zeige mir, wie"
+	cont "gut Du bist!"
 	done
 
 _BrockRematchPreBattleText::
-	text "You sure look"
-	line "different to"
-	cont "when we first"
-	cont "met!"
+	text "Du hast Dich ganz"
+	line "schön gemacht"
+	cont "seit unserer"
+	cont "ersten Begegnung!"
 	
-	para "The truth is..."
+	para "Es ist LEITERN"
+	line "gestattet, den"
+	cont "CHAMP zu einem"
+	cont "Kampf herauszu-"
+	cont "fordern..."
 	
-	para "We LEADERs have"
-	line "a right to"
-	cont "challenge the"
-	cont "champ!"
-	
-	para "Allow me to show"
-	line "you the true"
-	cont "rock-hard power"
-	cont "of my #MON!"
-	
+	para "Ich will dir"
+	line "zeigen, was"
+	cont "wirklich in mir"
+	cont "steckt!"
 	done

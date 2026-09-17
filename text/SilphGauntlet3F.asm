@@ -1,118 +1,149 @@
 _SilphGauntlet3FBattleText1::
-	text "All hands on deck!"
-	line "Welcome to 3F!"
+	text "Alle Mann an Deck!"
+	line "Willkommen in"
+	cont "Raum Nr. 3!"			; decided to go with "Room Nr. X" instead of numbering floors, because the floor system in german is rlly weird and i don't know wether SG 1F counts as an Erdgeschoss or not
 	done
 
 _SilphGauntlet3FEndBattleText1::
-	text "Blown"
-	line "away..."
+	text "Du hast"
+	line "mich umgehauen..."
 	prompt
 
 _SilphGauntlet3FAfterBattleText1::
-	text "Sigh..."
+	text "Seufz..."
 	
-	para "What does he need"
-	line "a SAILOR like me"
-	cont "for, anyway?"
+	para "Für was braucht er"
+	line "eigentlich einen"
+	cont "MATROSEN wie mich?"
 	done
 
 _SilphGauntlet3FBattleText2::
-	text "Where's the fire?"
-	line "Did you do it?"
+	text "Wo ist das Feuer?"
+	line "Bist Du ein"
+	cont "Brandstifter?"
 	done
 
 _SilphGauntlet3FEndBattleText2::
-	text "Agh!"
+	text "Aah!"
 	prompt
 
 _SilphGauntlet3FAfterBattleText2::
-	text "I was called out"
-	line "over a fire, but"
-	cont "there isn't one"
-	cont "at all..."
+	text "Ich wurde wegen"
+	line "einem Brand"
+	cont "hierhergerufen,"
+	cont "doch hier ist"
+	cont "gar keiner..."
 	
-	para "False reports of"
-	line "fires are really"
-	cont "dangerous! That"
-	cont "CHIEF has gone"
-	cont "too far!"
+	para "Falschmeldungen"
+	line "sind äußerst"
+	cont "gefährlich! Der"
+	cont "SILPH-CHEF geht"
+	cont "eindeutig zu weit!"
 	done
 
 _SilphGauntlet3FBattleText3::
-	text "LT.SURGE told me"
-	line "you'd be here!"
+	text "MAJOR BOB hat mir"
+	line "gesagt, dass Du"
+	cont "hier sein wirst!"
 	done
 
 _SilphGauntlet3FEndBattleText3::
 	text "Oh,"
-	line "no!"
+	line "nein!"
 	prompt
 
 _SilphGauntlet3FAfterBattleText3::
-	text "Thinking about"
-	line "it..."
+	text "Wenn ich so"
+	line "darüber"
+	cont "nachdenke..."
 	
-	para "LT.SURGE isn't my"
-	line "CO anymore, but I"
-	cont "came here without"
-	cont "even thinking..."
+	para "MAJOR BOB ist"
+	line "nicht mehr mein"
+	cont "Kommandeur, doch" ; Assuming CO means Commanding Officer
+	cont "ich kam hier her,"
+	cont "ohne es zu"
+	cont "überlegen..."
 	done
 
 _SilphGauntlet3FBattleText4::
-	text "No faults here!"
-	line "Is it you, kid?"
+	text "Hier gibt es"
+	line "keine Probleme!"
+	para "Oder meinte er"
+	line "etwa Dich?" ; thanks to the kep discord for telling me what the original sentence meant
 	done
 
 _SilphGauntlet3FEndBattleText4::
-	text "Nope!"
-	line "None!!"
+	text "Nein!"
+	line "Nichts!!!"
 	prompt
 
 _SilphGauntlet3FAfterBattleText4::
-	text "CHIEF called me"
-	line "here to fix some"
-	cont "lights, but they"
-	cont "don't seem to be"
-	cont "malfunctioning"
-	cont "at all..."
+	text "Der SILPH-CHEF hat"
+	line "mich gerufen, um"
+	cont "ein paar Lichter"
+	cont "zu repairieren,"
+	cont "doch sie scheinen"
+	cont "noch alle zu"
+	cont "funktionieren..."
 	done
 
-_SilphGauntlet3FBattleText5:: ; Rolling Stones reference, Jumpin' Jack Flash (1968).
-	text "I was born in a" ; I picked it as it can also be taken as a JoJo reference by those weird hicks.
-	line "crossfire hurri-" ; In that series, Avdol calls his special attack "Crossfire Hurricane", referencing this.
-	cont "cane!" ; Jumpin' Jack Flash could be a really cute elaborate reference to Shinjuku Jack in our game too.
+; the english original referenced "Jumpin' Jack Flash" (1978) by the Rolling Stones.
+; so i tried putting in references to german rock songs instead.
+; its not the reference soup that was the original line (which could be seen as referencing both Shinjuku Jacky and the war implied by Blaine and Surge) but I like how it turned out.
+_SilphGauntlet3FBattleText5:: ; Die Ärzte reference, "Westerland" (1988)
+	text "Oh, ich hab solche"
+	line "Sehnsucht! Ich"
+	cont "verlier' hier den"
+	cont "Verstand!"
 	done
 
-_SilphGauntlet3FEndBattleText5::
-	text "It's"
-	line "all right now..."
+_SilphGauntlet3FEndBattleText5:: ; Herbert Grönemeier reference, "Was soll das" (1988)
+	text ""
+	line "Uh, womit hab ich"
+	cont "Das verdient?"
 	prompt
+	
+; originally I had the idea of referencing "Über sieben Brücken musst du gehn" (1978) by Karat
+; but i thought the idea above comes off more natural and fits the Rocker's personality more.
+; eventually, I held a poll and that got voted out.
+; that original dialogue still really funny to me though. its so stupid
+;_SilphGauntlet3FBattleText5::
+;	text "Ich musste über"
+;	line "7 Brücken gehen!"
+;	done
+
+;_SilphGauntlet3FEndBattleText5::
+;	text ""
+;	line "Ich konnte das"
+;	cont "nicht überstehen!"
+;	prompt
 
 _SilphGauntlet3FAfterBattleText5::
-	text "Argh! The music"
-	line "here stinks!"
+	text "Die Musik hier"
+	line "ist voll öde!"
 	
-	para "Where's all the"
-	line "rock 'n' roll?!"
+	para "Wo bleibt das"
+	line "Rock 'n' Roll?!"
 	done
 
 _SilphGauntlet3FBattleText6::
-	text "Let's get this"
-	line "over with!"
+	text "Bringen wir's"
+	line "hinter uns!"
 	done
 
 _SilphGauntlet3FEndBattleText6::
-	text "Good!"
+	text "Gut!"
 	prompt
 
 _SilphGauntlet3FAfterBattleText6::
-	text "This is so"
-	line "embarassing..."
+	text "Das ist so"
+	line "peinlich..."
 	
-	para "Who comes into"
-	line "a building like"
-	cont "this in their"
-	cont "fishing gear?!"
+	para "Wer geht denn"
+	line "bitteschön in ein"
+	cont "Gebäude wie"
+	cont "dieses hier mit"
+	cont "seinem Anglerzeug?"
 	done
 
 	

@@ -1,14 +1,15 @@
 _GalarianMoltresBattleText::
-	text "Gyaoo!"
+	text "Lava!"
 	done
 
 _CelesteHillSign::
-	text "When the sun"
-	line "shines upon this"
-	cont "hill, the cruel"
-	cont "pretenders to the"
-	cont "winged mirages"
-	cont "will come to"
-	cont "roost."
+	text "Strahlt die Sonne"
+	line "auf diesen Berg,"
+	cont "erscheinen die"
+	cont "unbarmherzigen"
+	cont "Hochstapler der" ; thanks to Aori and LuciShrimp for the "unbarmherzigen Hochstapler" title
+	cont "mythischen"
+	cont "Schwingen, um"
+	cont "sich auszuruhen."
 	done
 	

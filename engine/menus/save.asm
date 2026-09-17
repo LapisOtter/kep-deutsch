@@ -509,7 +509,7 @@ BoxNames:
 	next "BOX14@"
 
 BoxNoText:
-	db "BOX No.@"
+	db "BOX Nr.@"
 
 EmptyAllSRAMBoxes:
 ; marks all boxes in SRAM as empty (initialisation for the first time the

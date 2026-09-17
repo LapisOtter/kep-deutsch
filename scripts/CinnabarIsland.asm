@@ -86,46 +86,53 @@ CinnabarIslandText7:
 	text_end
 
 _CinnabarPocketLapras1:
-	text "Bah, this LAPRAS"
-	line "just doesn't want"
-	cont "to fight! Can you"
-	cont "believe that?"
+	text "Pah, dieses LAPRAS"
+	line "will einfach"
+	cont "nicht Kämpfen!"
+	cont "Kannst Du das"
+	cont "glauben?"
 	
-	para "All it likes to"
-	line "do is SURF, but"
-	cont "my GYARADOS can"
-	cont "already do that!"
+	para "Es will bloß"
+	line "SURFEN, aber mein"
+	cont "GARADOS kann das"
+	cont "aber schon!"
 	
-	para "Here, take it. I"
-	line "can't stand its"
-	cont "big ol' eyes"
-	cont "looking at me."
+	para "Hier, nimm es. Ich"
+	line "kann es nicht"
+	cont "ausstehen, sein"
+	cont "Glotzen ansehen"
+	cont "zu müssen."
 	prompt
 
 _PocketLaprasNoRoomText:
-	text "You don't have"
-	line "room, either?"
+	text "Du hast auch"
+	line "keinen Platz?"
 	
-	para "Well, it's not"
-	line "like it's going"
-	cont "anywhere..."
+	para "Nun, es ist ja"
+	line "nicht so, als ob"
+	cont "es irgendwo"
+	cont "hinweggeht..."
 	done
 
 _ReceivedPocketLaprasText:
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 	
 _CinnabarPocketLapras2:
-	text "Take care of it"
-	line "though, alright?"
-	cont "LAPRAS is very"
-	cont "endangered."
+	text "Pass gut auf"
+	line "LAPRAS auf, klar?"
+	cont "Hierbei handelt"
+	cont "es sich um ein"
+	cont "#MON, welches"
+	cont "stark vom"
+	cont "Aussterben"
+	cont "bedroht ist."
 	
-	para "You should stay"
-	line "safe, too." ; haha, llinos, you sly dog
+	para "Pass auch auf dich"
+	line "selbst auf, klar?" ; haha, llinos, you sly dog
 	done
 
 ; for some reason it crashed super hard if I didn't do this.

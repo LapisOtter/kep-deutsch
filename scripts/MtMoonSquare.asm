@@ -20,8 +20,10 @@ MtMoonSquareResearcher:
 	text_end
 
 MtMoonSquareSign:
-	text "MT MOON SQUARE"
-	line "Please don't"
-	cont "litter. Put trash"
-	cont "where it belongs!"
+	text "VORPLATZ ZUM"
+	line "MONDBERG"
+	cont "Es ist dein Müll,"
+	cont "also nimm ihn"
+	cont "auch wieder mit"
+	cont "zurück nach Hause!"
 	done

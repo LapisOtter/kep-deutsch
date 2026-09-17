@@ -1,38 +1,41 @@
 _SaffronGateText_1dfe7::
-	text "I'm on guard duty."
-	line "Gee, I could use"
-	cont "a cuppa though!"
+	text "Ich schiebe hier"
+	line "Wache."
+	cont "Ohhh... Ein"
+	cont "Tässchen TEE wäre"
+	cont "jetzt echt gut..."
 
-	para "Oh wait there,"
-	line "the road's closed."
+	para "Halt! Stop!"
+
+	para "Der Durchgang"
+	line "ist gesperrt!"
 	done
 
 _SaffronGateText_8aaa9::
-	text "Whoa there!"
-	line "I'm parched!"
-	cont "..."
-	cont "Huh? I can have"
-	cont "this drink?"
-	cont "Gee, thanks!@"
+	text "Ich bin dem"
+	line "Verdursten"
+	cont "nahe..."
+	cont "Was? Das Getränk"
+	cont "ist für mich?"
+	cont "Vielen Dank!@"
 	text_end
 
 _SaffronGateText_1dff1::
 	text_start
 
-	para "..."
-	line "Glug glug..."
-	cont "..."
-	cont "Gulp..."
-	cont "If you want to go"
-	cont "to SAFFRON CITY..."
-	cont "..."
-	cont "You can go on"
-	cont "through. I'll"
-	cont "share this with"
-	cont "the other guards!"
+	para "Gluck, gluck!"
+	line "Rülps..."
+	cont "Entschuldigung!"
+	cont "Wenn Du nach"
+	cont "SAFFRONIA CITY"
+	cont "möchtest, darfst"
+	cont "Du passieren!"
+	cont "Ich werde den"
+	cont "anderen Wachen"
+	cont "etwas abgeben!"
 	done
 
 _SaffronGateText_1dff6::
-	text "Hi, thanks for"
-	line "the TEA!"
+	text "Hallo! Danke für"
+	line "die Erfrischung!"
 	done

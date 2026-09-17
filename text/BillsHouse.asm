@@ -1,105 +1,115 @@
 _BillsHouseText_1e865::
-	text "Hiya! I'm a"
-	line "#MON..."
-	cont "...No I'm not!"
+	text "Hallo! Ich"
+	line "bin ein #MON!"
+	cont "Spaß beiseite, "
+	cont "ich bin keines!"
 
-	para "Call me BILL!"
-	line "I'm a true blue"
-	cont "#MON fanatic!" ; restoring the more accurate translation from LGPE
-	
-	para "Hey! What's with"
-	line "that skeptical"
-	cont "look?"
+	para "Nenn mich einfach" ; originally, KEP replaced "Pokémaniac" with "Pokémon Fanatic" for the sake of a more accurate translation
+	line "BILL! Ich bin ein" ; and keeping it in line with future entries, like LGPE as the original comments here said
+	cont "waschechter" ; but in german Pokémon media, Bill is still referred to as a Pokémaniac as of LGPE
+	cont "#MANIAC!" ; so I held a poll what I should do. Keeping it as Pokémaniac won with 8 out of 11 votes, so I ended up undoing this change
 
-	para "I'm not joshing"
-	line "you, I screwed up"
-	cont "an experiment and"
-	cont "got combined with"
-	cont "a #MON!"
+	para "Glaubst Du mir"
+	cont "nicht?"
 
-	para "So, how about it?"
-	line "Help me out here!"
+	para "Mir ist ein"
+	line "Experiment"
+	cont "mißglückt! Dabei"
+	cont "wurden meine"
+	cont "Zellen mit denen"
+	cont "eines #MON"
+	cont "kombiniert!"
+
+	para "Wie sieht es aus?"
+	line "Hilfst Du mir?"
 	done
 
 _BillsHouseText_1e86a::
-	text "When I'm in the"
-	line "TELEPORTER, go to"
-	cont "my PC and run the"
-	cont "Cell Separation"
-	cont "System!"
+	text "Ich gehe in den"
+	line "TELEPORTER, und"
+	cont "Du startest von"
+	cont "meinem PC aus das"
+	cont "ZELLTEILUNGS-"
+	cont "PROGRAMM."
 	done
 
 _BillsHouseText_1e86f::
-	text "No!? Come on, you"
-	line "gotta help a guy"
-	cont "in deep trouble!"
+	text "Nein? Komm schon,"
+	line "ich stecke in"
+	cont "wirklich ernsten"
+	cont "Schwierigkeiten!"
 
-	para "What do you say,"
-	line "chief? Please?"
-	cont "OK? All right!"
+	para "Also, hilfst Du"
+	line "mir? Bitte!"
+	cont "OK? Alles klar!"
 	prompt
 
 _BillThankYouText::
-	text "BILL: Yeehah!"
-	line "Thanks, bud! I"
-	cont "owe you one!"
+	text "BILL: Klasse!"
+	line "Danke, Kumpel!"
+	cont "Du hast bei mir"
+	cont "etwas gut!"
 
-	para "So, did you come"
-	line "to see my #MON"
-	cont "collection?"
-	cont "You didn't?"
-	cont "That's a bummer."
+	para "Bist Du hier, um"
+	line "Dir meine"
+	cont "#MON-SAMMLUNG"
+	cont "anzusehen? Nein?"
+	cont "Das ist schade!"
 
-	para "I've got to thank"
-	line "you... Oh here,"
-	cont "maybe this'll do."
+	para "Wie kann ich Dir"
+	line "nur danken?"
+	cont "Nimm einfach das"
+	cont "hier..."
 	prompt
 
 _SSTicketReceivedText::
-	text "<PLAYER> received"
-	line "an @"
+	text "<PLAYER> erhält"
+	line "ein @"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SSTicketNoRoomText::
-	text "You've got too"
-	line "much stuff, bud!"
+	text "Hey Kumpel, Du"
+	line "trägst zuviel"
+	cont "mit Dir herum!"
 	done
 
 _BillsHouseText_1e8cb::
-	text "That cruise ship,"
-	line "S.S.ANNE, is in"
-	cont "VERMILION CITY."
-	cont "Its passengers"
-	cont "are all trainers!"
+	text "In ORANIA CITY"
+	line "ankert ein großes"
+	cont "Kreuzfahrtschiff,"
+	cont "die M.S. ANNE!"
+	cont "An Bord befinden"
+	cont "sich nur Trainer!"
 
-	para "They invited me"
-	line "to their party,"
-	cont "but I can't stand"
-	cont "fancy do's. Why"
-	cont "don't you go"
-	cont "instead of me?"
+	para "Sie haben mich"
+	line "zu einer Party"
+	cont "eingeladen, aber"
+	cont "ich mag so viel"
+	cont "Trubel nicht."
+	cont "Hättest Du Lust, "
+	cont "hinzugehen?"
 	done
 
 _BillsHouseText_1e8da::
-	text "BILL: Say, pal,"
-	line "you wouldn't"
-	cont "happen to have"
-	cont "one of these,"
-	cont "would you?"
-	done
+	text "BILL: Sag mal,"
+	line "Kumpel, du"
+	cont "hättest doch"
+	cont "nicht zufällig"
+	cont "eines dieser"
+	cont "hier, oder?"
 
 _BillsHouseNidorino::
-	text "NIDORINO stares"
-	line "you down..."
+	text "NIDORINO starrt"
+	line "Dich fixiert an..."
 	done
 
 _BillWarning::
-	text "BILL: Hey, bud!"
-	line "Stay away from"
-	cont "there, would ya?"
+	text "BILL: Hey, Kumpel!"
+	line "Bleib bloß weg"
+	cont "davon, ja?"
 	
-	para "My prized #MON"
-	line "are in there!"
-	done
+	para "Meine wertvollen"
+	line "#MON sind dort"
+	cont "drin!"

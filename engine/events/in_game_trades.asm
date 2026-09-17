@@ -480,109 +480,120 @@ AfterTrade8Text:
 	text_end
 
 BillWannaTradeText:
-	text "BILL: Say, bud,"
-	line "do you happen"
-	cont "to have an"
-	cont "ARCANINE?"
+	text "BILL: Sag mal,"
+	line "hast du zufällig"
+	cont "ein ARKANI?"
 	
-	para "I caught this"
-	line "special one in"
-	cont "my experiments,"
-	cont "but it's not"
-	cont "tame at all."
+	para "Ich habe dieses"
+	line "besondere hier"
+	cont "während meiner"
+	cont "Experimente"
+	cont "gefangen, aber"
+	cont "es ist echt wild!"
 	
-	para "If you trade"
-	line "me yours, you"
-	cont "can have it!"
+	para "Du kannst es gern"
+	line "haben, wenn du"
+	cont "mir deines"
+	cont "tauschst!"
 	done
 	text_end
 
 BillNoTradeText:
-	text "No? Well, it"
-	line "isn't going"
-	cont "anywhere..."
+	text "Nein? Nun, es"
+	line "wird nirgendwo"
+	cont "hingehen, falls"
+	cont "du es dir anders"
+	cont "überlegst..."
 	done
 	text_end
 
 BillWrongMonText:
-	text "That's no"
-	line "ARCANINE, bud!"
-	cont "You trying to"
-	cont "con me?"
+	text "Das ist kein"
+	line "ARKANI, Kumpel!"
+	cont "Versuchst du,"
+	cont "mich hier zu"
+	cont "betrügen?"
 	done
 	text_end
 
 BillThanksText:
-	text "Thanks a bunch!"
+	text "Vielen Dank!"
 	done
 	text_end
 
 BillAfterTradeText:
-	text "I've been working"
-	line "on a machine to"
-	cont "connect with the"
-	cont "past."
+	text "Ich arbeite an"
+	line "einer Maschine,"
+	cont "die es erlaubt,"
+	cont "sich mir der"
+	cont "Vergangenheit zu"
+	cont "verbinden."
 	
-	para "That's how I got"
-	line "that ARCANINE!"
+	para "So bekam ich"
+	line "dieses ARKANI!"
 	
-	para "Take care of it,"
-	line "would ya?"
+	para "Kümmere dich gut"
+	line "um es, klar?"
 	done
 	text_end
 	
 GrampsWannaTradeText:
-	text "Hmm? You've met"
-	line "BILL?"
+	text "Hast Du schon"
+	line "BILL getroffen?"
 
-	para "He's my grandson!"
+	para "Er ist mein"
+	line "Enkel!"
 	
-	para "He gave me this"
-	line "ELECTRODE that"
-	cont "reminds me of my"
-	cont "younger years,"
-	cont "but..."
+	para "Er gab mir dieses"
+	line "LEKTROBAL. Es"
+	cont "erinnert mich an"
+	cont "meine Jugend,"
+	cont "aber..."
 	
-	para "It's just too"
-	line "aggressive! Do"
-	cont "you mind trading"
-	cont "me a more modern"
-	cont "one?"
+	para "Es ist einfach zu"
+	line "aggressiv! Wenn"
+	cont "du ein moderneres"
+	cont "hättest, dürfte"
+	cont "ich es mit dir"
+	cont "tauschen?"
+	
 	done
 	text_end
 
 GrampsNoTradeText:
-	text "No? Oh..."
+	text "Nein? Oh..."
 	done
 	text_end
 
 GrampsWrongMonText:
-	text "My eyes aren't"
-	line "what they used"
-	cont "to be..."
+	text "Meine Augen sind"
+	line "nicht mehr das,"
+	cont "was sie einmal"
+	cont "waren..."
 	
-	para "But that's no"
-	line "ELECTRODE!"
+	para "Aber das kann kein"
+	line "LEKTROBAL sein!"
 	done
 	text_end
 
 GrampsThanksText:
-	text "Thank you so"
-	line "much!"
+	text "Vielen lieben"
+	line "dank!"
 	done
 	text_end
 
 GrampsAfterTradeText:
-	text "I don't know"
-	line "where BILL got"
-	cont "that ELECTRODE."
+	text "Keine Ahnung,"
+	line "wo BILL dieses"
+	cont "LEKTROBAL bekam."
 	
-	para "He said something"
-	line "about a time"
-	cont "machine..."
+	para "Er hat von"
+	line "etwas wie eine"
+	cont "Zeitmaschine"
+	cont "geredet..."
 	
-	para "That has to be"
-	line "impossible..."
+	para "Das kann nicht"
+	line "wahr sein..."
 	done
 	text_end
 

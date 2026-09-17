@@ -366,6 +366,6 @@ INCLUDE "engine/items/tm_prices.asm"
 INCLUDE "engine/overworld/ferry_script.asm"
 
 _PartyMenuBattleTentText::
-	text "Select which"
-	line "#MON to enter?"
+	text "Welche #MON"
+	line "sollen eintreten?"
 	done

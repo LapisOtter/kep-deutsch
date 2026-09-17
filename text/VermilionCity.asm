@@ -1,231 +1,255 @@
 _VermilionCityText1::
-	text "We're careful"
-	line "about pollution!"
+	text "Wir sind sehr"
+	line "umweltbewußt!"
 
-	para "We've heard GRIMER"
-	line "multiplies in"
-	cont "toxic sludge!"
+	para "Wir haben gehört,"
+	line "daß SLEIMA sich"
+	cont "in giftigem Dreck"
+	cont "wohlfühlt und"
+	cont "entwickelt!"
 	done
 
 _VermilionCityTextDidYouSee::
-	text "Did you see S.S."
-	line "ANNE moored in"
-	cont "the harbor?"
+	text "Hast Du gesehen?"
+	line "Die M.S. ANNE"
+	cont "ankert im Hafen!"
 	done
 
 _VermilionCityTextSSAnneDeparted::
-	text "So, S.S.ANNE has"
-	line "departed!"
-
-	para "She'll be back"
-	line "soon."		; changed since the ship actually comes back
+	text "Die M.S.ANNE ist"
+	line "ausgelaufen!"
+	
+	para "Sie wird aber"
+	line "bald wieder hier"
+	cont "anlegen."		; changed since the ship actually comes back
 	done
 
 _SSAnneWelcomeText4::
-	text "Welcome to S.S."
-	line "ANNE!"
+	text "Willkommen auf"
+	line "der M.S. ANNE!"
 	done
 
 _SSAnneWelcomeText9::
-	text "Welcome to S.S."
-	line "ANNE!"
+	text "Willkommen auf"
+	line "der M.S. ANNE!"
 
-	para "Excuse me, do you"
-	line "have a ticket?"
+	para "Verzeihung, hast"
+	line "Du ein Ticket?"
 	prompt
 
 _SSAnneFlashedTicketText::
-	text "<PLAYER> flashed"
-	line "the S.S.TICKET!"
+	text "<PLAYER> zeigt"
+	line "das BOOTSTICKET!"
 
-	para "Great! Welcome to"
-	line "S.S.ANNE!"
+	para "Großartig!"
+	line "Willkommen auf"
+	cont "der M.S. ANNE!"
 	done
 
 _SSAnneNoTicketText::
-	text "<PLAYER> doesn't"
-	line "have the needed"
-	cont "S.S.TICKET."
+	text "<PLAYER> hat "
+	line "kein BOOTSTICKET!"
 
-	para "Sorry!"
+	para "Tut mir leid!"
 
-	para "You need a ticket"
-	line "to get aboard."
+	para "Du brauchst ein"
+	line "Ticket, um an"
+	cont "Bord gehen zu"
+	cont "können."
 	done
 
 _SSAnneNotHereText::
-	text "The ship set sail."
+	text "Das Schiff ist in"
+	line "See gestochen!"
 	done
 
 _VermilionCityText4::
-	text "I'm putting up a"
-	line "building on this"
-	cont "plot of land."
+	text "Ich möchte auf"
+	line "diesem Land"
+	cont "bauen."
 
-	para "My #MON is"
-	line "tamping the land."
+	para "Mein #MON"
+	line "ebnet den Boden!"
 	done
 
 _VermilionCityText5::
-	text "MACHOP: Guoh!"
-	line "Gogogoh!@"
+	text "MACHOLLO: Macho!"
+	line "Machollo!@" ; corrected from Machoke to Machop
 	text_end
 
 _VermilionCityText14::
 	text_start
-	para "A MACHOP is"
-	line "stomping the land"
-	cont "flat."
+	para "Ein MACHOLLO"
+	line "ebnet das Land!"
 	done
 
 _VermilionCityText6::
-	text "S.S.ANNE is a"
-	line "famous luxury"
-	cont "cruise ship."
+	text "Die M.S. ANNE ist"
+	line "ein luxuriöses"
+	cont "Kreuzfahrtschiff."
 	done
 
 _VermilionCityText7::
-	text "VERMILION CITY"
-	line "The Port of"
-	cont "Exquisite Sunsets"
+	text "ORANIA CITY"
+	line "Die Hafenstadt"
+	cont "der einmaligen"
+	cont "Sonnenuntergänge!"
 	done
 
 _VermilionCityText8::
-	text "NOTICE!"
+	text "ACHTUNG!"
 
-	para "ROUTE 12 may be"
-	line "blocked off by a"
-	cont "sleeping #MON."
+	para "ROUTE 12 wird"
+	line "von einem"
+	cont "schlafenden"
+	cont "#MON"
+	cont "blockiert."
 
-	para "Detour through"
-	line "ROCK TUNNEL to"
-	cont "LAVENDER TOWN."
+	para "Umleitung: "
+	line "FELSTUNNEL nach"
+	cont "LAVANDIA."
 
-	para "VERMILION POLICE"
+	para "POLIZEI VON"
+	line "ORANIA CITY"
 	done
 
 _VermilionCityText11::
-	text "#MON FAN CLUB"
-	line "All #MON fans"
-	cont "welcome!"
+	text "#MON-FANCLUB"
+	line "Alle #MON-Fans"
+	cont "sind willkommen!"
 	done
 
 _VermilionCityText12::
-	text "VERMILION CITY"
-	line "#MON GYM"
-	cont "LEADER: LT.SURGE"
+	text "ORANIA CITY"
+	line "PKMN-ARENA"
+	cont "ARENALEITER:"
+	cont "MAJOR BOB"
 
-	para "The Lightning "
-	line "American!"
+	para "Der blitzschnelle"
+	line "Arenaleiter!"
 	done
 
 _VermilionCityText13::
-	text "VERMILION HARBOR"
+	text "HAFEN VON"
+	line "ORANIA CITY"
 	done
 
 _BeautyText1::
-	text "Hey! Do you like"
-	line "cats or dogs?"
+	text "Hey! Magst Du"
+	line "Katzen oder Hunde?"
 	prompt
 
 _BeautyText2::
-	text "Ah! I knew it!"
+	text "Moment! Du mußt"
+	line "garnichts sagen!"
 	
-	para "Sorry, it was a"
-	line "silly question..."
+	para "Man sieht dir die"
+	line "Antwort schon an."
 	prompt ; needed for text to scroll correctly - it looks and acts fine in-game, don't worry.
 
 _BeautyChoice:: ; this is separate for the in-progress event.
-	text "If you catch 5 new"
-	line "@"
+	text "Wenn Du mir"
+	line "zeigst, dass Du"
+	cont "fünf neue @"
 	text_ram wcd6d ; efficiency - means we don't need two separate texts...
-	text ", I'll"
-	cont "give you a great"
-	cont "#MON!"
+	text_start
+	cont "gefangen hast,"
+	cont "werde ich dir ein"
+	cont "unvergleichbares"
+	cont "#MON schenken!"
 	
-	para "See you then!"
+	para "Bis dann!"
 	done
 
 _BeautyFinish1:: ; I hate this, but it has to be this way. wBeautyChoice refuses to work.
-	text "Oh! You've caught"
-	line "5 GROWLITHE!"
+	text "Oho, Du hast also"
+	line "fünf FUKANO"
+	cont "gefangen!"
 	done
 
 _BeautyFinish2::
-	text "Oh! You've caught"
-	line "5 MEOWTH!"
+	text "Ach, sag bloß, Du"
+	line "hast schon fünf"
+	cont "MAUZI gefangen!"
 	done
 
 _BeautyExplain1::
-	text "When MEOWTH"
-	line "evolves, it will"
-	cont "look like this."
+	text "Wenn sich MAUZI"
+	line "entwickelt, wird"
+	cont "daraus SNOBILIKAT!"
 	prompt
 
 _BeautyExplain2::
-	text "When GROWLITHE"
-	line "evolves, it will"
-	cont "look like this."
+	text "Wenn sich FUKANO"
+	line "entwickelt, wird"
+	cont "daraus ARKANI!"
 	prompt
 
 _BeautyExplainCont::
-	text "Hm? Why did I"
-	line "make you catch"
-	cont "the opposite"
-	cont "#MON?"
+	text "Du willst wissen,"
+	line "warum ich Dich"
+	cont "das andere"
+	cont "#MON habe"
+	cont "fangen lassen?"
 	
-	para "Well, I wanted"
-	line "to see if your"
-	cont "preferences"
-	cont "stayed the same."
+	para "Ich wollte einfach"
+	line "herausfinden, ob"
+	cont "Deine Vorliebe"
+	cont "trotzdem gleich"
+	cont "bleibt."
 	
-	para "It seems I was"
-	line "wrong!"
+	para "Sieht so aus, als"
+	line "ob ich falsch lag!"
 	done
 
 _OfficerJennyText1::
-	text "I just caught a"
-	line "SQUIRTLE that was"
-	cont "always getting"
-	cont "into mischief."
+	text "Ich habe ein"
+	line "SCHIGGY gefangen."
+	cont "Aber dieses"
+	cont "#MON macht nur"
+	cont "Dummeheiten!"
 
-	para "I think it needs a"
-	line "good trainer to"
-	cont "set it straight."
+	para "Ich denke, ein"
+	line "guter Trainer"
+	cont "sollte SCHIGGY."
+	cont "richtig erziehen"
+	cont "können."
 	done
 
 _OfficerJennyText2::
-	text "You have the"
-	line "THUNDERBADGE!?"
+	text "Du trägst den"
+	line "DONNERORDEN!?"
 
-	para "You must be a"
-	line "good trainer!"
+	para "Dann bist Du ein"
+	line "guter Trainer!"
 
-	para "I just caught a"
-	line "SQUIRTLE that was"
-	cont "always getting"
-	cont "into mischief."
+	para "Ich habe ein"
+	line "SCHIGGY gefangen."
+	cont "Aber dieses"
+	cont "#MON macht nur"
+	cont "Dummheiten!"
 
-	para "Would you take"
-	line "good care of it?"
+	para "Würdest Du Dich"
+	line "um mein SCHIGGY"
+	cont "kümmern?"
 	done
 
 _OfficerJennyText3::
-	text "OK! Please treat"
-	line "SQUIRTLE right!@"
+	text "OK, aber behandle"
+	line "mein SCHIGGY gut!@"
 	text_end
 
 _JennyFullParty::
-	text "Your PARTY is"
-	line "full, though!"
+	text "Dein TEAM ist"
+	line "aber voll!"
 	done
 
 _OfficerJennyText4::
-	text "Oh... What am I"
-	line "to do now?"
+	text "Oh... Was soll"
+	line "ich nur machen?"
 	done
 
 _OfficerJennyText5::
-	text "How is SQUIRTLE"
-	line "doing?"
+	text "Wie geht es"
+	line "SCHIGGY?"
 	done

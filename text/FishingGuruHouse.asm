@@ -1,69 +1,75 @@
 _FishingGuruHouseText_564c0::
-	text "I'm the FISHING"
-	line "GURU!"
-
-	para "I simply looove"
-	line "fishing!"
-
-	para "Do you like to"
-	line "fish?"
+	text "Ich bin der"
+	line "PROFIANGLER!"
+	
+	para "Ich liebe den"
+	line "Angelsport!"
+	
+	para "Angelst Du auch"
+	line "gerne?"
 	done
 
 _FishingGuruHouseText_564c5::
-	text "Grand! I like"
-	line "your style!"
+	text "Klasse! Du bist"
+	line "mir sympathisch!"
 
-	para "Take this and"
-	line "fish, young one!"
+	para "Nimm das hier"
+	line "und gehe angeln!"
 
-	para "<PLAYER> received"
-	line "a @"
+	para "<PLAYER> erhält"
+	line "eine @"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
+	
 
 _FishingGuruHouseText_564ca::
 	text_start
 
-	para "Fishing is a way"
-	line "of life!"
+	para "Angeln ist meine"
+	line "Leidenschaft!"
 
-	para "From the seas to"
-	line "rivers, go out"
-	cont "and land the big"
-	cont "one!"
+	para "Suche in Seen"
+	line "und Flüssen und"
+	cont "lande den großen"
+	cont "Fang!"
 	done
 
 _FishingGuruHouseText_564cf::
-	text "Oh... That's so"
-	line "disappointing..."
+	text "Oh... Das ist"
+	line "wirklich schade!"
 	done
 
 _FishingGuruHouseText_564d4::
-	text "Hello there,"
-	line "<PLAYER>!"
-
-	para "Use that FISHING"
-	line "ROD in any water!"
-	cont "You can catch"
-	cont "different kinds"
-	cont "of #MON."
-
-	para "Try fishing"
-	line "wherever you can!"
+	text "Hallo, <PLAYER>!"
+	
+	para "Benutze die"
+	line "ANGEL in allen"
+	cont "Gewässern. Du"
+	cont "kannst die"
+	cont "verschiedensten"
+	cont "#MON damit"
+	cont "fangen!"
+	
+	para "Gehe angeln, wann"
+	line "immer die Zeit es"
+	cont "erlaubt!"
 	done
 
 _FishingGuruHouseText_564d9::
-	text "Oh no!"
+	text "Oh nein!"
 
-	para "I had a gift for"
-	line "you, but you have"
-	cont "no room for it!"
+	para "Ich habe ein"
+	line "Geschenk für"
+	cont "Dich! Aber Du"
+	cont "kannst nichts"
+	cont "mehr tragen!"
 	done
 
 _JumpText::
-	text "I wish there was"
-	line "a ROD that could"
-	cont "only catch me"
-	cont "MAGIKARP..."
+	text "Ich wünschte, es"
+	line "gäbe eine ANGEL,"
+	cont "mit der ich nur"
+	cont "KARPADOR fangen"
+	cont "könnte..."
 	done

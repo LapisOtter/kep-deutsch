@@ -1,49 +1,55 @@
 _BlainePreBattleText::
-	text "Hah!"
+	text "Haha!"
 
-	para "I am BLAINE! I"
-	line "am the LEADER of"
-	cont "CINNABAR GYM!"
+	para "Ich bin PYRO, der"
+	line "ARENALEITER der"
+	cont "ZINNOBERINSEL!"
 
-	para "My fiery #MON"
-	line "will incinerate"
-	cont "all challengers!"
+	para "Meine FEUER-"
+	line "#MON lassen"
+	cont "die Siegesträume"
+	cont "meiner Gegner in"
+	cont "Flammen aufgehen!"
 
-	para "Hah! You better"
-	line "have BURN HEAL!"
+	para "Du solltest schon"
+	line "mal FEUERHEILER"
+	cont "parat halten!"
 	done
 
 _ReceivedVolcanoBadgeText::
-	text "I have"
-	line "burnt out!"
+	text "Mein Feuer"
+	line "ist erloschen!"
 
-	para "You have earned"
-	line "the VOLCANOBADGE!@"
+	para "Du hast Dir den"
+	line "VULKANORDEN"
+	cont "redlich verdient@"
 	text_end
 
 _BlainePostBattleAdviceText::
-	text "FIRE BLAST is the"
-	line "ultimate fiery"
-	cont "technique!"
+	text "FEUERSTURM ist"
+	line "die mächtigste"
+	cont "Feuerattacke!"
 
-	para "Don't waste it on"
-	line "WATER-types!"
+	para "Allerdings ist"
+	line "sie gegen WASSER-"
+	cont "#MON machtlos!"
 	done
 
 _BlaineVolcanoBadgeInfoText::
-	text "Hah!"
+	text "Haha!"
 
-	para "The VOLCANOBADGE"
-	line "heightens the"
-	cont "SPECIAL abilities"
-	cont "of your #MON!"
+	para "Der VULKANORDEN"
+	line "steigert die"
+	cont "SPEZIAL-"
+	cont "FÄHIGKEITEN"
+	cont "Deiner #MON!"
 
-	para "Here, you can"
-	line "have this too!"
+	para "Nimm zusätzlich"
+	line "dieses Geschenk!"
 	done
 
 _ReceivedTM38Text::
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
@@ -52,202 +58,227 @@ _ReceivedTM38Text::
 _TM38ExplanationText::
 	text_start
 
-	para "TM38 contains"
-	line "FIRE BLAST!"
+	para "TM38 ist"
+	line "FEUERSTURM!"
 
-	para "Teach it to FIRE-"
-	line "type #MON!"
+	para "FEUER-#MON"
+	line "können diese"
+	cont "Attacke erlernen!"
 
-	para "CHARMELEON or"
-	line "PONYTA would be"
-	cont "good bets!"
+	para "GLUTEXO und"
+	line "PONITA sind dafür"
+	cont "prädestiniert!"
 	done
 
 _TM38NoRoomText::
-	text "Make room for my"
-	line "gift!"
+	text "Schaffe Platz für"
+	line "mein Geschenk!"
 	done
 
 _CinnabarGymBattleText2::
-	text "Do you know how"
-	line "hot #MON fire"
-	cont "breath can get?"
+	text "Was glaubst Du,"
+	line "wie heiß der"
+	cont "Feueratem eines"
+	cont "#MON"
+	cont "werden kann?"
 	done
 
 _CinnabarGymEndBattleText2::
-	text "Yow!"
-	line "Hot, hot, hot!"
+	text "Autsch!"
+	line "Heiß, sehr heiß!"
 	prompt
 
 _CinnabarGymAfterBattleText2::
-	text "Fire, or to be"
-	line "more precise,"
-	cont "combustion..."
+	text "Feuer, oder"
+	line "präziser, die"
+	cont "Verbrennung..."
 
-	para "Blah, blah, blah,"
-	line "blah..."
+	para "Bla, bla, bla,"
+	line "bla..."
 	done
 
 _CinnabarGymBattleText1::
-	text "I was a thief, but"
-	line "I became straight"
-	cont "as a trainer!"
+	text "Ich war ein Dieb!"
+	line "Doch nun bin ich"
+	cont "ein ehrenhafter"
+	cont "Trainer!"
 	done
 
 _CinnabarGymEndBattleText1::
-	text "I"
-	line "surrender!"
+	text "Ich"
+	line "ergebe mich!"
 	prompt
 
 _CinnabarGymAfterBattleText1::
-	text "I can't help"
-	line "stealing other"
-	cont "people's #MON!"
+	text "Ich kann nicht"
+	line "aufhören, anderen"
+	cont "Leuten #MON"
+	cont "zu stehlen!"
 	done
 
 _CinnabarGymBattleText3::
-	text "You can't win!"
-	line "I have studied"
-	cont "#MON totally!"
+	text "Du hast keine"
+	line "Chance! Ich bin"
+	cont "#MON-Profi!"
 	done
 
 _CinnabarGymEndBattleText3::
-	text "Waah!"
-	line "My studies!"
+	text "Nein!"
+	line "Das war"
+	cont "unprofessionell!"
 	prompt
 
 _CinnabarGymAfterBattleText3::
-	text "My theories are"
-	line "too complicated"
-	cont "for you!"
+	text "Du kannst meine"
+	line "Arbeitsweise"
+	cont "nicht verstehen!"
 	done
 
 _CinnabarGymBattleText4::
-	text "I just like using"
-	line "the FIRE-type!"
+	text "Ich setze mit"
+	line "Vorliebe FEUER-"
+	cont "#MON ein!"
 	done
 
 _CinnabarGymEndBattleText4::
-	text "Too hot"
-	line "to handle!"
+	text "Du bist"
+	line "brandgefährlich!"
 	prompt
 
 _CinnabarGymAfterBattleText4::
-	text "I wonder...does a"
-	line "FIRE-type thief"
-	cont "#MON exist?"
+	text "Ach, wenn es doch"
+	line "bloß ein Diebes-"
+	cont "#MON vom Typ"
+	cont "FEUER geben würde!"
 	done
 
 _CinnabarGymBattleText5::
-	text "I know why BLAINE"
-	line "became a trainer!"
+	text "Ich weiß, warum"
+	line "PYRO ein Trainer"
+	cont "geworden ist!"
 	done
 
 _CinnabarGymEndBattleText5::
-	text "Ow!"
+	text "Autsch!"
 	prompt
 
 _CinnabarGymAfterBattleText5::
-	text "BLAINE was lost"
-	line "in the mountains"
-	cont "when a fiery bird"
-	cont "#MON appeared."
+	text "PYRO hatte sich"
+	line "als Kind in den"
+	cont "Bergen verlaufen,"
+	cont "als über ihm ein"
+	cont "FEUERVOGEL"
+	cont "erschien!"
 
-	para "Its light enabled"
-	line "BLAINE to find"
-	cont "his way down!"
+	para "Der Schein dieses"
+	line "#MON wies PYRO"
+	cont "den Rückweg!"
 	done
 
 _CinnabarGymBattleText6::
-	text "I've been to many"
-	line "GYMs, but this is"
-	cont "my favorite!"
+	text "Ich war in vielen"
+	line "PKMN-ARENEN, doch"
+	cont "diese mag ich am"
+	cont "liebsten!"
 	done
 
 _CinnabarGymEndBattleText6::
-	text "Yowza!"
-	line "Too hot!"
+	text "Autsch!"
+	line "Du bist zu stark!"
 	prompt
 
 _CinnabarGymAfterBattleText6::
-	text "Us FIRE-type fans"
-	line "like PONYTA and"
-	cont "NINETALES a lot!"
+	text "FEUER-#MON wie"
+	line "PONITA und"
+	cont "VULNONA sind bei"
+	cont "Pyromanen sehr"
+	cont "beliebt!"
 	done
 
 _CinnabarGymBattleText7::
-	text "Fire is weak"
-	line "against H2O!"
+	text "Gegen Wasser"
+	line "kann Feuer nichts"
+	cont "ausrichten!"
 	done
 
 _CinnabarGymEndBattleText7::
-	text "Oh!"
-	line "Snuffed out!"
+	text "Oh! Ich"
+	line "habe verloren!"
 	prompt
 
 _CinnabarGymAfterBattleText7::
-	text "Water beats fire,"
-	line "but fire easily"
-	cont "melts ice!"
+	text "Wasser löscht"
+	line "Feuer, doch Feuer"
+	cont "schmilzt EIS-"
+	cont "#MON!"
 
-	para "WATER- and ICE-"
-	line "type #MON like"
-	cont "DEWGONG can be"
-	cont "tricky..."
+	para "#MON vom Typ"
+	line "WASSER und EIS"
+	cont "wie JUGONG können"
+	cont "knifflig werden..."
 	done
 
 _CinnabarGymGuidePreBattleText::
-	text "Yo! Champ in"
-	line "the making!"
+	text "Hey! Warte, Du"
+	line "Champion in spe!"
 
-	para "The hot-headed"
-	line "BLAINE is a FIRE-"
-	cont "type #MON pro!"
+	para "Der hitzköpfige"
+	line "PYRO ist ein"
+	cont "FEUER-#MON-"
+	cont "Spezialist!"
 
-	para "Douse his spirits"
-	line "with WATER-type"
-	cont "techniques!"
+	para "Du solltest sein"
+	line "Mütchen mit"
+	cont "Wasser-Attacken"
+	cont "abkühlen!"
 
-	para "You better take"
-	line "some BURN HEALs!"
+	para "Und besorge Dir"
+	line "FEUERHEILER!"
 	done
 
 _CinnabarGymGuidePostBattleText::
-	text "<PLAYER>! You beat"
-	line "that firebrand!"
+	text "<PLAYER>! Du hast"
+	line "den Brandstifter"
+	cont "gebrandmarkt!"
 	done
 
 _BlaineRematchPreBattleText::
-	text "Hah! Well done"
-	line "returning here!"
+	text "Hah! Dich hier"
+	line "noch mal blicken"
+	cont "zu lassen war"
+	cont "ein brandheißer"
+	cont "Einfall!"
 	
-	para "You're the one"
-	line "who retrieved the"
-	cont "key from #MON"
-	cont "MANSION!"
+	para "Du hast doch den"
+	line "Schlüssel im"
+	cont "#MON-HAUS"
+	cont "aufgetrieben,"
+	cont "richtig?"
 	
-	para "Did you see"
-	line "anything while"
-	cont "you were in"
-	cont "there?"
+	para "Hast Du Dich dort"
+	line "vorher umgesehen?"
 	
-	para "That place holds"
-	line "remnants of my"
-	cont "old friend's re-"
-	cont "search!"
+	para "Im ganzen Gebäude"
+	line "sind Überbleibsel"
+	cont "der Forschungen"
+	cont "meines alten"
+	cont "Freundes!"
 	
-	para "Hmm..."
+	para "Na ja, wer weiß"
+	line "schon, was da"
+	cont "wirklich vor sich"
+	cont "geht."
 	
-	para "Well, it's not"
-	line "as though I know"
-	cont "the full story."
-	
-	para "Since you're here"
-	line "though, let's"
-	cont "battle!"
+	para "Du sollst nicht"
+	line "umsonst"
+	cont "hierhergekommen"
+	cont "sein. Leisten"
+	cont "wir uns einen"
+	cont "feurigen Kampf!"
 	done
 
 _BlaineRematchDefeatedText::
-	text "Hah!"
-	line "I'm all fired up!"
+	text "Haha! Ich"
+	line "bin nur noch ein"
+	cont "Häuflein Asche!"
 	prompt

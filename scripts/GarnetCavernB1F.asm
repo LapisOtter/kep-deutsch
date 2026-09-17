@@ -94,6 +94,6 @@ ArticunoGCopy2:
 	jp TextScriptEnd
 
 ArticunoGCopyText:
-	text "It was a copy!"
+	text "Es war eine Kopie!"
 	done
 	text_end

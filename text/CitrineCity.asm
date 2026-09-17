@@ -1,93 +1,103 @@
 _CitrineCityBillboard1::
 	text "CAPSULE MONSTERS"
-	line "Coming soon to"
-	cont "a GAME BOY near"
-	cont "you!"
+	line "Demnächst auf"
+	cont "einem GAME BOY"
+	cont "in ihrer Nähe!"
 	done
 
 _CitrineCityBillboard2::
-	text "FULL RESTORE"
-	line "The solution to"
-	cont "all ailments!"
+	text "TOP-GENESUNG"
+	line "Die Lösung für"
+	cont "alle Beschwerden!"
 	done
 
 _CitrineCitySignText::
-	text "CITRINE CITY"
-	line "The Land of"
-	cont "Shining Sunlight"
+	text "ZITRONIA CITY"
+	line "Die Stadt des"
+	cont "strahlenden"
+	cont "Sonnenlichts!" 
 	done
 
 _CitrineShopSignText::
-	text "CITRINE SHOP"
-	line "Your one-stop"
-	cont "for souveniers!" ; Souvenier is an obsolete spelling, but at the time, this would have been commonplace. These days, it's souvenir.
+	text "ZITRONIA-SHOP"
+	line "Andenken, alles"
+	cont "aus einer Hand!" ; im not sure if i was able to translate "one-stop shop" correctly
 	done
 
 _CitrineCityTower::
-	text "BATTLE TENT"
-	line "Test your mettle!"
+	text "KAMPFZELT"
+	line "Stelle Deinen Mut"
+	cont "auf die Probe!"
 	done
 
 _CitrineCityCavern::
-	text "CELESTE HILL"
+	text "CELESTBERG"
 
-	para "Stay safe! Look"
-	line "out for strong"
-	cont "#MON!"
+	para "Sei vorsichtig!"
+	line "Pass auf starke"
+	cont "#MON auf!"
 	done
 
 _CitrineCityDirections::
-	text "NORTH WEST:"
-	line "BATTLE TENT"
+	text "NORDWESTEN:"
+	line "KAMPFZELT"
 	
-	para "NORTH EAST:"
-	line "CELESTE HILL"
-
-	para "SOUTH WEST:"
-	line "BRUNSWICK TRAIL"
+	para "NORDOSTEN:"
+	line "CELESTBERG"
+	
+	para "SÜDWESTEN:"
+	line "PETROLPFAD"
 	done
 
 _CitrineCityText1::
-	text "The sun here is"
-	line "so bright!"
+	text "Die Sonne strahlt"
+	line "hier so hell!"
 	
-	para "I'm going to get"
-	line "an amazing tan!"
+	para "Ein wunderbarer"
+	line "Ort, um sich zu"
+	cont "bräunen!"
 	done
 
 _CitrineCityText2::
-	text "I've heard of"
-	line "a cave around"
-	cont "these parts."
+	text "Ich habe von einer"
+	line "Höhle gehört, die"
+	cont "hier in der"
+	cont "Gegend sei."
 	
-	para "I wonder where"
-	line "it is..."
+	para "Ich frage mich, wo"
+	line "sie ist..."
 	done
 
 _CitrineCityText3::
-	text "Oh! Are you new"
-	line "around here?"
+	text "Oh! Bist Du neu"
+	line "hier?"
 	
-	para "I can't recommend"
-	line "BRUNSWICK TRAIL"
-	cont "enough to you!"
-	cont "It's beautiful!"
+	para "Ich kann den"
+	line "PETROLPFAD nicht"
+	cont "genug empfehlen!"
+	cont "Er ist einfach"
+	cont "wunderschön!"
 	done
 
 _CitrineCityText4::
-	text "Some bird #MON"
-	line "roost on the"
-	cont "hill north of"
-	cont "here every year."
+
+	text "Jedes Jahr lassen"
+	line "sich einige"
+	cont "Vogel-#MON"
+	cont "auf den Berg"
+	cont "nördlich von hier"
+	cont "nieder."
 	
-	para "The locals call"
-	line "them ARTICUNO,"
-	cont "ZAPDOS, and"
-	cont "MOLTRES."
+	para "Die Einheimischen"
+	line "nennen sie"
+	cont "ARKTOS, ZAPDOS,"
+	cont "und LAVADOS."
 	
-	para "But they look"
-	line "nothing like"
-	cont "them! It's like"
-	cont "they're totally"
-	cont "new #MON!"
+	para "Aber sie sehen"
+	line "nicht annähernd"
+	cont "so wie diese"
+	cont "#MON aus! Es"
+	cont "ist so, als ob"
+	cont "sie komplett neue"
+	cont "#MON wären!"
 	done

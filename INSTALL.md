@@ -1,3 +1,11 @@
+Okay, hört Mal. Ich bin im Übersetzen von technischem Zeug garnicht gut. Also werde ich das einfach so lassen, wie es ist.
+
+Wenn ihr schon den Quellencode auf euren Computer geholt habt und ihn selber Kompilieren wollt, dann wisst ihr bestimmt schon, wie Englisch wenigstens funktioniert.
+
+Wenn ihr das trotzdem ließt und verwirrt seid, dann bitte ich euch, stattdessen die .ips-Datei von kep-deutsch herunterladen und eine **englische** Kopie von Pokémon Rote Edition damit zu patchen, Okay? Gut.
+
+~ Lapis
+
 # NOTICE
 
 This file comes with base pokered. To install KEP, use https://github.com/PlagueVonKarma/kep-hack whenever the link to the pokered repository comes up.

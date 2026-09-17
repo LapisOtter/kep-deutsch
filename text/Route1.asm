@@ -1,180 +1,202 @@
 _Route1ViridianMartSampleText::
-	text "Hi! I work at a"
-	line "#MON MART."
+	text "Hi! Ich arbeite"
+	line "in einem"
+	cont "PKMN-SUPERMARKT."
 
-	para "It's a convenient"
-	line "shop, so please"
-	cont "visit us in"
-	cont "VIRIDIAN CITY."
+	para "Wir verkaufen"
+	line "viele praktische"
+	cont "Dinge! Du findest"
+	cont "unseren Laden in"
+	cont "VERTANIA CITY."
 
-	para "I know, I'll give"
-	line "you a sample!"
-	cont "Here you go!"
+	para "Am besten gebe"
+	line "ich Dir ein"
+	cont "Werbegeschenk!"
+	cont "Hier, bitte!"
 	prompt
 
 _Route1Text_1cae8::
-	text "<PLAYER> got"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _Route1Text_1caee::
-	text "We also carry"
-	line "# BALLs for"
-	cont "catching #MON!"
+	text "Willst Du #MON"
+	line "fangen? Wir haben"
+	cont "auch #BÄLLE"
+	cont "im Sortiment!"
 	done
 
 _Route1Text_1caf3::
-	text "You have too much"
-	line "stuff with you!"
+	text "Du kannst keine"
+	line "weiteren Items"
+	cont "mehr tragen!"
 	done
 
 _Route1Text2::
-	text "See those ledges"
-	line "along the road?"
+	text "Siehst Du die"
+	line "Stufen hier?"
 
-	para "It's a bit scary,"
-	line "but you can jump"
-	cont "from them."
+	para "Du kannst nicht"
+	line "hinaufklettern,"
+	cont "dafür aber"
+	cont "herunterspringen!"
 
-	para "You can get back"
-	line "to PALLET TOWN"
-	cont "quicker that way."
+	para "So kommst Du viel"
+	line "schneller nach"
+	cont "ALABASTIA zurück."
 	done
 
 _Route1Text3::
 	text "ROUTE 1"
-	line "PALLET TOWN -"
-	cont "VIRIDIAN CITY"
+	line "ALABASTIA -"
+	cont "VERTANIA CITY"
 	done
 
 _OakFirstBattleText::
-	text "OAK: Ah, yes!"
+	text "PROF. EICH: Oh,"
+	line "Ja, <PLAYER>!"
+	
+	para "Schön, Dich zu"
+	line "sehen!"
+	
+	para "Jedenfalls!"
 	line "<PLAYER>!"
 	
-	para "Good to see you!"
+	para "Deine PKMN-LIGA-"
+	line "Herausforderung"
+	cont "hat eine seit"
+	cont "langem erloschene"
+	cont "Flamme in mir"
+	cont "wieder zum Leben"
+	cont "erweckt."
 	
-	para "The last time we"
-	line "met here, you"
-	cont "didn't even have"
-	cont "your first"
-	cont "#MON..."
-	
-	para "Anyway! <PLAYER>!"
-	
-	para "Your #MON"
-	line "LEAGUE challenge"
-	cont "has reignited"
-	cont "a spirit that"
-	cont "left me a long"
-	cont "time ago..."
-	
-	para "How about we"
-	line "spar a bit?"
-	cont "What say you?"
+	para "Was ich sagen"
+	line "will... wie wäre"
+	cont "es, wenn wir"
+	cont "beide Kämpfen"
+	cont "würden?"
 	done
 
 _OakBeforeBattleText::
-	text "OAK: Oh, my!"
+	text "PROF. EICH: Ach,"
+	line "herrje!"
 	
-	para "It seems you"
-	line "caught me during"
-	cont "during my lunch"
-	cont "hour!"
+	para "Sieht so aus, als"
+	line "hättest Du mich"
+	cont "während meiner"
+	cont "Mittagspause"
+	cont "erhascht!"
 	
-	para "Did you come for"
-	line "a rematch?"
+	para "Bist Du hier, um"
+	line "wieder mit mir zu"
+	cont "Kämpfen?"
 	done
 
 _OakDefeatedText::
 	text "Hmm..."
 	
-	para "I still have a"
-	line "lot to learn!"
+	para "Ich habe noch eine"
+	line "Menge zu lernen!"
 	prompt
 
 _OakWonText::
-	text "I still"
-	line "have it!"
+	text "Ich"
+	line "habe es noch"
+	cont "drauf!"
 	prompt
 	
 _OakYes::
-	text "Back in my day,"
-	line "I was a serious"
-	cont "trainer! Prepare"
-	cont "yourself!"
+	text "Zu meiner Zeit"
+	line "war ich ein"
+	cont "engagierter"
+	cont "Trainer! Mach"
+	cont "Dich bereit!"
 	prompt
 
 _OakNo::
-	text "Another time,"
-	line "then?"
+	text "Dann ein anderes"
+	line "Mal!"
 	done
 	
 _OakFirstWin::
-	text "OAK: I thought you"
-	line "would fight more"
-	cont "like AGATHA, but I"
-	cont "see myself in"
-	cont "you..."
+	text "PROF. EICH: Ich"
+	line "habe gedacht, Du"
+	cont "würdest mehr wie"
+	cont "AGATHE kämpfen,"
+	cont "aber ich sehe"
+	cont "mich selbst in"
+	cont "Dich..."
 	
-	para "It reminds me of"
-	line "the old days..."
+	para "Es erinnert mich"
+	line "an die schönen"
+	cont "alten Zeiten..."
 	
-	para "But, now is not"
-	line "the time for"
-	cont "that."
+	para "Aber, jetzt ist"
+	line "nicht die Zeit"
+	cont "dafür."
 	
-	para "<PLAYER>!"
-	line "I have a gift for"
-	cont "you."
+	para "<PLAYER>! Ich habe"
+	line "ein Geschenk für"
+	cont "Dich."
 	prompt
 
 _ReceivedCitrinePassText::
-	text "<PLAYER> received"
-	line "the @"
+	text "<PLAYER> erhält"
+	line "den @"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _OakCitrineExplain::
-	text "This is a ticket"
-	line "to CITRINE CITY."
+	text "Dies ist ein"
+	line "Ticket für"
+	cont "ZITRONIA CITY."
 	
-	para "It's a place where"
-	line "the best trainers"
-	cont "go to become far"
-	cont "stronger."
+	para "Ein Ort, wo die"
+	line "besten Trainer"
+	cont "besuchen, um"
+	cont "noch stärker zu"
+	cont "werden."
 	
-	para "Some strange bird"
-	line "#MON are said"
-	cont "to roost there,"
-	cont "but they are so"
-	cont "fast and vicious,"
-	cont "few can even get"
-	cont "close to them..."
+	para "Er dient auch als"
+	line "Ruhestelle für"
+	cont "einige seltsame"
+	cont "Vogel-#MON,"
+	cont "doch sie sind so"
+	cont "schnell und"
+	cont "boshaft, dass nur"
+	cont "wenige es in ihre"
+	cont "Nähe geschafft"
+	cont "haben..."
 	
-	para "Perhaps you can"
-	line "make history once"
-	cont "again!"
+	para "Aber vielleicht"
+	line "könntest Du dort"
+	cont "erneut Geschichte"
+	cont "schreiben!"
 	done
 
 _OakTryAgain::
-	text "OAK: Ok! Have you"
-	line "made room in your"
-	cont "BAG?"
+	text "PROF. EICH: OK!"
+	line "Hast du Platz in"
+	cont "Deinem BEUTEL"
+	cont "geschafft?"
 	prompt
 
 _OakBagFull::
-	text "Ah! Your BAG is"
-	line "full. Go back to"
-	cont "your house and"
-	cont "make room!"
+	text "Ah! Dein BEUTEL"
+	line "ist voll. Gehe"
+	cont "bitte nach Hause"
+	cont "und schaffe Platz!"
 	done
 
 _OakBagStillFull::
-	text "Ohoho, not so"
-	line "fast! It's still"
-	cont "full. Your PC can"
-	cont "store items, yes?"
+	text "Hohoho, nicht so"
+	line "schnell! Er ist"
+	cont "immernoch voll."
+	cont "Du kannst doch"
+	cont "Items in Deinem"
+	cont "PC lagern, oder?"
 	done

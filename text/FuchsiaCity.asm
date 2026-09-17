@@ -1,30 +1,34 @@
 _FuchsiaCityText1::
-	text "Did you try the"
-	line "SAFARI GAME? Some"
-	cont "#MON can only"
-	cont "be caught there."
+	text "Hast Du schon das"
+	line "SAFARI-SPIEL"
+	cont "gespielt? Manche"
+	cont "#MON kann man"
+	cont "nur dabei fangen!"
 	done
 
 _FuchsiaCityText2::
-	text "SAFARI ZONE has a"
-	line "zoo in front of"
-	cont "the entrance."
+	text "Vor dem Eingang"
+	line "zur SAFARI-ZONE"
+	cont "befindet sich ein"
+	cont "Zoo."
 
-	para "Out back is the"
-	line "SAFARI GAME for"
-	cont "catching #MON."
+	para "Das SAFARI-SPIEL"
+	line "ist ideal, um"
+	cont "#MON zu"
+	cont "fangen."
 	done
 
 _FuchsiaCityText3::
-	text "KOJI: Where's" ; JP sequence restoration
-	line "ATSUKO? I said I'd"
-	cont "meet her here."
+	text "KOJI: Wo ist" ; JP sequence restoration
+	line "ATSUKO? Ich"
+	cont "wollte mich hier"
+	cont "mit ihr treffen!"
 	done
 
 _FuchsiaCityText4::
-	text "That item ball in"
-	line "there is really a"
-	cont "#MON."
+	text "Dieser Ball dort"
+	line "ist tatsächlich"
+	cont "ein #MON?!"
 	done
 
 _FuchsiaCityText5::
@@ -32,86 +36,91 @@ _FuchsiaCityText5::
 	done
 
 _FuchsiaCityText11::
-	text "FUCHSIA CITY"
-	line "Behold! It's"
-	cont "Passion Pink!"
+	text "FUCHSANIA CITY"
+	line "Die Stadt der"
+	cont "rosaroten Träume!" ; added an exclamation mark to keep it consistent with the other signs. i really care ~Lapis
 	done
 
 _FuchsiaCityText13::
-	text "SAFARI GAME"
-	line "#MON-U-CATCH!"
+	text "SAFARI-SPIEL"
+	line "#MON-FANGEN!"
 	done
 
 _FuchsiaCityText16::
-	text "SAFARI ZONE"
-	line "WARDEN's HOME"
+	text "SAFARI-ZONE"
+	line "HAUS DES WÄRTERS"
 	done
 
 _FuchsiaCityText17::
-	text "#MON PARADISE"
-	line "SAFARI ZONE"
+	text "#MON-PARADIES"
+	line "SAFARI-ZONE"
 	done
 
 _FuchsiaCityText18::
-	text "FUCHSIA CITY"
-	line "#MON GYM"
-	cont "LEADER: KOGA"
+	text "FUCHSANIA CITY"
+	line "PKMN-ARENA"
+	cont "ARENALEITER: KOGA"
 
-	para "The Poisonous"
-	line "Ninja Master"
+	para "Der giftige"
+	line "Ninja-Meister!"
 	done
 
 _FuchsiaCityChanseyText::
-	text "Name: CHANSEY"
+	text "Name: CHANEIRA"
 
-	para "Catching one is"
-	line "all up to chance."
+	para "Dieses #MON zu"
+	line "fangen ist reine"
+	cont "Glückssache!"
 	prompt
 
 _FuchsiaCityVoltorbText::
-	text "Name: VOLTORB"
+	text "Name: VOLTOBAL"
 
-	para "The very image of"
-	line "a # BALL."
+	para "Dieses #MON"
+	line "ähnelt einem"
+	cont "#BALL."
 	prompt
 
 _FuchsiaCityKangaskhanText::
-	text "Name: KANGASKHAN"
+	text "Name: KANGAMA"
 
-	para "A maternal #MON"
-	line "that raises its"
-	cont "young in a pouch"
-	cont "on its belly."
+	para "Ein #MON, das"
+	line "seinen Nachwuchs"
+	cont "in einem Beutel"
+	cont "am Bauch trägt."
 	prompt
 
 _FuchsiaCitySlowpokeText::
-	text "Name: SLOWPOKE"
+	text "Name: FLEGMON"
 
-	para "Friendly and very"
-	line "slow moving."
+	para "Ein freundliches,"
+	line "aber sehr lahmes"
+	cont "#MON."
 	prompt
 
 _FuchsiaCityLaprasText::
 	text "Name: LAPRAS"
 
-	para "A.K.A. the king"
-	line "of the seas."
+	para "Der König"
+	line "der Meere!"
 	prompt
 
 _FuchsiaCityOmanyteText::
-	text "Name: OMANYTE"
+	text "Name: AMONITAS"
 
-	para "A #MON that"
-	line "was resurrected"
-	cont "from a fossil."
+	para "Ein #MON,"
+	line "das aus einem"
+	cont "Fossil wieder-"
+	cont "erschaffen wurde."
 	prompt
 
 _FuchsiaCityKabutoText::
 	text "Name: KABUTO"
 
-	para "A #MON that"
-	line "was resurrected"
-	cont "from a fossil."
+	para "Ein #MON,"
+	line "das aus einem"
+	cont "Fossil wieder-"
+	cont "erschaffen wurde."
 	prompt
 
 _FuchsiaCityText_19b2a::
@@ -119,56 +128,59 @@ _FuchsiaCityText_19b2a::
 	done
 
 _SafariBallSalesmanText1::
-	text "SALESMAN: Shh!"
-	line "Hey, keep this"
-	cont "quiet, would ya?"
-	cont "I managed to"
-	cont "sneak a couple"
-	cont "SAFARI BALLs"
-	cont "out!"
-
-	para "Wanna take some"
-	line "off my hands?"
-	cont "It'll cost you"
-	cont "¥2400 for 3, but"
-	cont "think about it!"
-
-	para "You won't find"
-	line "these anywhere"
-	cont "else!"	
+	text "HÄNDLER: Psst!"
+	line "Halt das Geheim,"
+	cont "kapiert? Ich habe"
+	cont "es geschafft, ein"
+	cont "Paar SAFARIBÄLLE"
+	cont "dort herauszu-"
+	cont "schmuggeln!"
+	
+	para "Willst Du welche"
+	line "haben? 3 Stück"
+	cont "kosten ¥2400!"
+	cont "Denk mal darüber"
+	cont "nach!"
+	
+	para "Du wirst sie"
+	line "nirgendwo sonst"
+	cont "kriegen können!"
 	done
 
 _SafariBallSalesmanNoText::
-	text "C'mon, they're"
-	line "totally genuine!"
-	cont "Don't you trust"
-	cont "me?"
+	text "Komm schon, sie"
+	line "sind total echt!"
+	cont "Vertraust Du mir"
+	cont "etwa nicht?"
 	done
 
 _ReceivedSafariBallsText::
-	text "<PLAYER> received"
-	line "3 SAFARI BALLS!@"
+	text "<PLAYER> erhält"
+	line "3 SAFARIBÄLLE!@"
 	text_end
 
 _SafariBallSalesmanNoMoneyText::
-	text "Not enough money?"
-	line "Sorry, kid! Paint"
-	cont "isn't cheap, you"
-	cont "know!"
-
-	para "...Wait, forget"
-	line "I said anything!"
+	text "Nicht genug Geld?"
+	line "Tut mir ja leid,"
+	cont "Knirps, aber Farbe"
+	cont "ist nicht gerade"
+	cont "günstig!"
+	
+	para "...Ich meine,"
+	line "vergiß, was ich"
+	cont "gesagt habe!"
 	done
 
 _SafariBallBagFull::
-	text "Whoa now! Can't"
-	line "give you these"
-	cont "when your bag's"
-	cont "that full!"
+	text "Moment Mal! Ich"
+	line "kann sie dir"
+	cont "nicht geben, wenn"
+	cont "Dein Beutel so"
+	cont "voll ist!"
 	done
 
 _ReceivedTM50Text::
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"

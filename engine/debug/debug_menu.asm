@@ -66,7 +66,7 @@ DebugBattleRivalName:
 	db "Juerry@"
 
 DebugMenuOptions:
-	db   "FIGHT"
+	db   "FIGHT" ; for your info, the debug menu text was left untranslated. ~Lapis
 	next "DEBUG@"
 ELSE
 	ret

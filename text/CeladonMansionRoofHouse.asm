@@ -1,88 +1,95 @@
 _CeladonMansion5Text1::
-	text "I am SHINJUKU"
+	text "Ich bin SHINJUKU"
 	line "JACKY!"
 
-	para "I know everything"
-	line "about the world"
-	cont "of #MON!"
+	para "Ich weiß alles"
+	line "über die Welt der"
+	cont "#MON!"
 	
-	para "Hm? You think you" ; if making rematches, use this for prebeat
-	line "can take me?"
+	para "Hm? Denkst Du," ; if making rematches, use this for prebeat
+	line "Du könntest es"
+	cont "mit mir aufnehmen?"
 	done
 
 ; Unused for now. Doesn't make much sense.
 _JackyPostBeatText::
-	text "Wanna fight again?"
-	line "I'm out of your"
-	cont "league!"
+	text "Willst du ein"
+	line "Rematch? Ich bin"
+	cont "wirklich eine"
+	cont "Liga über dir!"
 	prompt
 
 _JackyYes::
-	text "Let's see if you"
-	line "can walk the"
-	cont "walk! Come on!"
+	text "Mal sehen, ob Du"
+	line "mit mir mithalten"
+	cont "kannst! Auf geht's!"
 	done
 
 _JackyNo::
-	text "Maybe another"
-	line "time..."
+	text "Vielleicht ein"
+	line "anderes Mal..."
 	done
 
 _JackyWinText::
-	text "I'm"
-	line "faster than"
-	cont "lightning!"
+	text "Ich bin"
+	line "schneller als"
+	cont "der Wind!"
 	prompt
 
 _JackyLossText::
-	text "I can't"
-	line "believe I lost!"
+	text "JACKY: Ich habe"
+	line "verloren!?"
+	cont "Unfassbar!"
 	prompt
 
 _JackyThief::
-	text "Hey, what do you"
-	line "think you're"
-	cont "doing?!"
+	text "Hey, was machst"
+	line "Du denn da?!"
 	done
 
 _JackyAfterBattle::
-	text "It was like you"
-	line "were fighting in"
-	cont "slow motion..."
+	text "Es war so, als"
+	line "ob ich Dich in"
+	cont "der Zeitlupe"
+	cont "bekämpfen"
+	cont "würde..."
 	
-	para "Ok! I will give"
-	line "you a gift to"
-	cont "help you on your"
-	cont "quest!"
+	para "OK! Ich gebe dir"
+	line "ein Geschenk, das"
+	cont "dir auf Deiner"
+	cont "Reise helfen"
+	cont "wird!"
 	
-	para "Over there is a"
-	line "rare #MON!"
+	para "Dort drüben ist"
+	line "ein seltenes"
+	cont "#MON!"
 	
-	para "Go, go, take it!"
-	
+	para "Komm schon, nimm's"
+	line "dir schon!"
 	done
 
 _JackyGift::
-	text "I look forward to"
-	line "our next bout!"
+	text "Ich freue mich"
+	line "schon auf unsere"
+	cont "nächste Runde!"
 	done
 
 _JackyN64::
-	text "It's a NINTENDO"
-	line "64! The latest"
-	cont "game console!"
+	text "Eine NINTENDO"
+	line "64! Die neueste"
+	cont "Spielkonsole!"
 	done
 
 _JackyTVMario::
-	text "A plumber is"
-	line "jumping around"
-	cont "in 3D! Wow!"
+	text "Ein Klempner"
+	line "springt 3D herum!"
+	cont "Wie cool!"
 	done
 
 _JackyTVWaveRace::
-	text "Some guys in"
-	line "helmets are"
-	cont "racing on the"
-	cont "waves!"
+	text "Typen mit Helmen"
+	line "reiten auf den"
+	cont "Wellen um die"
+	cont "Wette!"
 	done
 

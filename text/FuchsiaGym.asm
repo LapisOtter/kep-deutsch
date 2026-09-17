@@ -1,49 +1,53 @@
 _KogaBeforeBattleText::
-	text "Fwahahaha!"
+	text "KOGA: Hahaha!"
 
-	para "A mere child like"
-	line "you dares to"
-	cont "challenge me?"
+	para "Ein Kind fordert"
+	line "einen Ninja-"
+	cont "Meister zum"
+	cont "Kampf heraus?"
 
-	para "Very well, I"
-	line "shall show you"
-	cont "true terror as a"
-	cont "ninja master!"
+	para "Wie Du willst!"
+	line "Erlebe eine Welt"
+	cont "des Schreckens,"
+	cont "bevor ich Dich"
+	cont "besiege!"
 
-	para "You shall feel"
-	line "the despair of"
-	cont "poison and sleep"
-	cont "techniques!"
+	para "An meinen"
+	line "Schlaf- und Gift-"
+	cont "Attacken sollst"
+	cont "Du verzweifeln!"
 	done
 
 _ReceivedSoulBadgeText::
-	text "Humph!"
-	line "You have proven"
-	cont "your worth!"
+	text "Na sowas!"
+	line "Du bist ein"
+	cont "würdiger Kämpfer!"
 
-	para "Here! Take the"
-	line "SOULBADGE!"
+	para "Ich reiche Dir"
+	line "den SEELENORDEN!"
 	prompt
 
 _KogaRematchPreBattleText::
-	text "Fwahahaha!"
+	text "KOGA: Hahaha!"
+	line "Du bist es also!"
 	
-	para "If it isn't the"
-	line "child."
+	para "Es scheint, als"
+	line "wäre die Zeit"
+	cont "gekommen, in der"
+	cont "wir uns erneut"
+	cont "im Kampf"
+	cont "gegenüberstehen."
 	
-	para "It seems we are"
-	line "fated to meet"
-	cont "once again."
+	para "Und Du könntest"
+	line "zu keinem besser-"
+	cont "en Zeitpunkt hier"
+	cont "erscheinen..."
 	
-	para "You have come"
-	line "at a truly"
-	cont "opportune time."
+	para "Ich wollte mein"
+	line "verfeinertes"
+	cont "Repertoire an"
+	cont "Ninja-Techniken"
+	cont "ausprobieren!"
 	
-	para "I wanted to test"
-	line "my newly refined"
-	cont "ninja skills..."
-	
-	para "In a battle that"
-	line "will end in your"
-	cont "utter defeat!"
+	para "Hahaha!"
 	done

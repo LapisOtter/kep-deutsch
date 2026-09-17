@@ -1,75 +1,83 @@
 _TM35PreReceiveText::
-	text "Tch-tch-tch!"
-	line "I made a cool TM!"
+	text "Tak-tak-tak!"
+	line "Ich habe eine"
+	cont "TM konstruiert!"
 
-	para "It can cause all"
-	line "kinds of fun!"
+	para "Sie verursacht"
+	line "die verrücktesten"
+	cont "Dinge!"
 	prompt
 
 _ReceivedTM35Text::
-	text "<PLAYER> received "
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _TM35ExplanationText::
-	text "Tch-tch-tch!"
-	line "That's the sound"
-	cont "of a METRONOME!"
+	text "Tak-tak-tak!"
+	line "So klingt ein"
+	cont "METRONOM!"
 
-	para "It tweaks your"
-	line "#MON's brain"
-	cont "into using moves"
-	cont "it doesn't know!"
+	para "Damit setzt Dein"
+	line "#MON Attacken"
+	cont "ein, die es gar"
+	cont "nicht kennt!"
 	done
 
 _TM35NoRoomText::
-	text "Your pack is"
-	line "crammed full!"
+	text "Dein Rucksack"
+	line "ist zu voll!"
 	done
 
 _Lab3Text2::
-	text "EEVEE can evolve"
-	line "into 1 of 8 kinds"
-	cont "of #MON."
+	text "EVOLI kann sich"
+	line "zu einem von acht"
+	cont "verschiedenen"
+	cont "#MON"
+	cont "entwickeln."
 	
-	para "I have seen it" ; Reference to the Evolution Stone Glitch, which we've made a feature.
-	line "evolve through"
-	cont "battling certain"
-	cont "#MON, but"
-	cont "nobody believes"
-	cont "me!"
+	para "Ich habe gesehen," ; Reference to the Evolution Stone Glitch, which we've made a feature.
+	line "wie es sich durch"
+	cont "Kampfe mit be-"
+	cont "stimmten #MON"
+	cont "entwickelt hat,"
+	cont "doch niemand will"
+	cont "mir glauben!"
 	done
 
 _Lab3Text3::
-	text "There's an e-mail"
-	line "message!"
+	text "Eine E-Mail ist"
+	line "angekommen!"
 
 	para "..."
 
-	para "The 3 legendary"
-	line "bird #MON are"
-	cont "ARTICUNO, ZAPDOS"
-	cont "and MOLTRES."
-
-	para "Although their"
-	line "true whereabouts"
-	cont "are unknown,"
-	cont "MOLTRES has been"
-	cont "sighted near the"
-	cont "volcano recently."
+	para "ARKTOS, ZAPDOS"
+	line "und LAVADOS sind"
+	cont "die 3 legendären"
+	cont "VOGEL-#MON."
 	
-	para "We plan to explore"
-	line "the cavern close"
-	cont "to CERULEAN next."
+	para "Niemand weiß zwar,"
+	line "in welcher Gegend"
+	cont "sie leben, doch"
+	cont "LAVADOS wurde"
+	cont "in letzter Zeit"
+	cont "in der Nähe vom"
+	cont "VULKAN gesichtet."
+	
+	para "Wir werden als"
+	line "nächstes in der"
+	cont "Höhle nahe AZURIA"
+	cont "CITY suchen."
 
-	para "From: #MON"
-	line "RESEARCH TEAM"
+	para "Von: #MON-"
+	line "FORSCHUNGSTEAM"
 
 	para "..."
 	done
 
 _Lab3Text5::
-	text "An amber pipe!"
+	text "Eine Pfeife aus"
+	line "Bernstein!"
 	done

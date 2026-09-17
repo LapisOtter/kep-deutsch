@@ -1,184 +1,199 @@
 _ViridianCityText1::
-	text "Those # BALLs"
-	line "at your waist!"
-	cont "You have #MON!"
+	text "Diese #BÄLLE"
+	line "an Deinem Gürtel"
+	cont "zeigen mir, daß"
+	cont "Du #MON"
+	cont "besitzt!"
 
-	para "It's great that"
-	line "you can carry and"
-	cont "use #MON any"
-	cont "time, anywhere!"
+	para "Es ist klasse,"
+	line "daß man jederzeit"
+	cont "#MON tragen"
+	cont "und einsetzen"
+	cont "kann, nicht wahr?"
 	done
 
 _ViridianCityText_19122::
-	text "This #MON GYM"
-	line "is always closed."
+	text "Diese PKMN-ARENA"
+	line "ist stets"
+	cont "geschlossen!"
 
-	para "I wonder who the"
-	line "LEADER is?"
+	para "Ich frage mich,"
+	line "wer hier wohl"
+	cont "der ARENALEITER"
+	cont "sein mag?"
 	done
 
 _ViridianCityText_19127::
-	text "VIRIDIAN GYM's"
-	line "LEADER returned!"
+	text "Der ARENALEITER"
+	line "von VERTANIA CITY"
+	cont "ist zurück!"
 	done
 
 _ViridianCityText_1914d::
-	text "You want to know"
-	line "about the 3 kinds"
-	cont "of caterpillar"
-	cont "#MON?"
+	text "Möchtest Du etwas"
+	line "über die drei"
+	cont "Raupen-#MON"
+	cont "erfahren?"
 	done
 
 _ViridianCityText_19152::
-	text "Oh, OK then!"
+	text "OK, alles klar!"
 	done
 
 _ViridianCityText_19157::
-	text "Both CATERPIE and"
-	line "GENTLARVA have"
-	cont "no poison, but"
-	cont "WEEDLE does."
+	text "LINDERLING und"
+	line "RAUPY sind nicht"
+	cont "giftig, aber"
+	cont "HORNLIU!"
 
-	para "Watch out for its"
-	line "POISON STING!"
+	para "Achte auf seinen"
+	line "GIFTSTACHEL!"
 	done
 
 _ViridianCityText_19175::	; undoing localisation change
-	text "Oh Grandpa! Don't"
-	line "be so mean!"
-
-	para "I'm sorry, but"
-	line "he hasn't sobered"
-	cont "up yet..."
+	text "Großvater! Sei"
+	line "nicht so gemein!"
+	
+	para "Er ist immernoch"
+	line "besoffen!!!"
 	done
 
 _ViridianCityText_1917a::
-	text "When I go shop in"
-	line "PEWTER CITY, I"
-	cont "have to take the"
-	cont "winding trail in"
-	cont "VIRIDIAN FOREST."
+	text "Wenn ich zum"
+	line "Einkaufen nach"
+	cont "MARMORIA CITY"
+	cont "möchte, muß ich"
+	cont "immer durch den"
+	cont "VERTANIA-WALD"
+	cont "gehen."
 	done
 
 _ViridianCityText_19191::
-	text "You can't go"
-	line "through here!"
+	text "Du kannst hier"
+	line "nicht durch!"
 
-	para "This is private"
-	line "property!"
+	para "Das ist ein"
+	line "Privatgelände!"
 	done
 
 _ViridianCityText_191ca::
-	text "Yawn!"
-	line "I must have dozed"
-	cont "off in the sun."
+	text "Gäääähn! Ich bin"
+	line "wohl eingenickt!"
 
-	para "I had this dream"
-	line "about a DROWZEE"
-	cont "eating my dream."
-	cont "What's this?"
-	cont "Where did this TM"
-	cont "come from?"
+	para "Ich habe"
+	line "geträumt, daß"
+	cont "TRAUMATO meine"
+	cont "Träume fressen"
+	cont "wollte! Was ist"
+	cont "das? Wo kommt"
+	cont "denn die TM her?"
 
-	para "This is spooky!"
-	line "Here, you can"
-	cont "have this TM."
+	para "Das ist mir"
+	line "unheimlich! Hier,"
+	cont "Du kannst sie"
+	cont "haben!"
 	prompt
 
 _ReceivedTM42Text::
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "TM42!@"
 	text_end
 
 _TM42Explanation::
-	text "TM42 contains"
-	line "DREAM EATER..."
-	cont "...Snore..."
+	text "TM42 ist"
+	line "TRAUMFRESSER!"
 	done
 
 _TM42NoRoomText::
-	text "You have too much"
-	line "stuff already."
+	text "Du trägst zuviele"
+	line "Items bei Dir!"
 	done
 
 _ViridianCityText_1920a::	; undoing localisation change
 	text "Hmm..."
-	line "Looks like I was"
-	cont "pretty drunk!"
+	line "Sieht so aus, als"
+	cont "ob ich ziemlich"
+	cont "betrunken war!"
+	
+	para "Mein Kopf tut"
+	line "aber weh..."
 
-	para "My head hurts,"
-	line "though..."
-
-	para "Are you in a"
-	line "hurry?"
+	para "Hast Du es"
+	line "etwa eilig?"
 	done
 
 _ViridianCityText_1920f::
-	text "I see you're using"
-	line "a #DEX."
+	text "Aha, Du benutzt"
+	line "einen #DEX!"
 
-	para "When you catch a"
-	line "#MON, it will"
-	cont "be automatically"
-	cont "updated."
+	para "Wenn Du ein "
+	line "#MON fängst,"
+	cont "wird Dein #DEX"
+	cont "automatisch"
+	cont "aktualisiert."
 
-	para "What? Don't you"
-	line "know how to catch"
-	cont "#MON?"
+	para "Was? Du weißt"
+	line "nicht, wie man"
+	cont "#MON fängt?"
 
-	para "I'll show you"
-	line "how to then."
+	para "Kein Problem! Ich"
+	line "erkläre es Dir!"
 	done
 
 _ViridianCityText_19214::
-	text "Time is money..."
-	line "Go along then."
+	text "Zeit ist Geld..."
+	line "Dann gehe weiter!"
 	done
 
 _ViridianCityText_19219::
-	text "First, you need"
-	line "to weaken the"
-	cont "target #MON."
+	text "Willst Du ein"
+	line "#MON fangen,"
+	cont "mußt Du es"
+	cont "zuerst schwächen!"
 	done
 
 _ViridianCityText8::
-	text "VIRIDIAN CITY "
-	line "The Eternally"
-	cont "Green Paradise"
+	text "VERTANIA CITY"
+	line "Das immergrüne"
+	cont "Paradies!"
 	done
 
 _ViridianCityText9::
-	text "TRAINER TIPS"
+	text "TIPS FÜR TRAINER"
 
-	para "Catch #MON"
-	line "and expand your"
-	cont "collection!"
+	para "Fange #MON,"
+	line "um Deine Sammlung"
+	cont "zu erweitern!"
 
-	para "The more you have,"
-	line "the easier it is"
-	cont "to fight!"
+	para "Je mehr Du"
+	line "besitzt, desto"
+	cont "leichter werden"
+	cont "die Kämpfe!"
 	done
 
 _ViridianCityText10::
-	text "TRAINER TIPS"
+	text "TIPS FÜR TRAINER"
 
-	para "The battle moves"
-	line "of #MON are"
-	cont "limited by their"
-	cont "POWER POINTs, PP."
+	para "Die Attacken der"
+	line "#MON werden"
+	cont "durch ihre"
+	cont "ANGRIFFSPUNKTE,"
+	cont "AP, limitiert."
 
-	para "To replenish PP,"
-	line "rest your tired"
-	cont "#MON at a"
-	cont "#MON CENTER!"
+	para "Um die AP wieder"
+	line "aufzufüllen, mußt"
+	cont "Du die #MON"
+	cont "in ein #MON-"
+	cont "CENTER bringen!"
 	done
 
 _ViridianCityText13::
-	text "VIRIDIAN CITY"
-	line "#MON GYM"
+	text "VERTANIA CITY"
+	line "PKMN-ARENA"
 	done
 
 _ViridianCityText14::
-	text "The GYM's doors"
-	line "are locked..."
+	text "Die Türen der"
+	line "ARENA sind"
+	cont "verschlossen..."
 	done

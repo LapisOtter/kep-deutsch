@@ -1,114 +1,126 @@
 _CeladonUniversityOutsideYesNo1::
-	text "I love battles!"
-	line "Wanna go?"
+	text "Ich liebe Kämpfe!"
+	line "Hast Du Lust?"
 	done
 
 _CeladonUniversityRefuse::
-	text "Aww! Next time?"
+	text "Ohh! Beim"
+	line "nächsten Mal?"
 	done
 
 _CeladonUniversityOutsideBattleText1::
-	text "Ok! Game on!"
+	text "OK! Dann wollen"
+	line "wir Mal!"
 	done
 
 _CeladonUniversityOutsideBattleText2::
-	text "Let's go!"
+	text "Auf geht's!"
 	done
 
 _CeladonUniversityOutsideBattleText3::
-	text "I'm at the top"
-	line "of my game!"
-	cont "Go, GOLEM!"
+	text "Ich bin in"
+	line "absoluter"
+	cont "Bestform! Los,"
+	cont "GEOWAZ!"
 	done
 
 _CeladonUniversityOutsideBattleText4::
-	text "This time, for"
-	line "sure!"
+	text "Dieses Mal wird"
+	line "es klappen!"
 	done
 
 _CeladonUniversityOutsideLoseText1::
-	text "Darn!"
-	line "You beat me!"
+	text "Mist!"
+	line "Du hast mich"
+	cont "besiegt!"
 	prompt
 
 _CeladonUniversityOutsideLoseText2::
-	text "Darn!"
-	line "It must need an"
-	cont "update!"
+	text "Mist!"
+	line "Es braucht eine"
+	cont "Aktualisierung!"
 	prompt
 
 _CeladonUniversityOutsideLoseText3::
-	text "Not"
-	line "enough..."
+	text "Es"
+	line "reicht nicht..."
 	prompt
 
 _CeladonUniversityOutsideLoseText4::
-	text "One"
-	line "day I'll beat"
-	cont "you!"
+	text "Eines"
+	line "Tages werde ich"
+	cont "gewinnen!"
 	prompt
 
 _CeladonUniversityOutsideWinText::
 	text "Hmm!"
-	line "Need to brush"
-	cont "up?"
+	line "Eine Aufpolierung"
+	cont "gefälligst?"
 	prompt
 
 _CeladonUniversityOutsideAfterBattleText::
-	text "I'll get you next"
-	line "time!"
+	text "Nächstes Mal"
+	line "krieg ich Dich!"
 	done
 
 _CeladonUniversityOutsideYesNo2::
-	text "I've been working"
-	line "on an artificial"
+	text "Ich arbeite in"
+	line "letzter Zeit an"
+	cont "ein künstliches"
 	cont "#MON."
 	
-	para "Want to help me"
-	line "test it for my"
-	cont "thesis?"
+	para "Willst Du mir"
+	line "helfen, es für"
+	cont "meine These zu"
+	cont "testen?"
 	
 	done
 
 _CeladonUniversityOutsideYesNo3::
-	text "I had the TRADER"
-	line "lend me a hand."
+	text "Ich habe mir Hilfe"
+	line "vom TAUSCHER"
+	cont "geholt."
 	
-	para "I could beat"
-	line "anyone in the"
-	cont "UNIVERSITY!"
+	para "Ich könnte jeden"
+	line "an dieser"
+	cont "UNIVERSITÄT"
+	cont "fertig machen!"
 	
-	para "Try me!"
-	
+	para "Wollen wir wetten?"
 	done
 	
 _CeladonUniversityOutsideYesNo4::
-	text "Hey! I met you"
-	line "in MT. MOON!"
-	
-	para "Want a rematch?"
+	text "Hey! Ich kenne"
+	line "Dich aus dem"
+	cont "MONDBERG!"
+
+	para "Wie wäre es mit"
+	line "einer Revanche?"
 	done
 
 _CeladonUniversityOutsideNPC1::
-	text "I qualified for"
-	line "this UNIVERSITY"
-	cont "through a"
-	cont "magazine."
+	text "Ich konnte mich"
+	line "durch ein Magazin"
+	cont "für diese"
+	cont "UNIVERSITÄT"
+	cont "qualifizieren."
 	
 	done
 
 _CeladonUniversityOutsideNPC2::
-	text "I got referred"
-	line "after studying"
-	cont "with ERIKA."
-
-	para "Her GRASS-type"
-	line "knowledge is"
-	cont "astounding!"
+	text "Bevor ich"
+	line "verwiesen wurde,"
+	cont "habe ich mit"
+	cont "ERIKA zusammen"
+	cont "studiert."
 	
+	para "Sie weiß unfassbar"
+	line "viel über den"
+	cont "PFLANZEN-Typ!"
+
 	done
 
 _CeladonMagikarp::
-	text "MAGIKARP: Blub..."
+	text "KARPADOR: Blubb..."
 
 	done

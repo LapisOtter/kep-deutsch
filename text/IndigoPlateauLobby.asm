@@ -1,54 +1,61 @@
 _IndigoPlateauLobbyText2::
-	text "Yo! Champ in"
-	line "making!"
+	text "Hey! Warte, Du"
+	line "Champion in spe!"
 
-	para "At #MON LEAGUE,"
-	line "you have to face"
-	cont "the ELITE FOUR in"
-	cont "succession."
+	para "In der PKMN-LIGA"
+	line "trittst Du gegen"
+	cont "die TOP VIER"
+	cont "nacheinander an."
 
-	para "If you lose, you"
-	line "have to start all"
-	cont "over again! This"
-	cont "is it! Go for it!"
+	para "Wenn Du einen"
+	line "Kampf verlierst,"
+	cont "mußt Du ganz von"
+	cont "vorn beginnen!"
 	done
 
 _IndigoPlateauLobbyText3::
-	text "From here on, you"
-	line "face the ELITE"
-	cont "FOUR one by one!"
+	text "Ab jetzt triffst"
+	line "Du nacheinander"
+	cont "auf die TOP VIER!"
 
-	para "If you win, a"
-	line "door opens to the"
-	cont "next trainer!"
-	cont "Good luck!"
+	para "Wenn Du einen"
+	line "Kampf gewinnst,"
+	cont "wird der Weg zum"
+	cont "nächsten Trainer"
+	cont "freigegeben!"
+	cont "Viel Glück!"
 	done
 
 _CandyJarPreReceiveText::
-	text "I found this empty"
-	line "jar on the floor."
+	text "Auf dem Boden habe"
+	line "ich dieses Glas"
+	cont "gefunden."
 	
-	para "Mind taking it"
-	line "off my hands?"
+	text "Willst du sie mir"
+	line "von meinen Händen"
+	cont "nehmen?"
 	
 	prompt
 
 _ReceivedCandyJarText::
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _CandyJarExplanationText::
-	text "Me and IGUANARCH"
-	line "are so ready for"
-	cont "the LEAGUE!"
+	text "Ich und REXAKRALLA"
+	line "sind sowas von"
+	cont "auf die LIGA"
+	cont "bereit!"
 	
-	para "Good luck to you!"
+	para "Ich wünsche dir"
+	line "viel Glück!"
 	done
 
 _CandyJarNoRoomText::
-	text "No room? Oh, what"
-	line "to do..."
+	text "Kein Platz? Oh,"
+	line "was mache ich"
+	cont "ich jetzt..."
 	done

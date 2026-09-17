@@ -1,66 +1,82 @@
 _SilphGauntlet2FBattleText1:: ; No payment here. Child labour is bad!
-	text "If I win, maybe"
-	line "I can guarantee"
-	cont "a job at SILPH!"
+	text "Wenn ich gewinne,"
+	line "kann ich mir bei"
+	cont "SILPH CO. einen"
+	cont "Arbeitsplatz"
+	cont "sichern!"
 	done
 
 _SilphGauntlet2FEndBattleText1::
-	text "My"
-	line "future! No!"
+	text "Nein!"
+	line "Meine Zukunft!"
 	prompt
 
 _SilphGauntlet2FAfterBattleText1::
-	text "Guess I'll finish"
-	line "that GAME CORNER"
-	cont "application..."
+	text "Dann sollte ich"
+	line "besser die"
+	cont "Bewerbung für die"
+	cont "SPIELHALLE fertig"
+	cont "stellen..."
 	done
 
 _SilphGauntlet2FBattleText2::
-	text "This is no place"
-	line "to hike! Now I'm"
-	cont "mad!"
+	text "Zum Wandern ist"
+	line "dieser Ort viel"
+	cont "zu klein! Das"
+	cont "macht mich sauer!"
 	done
 
 _SilphGauntlet2FEndBattleText2::
-	text "Bah!"
-	line "Too much!"
+	text "Ich kann"
+	line "das nicht mehr!"
 	prompt
 
 _SilphGauntlet2FAfterBattleText2::
-	text "That CHIEF!"
+	text "Dieser SILPH-CHEF!"
 	
-	para "Always cutting"
-	line "costs! I can't"
-	cont "stand it!"
+	para "Knausert, wo immer"
+	line "er nur knausern"
+	cont "kann! Ich kann"
+	cont "das nicht leiden!"
 	done
 
 _SilphGauntlet2FBattleText3::
-	text "Umm..."
+	text "Ähm..."
 	
-	para "Battle me!"
+	para "Laß uns Kämpfen!"
 	done
 
 _SilphGauntlet2FEndBattleText3::
-	text "It's"
-	line "no big deal..."
+	text "Das macht"
+	line "mir nichts aus..."
 	prompt
 
 _SilphGauntlet2FAfterBattleText3::
-	text "I don't get out"
-	line "much..."
+	text "Ich gehe nicht"
+	line "oft raus..."
 	
-	para "But this pays so"
-	line "well, I could"
-	cont "get that game I"
-	cont "always wanted..."
+	para "Aber es lohnt"
+	line "sich. Mit dem"
+	cont "Geld kann ich"
+	cont "das Spiel holen,"
+	cont "das ich schon"
+	cont "immer haben"
+	cont "wollte..."
 	done
 
 _SilphGauntlet2FBattleText4::
-	text "Hahaha! This is"
-	line "great! So many"
-	cont "rare #MON!"
-	para "Show me yours,"
-	line "now!"
+	; more accurate translation
+;	text "Hihihi! Dieser"
+;	line "Ort ist voller"
+;	cont "seltener"
+;	cont "#MON..."
+;	para "Zeig mir Deine!"
+;	line "Mach schon!"
+	
+	; alternate Dialogue referencing the Cukemen from german Links Awakening
+	text "Zeig mir Deine"
+	line "#MON, ich"
+	cont "zeig Dir meine..."
 	done
 
 _SilphGauntlet2FEndBattleText4::
@@ -68,57 +84,66 @@ _SilphGauntlet2FEndBattleText4::
 	prompt
 
 _SilphGauntlet2FAfterBattleText4::
-	text "The second I heard"
-	line "of the #MON I"
-	cont "could meet here,"
-	cont "I was stoked!"
+	text "Ich war sofort"
+	line "hingerissen, als"
+	cont "ich von seltenen"
+	cont "#MON hier Wind"
+	cont "bekommen habe."
 	
-	para "I could never have"
-	line "expected to see"
-	cont "#MON like"
-	cont "yours, though!"
+	para "Doch ich hätte nie"
+	line "erwartet, #MON"
+	cont "wie Deine zu"
+	cont "sehen... Wow..."
 	done
 
 _SilphGauntlet2FBattleText5::
-	text "If I win this,"
-	line "CHIEF will love"
-	cont "me for sure!"
+	text "Wenn ich diesen"
+	line "Kampf gewinne,"
+	cont "wird mich der"
+	cont "SILPH-CHEF"
+	cont "bestimmt lieben!"
 	done
 
 _SilphGauntlet2FEndBattleText5::
-	text "No!"
-	line "Not here..."
+	text "Nein!"
+	line "Nicht hier..."
 	prompt
 
 _SilphGauntlet2FAfterBattleText5::
-	text "Huh? Why CHIEF?"
+	text "Hä? Warum denn der"
+	line "SILPH-CHEF?"
 	
-	para "I just want his"
-	line "money!" ; hahahahahaha
+	para "Oh, ich will bloß"
+	line "sein Geld haben!" ; hahahahahaha
 	done
 
 _SilphGauntlet2FBattleText6::
-	text "I'm here training"
-	line "become the next"
-	cont "KARATE MASTER..."
+	text "Hier trainiere"
+	line "ich, um der"
+	cont "nächste"
+	cont "KARATE-MEISTER zu"
+	cont "werden..."
 	
-	para "Battle with me so"
-	line "I may hone my"
-	cont "skills!"
+	para "Kämpfe mit mir,"
+	line "damit ich meine"
+	cont "Fähigkeiten"
+	cont "ausbessern kann!"
 	done
 
 _SilphGauntlet2FEndBattleText6::
-	text "I"
-	line "still have a long"
-	cont "road to trek..." ; vague sf reference
+	text ""
+	line "Ich habe noch"
+	cont "einen langen Weg"
+	cont "vor mir..." ; vague sf reference
 	prompt
 
 _SilphGauntlet2FAfterBattleText6::
-	text "You are truly"
-	line "powerful."
+	text "Du bist wahrlich"
+	line "stark."
 	
-	para "Keep battling,"
-	line "and you will"
-	cont "surely succeed."
+	para "Kämpfe weiter,"
+	line "und Du wirst"
+	cont "gewiss Dein Ziel"
+	cont "erreichen."
 	done
 	

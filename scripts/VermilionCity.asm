@@ -503,7 +503,7 @@ BeautyExplainCont:
 	text_end
 
 _BeautyWait:
-	text "I can wait on"
-	line "your answer."
+	text "Ich kann auf deine"
+	line "Antwort warten."
 	done
 	db "@"

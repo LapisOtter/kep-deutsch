@@ -13,8 +13,8 @@ AskName:
 	call GetMonName
 	ld hl, DoYouWantToNicknameText
 	call PrintText
-	hlcoord 14, 7
-	lb bc, 8, 15
+	hlcoord 13, 7
+	lb bc, 8, 14
 	ld a, TWO_OPTION_MENU
 	ld [wTextBoxID], a
 	call DisplayTextBoxID
@@ -480,13 +480,13 @@ PrintNamingText:
 	jp PlaceString
 
 YourTextString:
-	db "YOUR @"
+	db "DEIN @"
 
 RivalsTextString:
-	db "RIVAL's @"
+	db "GEGNER-@"
 
 NameTextString:
 	db "NAME?@"
 
 NicknameTextString:
-	db "NICKNAME?@"
+	db "ALIAS?@"

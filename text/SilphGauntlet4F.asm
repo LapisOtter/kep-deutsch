@@ -1,140 +1,163 @@
 _SilphGauntlet4FBattleText1::
-	text "I'm one of SILPH's"
-	line "top SCIENTISTs!"
+	text "Ich bin eines der"
+	line "Spitzenwissen-"
+	cont "schaftler der"
+	cont "SILPH CO.!"
 	
-	para "I want to see how"
-	line "tough the kid who"
-	cont "took down TEAM"
-	cont "ROCKET really is."
+	para "Ich will sehen,"
+	line "wie zäh das Kind,"
+	cont "das TEAM ROCKET"
+	cont "geschlagen hat,"
+	cont "wirklich ist."
 	
-	para "Care to show me?"
+	para "Würdest Du mir"
+	line "bitte Dein Können"
+	cont "demonstrieren?"
 	done
 
 _SilphGauntlet4FEndBattleText1::
-	text "No"
-	line "wonder our CHIEF"
-	cont "chose you!"
+	text ""
+	line "Kein Wunder, dass"
+	cont "unser CHEF Dich"
+	cont "auserkoren hat!"
 	prompt
 
 _SilphGauntlet4FAfterBattleText1::
-	text "We had trouble"
-	line "controlling that"
-	cont "OMEGADGE brute!"
-
-	para "I've noted down"
-	line "some flaws we"
-	cont "must fix in the"
-	cont "next model..."
+	text "Wir hatten"
+	line "Schwierigkeiten,"
+	cont "dieses brutale"
+	cont "ARTILOMEGA in"
+	cont "Schach zu halten!"
+	
+	para "Ich habe ein Paar"
+	line "Fehler notiert,"
+	cont "die wir im"
+	cont "nächsten Modell"
+	cont "beheben müssen..."
 	done
 
 _SilphGauntlet4FBattleText2::
-	text "Once I win, I'm"
-	line "going to CELADON"
-	cont "to hit it big!"
+	text "Ich werde nach"
+	line "PRISMANIA gehen"
+	cont "und den Jackpot"
+	cont "knacken! Aber"
+	cont "erst möchte ich"
+	cont "hier einen Kampf"
+	cont "gewinnen!"
 	done
 
 _SilphGauntlet4FEndBattleText2::
-	text "How"
-	line "unlucky..."
+	text "Pech"
+	line "gehabt..."
 	prompt
 
 _SilphGauntlet4FAfterBattleText2::
-	text "SILPH'S PORYGON"
-	line "is a brilliant"
-	cont "product!"
-
-	para "Now, if only I"
-	line "could win one..."
+	text "Das PORYGON der"
+	line "SILPH CO. ist ein"
+	cont "ausgezeichnetes"
+	cont "Produkt!"
+	
+	para "Wenn ich doch nur"
+	line "eines gewinnen"
+	cont "könnte..."
 	done
 
 _SilphGauntlet4FBattleText3::
-	text "Hey, you! I'll"
-	line "never forgive you"
-	cont "for what you did"
-	cont "to TEAM ROCKET!"
+	text "Hey, Du! Ich werde"
+	line "Dir für das, was"
+	cont "Du TEAM ROCKET"
+	cont "angetan hast,"
+	cont "niemals verzeihen!"
 	done
 
 _SilphGauntlet4FEndBattleText3::
-	text "I'm"
-	line "sorry, GIOVANNI!"
+	text "Es tut mir"
+	line "leid, GIOVANNI!"
 	prompt
 
 _SilphGauntlet4FAfterBattleText3::
-	text "Mark my words!"
-	line "TEAM ROCKET will"
-	cont "return someday!"
+	text "Merke dir das!"
+	line "TEAM ROCKET wird"
+	cont "eines Tages"
+	cont "zurückkehren!"
 	done
 
 _SilphGauntlet4FBattleText4::
-	text "How does he expect"
-	line "me to ride out"
-	cont "here?!"
+	text "Denkt er wirklich,"
+	line "ich könnte hier"
+	cont "Runden drehen?!"
 	done
 
 _SilphGauntlet4FEndBattleText4::
-	text "Ugh!"
-	line "Awful! Awful!"
+	text "Furchtbar!"
+	line "Einfach nur"
+	cont "furchtbar!"
 	prompt
 
 _SilphGauntlet4FAfterBattleText4::
-	text "This floor is a"
-	line "graveyard! That"
-	cont "CHIEF has a sick"
-	cont "sense of humor!"
+	text "Dieser Raum hier"
+	line "ist ein Friedhof!"
+	cont "Der SILPH-CHEF"
+	cont "hat einen echt"
+	cont "kranken Sinn"
+	cont "für Humor!"
 	done
 
 _SilphGauntlet4FBattleText5::
-	text "Hey! If I win,"
-	line "you'd better gimme"
-	cont "your #MON!"
+	text "Hey! Wenn ich"
+	line "gewinne, dann"
+	cont "gibst Du mir"
+	cont "gefälligst Deine"
+	cont "#MON!"
 	done
 
 _SilphGauntlet4FEndBattleText5::
-	text "Dang"
-	line "it!"
+	text "Mist!"
 	prompt
 
 _SilphGauntlet4FAfterBattleText5::
-	text "Is it true? TEAM"
-	line "ROCKET are really"
-	cont "disbanding?"
+	text "Stimmt es, dass"
+	line "TEAM ROCKET sich"
+	cont "auflöst?"
 	
-	para "Good riddance!"
-	line "That means less"
-	cont "competition!"
-	cont "Hahaha!"
+	para "Super! Weniger"
+	line "Konkurenz! Hahaha!"
 	done
 
 _SilphGauntlet4FBattleText6::		; hehehe buryman joke
-	text "You're here..."
+	text "Du bist hier..."
 	
-	para "I'm trapped..."
-	line "And I'm lonely."
-	cont "So very lonely..."
+	para "Ich sitze fest..."
+	line "Und ich bin"
+	cont "allein..."
+	cont "Ja so allein..."
 	
-	para "Won't you join me?"
+	para "Wirst Du mir nicht"
+	line "Gesellschaft"
+	cont "leisten?"
 	done
 
 _SilphGauntlet4FEndBattleText6::
 	text "Ahh,"
-	line "fresh meat!"
+	line "frisches Fleisch!"
 	prompt
 
 _SilphGauntlet4FAfterBattleText6::
-	text "LAVENDER TOWN has"
-	line "many tales and"
-	cont "horror stories."
+	text "LAVANDIA ist für"
+	line "seine zahlreichen"
+	cont "Gruselgeschichten"
+	cont "bekannt."
 	
-	para "They often freak"
-	line "people out when I"
-	cont "talk about them,"
-	cont "though..."
+	para "Doch wenn wir sie"
+	line "erwähnen, flippen"
+	cont "Leute oft aus..."
 	done
 
 _PurifiedZoneText::
-	text "Entered purified,"
-	line "protected zone!"
+	text "Du hast einen"
+	line "geschützten"
+	cont "Bereich betreten!"
 
-	para "<PLAYER>'s #MON"
-	line "are fully healed!"
+	para "<PLAYER>s #MON"
+	line "wurden geheilt!"
 	done

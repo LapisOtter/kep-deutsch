@@ -373,8 +373,8 @@ DaycareRibbito:
 	jp TextScriptEnd
 
 _RibbitoText:
-	text "RIBBITO: Ribbi"
-	line "ribbi!"
+	text "FROSCHUBS: Quaak"
+	line "quaak!"
 	done
 
 MelanieText1:
@@ -406,8 +406,8 @@ MelanieText7:
 	text_end
 
 DaycareBook:
-	text "It's a drawing of"
-	line "a TRAINER with a"
-	cont "PIKACHU and an"
-	cont "EEVEE!"
+	text "Eine Zeichnung von"
+	line "einem Trainer mit"
+	cont "einem PIKACHU und"
+	cont "einem EVOLI!"
 	done

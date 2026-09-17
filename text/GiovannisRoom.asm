@@ -5,32 +5,41 @@
 ; Mysteries of the Earth is a book written by Giovanni in the Adventures Manga. In that book, he is confirmed to have discovered Rhyperior.
 ; Additionally, in Adventures, his first caught Pokemon was a Weedle - this is why he uses Beedrill.
 _GiovannisRoomText1::
-	text "MYSTERIES OF THE"
-	line "EARTH - GIOVANNI"
+	text "GEHEIMNISSE DES"
+	line "BODENS - GIOVANNI"
 	
-	para "In this book, I"
-	line "will reveal the"
-	cont "highest form of"
-	cont "RHYDON."
+	para "In diesem Buch"
+	line "enthülle ich die"
+	cont "höchste Stufe von"
+	cont "RIHORN."
 	
-	para "Its name is"
-	line "RHYPERIOR."
+	para "Ihr Name ist"
+	line "RIHORNIOR."
 	
-	para "We can't get it"
-	line "obtained with"
-	cont "items native to"
-	cont "KANTO. We must"
-	cont "use a PROTECTOR."
+	para "Mit Gegenständen"
+	line "aus KANTO kann"
+	cont "RIHORNIOR nicht"
+	cont "erhalten werden."
+	cont "Ein ITEM namens"
+	cont "SCHÜTZER muss"
+	cont "angewendet"
+	cont "werden."
 	
-	para "Unfortunately,"
-	line "RHYPERIOR does"
-	cont "not address"
-	cont "RHYDON's poor"
-	cont "SPEED. Ergo, it"
-	cont "cannot use my"
-	cont "own technique,"
-	cont "FISSURE, to its"
-	cont "full potential."	
+	para "Leider behandelt"
+	line "RIHORNIOR nicht"
+	cont "die mangelhafte"
+	cont "INITIATIVE von"
+	cont "RIHORN."
+
+	para "Demzufolge kann"
+	line "es nicht das"
+	cont "vollständige"
+	cont "Potential aus"
+	cont "der von mir"
+	cont "entwickelten"
+	cont "Attacke,"
+	cont "GEOFISSUR,"
+	cont "herausholen."
 	done
 
 ; Madame Boss, Giovanni's mother, is from a Japan-exclusive Radio Drama.
@@ -38,29 +47,32 @@ _GiovannisRoomText1::
 ; In Pokemon Origins, Giovanni is confirmed to have begun with a Charmander.
 ; This combines those two facts.
 _GiovannisRoomText2::
-	text "It's a torn-out"
-	line "page from an"
-	cont "old diary..."
+	text "Eine Seite, die"
+	line "aus einem alten"
+	cont "Tagebuch gerissen"
+	cont "wurde..."
 	
-	para "Aug 1st, 1975" ; Did you know we calc'd the year here?
-	line "I got my first"
+	para "1. August, 1975" ; Did you know we calc'd the year here?
+	line "Heute bekam ich"
+	cont "mein erstes"
 	cont "#MON!"
 	
-	para "It's a CHARMANDER!"
+	para "Es ist ein"
+	line "GLUMANDA!"
 	
-	para "But...I must keep"
-	line "it a secret from"
-	cont "mother."
+	para "Doch... Ich muss"
+	line "es vor meiner"
+	cont "Mama geheim"
+	cont "halten."
 	
-	para "She would auction"
-	line "it off without a"
-	cont "second thought."
+	para "Sie würde es"
+	line "ohne zu zögern"
+	cont "versteigern."
 	
-	para "CHARMANDER..."
+	para "GLUMANDA..."
 	
-	para "I will protect"
-	line "you!"
-	
+	para "Ich werde Dich"
+	line "beschützen!"	
 	done
 ; We never have Giovanni use Charizard, as he's never shown doing so, even in Origins.
 ; My assumption is one of the following;
@@ -70,32 +82,34 @@ _GiovannisRoomText2::
 ; I like giving the player the opportunity to think about this too!
 
 _GiovannisRoomText3::
-	text "Various financial"
-	line "documents are"
-	cont "scattered on"
-	cont "the floor..."
+	text "Verschiedenste"
+	line "Finanzdokumente"
+	cont "sind auf dem"
+	cont "Boden verteilt..."
 	
-	para "PROTECTOR: ¥3,000" ; Giovanni discovered the Protector's use with Rhyperior.
+	para "SCHÜTZER: ¥3,000" ; Giovanni discovered the Protector's use with Rhyperior.
 
-	para "X ATTACK: ¥8,000" ; Giovanni uses this in battle.
+	para "X-ANGRIFF: ¥8,000" ; Giovanni uses this in battle.
 
-	para "TM27 R&D: ¥15,000" ; Giovanni is confirmed to have created Fissure in vanilla RBY. He also says he made Earthquake in FRLG, but it feels contrived.
+	para "TM27 FuE: ¥15,000" ; Giovanni is confirmed to have created Fissure in vanilla RBY. He also says he made Earthquake in FRLG, but it feels contrived.
+; While I did use the &-Symbol in my Translation to squeeze some dex entries in, it didn't actually exist in the font of the european versions, so writing it as FuE instead of F&E would be a more faithful localization.
 
-	para "Business: ¥250,000"
+	para "Geschäft: ¥250,000"
 	
-	para "It keeps going..."
+	para "Es geht weiter"
+	line "und weiter..."
 	
 	done
 
 ; This is a reference to the Radio Drama. Jessie's mother dies trying to find it.
 _GiovannisRoomText4::
-	text "It's a document"
-	line "about a failed"
-	cont "attempt to"
-	cont "capture MEW."
+	text "Ein Bericht über"
+	line "einen misglückten"
+	cont "Versuch, MEW"
+	cont "zu fangen."
 	
-	para "It's dated..."
+	para "Er stammt aus..."
 	
-	para "1977?!"
+	para "dem Jahr 1977?!"
 	
 	done

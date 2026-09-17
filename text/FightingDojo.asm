@@ -1,156 +1,182 @@
 _FightingDojoText_5ce8e::
-	text "Grunt!"
+	text "Willkommen!"
 
-	para "I am the KARATE"
-	line "MASTER! I am the"
-	cont "LEADER here!"
+	para "Ich bin der"
+	line "KARATE-MEISTER!"
+	cont "Ich leite diese"
+	cont "PKMN-ARENA!"
 
-	para "You wish to"
-	line "challenge us?"
-	cont "Expect no mercy!"
+	para "Du forderst mich"
+	line "heraus? Also gut!"
+	cont "Ich kenne keine"
+	cont "Gnade!"
 
-	para "Fwaaa!"
+	para "Los geht's!"
 	done
 
 _FightingDojoText_5ce93::
-	text "Hwa!"
-	line "Arrgh! Beaten!"
+	text ""
+	line "Arrgh! Ich wurde"
+	cont "geschlagen!"
 	prompt
 
 _FightingDojoText_5ce98::
-	text "Indeed, I have"
-	line "lost!"
+	text "Ich bin Deiner"
+	line "Gnade unwürdig!"
 
-	para "But, I beseech"
-	line "you, do not take"
-	cont "our emblem as"
-	cont "your trophy!"
+	para "Trotzdem flehe"
+	line "ich Dich an,"
+	cont "unser Emblem"
+	cont "nicht als Trophäe"
+	cont "mitzunehmen!"
 
-	para "In return, I will"
-	line "give you a prized"
-	cont "FIGHTING-type"
-	cont "#MON!"
+	para "Zum Ersatz gebe"
+	line "ich Dir ein"
+	cont "preisgekröntes"
+	cont "KAMPF-#MON!"
 
-	para "Choose whichever"
-	line "one you like!"
+	para "Wähle eines von"
+	line "beiden aus!"
 	done
 
 _FightingDojoText_5ce9d::
-	text "Hyah!"
-	line "Stay and train at"
-	cont "karate with us!"
+	text "Haia!"
+	line "Bleibe doch hier"
+	cont "und trainiere"
+	cont "Karate mit uns!"
 	done
 
 _FightingDojoBattleText1::
-	text "Hoargh! Take your"
-	line "shoes off!"
+	text "Stop! Ziehe Deine"
+	line "Schuhe aus!"
 	done
 
 _FightingDojoEndBattleText1::
-	text "I give"
-	line "up!"
+	text ""
+	line "Ich gebe auf!"
 	prompt
 
 _FightingDojoAfterBattleText1::
-	text "You wait 'til you"
-	line "see our Master!"
+	text "Warte nur, bis Du"
+	line "unseren Meister"
+	cont "triffst!"
 
-	para "I'm a small fry"
-	line "compared to him!"
+	para "Verglichen mit"
+	line "ihm bin ich ein"
+	cont "kleiner Fisch!"
 	done
 
 _FightingDojoBattleText2::
-	text "I hear you're"
-	line "good! Show me!"
+	text "Du sollst sehr"
+	line "gut sein!"
+	cont "Beweise es mir!"
 	done
 
 _FightingDojoEndBattleText2::
-	text "Judge!"
-	line "1 point!"
+	text ""
+	line "Schiedsrichter!"
+	cont "1 Punkt!"
 	prompt
 
 _FightingDojoAfterBattleText2::
-	text "Our Master is a"
-	line "pro fighter!"
+	text "Unser Meister ist"
+	line "ein echter Profi!"
 	done
 
 _FightingDojoBattleText3::
-	text "Nothing tough"
-	line "frightens me!"
+	text "Keine"
+	line "Herausforderung "
+	cont "ist mir zu hart!"
 
-	para "I break boulders"
-	line "for training!"
+	para "Ich zertrümmere"
+	line "Steine mit bloßen"
+	cont "Händen!"
 	done
 
 _FightingDojoEndBattleText3::
-	text "Yow!"
-	line "Stubbed fingers!"
+	text ""
+	line "Autsch! Ich habe"
+	cont "eine Prellung!"
 	prompt
 
-_FightingDojoAfterBattleText3::
-	text "The only thing"
-	line "that frightens us"
-	cont "is psychic power!"
+_FightingDojoAfterBattleText3:: ; additions from LGPE, as Fighting has more weaknesses than just Psychic ~Lapis
+	text "Die einzige"
+	line "Sache, vor der"
+	cont "wir uns fürchten,"
+	cont "ist Psycho-Kraft!"
+	
+	para "...Und fliegenden"
+	line "Gegnern."
+	
+	para "...Und Feen"
+	line "vielleicht noch."
+	cont "Aber sonst vor"
+	cont "nichts!"
 	done
 
 _FightingDojoBattleText4::
-	text "Hoohah!"
+	text "Haii-ia!"
 
-	para "You're trespassing"
-	line "in our FIGHTING"
-	cont "DOJO!"
+	para "Unbefugten ist"
+	line "der Zutritt zu"
+	cont "unserem KAMPF-"
+	cont "DOJO verboten!"
 	done
 
 _FightingDojoEndBattleText4::
-	text "Oof!"
-	line "I give up!"
+	text "Uff!"
+	line "Ich gebe auf!"
 	prompt
 
 _FightingDojoAfterBattleText4::
-	text "The prime fighters"
-	line "across the land"
-	cont "train here."
+	text "Die allerbesten"
+	line "Kämpfer des"
+	cont "Landes trainieren"
+	cont "hier!"
 	done
 
 _WantHitmonleeText::
-	text "You want the"
-	line "hard kicking"
-	cont "HITMONLEE?"
+	text "Möchtest Du"
+	line "KICKLEE,"
+	cont "das trittstarke"
+	cont "#MON?"
 	done
 
 _WantHitmonchanText::
-	text "You want the"
-	line "piston punching"
-	cont "HITMONCHAN?"
+	text "Möchtest Du"
+	line "NOCKCHAN,"
+	cont "den Meister des"
+	cont "Boxkampfs?"
 	done
 
 _WantHitmontopText::
-	text "You want the"
-	line "capoeira fighter"
-	cont "HITMONTOP?"
+	text "Möchtest Du"
+	line "KAPOERA,"
+	cont "der elegante"
+	cont "Kreisel-Kämpfer?"
 	done
 
 _OiMateText::
-	text "What do you think"
-	line "you're doing?"
+	text "Was fällt dir"
+	line "eigentlich ein?"
 	
-	para "Fight like a true"
-	line "warrior!"
+	para "Kämpfe wie ein"
+	line "wahrer Krieger!"
 	done
 
 _KoichiRematchPreBattleText::
 	text "<PLAYER>!"
 	
-	para "Did you return"
-	line "to spar with us"
-	cont "again?"
+	para "Bist du hier, um"
+	line "mit uns wieder"
+	cont "zu trainieren?"
 	
-	para "Aha! Then I"
-	line "won't hold back!"
+	para "Aha! Dann werde"
+	line "ich mich nicht"
+	cont "zurückhalten!"
 	done
 
 _KoichiRematchDefeatedText::
-	text "I have"
-	line "been defeated"
-	cont "once more..."
-	done
+	text "Ich wurde"
+	line "erneut besiegt..."
+	prompt

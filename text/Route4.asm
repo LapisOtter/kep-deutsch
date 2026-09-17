@@ -1,127 +1,137 @@
 _Route4Text1::
-	text "Ouch! I tripped"
-	line "over a rocky"
-	cont "#MON, GEODUDE!"
+	text "Aua! Ich bin über"
+	line "ein KLEINSTEIN"
+	cont "gestolpert, ein"
+	cont "GESTEIN-#MON!"
 	done
 
 _Route4BattleText1::
-	text "I came to get my"
-	line "mushroom #MON!"
+	text "Ich bin hier, um"
+	line "Pilz-#MON"
+	cont "zu fangen!"
 	done
 
 _Route4EndBattleText1::
-	text "Oh! My cute"
-	line "mushroom #MON!"
+	text "Ach,"
+	line "Pilz-#MON"
+	cont "sind ja so süß!"
 	prompt
 
 _Route4AfterBattleText1::
-	text "There might not"
-	line "be any more"
-	cont "mushrooms here."
+	text "Es dürfte hier"
+	line "keine Pilz-"
+	cont "#MON mehr"
+	cont "geben."
 
-	para "I think I got"
-	line "them all."
+	para "Ich glaube, ich"
+	line "habe alle"
+	cont "gefangen."
 	done
 
 _Route4Text5::
-	text "MT.MOON"
-	line "Tunnel Entrance"
+	text "MONDBERG"
+	line "Tunneleingang"
 	done
 
 _Route4Text6::
 	text "ROUTE 4"
-	line "MT.MOON -"
-	cont "CERULEAN CITY"
+	line "MONDBERG -"
+	cont "AZURIA CITY"
 	done
 
 _TM01PreReceiveText::
-	text "A punch of"
-	line "roaring ferocity!"
+	text "Ein Schlag von"
+	line "roher Gewalt!"
 	
-	para "Packed with"
-	line "destructive"
-	cont "power!"
+	para "Mit"
+	line "zerstörerischer,"
+	cont "verheerender"
+	cont "Wirkung."
 	
-	para "When the chips"
-	line "are down, MEGA"
-	cont "PUNCH is the"
-	cont "ultimate attack!"
+	para "Wenn es darauf"
+	line "ankommt, ist"
+	cont "MEGAHIEB die"
+	cont "ultimative"
+	cont "Attacke!"
 	
-	para "You agree, yes?"
+	para "Du stimmst zu,"
+	line "oder?"
 	prompt
+	
 
 _ReceivedTM01Text::
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _TM01ExplanationText::
-	text "Now, we are"
-	line "comrades in the"
-	cont "art of punching!"
+	text "Nun sind wir"
+	line "Freunde, was"
+	cont "Hiebe angeht!"
 	
-	para "You should go"
-	line "before you're"
-	cont "seen by the"
-	cont "misguided fool"
-	cont "who trains only"
-	cont "his silly kicking"
-	cont "over there."
+	para "Nun geh, ehe"
+	line "Dich der arme,"
+	cont "fehlgeleitete"
+	cont "Kerl, der dort"
+	cont "drüben nur Tritte"
+	cont "trainiert, sieht."
 	done
+	
 
 _TM01Refused::
-	text "You'll come back"
-	line "when you"
-	cont "understand the"
-	cont "worth of MEGA"
-	cont "PUNCH."
+	text "Du kommst wieder,"
+	line "wenn Du die"
+	cont "Bedeutung von"
+	cont "MEGAHIEB erkannt"
+	cont "hast."
 	done
+	
 
 _TM05PreReceiveText::
-	text "A kick of brutal"
-	line "ferocity!"
+	text "Ein Tritt von"
+	line "brutaler Energie!"
 	
-	para "Packed with"
-	line "destructive"
-	cont "power!"
+	para "Mit"
+	line "zerstörerischer,"
+	cont "verheerender"
+	cont "Wirkung."
 	
-	para "When you get"
-	line "right down to"
-	cont "it, MEGA KICK"
-	cont "is the ultimate"
-	cont "attack!"
+	para "Wenn es darauf"
+	line "ankommt, ist"
+	cont "MEGAKICK die"
+	cont "ultimative"
+	cont "Attacke!"
 	
-	para "Don't you agree?"
+	para "Du stimmst zu,"
+	line "oder?"
 	prompt
 
 _ReceivedTM05Text::
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _TM05ExplanationText::
-	text "Now, we are soul"
-	line "mates in the way"
-	cont "of kicking!"
+	text "Nun sind wir"
+	line "Freunde, was"
+	cont "Tritte angeht!"
 	
-	para "You should run"
-	line "before you're"
-	cont "seen by the"
-	cont "deluded nitwit"
-	cont "who trains only"
-	cont "simple punching"
-	cont "over there."
+	para "Nun geh, ehe"
+	line "Dich der arme,"
+	cont "fehlgeleitete"
+	cont "Kerl, der dort"
+	cont "drüben nur Hiebe"
+	cont "trainiert, sieht."
 	done
 
 _TM05Refused::
-	text "You'll come"
-	line "crawling back"
-	cont "when you"
-	cont "realize the"
-	cont "value of MEGA"
-	cont "KICK."
+	text "Du kommst"
+	line "angekrochen, wenn"
+	cont "Du die wahre"
+	cont "Bedeutung von"
+	cont "MEGAKICK erkennst."
 	done

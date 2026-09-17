@@ -1,37 +1,41 @@
 _TradebackTutorGreetingText::
-	text "In a far-off land,"
-	line "our #MON can"
-	cont "learn different"
-	cont "moves."
-
-	para "For ¥1000, I can"
-	line "teach yours."
+	text "In einem weit"
+	line "entfernten Land"
+	cont "können unsere"
+	cont "#MON andere"
+	cont "Attacken lernen."
+	
+	para "Für ¥1000 kann ich"
+	line "Deinen welche"
+	cont "beibringen."
 	done
 
 _TradebackTutorSaidYesText::
-	text "Which #MON"
-	line "should I tutor?"
+	text "Welches #MON"
+	line "soll eine Attacke"
+	cont "erlernen?"
 	prompt
 
 _TradebackTutorNotEnoughMoneyText::
-	text "Great power comes"
-	line "at a price, you"
-	cont "know!"
+	text "Große Kraft hat"
+	line "seinen Preis,"
+	cont "verstehst Du das?"
 	done
 
 _TradebackTutorWhichMoveText::
-	text "Which move should"
-	line "it learn?"
+	text "Welche Attacke"
+	line "soll es sein?"
 	done
 
 _TradebackTutorByeText::
-	text "If any of your"
-	line "#MON desires"
-	cont "power, come"
-	cont "visit me!"
+	text "Sollten sich Deine"
+	line "#MON nach"
+	cont "Stärke sehnen,"
+	cont "dann komm zu mir!"
 	done
 
 _TradebackTutorNoMovesText::
-	text "This #MON"
-	line "isn't capable..."
+	text "Dieses #MON ist"
+	line "dazu nicht in der"
+	cont "Lage..."
 	done

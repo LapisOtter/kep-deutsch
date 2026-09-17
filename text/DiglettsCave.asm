@@ -1,3 +1,4 @@
 _WugtrioBattleText::
-	text "Wug! Wug! Wug!@"
+	text "Schlig! Schlig!"
+	cont "Schlig!@"
 	text_end

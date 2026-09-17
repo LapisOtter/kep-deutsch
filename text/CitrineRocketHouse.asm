@@ -1,108 +1,118 @@
 _RocketText1::
-	text "Hah! The MT. MOON"
-	line "project was a big"
-	cont "success! GIOVANNI"
-	cont "is totally gonna"
-	cont "return!"
+	text "Haha! Das"
+	line "MONDBERG-Projekt"
+	cont "war ein großer"
+	cont "Erfolg! GIOVANNI"
+	cont "wird auf jeden"
+	cont "Fall zurückkehren!"
 	done
 
 _RocketText2::
-	text "Huh? One sec..."
+	text "Häh? Warte Mal..."
 	
-	para "Hey, CHIEF, sup?"
-	line "CELADON project"
-	cont "going strong?"
+	para "Hey, BOSS, was"
+	line "geht? Läuft das"
+	cont "PRISMANIA-Projekt"
+	cont "noch prima?"
 	
-	para "Good, good."
+	para "Gut, gut."
 	
-	para "Hey, what's with"
-	line "the face?"
-	
+	para "Hey, was machst Du"
+	line "für ein Gesicht?"	
 	done
 
 _JamesText::
-	text "I'm tired..."
+	text "Ich kann nicht"
+	line "mehr..."
 	
-	para "JESSIE won't stop"
-	line "nagging us..."
+	para "JESSIE hört nicht"
+	line "damit auf, uns"
+	cont "anzunörgeln..."
 	done
 
 _MeowthText::
-	text "MEOWTH: Nyarth!"
+	text "MAUZI: Miauz!"
 	done
 
 _JessieText1::
-	text "What the--"
+	text "Was zum--"
 	
-	para "It's you! That"
-	line "darn twerp!"
+	para "Du bist es doch!"
+	line "Dieses verflixte"
+	cont "Balg!"
 	
-	para "Go ahead and mock"
-	line "us! Isn't that"
-	cont "what you want?"
+	para "Nun mach Dich"
+	line "schon über uns"
+	cont "lustig! Das ist"
+	cont "doch das, was Du"
+	cont "willst, nicht?"
 	
-	para "Or...did you want"
-	line "a rematch?"
+	para "Oder... Möchtest"
+	line "Du eine Revanche?"
 	prompt
 
 _JessieFightText::
-	text "Yeah! I'll stomp"
-	line "you flat!"
+	text "Oh ja! Mach Dich"
+	line "auf was gefasst!"
 	done
 
 _JessieWinText::
-	text "Yes!"
-	line "I'm just better!"
+	text "Ja!"
+	line "Ich bin einfach"
+	cont "besser!"
 	prompt
 	
 _JessieLoseText::
 	text "Grr!"
-	line "JAMES! You lout!"
+	line "JAMES! Du Lümmel!"
 	prompt
 
 _JessieText2::
-	text "That's it! I'm"
-	line "done! Buzz off!"
+	text "Das war's! Ich"
+	line "hab genug! Mach"
+	cont "Dich vom Acker!"
 	done
 
 _JessieAfterBattleText::
-	text "Too chicken to"
-	line "battle? Then go"
-	cont "away!"
+	text "Zu feige für einen"
+	line "Kampf? Dann gehe!"
 	done
 
 ; James Bottle Cap system.
 ; In the anime, he collects Bottle Caps, so it feels better than adding Mr. Hyper.
 _JamesSeesBottleCap::
-	text "Hey, is that a"
-	line "BOTTLE CAP? I"
-	cont "collect these!"
+	text "Hey, ist das ein"
+	line "KRONKORKEN? Ich"
+	cont "sammle sie!"
 	
-	para "Tell you what..."
+	para "Ich sag dir mal"
+	line "was..."
 	
-	para "You give me that"
-	line "BOTTLE CAP, and"
-	cont "I'll make your"
-	cont "#MON a little"
-	cont "stronger!"
+	para "Du gibst mir den"
+	line "KRONKORKEN, und"
+	cont "ich mach Deine"
+	cont "#MON ein wenig"
+	cont "stärker!"
 	
-	para "You'll only need"
-	line "to do it once!"
+	para "Du wirst es bloß"
+	line "einmal machen"
+	cont "müssen!"
 	done
 
 _JamesYes::
-	text "Which #MON is"
-	line "is getting"
-	cont "juiced?"
+	text "Welches #MON"
+	line "soll aufgemotzt"
+	cont "werden?"
 	done
 
 _JamesNo::
-	text "But it's so"
-	line "rare..."
+	text "Aber der ist so"
+	line "selten..."
 	done
 
 _JamesDone::
-	text "There! Come back"
-	line "with more if"
-	cont "you find any!"
+	text "Das war's auch"
+	line "schon! Komm"
+	cont "zurück, falls Du"
+	cont "mehr findest!"
 	done

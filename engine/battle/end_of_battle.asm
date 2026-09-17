@@ -14,12 +14,16 @@ EndOfBattle:
 	ld a, [wBattleResult]
 	cp $1
 	ld de, YouWinText
-	jr c, .placeWinOrLoseString
+	jr c, .placeWinOrLoseStringCoord ; copypasted some code from pokered-de to make the draw text display correctly ~Lapis
 	ld de, YouLoseText
-	jr z, .placeWinOrLoseString
+	jr z, .placeWinOrLoseStringCoord
 	ld de, DrawText
-.placeWinOrLoseString
+	hlcoord 4, 8
+	jr .placeWinOrLoseString
+.placeWinOrLoseStringCoord
 	hlcoord 6, 8
+.placeWinOrLoseString
+; copypasted stuff ends here
 	call PlaceString
 	ld c, 200
 	call DelayFrames
@@ -75,13 +79,13 @@ EndOfBattle:
 	ret
 
 YouWinText:
-	db "YOU WIN@"
+	db "GEWONNEN@"
 
 YouLoseText:
-	db "YOU LOSE@"
+	db "VERLOREN@"
 
 DrawText:
-	db "  DRAW@"
+	db "UNENTSCHIEDEN@"
 
 PickUpPayDayMoneyText:
 	text_far _PickUpPayDayMoneyText

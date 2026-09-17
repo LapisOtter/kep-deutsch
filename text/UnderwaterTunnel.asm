@@ -1,3 +1,3 @@
 _DragoniteBattleText::
-	text "Kyoooo!@"
+	text "Drago!@"
 	text_end

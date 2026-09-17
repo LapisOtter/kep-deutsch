@@ -1,205 +1,237 @@
 _YujirouIntro::
-	text "Hey! I'm YUJIROU,"
-	line "VIRIDIAN's LEADER-"
-	cont "to-be!"
+	text "Hey! Ich bin"
+	line "YUJIROU, der"
+	cont "zukünftige"
+	cont "ARENALEITER von"
+	cont "VERTANIA CITY!"
 	
-	para "Me and my #MON"   ; originally Lickitung, but didn't work when taking rematches into account
-	line "will beat anyone"
-	cont "who comes our"
-	cont "way!"
+	para "Ich und meine"   ; originally Lickitung, but didn't work when taking rematches into account
+	line "#MON werden"
+	cont "jeden schlagen,"
+	cont "der sich in"
+	cont "unseren Weg"
+	cont "stellt!"
 	
-	para "Think you can take"
-	line "us? I'll show you!"
+	para "Denkst Du, Du"
+	line "könntest es mit"
+	cont "uns aufnehmen?"
+	cont "Ich zeig's Dir!"
 	done
 
 _YujirouLoseText::
-	text "Huh?!"
-	line "I lost?!"
+	text "Was?!"
+	line "Ich hab verloren?!"
 	prompt
 
 _YujirouAfterBattleText::
-	text "I won't give up!"
-	line "I'll train with"
-	cont "my #MON until"
-	cont "we're the best"
-	cont "there is!"
+	text "Ich gebe nicht"
+	line "auf! Ich werde"
+	cont "meine #MON"
+	cont "trainieren, bis"
+	cont "wir die besten"
+	cont "sind, die es"
+	cont "gibt!"
 	
-	para "One day, we will"
-	line "beat you!"
+	para "Eines Tages werden"
+	line "wir Dich besiegen!"
 	
 	done
 
 _BeforeReceivedBottleCapText::
-	text "I lost..."
+	text "Ich habe"
+	line "verloren..."
 	
 	para "..."
 	
-	para "I won't give up!"
-	line "I'll train with"
-	cont "my #MON until"
-	cont "we're the best"
-	cont "there is!"
+	para "Ich gebe nicht"
+	line "auf! Ich werde"
+	cont "meine #MON"
+	cont "trainieren, bis"
+	cont "wir die besten"
+	cont "sind, die es"
+	cont "gibt!"
 	
-	para "One day, we will"
-	line "beat you!"
+	para "Eines Tages werden"
+	line "wir Dich besiegen!"
 
-	para "Oh yeah! You can"
-	line "have this for"
-	cont "winning!"
+	para "Oh ja! Weil Du"
+	line "gewonnen hast,"
+	cont "darfst Du das"
+	cont "haben!"
 	done
 
 _ReceivedBottleCapText::
-	text "<PLAYER> received"
-	line "BOTTLE CAP!@"
+	text "<PLAYER> erhält"
+	line "einen KRONKORKEN!@"
 	text_end
 
 _BottleCapExplanationText::
 	text_start
 
-	para "I know it's not"
-	line "a real BADGE..."
-	cont "but look at how"
-	cont "shiny it is!"
-
-	para "Maybe it'll come"
-	line "in handy some"
-	cont "other time."
+	para "Ich weiß, das ist"
+	line "kein echter"
+	cont "ORDEN... aber"
+	cont "sieh ihn dir an!"
+	cont "Er schillert so"
+	cont "schön!"
+	
+	para "Vielleicht wird er"
+	line "dir später zum"
+	cont "nutzen kommen."
 	done
 
 _BottleCapNoRoomText::
-	text "Wait, you've got"
-	line "way too many"
-	cont "items already!"
+	text "Warte, Du hast"
+	line "schon viel zu"
+	cont "viele ITEMS!"
 	done
 
 _YujirouIntro2::
-	text "Hey! It's you!"
+	text "Hey! Du bist es!"
 	
-	para "After GIOVANNI got"
-	line "exposed for who"
-	cont "he truly is, I'm"
-	cont "closer than ever"
-	cont "to my goal!"
+	para "Jetzt wo jeder"
+	line "weiß, wer"
+	cont "GIOVANNI wirklich"
+	cont "ist, bin ich"
+	cont "näher an meinem"
+	cont "Ziel als jemals"
+	cont "zuvor!"
 	
 	para "<PLAYER>!"
 	
-	para "This time, I"
-	line "will defeat you!"
+	para "Dieses Mal werde"
+	line "ich Dich besiegen!"
 	
 	done
 
 _YujirouLoseText2::
-	text "Huh?!"
-	line "Not again!"
+	text "Hä?!"
+	line "Nicht schon"
+	cont "wieder!"
 	prompt
 
 _YujirouAfterBattleText2::
-	text "I lost..."
+	text "Ich habe"
+	line "verloren..."
 	
 	para "..."
 	
-	para "I had all the"
-	line "best NORMAL-"
-	cont "type #MON."
+	para "Aber Ich hatte"
+	line "die besten"
+	cont "NORMAL-#MON..."
 	
-	para "Maybe it's me?"
+	para "Liegt es etwa"
+	line "an mir?"
 	
 	done
 
 _ViridianPreGymBattleText1::
-	text "Did you know that"
-	line "the best #MON"
-	cont "are NORMAL-type?"
+	text "Wußtest Du, daß"
+	line "die besten"
+	cont "#MON vom Typ"
+	cont "NORMAL sind?"
 	done
 
 _ViridianPreGymEndBattleText1::
-	text "Mine"
-	line "aren't!"
+	text "Meine"
+	line "sind es auf jeden"
+	cont "Fall nicht!"
 	prompt
 
 _ViridianPreGymAfterBattleText1::
-	text "Maybe I should"
-	line "go to the SAFARI"
-	cont "ZONE."
+	text "Vielleicht sollte"
+	line "ich zur SAFARI-"
+	cont "ZONE gehen."
 	done
 
 _ViridianPreGymBattleText2::
-	text "CLEFAIRY and I"
-	line "are on a journey!"
+	text "PIEPI und ich sind"
+	line "auf einer Reise!"
 	done
 
 _ViridianPreGymEndBattleText2::
-	text "No!"
-	line "CLEFAIRY!"
+	text "Nein!"
+	line "PIEPI!"
 	prompt
 
 _ViridianPreGymAfterBattleText2::
-	text "We still have a"
-	line "lot to learn..."
+	text "Wir haben noch"
+	line "eine Menge zu"
+	cont "lernen..."
 	done
 
 _ViridianPreGymGuide::
-	text "Sigh..."
+	text "Seufz..."
 	
-	para "The GYM LEADER"
-	line "of VIRIDIAN has"
-	cont "disappeared."
+	para "Der ARENALEITER"
+	line "von VERTANIA CITY"
+	cont "ist verschwunden."
 	
-	para "We opened this"
-	line "PRE-GYM to find"
-	cont "new candidates,"
-	cont "but..."
+	para "Wir haben diese"
+	line "VOR-ARENA"
+	cont "eröffnet, um neue"
+	cont "Kandidaten zu"
+	cont "finden, doch..."
 	
-	para "This kid seems"
-	line "to be a little"
-	cont "too into it..."
+	para "Dieses Kind hängt"
+	line "sich ein bißchen"
+	cont "zu sehr rein..."
 	done
 
 _ViridianPreGymSign1::
-	text "#MON LEAGUE!"
-	line "Today's winners"
-	cont "are tomorrow's"
-	cont "#MON MASTERS!"
+	text "#MON-LIGA!"
+	line "Die Sieger von"
+	cont "Heute sind die"
+	cont "#MON-MEISTER"
+	cont "von Morgen!"
 	done
 
 _ViridianPreGymSign2::
-	text "TRAINER TIPS"
+	text "TIPS FÜR TRAINER"
 	
-	para "#MON cannot"
-	line "sustain ailments"
-	cont "from attacks with"
-	cont "types they have!"
+	para "#MON sind"
+	line "immun gegen"
+	cont "Nebeneffekte"
+	cont "gegnerischer"
+	cont "Attacken, mit dem"
+	cont "sie einen Typ"
+	cont "gemeinsam haben!"
 	done
 
 _ViridianPreGymSign3::
-	text "TRAINER TIPS"
+	text "TIPS FÜR TRAINER"
 	
-	para "If a #MON is"
-	line "confused, it will"
-	cont "sometimes hurt"
-	cont "itself!"
+	para "Ist ein #MON"
+	line "verwirrt, wird es"
+	cont "sich manchmal"
+	cont "selbst verletzen!"
 	
-	para "It will be cured"
-	line "after a battle."
+	para "Die Verwirrung"
+	line "verschwindet,"
+	cont "wenn der Kampf"
+	cont "zuende geht."
 	
-	para "Switching out a"
-	line "confused #MON"
-	cont "will also cure"
-	cont "it!"
+	para "Sie verschwindet"
+	line "auch, wenn das"
+	cont "verwirrte #MON"
+	cont "ausgewechselt"
+	cont "wird!"
 	done
 
 _ViridianPreGymSign4::
-	text "PRE-GYM tryout"
-	line "grades..."
+	text "Prüfungszensuren"
+	line "der VOR-ARENA..."
 	
-	para "YUJIROU seems"
-	line "to have scored"
-	cont "poorly."
+	para "YUJIROU scheint"
+	line "schlecht"
+	cont "abgeschnitten"
+	cont "zu haben."
 	done
 
 _PreGymStatueText::
-	text "VIRIDIAN PRE-GYM"
+	text "VERTANIA CITY"
+	line "VOR-ARENA"
 	
-	para "CANDIDATE:"
+	para "KANDIDAT:"
 	line "YUJIROU"
 	done

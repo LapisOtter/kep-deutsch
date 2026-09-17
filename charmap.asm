@@ -76,8 +76,9 @@
 ; Actual characters (from other graphics files)
 
 	; needed for ShowPokedexDataInternal (see engine/menus/pokedex.asm)
-	charmap "′",         $60 ; gfx/pokedex/pokedex.png
-	charmap "″",         $61 ; gfx/pokedex/pokedex.png
+	charmap "<M>",       $60 ; gfx/pokedex/pokedex.png
+	charmap "<K>",       $61 ; gfx/pokedex/pokedex.png
+	charmap "<G>",       $62 ; gfx/pokedex/pokedex.png
 
 	; needed for LoadTownMap_Fly (see engine/items/town_map.asm)
 	charmap "▲",         $ed ; gfx/town_map/up_arrow.1bpp
@@ -155,10 +156,24 @@
 	charmap "'t",        $be
 	charmap "'v",        $bf
 
+; German exclusive characters begin here
+
+	charmap "Ä",         $ca
+	charmap "Ö",         $cb
+	charmap "Ü",         $cc
+	charmap "ä",         $cd
+	charmap "ö",         $ce
+	charmap "ü",         $cf
+	charmap "ß",         $d1
+	
+	charmap "<AP_A>",    $d2 ; Distinct from BOLD_A, its to turn the PP symbol in the battle and status screens to AP
+
 	charmap "'",         $e0
 	charmap "<PK>",      $e1
 	charmap "<MN>",      $e2
 	charmap "-",         $e3
+	
+	charmap "+",         $d3 ; added this just for importing the german versions credits, im pathetic ik
 
 	charmap "'r",        $e4
 	charmap "'m",        $e5

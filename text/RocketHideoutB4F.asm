@@ -1,132 +1,147 @@
 _RocketHideout4Text_4557a::
-	text "So! I must say, I"
-	line "am impressed you"
-	cont "got here!"
+	text "Ich bin schwer"
+	line "beeindruckt. Du"
+	cont "bist tatsächlich"
+	cont "weit gekommen!"
+	done
 	
-	para "We, TEAM ROCKET,"
-	line "capture #MON"
-	cont "from all around"
-	cont "the world."
+	para "Wir, TEAM ROCKET,"
+	line "finanzieren mit"
+	cont "#MON unsere"
+	cont "finsteren Pläne."
 	
-	para "They're important"
-	line "tools for keeping"
-	cont "our enterprise"
-	cont "running."
+	para "Sie sind für uns"
+	line "nichts weiter als"
+	cont "ein Mittel zum"
+	cont "Zweck."
 	
-	para "And I am the"
-	line "leader of this"
-	cont "enterprise..."
+	para "Und ich bin der"
+	line "Kopf dieser"
+	cont "Organisation..."
 	cont "GIOVANNI!"
 	
-	para "What? You want"
-	line "the SILPH SCOPE?"
+	para "Wie bitte? Du"
+	line "willst das SILPH"
+	cont "SCOPE?"
 	
-	para "Fwahahaha!"
+	para "Haha!"
 	
-	para "You came barging"
-	line "into our HIDEOUT"
-	cont "just for that?"
+	para "Das ist alles?"
+	line "Dafür schleichst"
+	cont "Du sich in unser"
+	cont "Versteck und"
+	cont "bringst Dich"
+	cont "selbst in Gefahr?"
 	
-	para "What an amusing"
-	line "child. For that"
-	cont "insolence..."
+	para "Du bist doch nur"
+	line "ein Kind. Du"
+	cont "wirst es bitter"
+	cont "bereuen!"
 	
-	para "You will feel a"
-	line "world of pain!"
+	para "Mach Dich bereit,"
+	line "Höllenqualen zu"
+	cont "erleiden!, Wicht!"
 	
 	done
-
+	
 _RocketHideout4Text_4557f::
-	text "What?!"
-	line "This cannot be!"
+	text "Was?!"
+	line "Wie ist das"
+	cont "möglich?!"
 	prompt
 
 _RocketHideout4Text_45584::
-	text "I see that you"
-	line "raise #MON"
-	cont "with utmost care."
+	text "Offensichtlich"
+	line "trainierst Du"
+	cont "Deine #MON"
+	cont "sehr sorgfältig!"
 
-	para "A child like you"
-	line "would never"
-	cont "understand what I"
-	cont "hope to achieve."
+	para "Trotzdem würdest"
+	line "Du meine Ziele"
+	cont "und Beweggründe"
+	cont "nie verstehen..."
 
-	para "I shall step"
-	line "aside this time!"
+	para "Dieses Mal lasse"
+	line "ich Dich noch von"
+	cont "dannen ziehen..."
 
-	para "I hope we meet"
-	line "again..."
+	para "Doch wir werden"
+	line "uns wiedersehen!"
 	done
 
 _RocketHideout4BattleText2::
-	text "I know you! You"
-	line "ruined our plans"
-	cont "at MT.MOON!"
+	text "Du warst es, der"
+	line "unsere Pläne am"
+	cont "MONDBERG zunichte"
+	cont "gemacht hat!"
 	done
 
 _RocketHideout4EndBattleText2::
-	text "Burned"
-	line "again!"
+	text "Dieses"
+	line "Kind ist einfach"
+	cont "unschlagbar!!!"
 	prompt
 
 _RocketHide4AfterBattleText2::
-	text "Do you have"
-	line "something against"
-	cont "TEAM ROCKET?"
+	text "Willst Du das"
+	line "TEAM ROCKET"
+	cont "zugrunde richten?"
 	done
 
 _RocketHideout4BattleText3::
-	text "How can you not"
-	line "see the beauty of"
-	cont "our evil?"
+	text "Spürst Du nicht"
+	line "die Schönheit"
+	cont "der dunklen Seite"
+	cont "der Macht?"
 	done
 
 _RocketHideout4EndBattleText3::
-	text "Ayaya!"
+	text "Autsch!"
 	prompt
 
 _RocketHide4AfterBattleText3::
-	text "BOSS! I'm sorry I"
-	line "failed you!"
+	text "Gnade, BOSS! Ich"
+	line "habe versagt..."
 	done
 
 _RocketHideout4BattleText4::
-	text "The elevator"
-	line "doesn't work? Who"
-	cont "has the LIFT KEY?"
+	text "Ich werde Dir"
+	line "den LIFTÖFFNER"
+	cont "niemals geben!"
 	done
 
 _RocketHideout4EndBattleText4::
-	text "No!"
+	text "Oh nein!"
 	prompt
 
 _RocketHideout4Text_455ec::
-	text "Oh no! I dropped"
-	line "the LIFT KEY!"
+	text "Mist! Ich habe"
+	line "den LIFTÖFFNER"
+	cont "verloren!"
 	done
 
 _RocketHideoutJessieJamesText1::
-	text "Not another step,"
-	line "brat!@"
+	text "Keinen Schritt"
+	line "weiter!@"
 	text_end
 
 _RocketHideoutJessieJamesText2::
-	text "How dare you"
-	line "humiliate us at"
-	cont "MT.MOON!"
+	text "Du hast uns am"
+	line "MONDBERG ganz"
+	cont "schön gedemütigt!"
 
-	para "It's payback time,"
-	line "you brat!"
+	para "Aber Rache ist"
+	line "süß, Du Rotznase!"
 	done
 
 _RocketHideoutJessieJamesText3::
-	text "Such"
-	line "a dreadful twerp!"
+	text "So"
+	line "ein Hohlkopf!"
 	prompt
 
 _RocketHideoutJessieJamesText4::
-	text "Looks like TEAM"
-	line "ROCKET's blasting"
-	cont "off again!@"
+	text "Das war Mal wieder"
+	line "ein Schuss in den"
+	cont "Ofen!@"
 	text_end
 

@@ -1,19 +1,20 @@
 _CitrinePokecenterText2::
-	text "I've seen a lot"
-	line "of men in black"
-	cont "going in and"
-	cont "out of a house"
-	cont "down the road."
+	text "Ich habe gesehen,"
+	line "wie mehrere"
+	cont "Männer in Schwarz"
+	cont "beim Haus dort"
+	cont "unten abhängen."
 	
-	para "It couldn't be,"
-	line "could it?"
+	para "...Das kann doch"
+	line "nicht sein, oder?"
 	done
 
 _CitrinePokecenterText3::
-	text "The trainers here"
-	line "are too tough!"
+	text "Die Trainer hier"
+	line "sind viel zu"
+	cont "stark!"
 	
-	para "What are they"
-	line "feeding their"
+	para "Mit was füttern"
+	line "sie denn ihre"
 	cont "#MON?!"
 	done

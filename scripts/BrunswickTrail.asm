@@ -204,8 +204,8 @@ GZapFound:
 	jp TextScriptEnd
 	
 GZapRunText:
-	text "It ran off"
-	line "somewhere..."
+	text "Es ist irgendwohin"
+	line "weggerannt..."
 	done
 	text_end
 

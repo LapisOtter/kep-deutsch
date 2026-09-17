@@ -1,69 +1,76 @@
 _CinnabarPokecenterText2::
-	text "You can cancel"
-	line "evolution."
+	text "Man kann die"
+	line "Entwicklung eines"
+	cont "#MON stoppen."
 
-	para "When a #MON is"
-	line "evolving, you can"
-	cont "stop it and leave"
-	cont "it the way it is."
+	para "Bricht man sie"
+	line "ab, dann bleibt"
+	cont "das #MON,"
+	cont "wie es ist."
 	done
 
 _CinnabarPokecenterText3::
-	text "Do you have any"
-	line "friends?"
+	text "Tausche #MON"
+	line "mit Freunden!"
 
-	para "#MON you get"
-	line "in trades grow"
-	cont "very quickly."
+	para "So kann man" ; Since traded Pokémon don't get an EXP Boost in KEP, the dialogue was altered to instead gesture towards the regional variant trades. ~Lapis
+	line "#MON erhalten,"
+	cont "die man in dieser"
+	cont "Region sonst"
+	cont "nicht findet!"
 
-	para "I think it's"
-	line "worth a try!"
+	para "Du solltest es"
+	line "ausprobieren!"
 	done
 
 _PoryZSalesmanText1::
-	text "SALESMAN: Whoa"
-	line "there, kid! Long"
-	cont "time no see!"
+	text "HÄNDLER: Wow!"
+	line "Lange nicht mehr"
+	cont "gesehen!"
 	
-	para "My uncle works for"
-	line "SILPH CO., and he"
-	cont "got me some top"
-	cont "secret data on"
-	cont "the next PORYGON!"
+	para "Mein Onkel"
+	line "arbeitet bei"
+	cont "SILPH CO. und"
+	cont "gab mir ein paar"
+	cont "streng geheime"
+	cont "Dateien für das"
+	cont "nächste PORYGON!"
 	
-	para "Tell you what."
-	line "You can get a"
-	cont "copy for ¥3000."
-	cont "What do you say?"
-	
+	para "Ich sag dir mal"
+	line "was. Ich gebe dir"
+	cont "eine Kopie für"
+	cont "knappe ¥3000."
+	cont "Wie sieht's aus?"
 	done
 
 _PoryZSalesmanNoText::
-	text "Huh? Are you sure?"
-	line "It's your big"
-	cont "chance!"
+	text "Hä? Bist Du dir"
+	line "sicher? Das ist"
+	cont "Deine große"
+	cont "Chance!"
 	done
 
 _ReceivedDubiousDiscText::
-	text "<PLAYER> received"
-	line "DUBIOUS DISC!@"
+	text "<PLAYER> erhält"
+	line "DUBIOSDISC!@"
 	text_end
 
 _PoryZSalesmanNoMoneyText::
-	text "You'll need more"
-	line "money than that!"
+	text "Schade, Du hast"
+	line "nicht genug Geld!"
 	done
 
 _PoryZSalesmanText2::
-	text "SALESMAN: I'm not"
-	line "liable for any"
-	cont "bugs in that code!"
+	text "HÄNDLER: Ich trage"
+	line "für Fehler im"
+	cont "Code keine"
+	cont "Verantwortung!"
 	done
 
 _PoryZBagFull::
-	text "Hey, your bag's"
-	line "full! Can't sell"
-	cont "you anything like"
-	cont "that!"
+	text "Hey, Dein Beutel"
+	line "ist voll! Ich"
+	cont "kann dir so"
+	cont "nichts verkaufen!"
 	done
 	

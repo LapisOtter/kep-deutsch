@@ -1,31 +1,35 @@
 _SilphCo1Text1::
-	text "Welcome!"
+	text "Willkommen!"
 
-	para "The CHIEF is in"
-	line "the boardroom on"
-	cont "the top floor!"
+	para "Der SILPH-CHEF"
+	line "befindet sich"
+	cont "im Konferenzraum"
+	cont "im obersten Stock!"
 	done
 
 _SilphCo1Text2::
-	text "Past here is the"
-	line "SILPH GAUNTLET,"
-	cont "a gathering of"
-	cont "some of KANTO's"
-	cont "best trainers!"
+	text "Dahinter befindet"
+	line "Sich das SILPH"
+	cont "GAUNTLET, eine"
+	cont "Versammlung der"
+	cont "besten Trainer"
+	cont "von KANTO!"
 	
-	para "I can only allow"
-	line "you in if you've"
-	cont "been invited by"
-	cont "CHIEF, though."
+	para "Ich kann Dich aber"
+	line "nur reinlassen,"
+	cont "wenn Dich der"
+	cont "SILPH-CHEF dazu"
+	cont "eingeladen hat."
 	done
 
 _SilphCo1Text3::
-	text "Excuse me, only"
-	line "trainers with a"
-	cont "special invite"
-	cont "are allowed in."
-
-	para "Please come back"
-	line "once you have an"
-	cont "invite!"
+	text "Verzeihung, aber"
+	line "nur Trainer mit"
+	cont "einer besonderen"
+	cont "Einladen dürfen"
+	cont "hier rein."
+	
+	para "Bitte komm zurück,"
+	line "wenn Du eine"
+	cont "Einladung hast!"
 	done

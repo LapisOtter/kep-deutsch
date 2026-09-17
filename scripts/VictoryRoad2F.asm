@@ -221,17 +221,21 @@ DoubleEdgeGuy:
 	jp TextScriptEnd
 
 TM10PreReceiveText:
-	text "You should be"
-	line "proud of your-"
-	cont "self, having"
-	cont "battled your way"
-	cont "through VICTORY"
-	cont "ROAD so bravely."
+	text "Du kannst stolz"
+	line "auf Dich sein,"
+	cont "weil Du dich so"
+	cont "tapfer auf der"
+	cont "SIEGESSTRASSE"
+	cont "geschlagen hast."
 	
-	para "In recognition of"
-	line "your feat, I can"
-	cont "teach your #-"
-	cont "MON DOUBLE-EDGE."
+	para "Als Anerkennung"
+	line "Deiner Leistung"
+	cont "möchte ich Dir"
+	cont "die Fähigkeit"
+	cont "geben, einem"
+	cont "deiner #MON"
+	cont "RISIKOTACKLE"
+	cont "beizubringen."
 	prompt
 
 ReceivedTM10Text:
@@ -240,19 +244,17 @@ ReceivedTM10Text:
 	text_end
 
 TM10ExplanationText:
-	text "Keep that drive"
-	line "going for the"
-	cont "#MON LEAGUE!"
+	text "Mach in der"
+	line "#MON-LIGA so"
+	cont "weiter!"
 	
-	para "Take a run at"
-	line "them and knock"
-	cont "em out!"
+	para "Überrumple sie und"
+	line "mach sie fertig!"
 	done
 
 TM10Refused:
-	text "I'll teach your"
-	line "#MON at any"
-	cont "time."
+	text "Ich werde sie dir"
+	line "jederzeit geben."
 	done
 
 DoubleEdgeNoRoomText:

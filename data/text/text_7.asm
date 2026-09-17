@@ -1,348 +1,378 @@
 _ItemUseText001::
-	text "<PLAYER> used@"
+	text "<PLAYER> setzt@"
 	text_end
 
 _ItemUseText002::
 	text_ram wStringBuffer
-	text "!"
+	text " ein!"
 	done
 
 _GotOnBicycleText1::
-	text "<PLAYER> got on the@"
+	text "<PLAYER> steigt@"
 	text_end
 
 _GotOnBicycleText2::
+	text "auf das @"
 	text_ram wStringBuffer
 	text "!"
 	prompt
 
 _GotOffBicycleText1::
-	text "<PLAYER> got off@"
+	text "<PLAYER> steigt@"
 	text_end
 
 _GotOffBicycleText2::
-	text "the @"
+	text "vom @"
 	text_ram wStringBuffer
-	text "."
+	text " ab."
 	prompt
 
 _ThrewAwayItemText::
-	text "Threw away"
-	line "@"
 	text_ram wcd6d
-	text "."
+	text_start
+	line "weggeworfen!"
 	prompt
 
 _IsItOKToTossItemText::
-	text "Is it OK to toss"
+	text "Willst Du"
 	line "@"
 	text_ram wStringBuffer
-	text "?"
+	text_start
+	cont "wegwerfen?"
 	prompt
 
 _TooImportantToTossText::
-	text "That's too impor-"
-	line "tant to toss!"
+	text "Dieses Item ist"
+	line "zu wichtig! Du"
+	cont "kannst es nicht"
+	cont "wegwerfen!"
 	prompt
 
 _AlreadyKnowsText::
 	text_ram wcd6d
-	text " knows"
+	text " kennt"
 	line "@"
 	text_ram wStringBuffer
-	text "!"
+	text_start
+	cont "bereits!"
 	prompt
 
 _ConnectCableText::
-	text "Okay, connect the"
-	line "cable like so!"
+	text "OK, verbinde die"
+	line "Kabel so! "
 	prompt
 
 _TradedForText::
-	text "<PLAYER> traded"
+	text "<PLAYER> hat"
 	line "@"
 	text_ram wInGameTradeGiveMonName
-	text " for"
+	text " gegen"
 	cont "@"
 	text_ram wInGameTradeReceiveMonName
-	text "!@"
+	text_start
+	cont "getauscht!@"
 	text_end
 
 _WannaTrade1Text::
-	text "I'm looking for"
-	line "@"
-	text_ram wInGameTradeGiveMonName
-	text "! Wanna"
-
-	para "trade one for"
-	line "@"
-	text_ram wInGameTradeReceiveMonName
-	text "? "
-	done
-
-_NoTrade1Text::
-	text "Awww!"
-	line "Oh well..."
-	done
-
-_WrongMon1Text::
-	text "What? That's not"
+	text "Ich suche nach"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "!"
 
-	para "If you get one,"
-	line "come back here!"
+	para "Tauschst Du es"
+	line "gegen @"
+	text_ram wInGameTradeReceiveMonName
+	text "?"
+	done
+
+_NoTrade1Text::
+	text "Oje! Wenn"
+	line "das so ist..."
+	done
+
+_WrongMon1Text::
+	text "Was? Das ist aber"
+	line "kein @"
+	text_ram wInGameTradeGiveMonName
+	text "!"
+
+	para "Komm wieder,"
+	line "wenn Du eins"
+	cont "besitzt!"
 	done
 
 _Thanks1Text::
-	text "Hey, thanks!"
+	text "Vielen Dank!"
 	done
 
 _AfterTrade1Text::
-	text "Isn't my old"
-	line "@"
+	text "Ist @"
 	text_ram wInGameTradeReceiveMonName
-	text " great?"
+	text_start
+	line "nicht cool?"
 	done
 
-_WannaTrade2Text::
-	text "Hello there! Do"
-	line "you want to trade"
-
-	para "your @"
+_WannaTrade2Text:: ; replaced the paras with conts to make the dialogue progress more naturally ~ Lapis
+	text "Hallo! Willst Du"
+	line "Dein @"
 	text_ram wInGameTradeGiveMonName
 	text_start
-	line "for @"
+	
+	cont "nicht gegen ein"
+	cont "@"
 	text_ram wInGameTradeReceiveMonName
-	text "?"
+	text_start
+	cont "tauschen?"
 	done
 
 _NoTrade2Text::
-	text "Well, if you"
-	line "don't want to..."
+	text "Wenn Du nicht"
+	line "magst, kann man"
+	cont "nichts machen!"
 	done
 
 _WrongMon2Text::
-	text "Hmmm? This isn't"
+	text "Hm? Das ist kein"
 	line "@"
 	text_ram wInGameTradeGiveMonName
-	text "."
+	text "!"
 
-	para "Think of me when"
-	line "you get one."
+	para "Denk an mich,"
+	line "wenn Du eins"
+	cont "gefangen hast!"
 	done
 
 _Thanks2Text::
-	text "Thanks!"
+	text "Danke!"
 	done
 
-_AfterTrade2Text::
-	text "The @"
+_AfterTrade2Text:: ; changed articles from masculine to neutral to be more in line with later games ~Lapis
+	text "Das @"
 	text_ram wInGameTradeGiveMonName
-	text " you"
-	line "traded to me"
-	cont "went and evolved!"
+	text ","
+	line "das Du mir"
+	
+	cont "gegeben hast, hat"
+	cont "sich entwickelt!"
 	done
 
 _WannaTrade3Text::
-	text "Hi! Do you have"
+	text "Besitzt Du ein"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "?"
 
-	para "Want to trade it"
-	line "for @"
+	para "Willst Du es"
+	line "gegen @"
 	text_ram wInGameTradeReceiveMonName
-	text "?"
+	text_start
+
+	cont "tauschen?"
 	done
 
 _NoTrade3Text::
-	text "That's too bad."
+	text "Schade!"
 	done
 
 _WrongMon3Text::
-	text "...This is no"
+	text "Das ist kein"
 	line "@"
 	text_ram wInGameTradeGiveMonName
-	text "."
+	text "!"
 
-	para "If you get one,"
-	line "trade it with me!"
+	para "Komm wieder,"
+	line "wenn Du eins"
+	cont "besitzt!"
 	done
 
 _Thanks3Text::
-	text "Thanks pal!"
+	text "Vielen Dank!"
 	done
 
 _AfterTrade3Text::
-	text "How is my old"
+	text "Wie geht es"
 	line "@"
 	text_ram wInGameTradeReceiveMonName
 	text "?"
 
-	para "My @"
+	para "Mein @"
 	text_ram wInGameTradeGiveMonName
-	text " is"
-	line "doing great!"
+	text_start
+	line "fühlt sich super!"
 	done
 
 _WannaTrade6Text::
-	text "No way! The"
-	line "Combat Breed is"
-	cont "way better!"
+	text "Schwachsinn! Die"
+	line "GEFECHTVARIANTE"
+	cont "ist viel besser!"
 
-	para "You agree, right?"
-	line "Trade me your"
+	para "Du stimmst mir"
+	line "doch zu, oder?"
+	cont "Tausch mir dein"
 	cont "TAUROS!"
 	done
 
 _WrongMon6Text::
-	text "What? That's not"
+	text "Was? Das ist kein"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "!"
 
-	para "Come on, back"
-	line "me up here!"
+	para "Komm schon, steh"
+	line "mir doch zur"
+	cont "Seite!"
 	done
 
 _Thanks6Text::
-	text "I knew you would"
-	line "agree!"
+	text "Ich wusste, du"
+	line "würdest mir"
+	cont "zustimmen!"
 	done
 
 _AfterTrade6Text::
-	text "Isn't the Combat"
-	line "Breed amazing?"
+	text "Ist die GEFECHT-"
+	line "VARIANTE nicht"
+	cont "toll?"
 	
-	para "JUMP KICK is so"
-	line "worth it!"
+	para "SPRUNGKICK ist es"
+	line "sowas von Wert!"
 	done
 
 _WannaTrade7Text::
-	text "It's obvious."
-	line "The Aqua Breed"
-	cont "is superior."
+	text "Es ist doch"
+	line "offensichtlich."
+	
+	para "Die FLUTEN-"
+	line "VARIANTE ist"
+	cont "überlegen."
 
-	para "Surely you agree."
-	line "Trade me your"
-	cont "TAUROS!"
+	para "Sicherlich stimmst"
+	line "du zu. Tausch mir"
+	cont "dein TAUROS!"
 	done
 
 _WrongMon7Text::
-	text "Huh? That's not"
+	text "Häh? Das ist kein"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "!"
 
-	para "Time is of the"
-	line "essence! Bring"
-	cont "me one!"
+	para "Zeit ist Geld!"
+	line "Bring mir eins!"
 	done
 
 _AfterTrade7Text::
-	text "Isn't the Aqua"
-	line "Breed perfect?"
+	text "Ist die FLUTEN-"
+	line "VARIANTE nicht"
+	cont "perfekt?"
 	
-	para "TAUROS clearly"
-	line "works best with"
-	cont "HYDRO PUMP."
+	para "TAUROS funktio-"
+	line "niert am besten"
+	cont "mit HYDROPUMPE."
 	done
 
 _WannaTrade8Text::
-	text "I can't believe"
-	line "we're arguing"
-	cont "this! The Blaze"
-	cont "Breed is king!"
+	text "Ich kann nicht"
+	line "glauben, dass wir"
+	cont "uns darüber"
+	cont "streiten! Die"
+	cont "FLAMMENVARIANTE"
+	cont "ist die beste!"
 
-	para "Hey, you! Trade"
-	line "me your TAUROS!"
+	para "Hey, du! Tausch"
+	line "mir dein TAUROS!"
 	done
 
 _WrongMon8Text::
-	text "What? That's not"
+	text "Was? Das ist kein"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "!"
 
-	para "You pulling my"
-	line "leg?"
+	para "Willst du mich"
+	line "veräppeln?"
 	done
 
 _AfterTrade8Text::
-	text "Hey! What do"
-	line "you think?"
+	text "Hey! Was hälst"
+	line "du denn von der"
+	cont "FLAMMENVARIANTE?"
 	
-	para "FIRE SPIN helps"
-	line "TAUROS a lot,"
-	cont "huh?"
+	para "FEUERWIRBEL hilft"
+	line "TAUROS eine"
+	cont "Menge, oder?"
 	done
 
 _NothingToCutText::
-	text "There isn't"
-	line "anything to CUT!"
+	text "Hier kann"
+	line "man nichts"
+	cont "zerschneiden!"
 	prompt
 
 _UsedCutText::
 	text_ram wcd6d
-	text " hacked"
-	line "away with CUT!"
+	text " setzt"
+	line "den ZERSCHNEIDER"
+	cont "ein!"
 	prompt
 
 _WannaTrade4Text::
-	text "I'm the TRADER!"
-	line "I love to help"
-	para "trainers evolve"
-	line "their #MON!"
-	para "Wanna trade?"
+	text "Ich bin der"
+	line "TAUSCHER! Liebend"
+	cont "gern helfe ich"
+	cont "Trainern, ihre"
+	cont "#MON zu"
+	cont "entwickeln!"
+	cont "Wollen wir"
+	cont "tauschen?"
 	done
 	
 _NoTrade4Text::
-	text "Ok, maybe next"
-	line "time then."
+	text "OK, vielleicht"
+	line "nächstes Mal."
 	done
 	
 _Thanks4Text::
-	text "There we go!"
-	para "Hope I helped!"
+	text "Na also!"
+	para "Ich hoffe, ich"
+	line "konnte dir helfen!"
 	done
 
 _WannaTrade5Text::
-	text "In my region, we"
-	line "have our own"
+	text "In meiner Heimat-"
+	line "Region sind die"
 	cont "@"
 	text_ram wInGameTradeGiveMonName
-	text "!"
+	text " ganz"
+	cont "anders!"
 	
-	para "Want to trade me"
-	line "yours?"
+	para "Willst du mir"
+	line "deins tauschen?"
 	done
 	
 _NoTrade5Text::
-	text "Ok, maybe next"
-	line "time then."
+	text "OK, vielleicht"
+	line "nächstes Mal."
 	done
 
 _ClefairyText::
-	text "CLEFAIRY: Pi"
-	line "pippippi!@"
+	text "PIEPI: Pi pippi!@"
 	text_end
 
 _TMNPCNoRoomText::
-	text "You have no"
-	line "room for this!"
+	text "Du hast keinen"
+	line "Platz mehr dafür!"
 	done
 
 _OddishText::
-	text "ODDISH: Orddissh!@"
+	text "MYRAPLA: Myraaa!@"
 	text_end
 
 _SandshrewText::
-	text "SANDSHREW: Pikii!@"
+	text "SANDAN: Pikii!@"
 	text_end
 
 _BulbasaurText::
-	text "BULBASAUR: Bubba!"
-	line "Zoar!@"
+	text "BISASAM: Bisa!"
+	line "Bisasam!@"
 	text_end

@@ -6,9 +6,10 @@ MtMoonSquareHouse_TextPointers:
 	dw MtMoonSquareHouseMart
 
 MtMoonSquareHouseGirl:
-	text "When the sun goes"
-	line "down, CLEFAIRY"
-	cont "come out to play."
+	text "Geht die Sonne"
+	line "unter, kommen"
+	cont "PIEPI heraus,"
+	cont "um zu spielen."
 	done
 
 MtMoonSquareHouseMart::

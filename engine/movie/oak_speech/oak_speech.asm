@@ -381,6 +381,6 @@ BoyGirlText: ; This is new so we had to add a reference to get it to compile
     text_end
 
 IsThisOk:
-	text "Is this OK?"
+	text "OK?"
 	prompt
 	text_end

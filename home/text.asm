@@ -178,7 +178,7 @@ PCCharText::      db "PC@"
 RocketCharText::  db "ROCKET@"
 PlacePOKeText::   db "POKé@"
 SixDotsCharText:: db "……@"
-EnemyText::       db "Enemy @"
+EnemyText::       db "Gegn. @"
 PlacePKMNText::   db "<PK><MN>@"
 
 ContText::

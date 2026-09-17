@@ -1,60 +1,67 @@
 _RockTunnel2AfterBattleText8::
-	text "I'll raise my"
-	line "#MON to beat"
-	cont "yours, kid!"
+	text "Ich werde mit"
+	line "meinen #MON"
+	cont "trainieren!"
 	done
 
 _RockTunnel2BattleText9::
-	text "I draw #MON"
-	line "when I'm home."
+	text "Zuhause zeichne"
+	line "ich gern #MON."
 	done
 
 _RockTunnel2EndBattleText9::
-	text "Whew!"
-	line "I'm exhausted!"
+	text "Ich"
+	line "bin erschöpft!"
 	prompt
 
 _RockTunnel2AfterBattleText9::
-	text "I'm an artist,"
-	line "not a fighter."
+	text "Ich liebe die"
+	line "Kunst, nicht"
+	cont "den Kampf!"
 	done
 
 _TM48PreReceiveText::
-	text "When you're on a"
-	line "rocky mountain"
-	cont "like this, rock"
-	cont "slides are a"
-	cont "threat."
+	text "Wenn Du so hoch"
+	line "oben im steinigen"
+	cont "Gebirge bist wie"
+	cont "hier, stellen"
+	cont "Geröllawinen eine"
+	cont "Gefahr dar."
 	
-	para "Can you imagine?"
-	line "Boulders tumbling"
-	cont "down on you?"
+	para "Kannst Du dir"
+	line "vorstellen, dass"
+	cont "dir Felden auf"
+	cont "den Kopf fallen?"
 	
-	para "That'd be like..."
-	line "Waaaaah! Total"
-	cont "terror!"
+	para "Das wäre doch..."
+	line "Einfach"
+	cont "Unvorstellbar"
+	cont "schrecklich!"
 	
-	para "You don't seem to"
-	line "be scared. Want"
-	cont "to try using"
-	cont "ROCK SLIDE?"
+	para "Du scheinst keine"
+	line "Angst zu haben."
+	cont "Möchtest Du einem"
+	cont "Deiner #MON"
+	cont "STEINHAGEL"
+	cont "beibringen?"
 	prompt
 
 _ReceivedTM48Text::
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _TM48ExplanationText::
-	text "It may be scary"
-	line "to use this in"
-	cont "a tunnel."
+	text "Es wäre sehr"
+	line "gruselig, das in"
+	cont "diesem Tunnel"
+	cont "einzusetzen."
 	done
+	
 
 _TM48Refused::
-	text "Oh, so you are"
-	line "scared after"
-	cont "all."
+	text "Oh, Du hast also"
+	line "doch Angst!"
 	done

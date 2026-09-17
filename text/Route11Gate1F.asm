@@ -1,14 +1,17 @@
 _Route11GateText1::
-	text "When you catch"
-	line "lots of #MON,"
-	cont "isn't it hard to"
-	cont "think up names?"
+	text "Je mehr #MON"
+	line "man fängt, desto"
+	cont "schwieriger wird"
+	cont "es, ihnen allen"
+	cont "Spitznamen zu"
+	cont "geben!"
 
-	para "In LAVENDER TOWN,"
-	line "there's a man who"
-	cont "rates #MON"
-	cont "nicknames."
+	para "In LAVANDIA lebt"
+	line "ein Mann, der"
+	cont "Spitznamen von"
+	cont "#MON bewertet."
 
-	para "He'll help you"
-	line "rename them too!"
+	para "Er nimmt auch"
+	line "Namensänderungen"
+	cont "vor!"
 	done

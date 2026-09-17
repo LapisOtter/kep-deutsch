@@ -1,140 +1,145 @@
 Kanto Expansion Pak
 ===================
-This is a ROM Hack of Pokémon Red and Blue, aiming to expand the Kanto region with new Kanto-related Pokemon, more interesting locations, and QoL changes. It started as a port of the [Pokemon Showdown Mod](https://github.com/ShiraTheMogul/gen1expansionpack) of the same name, in a sense.
 
-If playing on an emulator, BGB is strongly recommended for its accuracy and features. Inaccurate emulators, such as VBA and TGB Dual, can experience unintended glitches. This hack is fully playable on official hardware as well.
+ACHTUNG: Das gesamte Spiel ist zwar auf Deutsch, doch der Patch muss immernoch auf eine englische ROM von Pokémon Rote Edition (Pokémon Red Version) angebracht werden!!!
 
-# For all Pokemon info go [here](https://docs.google.com/spreadsheets/d/1cP8tvoj19__bx08hSG7dOtefVcdaNwZXohVu1RKzjPI/edit?usp=sharing)
+Dies ist ein ROM-Hack von Pokémon Rot und Blau, welches darauf strebt, die Kanto-Region mit neuen Kanto-bezogenen Pokémon, interessanteren Orten und Lebensqualitäts-Verbesserungen zu erweitern. Es fing gewissermaßen als ein Port der [Pokemon Showdown-Mod](https://github.com/ShiraTheMogul/gen1expansionpack) des selben Namens an.
 
-New Pokemon
+Fürs Spielen auf einem Emulator wird BGB dank seiner Genauigkeit und Features dringend empfohlen. Auf ungenauen Emulatoren, wie VBA und TGB Dual, können unbeabsichtigte Glitches entstehen. Dieser Hack ist auch komplett auf offizieller Hardware spielbar.
+
+# Für Pokémon-Infos geht [hier](https://docs.google.com/spreadsheets/d/1jYAvI7OjdmMQpJLTwyK04Be8hR-LZHkRfV3XcMzihM8) hin
+
+Neue Pokémon
 ====
-The Kanto Expansion Pak's ethos is to add every "Kanto-related" Pokemon to RBY without fundamentally changing the grander metagame. What's defined as "Kanto-related" is a Pokemon that evolves from an existing Kanto Pokemon, made an appearance in a Kanto-based game (LGPE), is a regional variant, or was a Kanto-related Pokemon cut during the development of an official game.
+Der Ethos des Kanto Expansion Paks ist es, jedes "Kanto-Bezogene"-Pokémon hinzuzufügen, ohne das größere Metagame grundsätzlich zu verändern. Ein "Kanto-bezogenes" Pokémon ist ein Pokémon, das sich aus einem existierendem Kanto-Pokémon entwickelt, in einem Kanto-basierten Spiel erscheint (LGPE), eine Regionalform ist, oder ein Kanto-Bezogenes Pokémon war, das während der Entwicklung eines offiziellen Spiels aus dem Spiel geschnitten wurde.
 
-With this criteria, we get:
-- 35 known prototype Pokemon that were cut from Red and Green; eg. Gorochu, Kotora
-- Evolutions or pre-evolutions of a Kanto Pokemon found in a future generation eg. Steelix, Glaceon, Kleavor, Annihilape
-- Evolutions of Kanto Pokemon found in the SpaceWorld '97 demo of Gold and Silver; eg. Luxwan, Bellignan
-- All fully-evolved regional variants of Kanto Pokemon; eg. Alolan Muk, Galarian Slowbro, Hisuian Arcanine, Paldean Tauros
-- Meltan and Melmetal from Let's Go Pikachu and Let's Go Eevee.
-- Paradox Pokemon from Scarlet & Violet; Scream Tail and Sandy Shocks.
+Mit dieser Kriterie erhalten wir:
+- 37 bekannte Beta-Pokémon, die aus Pokémon Rot und Grün geschnitten wurden; wie z.B. Gorochu, Kotora
+- Entwicklungen oder Vorentwicklungen von Kanto-Pokémon, die in einer später erschienenen Generation erschienen sind, wie z.B. Stahlos, Glaziola, Axantor, Epitaff
+- Entwicklungen von Kanto-Pokémon, die in der SpaceWorld '97-Demo von Gold und Silber vorgekommen sind, wie z.B. Deluxwan, Kessalotus
+- Alle vollentwickelten Regionalformen von Kanto-Pokémon, wie z.B. Alola-Sleimok, Galar-Lahmus, Hisui-Arkani, Paldea-Tauros
+- Meltan und Melmetal aus Let's Go Pikachu und Let's Go Evoli.
+- Paradox-Pokémon aus Karmesin & Purpur, wie z.B. Brüllschweif und Sandfell.
 
-Johto baby Pokemon and regional pre-evolutions were omitted due to RBY using an 8-bit register. This hack as-is just barely manages to fit everything. A refactor to a 16-bit register is possible and has been done before, but only on a really old pokered version that would require a ton of its own refactoring to be modernised. It's just not feasible at this current time.
+Johto-Baby-Pokémon und nicht vollentwickelte Regionalformen wurden ausgelassen, da RBG einen 8-Bit-Register verwendet. Die Kapazitäten des Hacks an sich sind schon beinahe ausgeschöpft. Eine Umwandlung zu einem 16-Bit ist möglich und wurde schon einmal gemacht, jedoch bloß auf einer echt alten pokered-Version die einen Haufen eigener Überarbeitung braucht, um modernisiert zu werden. Es ist momentan einfach nicht möglich.
 
-In general, the following Pokemon are not available;
+Allgemein sind die folgenen Pokémon nicht erhältlich;
 - Pichu
-- Cleffa
-- Igglybuff
-- Tyrogue
-- Smoochum
+- Pii
+- Fluffeluff
+- Rabauz
+- Kussilla
 - Elekid
 - Magby
-- Mime Jr.
-- Happiny
-- Munchlax
-- Elebaby (prototype Elekid pre-evolution in May98 GSC sprite cache)
-- Burgela (SW97 Baby Tangela)
-- Paraspor (SW97 Baby Paras)
-- Dodaerie (SW97 Baby Doduo)
-- Smujj (SW97 Baby Grimer)
-- Pupperon (SW97 Baby Growlithe)
-- Regional form pre-evolutions (eg. Alolan Vulpix, Galarian Slowpoke, Hisuian Voltorb)
+- Pantimimi
+- Wonneira
+- Mampfaxo
+- Vorentwicklungen, die in der SpaceWorld '07-Demo von Gold und Silber eingeführt wurden (Vorstufen von Elekid, Tangela, Paras, Dodu, Sleima & Fukano)
+- Vorentwicklungen von Regionalformen (wie z.B. Alola-Vulpix, Galar-Flegmon, Hisui-Voltobal)
 
-Mega Evolutions and Gigantamax forms are not in the game mainly by choice. There are no held items and there isn't a special button or anything, so it felt kind of weird to add, would deviate significantly from the RBY experience, and requires a pretty big overhaul to the battle system. It's definitely possible, just not for me.
+Mega-Entwicklungen und Gigadynamax-Formen sind nicht im Spiel, hauptsächlich aus freiem Willen. Es gibt keine Trageitems und es gibt keinen Spezial-Knopf oder so, also würde es sich komisch anfühlen, würde sich stark vom RBG-Gameplay unterscheiden, und das Kampf-System müsste dafür ziemlich stark verändert werden. Es ist definitiv möglich, aber nicht für uns.
 
-New Types
+Neue Typen
 ====
-To accomodate the new Pokemon, the Dark, Steel, and Fairy types are added. They are effectively "tacked on", with no vanilla Pokemon or moves being changed, which is a big part of what this hack wants. 
+Um die neuen Pokémon unterzubringen, wurden die Typen Unlicht, Stahl und Fee hinzugefügt. Sie wurden am Spiel quasi "angeheftet", ohne die Pokémon oder Attacken aus dem Originalspiel zu verändern, was vom Hack gewollt ist.
 
-Dark and Steel use their SpaceWorld '97 type matchups because these revisions were produced prior to the national tournament that year, and thus before Game Freak made appropriate balancing changes. Thus, what you get here are types that are very different, but maintain the core RBY experience. Normal and Psychic remain extremely powerful types, BoltBeam remains perfect coverage, and so on. Closer to RBY is what we want!
+Unlicht und Stahl verwenden ihre Eigenschaften aus SpaceWorld '97, weil diese Versionen der Typen vor dem Nationalturnier des selben Jahres erstellt wurden, also bevor Game Freak passende Balancing-Anpassungen gemacht hat. Somit haben wir hier mit Typen zu tun, die sehr anders sind, jedoch den Kern der RBG-Erfahrung beibehalten. Normal und Psycho sind immernoch extrem stark, Donnerblitz & Eisstrahl sind immernoch perfekte Coverage, und so weiter. Näher an RBG ist das, was wir wollen!
 
-Fairy utilizes its beta type chart from X and Y's development, which is the earliest known conception of the Fairy type, as revealed in the October 2024 Teraleak. The type is changed in rather intriguing ways from this!
+Fee verwendet ihre Eigenschaften aus der Beta von X und Y, welche im Teraleak von Oktober 2024 offenbart wurde. Der Typ wurde somit auf ziemlich faszinierende Weise verändert!
 
-Changes at a glance:
-- Dark and Steel use their type effectiveness from the SW97 demo, aiming to be closer to RBY experience.
-- Fairy has its beta type effectiveness, which changes the type slightly.
-- Bite is still Normal-type.
-- The Clefairy, Mime Jr, and Jigglypuff lines are not Steel or Fairy-type, respectively.
-	- This (and Bite) was done to ensure the original Kanto Pokemon were unaltered in any way.
-	- While Magnemite, Magnetite and Magneton are pure Electric, Magnezone is part-Steel.
-	- Scream Tail remains Fairy/Psychic.
-- Fire remains neutral against Ice.
-- Bug and Poison remain super effective against each other.
-- Psychic remains immune to Ghost.
+Veränderungen auf dem ersten Blick:
+- Unlicht und Stahl verwenden ihre Eigenschaften aus der SW97-Demo, mit dem Ziel, dem Gameplay von RBG näher zu sein.
+- Fee hat seine Eigenschaften aus der Beta, was dem Typ leicht verändert.
+- Biss ist immernoch vom Typ Normal.
+- Piepi, Pummeluff, Pantimos und ihre Entwicklungen behalten ihre alten Typenkombi aus RBG.
+	- Dies (und Biss) sorgt dafür, dass die originalen Kanto-Pokémon unverändert bleiben.
+	- Während Magnetilo, Magnetall und Magneton reine Elektro-Pokémon sind, ist Magnezoe vom Typ Elektro/Stahl.
+	- Brüllschweif ist immernoch vom Typ Fee/Psycho.
+- Feuer fügt immernoch neutralen Schaden gegen Eis zu.
+- Käfer und Gift sind immernoch sehr effektiv gegeneinander.
+- Psycho ist immernoch immun gegen Geist.
 
-Type Matchups for Steel, Dark and Fairy for reference:
-- Steel...
-	- Attacks are Super Effective vs: Rock, Fairy
-	- Attacks are Not Very Effective vs: Water, Electric
-	- Attacks do no Damage vs: Steel
-	- Pokemon are weak to: Water, Electric
-	- Pokemon resist: Poison, Rock, Fighting, Fairy
-	- Pokemon are Immune To: Steel
-- Dark...
-	- Attacks are Super Effective vs: Ghost, Psychic, Dark
-	- Attacks are Not Very Effective vs: Normal, Fairy 
-	- Pokemon are Weak to: Normal, Dark, Fairy 
-	- Pokemon resist: Ghost, Psychic
-- Fairy...
-	- Attacks are Super Effective vs: Fighting, Bug, Dragon, Dark
-	- Attacks are Not Very Effective vs: Fire, Ice, Steel
-	- Pokemon are weak to: Fire, Ice, Steel
-	- Pokemon resist: Fighting, Bug, Dark
-	- Pokemon are Immune To: Dragon
+Eigenschaften von Stahl, Unlicht und Fee zum Nachschlagen:
+- Stahl-...
+	- Attacken sind sehr effektiv gegen: Gestein, Fee
+	- Attacken sind nicht sehr effektiv gegen: Wasser, Elektro-Pokémon
+	- Attacken sind wirkungslos gegen: Stahl
+	- Pokémon haben eine Schwäche gegen: Wasser, Elektro
+	- Pokémon haben eine Resistenz gegen: Gift Gestein, Kampf, Fee
+	- Pokémon haben eine Immunität gegen: Stahl
+- Unlicht-...
+	- Attacken sind sehr effektiv gegen: Geist, Psycho, Unlicht
+	- Attacken sind nicht sehr effektiv gegen: Normal, Fee
+	- Pokémon haben eine Schwäche gegen: Normal, Unlicht, Fee
+	- Pokémon haben eine Resistenz gegen: Geist, Psycho
+- Fee-...
+	- Attacken sind sehr effektiv gegen: Kampf, Käfer, Drache, Unlicht
+	- Attacken sind nicht sehr effektiv gegen: Feuer, Eis, Stahl
+	- Pokémon haben eine Schwäche gegen: Feuer, Eis, Stahl
+	- Pokémon haben eine Resistenz gegen: Kampf, Käfer, Unlicht
+	- Pokémon haben eine Immunität gegen: Drache
 
-Naturally, these types get appropriate moves. They are currently distributed to exclusively new Pokemon, with the vanilla bunch untouched. The only moves imported have effects that are exactly replicable in RBY's code for consistency reasons.
-- Steel: Bullet Punch, Iron Defense, Iron Head, Magnet Bomb, Metal Sound, Mirror Shot, Smart Strike
-- Dark: Brutal Swing, Fake Tears, False Surrender, Feint Attack, Kowtow Cleave, Nasty Plot, Night Slash
-- Fairy: Charm, Dazzling Gleam, Disarming Voice, Draining Kiss, Fairy Wind, Play Rough, Sweet Kiss
+Natürlich bekommen diese Typen passende Attacken. Momentan erhalten bloß neue Pokémon diese Attacken, während die Pokémon aus dem Originalspiel unberührt bleiben. Auf Einheitlichkeit wurden bloß Attacken importiert, die Effekte haben, die im Code von RBG schon existierten.
+- Stahl: Patronenhieb, Eisenabwehr, Eisenschädel, Magnetbombe, Metallsound, Spiegelsalve (nur durch Metronom), Schmalhorn
+- Unlicht: Wirbler, Trugträne, Kniefalltrick (im Spiel Falltrick), Finte, Kniefallschnitt (im Spiel Fallschnitt), Ränkeschmied, Nachthieb
+- Fee: Charme, Zauberschein, Säuselstimme, Diebeskuss, Feenbrise, Knuddler, Bitterkuss
 
-New Items
+Neue items
 ====
-There are some new items here, with the aim of accomodating new Pokemon, adding features, and acting as methods of getting to new locations. 
-- The Wing Fossil is a new item that allows Aerodactyl to be revived, as the Old Amber is instead used for Decilla. It's hidden in Mt. Moon.
-- The Tea from FireRed/LeafGreen and Let's Go Pikachu/Eevee is added, allowing Saffron access for free. The guards now imply they want a cup of tea.
-	- This also accomodates Mt. Moon Square's shop, which would otherwise break progression due to its contents. Hint hint!
-- The Ice, Poison and Heart Stones have been added, the latter two being from the SpaceWorld '97 demo. These can be obtained in Fuchsia City.
-	- Additional evolution items include the Protector, Black Augurite, Up-Grade, Dubious Disc, and the Metal Coat. These can be obtained in various locations in-game, but the post-game island has renewable options as well.
-- To accomodate Meltan, the Mystery Box from Pokemon GO is featured. When used, wild encounters are replaced with Meltan until one leaves the location. It can be obtained in the Safari Zone.
-	- The Candy Jar is a new key item that allows Meltan Candy to be collected. Defeating a Meltan rewards 10 Candy, and once 400 are collected, it turns into an evolution item to evolve Meltan into Melmetal. It can be obtained in the Indigo Plateau Lobby.
-- The Bottle Cap has been added alongside a Hyper Training feature, acting as effectively a Gold Bottle Cap.
-- The Old Sea Map has been added, giving access to Faraway Island and Mew.
-- The Silph Letter allows access to a new post-game challenge, obtained after completing the game.
-- The Citrine Pass has been added, allowing access to a new post-game area based on the unused "C" map. It can be obtained in the post-game.
+Hier gibt es ein Paar neue Items, um die neuen Pokémon unterzubringen, neue Features hinzuzufügen, und um als Methoden zu dienen, neue Orte zu erreichen.
+- Das Flügelfossil ist ein neues Item, aus dem Aerodactyl wiederbelebt werden kann, während der Artbernstein für Heuldon verwendet wird. Er ist im Mondberg versteckt.
+- Der Tee aus Feuerrot/Blattgrün und Let's Go Pikachu/Evoli wurde hinzugefügt, mit dem man sich gratis Zugang zu Saffronia City schaffen kann. Die Wachen deuten nun an, ein Tässchen Tee haben zu wollen.
+	- Damit funktioniert der Laden vom Mondberg richtig, ohne wegen seiner Inhalte den Fortschritt des Spiels zu brechen. Ein Tipp!
+- Die Eis-, Gift und Herzsteine wurden hinzugefügt. Die letzteren zwei stammen aus der SpaceWorld '97-Demo. Sie können in Fuchsania City erhalten werden.
+	- Zu den zusätzlichen Entwicklungsitems zählen der Schützer, das Schwarzaugit, das Up-Grade, die Dubiosdisc und der Metallmantel. Sie können im Spiel an verschiensten Orten erhalten werden, doch auf der Insel im Postgame können sie auch wiederholt ergattert werden.
+- Um Meltan mitunterzubringen, wurde die Wunderbox aus Pokémon GO eingeführt. Wird sie benutzt, werden alle wilden Pokémon durch Meltan ersetzt, bis man den Ort verlässt. Sie kann in der Safari-Zone erhalten werden.
+	- Das Bonbonglas ist ein neues Schlüsselitem, mit dem Meltan-Bonbons gesammelt werden können. Man erhält 10 Bonbons, wenn man ein Meltan besiegt, und wenn man 400 gesammelt hat, wird es zu einem Entwicklungsitem, mit dem Meltan in Melmetal entwickelt werden kann. Man erhält es im Indigo-Plateau.
+- Der Kronkorken wurde gemeinsam mit dem Super-Spezialtraining hinzugefügt. Der Kronkorken ist praktisch wie ein Goldkronkorken.
+- Die Alte Karte wurde hinzugefügt, die dem Spieler Zugang zu Ferneiland und Mew schafft.
+- Der Silph-Brief dient als Einladung zu einer neuen Herausforderung im Postgame. Man erhält ihn, nachdem man das Spiel durchgespielt hat.
+- Der Zitroniapass wurde hinzugefügt, die Zugang zu einem neuen Postgame-Areal schafft, die auf dem unbenutzten "C"-Gebiet basiert. Sie kann im Postgame erhalten werden.
 
-New Areas
+Neue Orte
 ====
-- Celadon University is just north of Celadon.
-	- This is a reference to a Magikarp event from July 1998, and includes the lore from it and other areas of Pokemon's early worldbuilding.
-	- There are features new infinitely re-battleable trainers for grinding money.
-	- There's a Move Deleter and Move Relearner, allowing for HM deletion and getting back lost moves.
-- Citrine City is a new island city that can be accessed in the postgame through a new port in Vermillion. Name derived from the Helix Chamber PokeThon ROM Hack.
-	- There's a house with a Move Tutor that can teach Tradeback moves without the need for GSC's Time Capsule!
-	- It features a Team Rocket house where they will sell you TMs and Evolution Items, as well as provide a Hyper Training feature to get Max DVs!
-	- The Battle Tent from the TwitchPlaysPokemon Anniversary hack makes a return, featuring new trainers and Pokemon!
-	- Brunswick Trail, south-west of Citrine City, is a route that leads to Garnet Cavern, alongside a more hidden route that leads to Brunswick Grotto.
-	- Brunswick Grotto is a large, lush forest area that leads to Galarian Zapdos.
-	- Garnet Cavern is a familiar-looking cave. It houses many strong Pokemon, including Galarian Articuno roosting on the bottom floor.
-	- Celeste Hill, located above Citrine City, is a mountain with several floors. Upon reaching the summit, Galarian Moltres will attack.
-- Underwater Tunnel connects Route 25 and Route 10, making Rock Tunnel skippable later.
-- Cinnabar Volcano is a new area that houses Moltres, allowing it to be obtained before Victory Road. It has a unique dark-orange palette to help make it unique compared to the other caves.
-- Faraway Island from Pokemon Emerald has been added, where you can find Mew. It also has its own wild encounters, as well as an improved translation on its sign, enhancing its appearance from its source material.
-- Mt. Moon Crater is a new area based on Area Zero in Pokemon Scarlet and Violet, accessible in the post-game. Here, you can encounter Scream Tail and Sandy Shocks via random encounter, just like the original!
-- Bill's Garden is accessible in the post-game, housing all the "one-time deals", just like in the mythos!
-	- This area also houses Hisuian Arcanine and Electrode, the idea being that Bill's Time Machine has brought them back from the truly distant past!
-- Silph Co. holds a special challenge for Pokemon League Champions...
+- Die Universität von Prismania City liegt nördlich dieser Stadt.
+	- Dies ist eine Anspielung auf ein Karpador-Event aus Juli 1998, und beinhaltet all die Lore aus dem Event, und andere alte Hintergrundgeschichtsstücke aus Pokémon.
+	- Dort sind neue, unendlich oft bekämpfbare Trainer, damit Geld und Erfahrung gegrindet werden kann.
+	- Es gibt einen Attacken-Verlerner und einen Attacken-Erinnerer, mit dem man verlorene Attacken wiedererlernen und VM-Attacken löschen kann.
+- Zitronia City ist eine neue Inselstadt, die im Postgame mittels einem neuen Hafen in Orania City erreicht werden kann. Ihr Name kommt vom Helix Chamber PokéThon-ROM-Hack.
+	- Dort gibt es ein Haus mit einem Attacken-Tutor, der einem Tradeback-Attacken beibringen kann, ohne die Zeitkapsel von GSK zu benötigen!
+	- Es gibt dort auch ein Team Rocket-Haus, wo Rüpel TMs und Entwicklungsitems verkaufen, und sogar Super-Spezialtraining anbieten!
+	- Das Kampfzelt aus dem TwitchPlaysPokémon Anniversary-Hack kehrt zurück, mit neuen Trainern und Pokémon!
+	- Der Petrolpfad im Südwesten von Zitronia City ist eine Route, die zur Karfunkelhöhle führt, und beinhaltet einen versteckten Weg, die zur Petrolgrotte führt.
+	- Die Petrolgrotte ist ein großes, üppiges Waldgebiet, die direkt zu Galar-Zapdos führt.
+	- Die Karfunkelhöhle ist eine Höhle, dessen inneres einem bekannt vorkommt. In ihr leben viele starke Pokémon, inklusive Galar-Arktos, welches im tiefsten Punkt der Höhle ruht.
+	- Der Celestberg, der sich über Zitronia City befindet, ist ein Berg mit vielen Etagen. Sobald man die Spitze erreicht, wird man von Galar-Lavados angegriffen.
+- Der Unterwassertunnel verbindet Route 25 und Route 10, was den Felstunnel später überspringbar macht.
+- Der Zinnober-Vulkan ist ein neues Gebiet, der Lavados beinhaltet, sodass man Lavados vor der Siegesstraße fangen kann. Es hat eine dunkelorangene Palette, um es von den anderen Höhlen zu unterscheiden.
+- Ferneiland aus Pokémon Smaragd wurde hinzugefügt, wo man Mew fangen kann. Es hat sogar seine eigenen wilden Pokémon, sowie eine verbesserte Übersetzung auf dem Schild, was es von seinem originalen Auftreten verbessert.
+- Der Mondberg-Schlund ist ein neues Gebiet basierend auf Zone Null aus Pokémon Karmesin und Purpur, welches im Postgame zugänglich ist. Hier kann man in der Wildnis Brüllschweif und Sandfell begegnen, wie im Original!
+- Bills Garten ist im Postgame zugänglich, wo all die "Einmaligen Pokémon" zu finden sind, genau so wie im Mythos!
+	- Dort findet man auch Hisui-Arkani und -Lektrobal. Die Idee ist, dass Bills Zeitmaschine sie aus der wahrlich weit entfernten Vergangenheit geholt hat!
+- Für die Champs der Pokémon-Liga hält Silph Co. eine besondere Herausforderung bereit...
 
-New Music
+Neue Musik
 ====
-- Mewtwo has its own battle theme: A demake of the iconic Stadium track! It features some creative deviations to give it a distinct Game Boy feel while fitting with Mewtwo's mystique. Composed by LuciShrimp.
-- Mew and the Kantonian Legendary Birds have their own battle theme, a demake of the FireRed/LeafGreen pitch-shifted remix. Not simply pitching it up, percussion elements have been added to give it that rustic FRLG "feel" that distinguishes it from the original games. Composed by LuciShrimp.
-	- Limited static encounters, such as the two sleeping Snorlax, and the restored prototype Omega, also use this theme.
-	- The Galarian Legendary Birds have a demake of their Sword and Shield battle theme instead! Composed by LuciShrimp. 
-- Mt. Moon Crater uses a demake of Scarlet and Violet's Area Zero theme! Composed by LuciShrimp.
-- Team Rocket's battle theme from GSC has been backported with some small changes to give it more of an RBY feel. Plays during Rocket Grunt fights, including Jessie and James, as well as the initial 2 Giovanni battles. Composed by LuciShrimp.
-	- In addition to the aforementioned Team Rocket battle theme, a slower, pitched-down arrangement plays when battling Giovanni in his gym, as well as against a postgame boss. Composed by LuciShrimp and Memento Martha
-- Pokemon Yellow's various tracks have been backported, such as Jessie and James's encounter theme.
-- Several pieces of unused music, including Digda01, Victory4, Field6, Kincho01, and Giovanni's theme have been implemented.
-	- A remix of the unused Koukan (trading) music is also used as a town theme. Composed by BGVC.
+- Mewtu hat seine eigene Kampfmusik: Ein Demake des ikonischen Tracks aus Stadium! Er beinhaltet einige kreative Abweichungen, um dem Track das deutliche Game Boy-Feeling zu verleihen, während es immernoch zu Mewtus geheimnissvoller Aura passt. Komponiert von LuciShrimp.
+- Mew und die Legendären Vögel von Kanto haben ihre eigene Kampfmusik: ein Demake von der Tonveränderten Version des Remixes aus Feuerrot/Blattgrün. Hier wird nicht nur die Tonlage erhöht - perkussive Elemente wurden hinzugefügt, um dem Track das rustikale FRBG-Feeling zu geben, dass ihn vom Originalspiel unterscheiden lässt. Komponiert von LuciShrimp.
+	- begrenzte stationäre Begegnungen, wie die zwei schlafenden Relaxo und das Omega-Pokémon aus der Beta verwenden auch diese Musik. Dratini und seine Entwicklungen haben auch diese Musik!
+	- Die Galarformen der legendären Vögel haben stattdessen ein Demake ihrer Kampfmusik aus Pokémon Schwert und Schild! Komponiert von LuciShrimp.
+- Der Mondberg-Schlund verwendet ein Demake der Zone Null-Musik aus Karmesin und Purpur! Komponiert von LuciShrimp.
+- Die Kampfmusik von Team Rocket wurde aus GDK rückportiert, mit einigen kleinen Veränderungen, um der Musik etwas mehr RBG-Feeling zu verleihen. Die Musik Spielt während Kampfe gegen Rocket-Rüpel, inklusive Jessie und James, und die ersten 2 Giovanni-Kämpfe. Komponiert von LuciShrimp.
+	- Zusätzlich spielt eine verlangsamte, tiefere Version im Kampf gegen Giovanni in seiner Arena, sowie einem Bosskampf im Postgame. Komponiert von LuciShrimp und Memento Martha.
+- Die verschiedenen Tracks aus Pokémon Gelb wurden rückportiert, wie zum Beispiel die Musik bei der Begegnung von Jessie und James.
+- Viele unbenutzte Tracks, wie Digda01, Victory4, Field6, Kincho01, and Giovannis Thema wurden implementiert.
+	- Ein Remix des unbenutzten Koukan-Musikstücks (eigentlich für das Tauschen gedacht) wird als Stadtmusik verwendet. Komponiert von BGVC.
+
+Verbesserte Orte
+====
+- 
+
+
+
 
 Improved Areas
 ====
@@ -272,99 +277,200 @@ and more!
 - Dakutens are removed, as the Japanese accents aren't used in English releases.
 - Blank Leader Name code is removed; before, this would only be for the PNGs.
 
-Known Bugs
+Bekannte Bugs
 ====
-- Trying to Surf from the overworld on Cycling Road has an invisible textbox stopping you, but just pressing A again lets you regain control.
-- Jumping from a specific tile off a ledge in Cerulean City causes you to land on a fence. This is being kept in, because it's funny.
+- Versucht man, auf dem Radweg zu Surfen, wird man von einer unsichtbaren Textbox aufgehalten, doch durch wiederholtes Drücken von A erhält man wieder kontrolle zurück.
+- Spingt man von einer bestimmten Stufe in Azuria City, landet man auf einem zaun. Das wird drin gelassen, weil es witzig ist.
+- Ein Paar der NPCs der Rasthäuser der Safari-Zone sind verbuggt.
 
-Evolution Methods for new Pokemon
+Entwicklungsmethoden für neue Pokémon
 ====
-Due to the odd way some new Pokemon evolve, methods are listed here. 
-- Prototype Pokemon are included with their original methods. 
-- Some Pokemon will have methods from the Spaceworld '97 demo to be closer to, or functional in the context of, RBY. Sometimes the newer version is available (eg. Metal Coat evolutions) for the sake of familiarity.
-- To accomodate new additions and ensure everything makes sense, some Pokemon have also had their methods changed. These situations are usually very extreme.
+Da sich einige der neuen Pokémon auf komische Weisen entwickeln, werden die Methoden hier aufgelistet.
+- Beta-Pokémon wurden mit ihren ursprünglichen Methoden eingefügt.
+- Einige Pokémon haben Methoden aus der SpaceWorld '97-Demo, um näher, oder funktionell im Kontext von RBG zu sein. Manchmal sind aus Bekanntheitswillen die neueren Methoden erhältlich., wie z.B. die Metallmantel-Entwicklungen.
+- Damit neue Ergänzungen mitunterzgebracht werden können und um sicherzugehen, damit alles Sinn macht, wurden die Entwicklungsmethoden einiger Pokémon verändert. Diese Situationen sind üblicherweise ziemlich extrem.
 
-Changed Methods:
-- Shellder -> Cloyster | Use Ice Stone (Accomodating Disturban)
-- Gloom -> Vileplume | Use Poison Stone (Accomodating Bellossom)
-- Nidorino -> Nidoking | L36 OR use Poison Stone (Level up method from prototype, accomodating Nidoreign)
-- Nidorina -> Nidoqueen | L36 OR use Poison Stone (Level up method from prototype, accomodating Nidoreign)
+Veränderte Methoden:
+- Muschas -> Austos | Eisstein anwenden (Wegen Egelhaupt)
+- Duflor -> Giflor | Giftstein anwenden (Wegen Blubella)
+- Nidorino -> Nidoking | L36 ODER Giftstein anwenden (Levelaufstiegsmethode aus der Beta, wegen Nidoroyal)
+- Nidorina -> Nidoqueen | L36 ODER Giftstein anwenden (Levelaufstiegsmethode aus der Beta, wegen Nidoroyal)
 
-New Pokemon:
-- Chansey -> Blissey | L45
-- Ditto -> Mimmeo | Use Metal Coat
-- Electabuzz -> Electivire | Use Thunder Stone
-- Farfetch'd -> Luxwan | L24
-- Gloom -> Bellossom | Use Leaf Stone
-- Golbat -> Crobat | L40
-- Lickitung -> Lickilicky | L32
-- Magmar -> Magmortar | Use Fire Stone
-- Magneton -> Magnezone | Use Thunder Stone
-- Marowak -> Guardia | Use Heart Stone
-- Onix -> Steelix | L38 OR use Metal Coat
-- Pinsir -> Tricules | L42 OR use Metal Coat
-- Poliwhirl -> Politoed | Use Heart Stone
-- Porygon -> Porygon2 | Use Up-Grade
-- Porygon2 -> Porygon-Z | Use Dubious Disc
-- Primeape -> Annihilape | Trade
-- Rhydon -> Rhyperior | Use Protector 
-- Scyther -> Scizor | L41 OR use Metal Coat
-- Scyther -> Kleavor | Use Black Augurite
-- Seadra -> Kingdra | Trade
-- Shellder -> Disturban | Use Water Stone
-- Slowpoke -> Slowking | Use Heart Stone 
-- Tangela -> Tangrowth | L44
-- Weepinbell -> Bellignan | Use Poison Stone
+Neue Pokemon:
+- Chaneira -> Heiteira | L45
+- Ditto -> Mimeo | Metallmantel anwenden
+- Elektek -> Elevoltek | Donnerstein anwenden
+- Porenta -> Deluxwan | L24
+- Duflor -> Blubella | Blattstein anwenden
+- Golbat -> Iksbat | L40
+- Schlurp -> Schlurplek | L32
+- Magmar -> Magbrant | Feuerstein anwenden
+- Magneton -> Magnezone | Donnerstein anwenden
+- Knogga -> Patrokanta | Herzstein anwenden
+- Onix -> Stahlos | L38 ODER Metallmantel anwenden
+- Pinsir -> Trikules | L42 ODER Metallmantel anwenden
+- Quaputzi -> Quaxo | Herzstein anwenden
+- Porygon -> Porygon2 | Up-Grade anwenden
+- Porygon2 -> Porygon-Z | Dubiosdisc anwenden
+- Rasaff -> Epitaff | Tausch
+- Rizeros -> Rihornior | Schützer anwenden
+- Sichlor -> Scherox | L41 ODER Metallmantel anwenden
+- Sichlor -> Axantor | Schwarzaugit anwenden
+- Seemon -> Seedraking | Tausch
+- Muschas -> Egelhaupt | Wasserstein anwenden
+- Flegmon -> Laschoking | Herzstein anwenden
+- Tangela -> Tangoloss | L44
+- Ultrigaria -> Kessalotus | Giftstein anwenden
 
-Kanto Prototype Pokemon:
-- Bittybat -> Zubat | L14
-- Blastyke -> Blastoise | L36
-- Blottle -> Pendraken | L30
-- Cheep -> Jabetta | L30
-- Coinpur -> Meowth | L14
-- Decilla -> Gawarhed | L40
-- Orfry -> Goldeen | L16
-- Gentlarva -> Pupal | L7
-- Pupal -> Carapthor | L10
+Kanto-Beta-Pokemon:
+- Bisselbat -> Zubat | L14
+- Turtubba -> Turtok | L36
+- Kallimar -> Kraklex | L30
+- Piepmarin -> Raubarin | L30
+- Klimpa -> Mauzi | L14
+- Heuldon -> Bombardon | L40
+- Golpin -> Goldini | L16
+- Linderling -> Puppel -> Maimoking | L7, L10
 - Kotora -> Gaotora -> Gorotora | L16, L36
-- Kolta -> Ponyta | L20
-- Magnemite -> Magnetite -> Magneton | L20, L30
-- Nidorino OR Nidorina -> Nidoreign | Moon Stone
-- Psyduck -> Weirduck -> Golduck | L22, L33
-- Raichu -> Gorochu | Trade
-- Ribbito -> Croakozuna | L30
-- Squeamata -> Ministare -> Iguanarch | L30, L55
-- Vulpiii -> Vulpix | L15
-- Wartortle -> Totartle | L36, replaces Blastoise
+- Kolta -> Ponita | L20
+- Magnetilo -> Magnetall -> Magneton | L20, L30
+- Nidorino ODER Nidorina -> Nidoroyal | Mondstein anwenden
+- Enton -> Entron -> Entoron | L22, L33
+- Raichu -> Gorochu | Tausch
+- Froschubs -> Froschtoss | L30
+- Bangwalla -> Immoballa -> Rexakralla | L30, L55
+- Vulnio -> Vulpix | L15
+- Schillok -> Schiltalga | L36, ersetzt Turtok
 
-Eeveelutions:
-- Espeon | Heart Stone
-- Umbreon | Poison Stone
-- Leafeon | Leaf Stone
-- Glaceon | Ice Stone
-- Sylveon | Moon Stone
+Evolitionen:
+- Psiana | Herzstein anwenden
+- Nachtara | Giftstein anwenden
+- Folipurba | Blattstein anwenden
+- Glaziola | Eisstein anwenden
+- Feelinara | Mondstein anwenden
 
-Accessing Regional variants
+Zugang zu Regionalformen
 ====
 Adding regional variants was difficult; we hit the exact Pokemon cap by cutting their pre-evolutions. However, we managed to implement them quite nicely!
 
 Much like in Let's Go Pikachu and Let's Go Eevee, traders are available who will trade you a regional variant in exchange for a Kantonian one. These trades will be able to be repeated after every Elite 4 victory. This goes as follows:
-- Viridian City: Raticate
-- Pewter City: Golem
-- Cerulean City: Ninetales
-- Vermillion City: Persian
-- Lavender Town: Dugtrio
-- Celadon City: Sandslash
-- Saffron City: Raichu
-- Fuchsia City: Marowak
-- Cinnabar Island: Muk
-- Indigo Plateau: Exeggutor
+- Vertania City: Rattikarl
+- Marmoria City: Geowaz
+- Azuria City: Vulnona
+- Orania City: Snobilikat
+- Lavandia: Digdri
+- Azuria City: Sandamer
+- Saffronia City: Raichu
+- Fuchsania City: Knogga
+- Zinnoberinsel: Sleimokk
+- Indigo-Plateau: Kokowei
 
 Version exclusivity was factored in, instead moving Raticate and Golem to the cities without a trader, which were strangely appropriate thematically.
 
 Galarian and Paldean formes are accessed on the S.S. Anne, which now returns after receiving the Marsh Badge. Hisuian formes are found in the wild in Bill's Garden, which is accessible in the post-game. The idea is a prototype version of his Time Capsule yanks them in or something. The Galarian Birds are found on a post-game island.
 
 Given many of these evolve via stones, we've given them their pre-evolution's learnsets to ensure they remain functional. Should the current situation change, the trades will be changed to the pre-evolutions and their learnsets shifted appropriately.
+
+Deutsch-Spezifische Veränderungen
+====
+
+Diese Übersetzung versucht, den Charme der Originalen deutschen Fassung von Pokémon Rot, Blau und Gelb beizubehalten. Dies bedeutet auch, ihre Einzigartigkeit von den anderssprachigen Versionen wurde wenn möglich beibehalten. 
+Somit ist das ß-Zeichen häufiger als es eigentlich sein sollte, und Wörter wie Du, Dein und Dich werden groß geschrieben.
+Es gibt 2 Ausnahmen: Änderungen, die KEP am Englischen Skript vorgenommen hat (z.B. die Butsudan, der alte Mann aus Vertania) und Sachen, die falsche Informationen über das Gameplay geben, oder für Verwirrung sorgen.
+
+Das Ziel dieser Übersetzung war es, KEP eine Lokalisierung wie der von Pokémon Rot & Blau zu geben. Als würde KEP an sich auf der Basis von der deutschen Version statt der englischen aufgebaut.
+Statt das Spiel 100%-genau zu übersetzen, wurde die originale Übersetzung von Rot und Blau beachtet und respektiert. Kleine Anspielungen an unbedenklichen Stellen wurden mit eingebaut. Ich verstehe, wie manche sowas schlecht und sogar disrespektvoll gegenüber den originalen Schreibern finden können, doch ich möchte gerne die deutsche Version von RBG das KEP-Treatment geben, statt einfach bloß KEP ins deutsche zu setzen.
+
+Verbesserungen an der originalen Übersetzung:
+
+- Der Effekt von Egelsamen wird nicht mehr als "Schmarotzer-Attacke" bezeichnet.
+- Statuswert-Veränderungen von 2 Stufen (wie z.B durch Kreideschrei und Schwerttanz) werden nun korrekt als "stark" angezeigt.
+- Der Text von Klingensturm schreibt das Wort "Wirbelwind" nicht mehr in Großbuchstaben, da das eine völlig andere Attacke ist.
+- Funktioniert eine Status-Attacke nicht, ist der dazugehörige Text nicht mehr verwechselbar mit dem "Keine Wirkung"-Text.
+- Der Text für Delegator wurde verbessert.
+- Schreckt ein Pokémon zurück, sagt das Spiel nicht mehr, dass es "ausgewichen" ist.
+- Das Spiel sagt nicht mehr, Lichtschild würde einem vor Spezial-Attacken "immun" machen.
+- Der Text für den Detektor und die Angel wurden abgekürzt. Damit können diese Items schneller wiederholt eingesetzt werden.
+- Beim Eingeben von Namen kann man neben den Umlauten Ä, Ö und Ü jetzt auch ß eingeben! Es ersetzt den überflüssigen Doppelpunkt unter den Kleinbuchstaben.
+	- da sich diese Buchstaben an anderen Stellen als im deutschen Original befinden (weil sie sonst von den Grafiken für die EP-Leiste überschrieben werden) können harmlose Grafik-Fehler auftreten, wenn Pokémon mit diesen Spitznamen zwischen dem Originalspielen und KEP getauscht werden. Da in KEP getauschte Pokémon jetzt umbenannt werden können, kann dies leicht behoben werden.
+- Anders als in Pokémon Gelb sagen Jessie & James beim Besiegen nun "Das war wohl wieder ein Schuss in den Ofen" wie im Anime!
+- viele weitere Formatierungsänderungen wurden gemacht, um gewisse Dinge deutlicher zu machen.
+- einige Teile des Skripts verwechseln Machollo und Maschock nicht mehr. Habt ihr gewusst, dass diese Pokémon während der deutschen Lokalisierung ihre Namen getauscht haben?
+- Lauter kleine Verbesserungen an bestimmten Themen wie Typen, um Dinge deutlicher zu machen.
+
+Es gibt auch einige Veränderungen an dem Skript, die weder im deutschen RBG noch in KEP vorhanden waren. Zum Großteil sind es Gameplay-Korrekturen.
+- Da Spitznamen jetzt auch bei getauschten Pokémon geändert werden können, gibt der eine Trainer auf Route 15 einem einfach nur Schuldgefühle.
+- Der EP-Boost und die Ungehorsamkeitsmechanik von getauschten Pokémon existieren auch nicht mehr, also wurden die Texte von NPCs in Marmoria City und der Zinnoberinsel abgeändert.
+	- Der Mann im Haus mit dem Nidoran in Marmoria City deutet nun auf die Effekte der Orden hin.
+	- Der Gentleman im Pokécenter der Zinnoberinsel deutet nun auf die Regionalform-Tausch-NPCs hin.
+- Der eine Schwarzgurt im Karate-Dojo erwähnt nun neben Psycho-Kraft weitere Ängste vom Typ Kampf, wie in LGPE.
+- Der Trainer, der auf Route 14 VM-Attacken erwähnt, erwähnt nun auch den Attacken-Verlerner der Prismania-Uni. Mir gefällt diese Veränderung sehr, da es die Neuerungen von KEP mehr in das Hauptspiel verbindet.
+- Von der Trainerin mit dem Lahmus in Azuria City wurde ein Teil ihres Dialoges entfernt.
+- Die Beschreibung von TM48 wurde verändert, da Steinhagel in diesem Spiel kein Zurückschrecken verursachen kann.
+- Bill wird immernoch als Pokémaniac bezeichnet. KEP änderte seinen Titel in "Pokémon-Fanatiker" um, weil dies eine akkuratere Übersetzung aus späteren Spielen ist, doch im Deutschen wird er bis heute noch als Pokémaniac bezeichnet.
+
+
+- viele Texte im Spiel wurden geschlechtsneutraler gemacht, was verglichen mit der englischen Version im Deutschen weit mehr Veränderungen mit sich bringt. Mit Einflüssen aus Kristall, FRBG und LGPE.
+
+
+Mit der neuen Sprache kommen auch neue Namen für die Beta-Pokémon.
+Die Namen der Beta-Pokémon sind wie folgend:
+
+Totartle > Schiltalga
+Gorochu bleibt gleich
+Coinpur > Klimpa
+Gentlarva > Linderling
+Pupal > Puppel
+Carapthor > Maimoking
+Kotora bleibt gleich
+Gaotora bleibt gleich
+Gorotora bleibt gleich
+Nidoreign > Nidoroyal
+Bittybat > Bisselbat
+Vulpiii > Vulnio
+Bellignan > Kessalotus
+Orfry > Golpin
+Weirduck > Entron
+Cheep > Piepmarin
+Jabetta > Raubarin
+Luxwan > Deluxwan
+Magnetite > Magnetall
+Blottle > Kallimar
+Pendraken > Kraklex
+Ribbito > Froschubs
+Croakozuna > Froschtoss
+Gavillain > Blitzilisk
+Kolta bleibt gleich
+Guardia > Patrokanta
+Balumba bleibt gleich
+Ramoose > Rammbork
+Disturban > Egelhaupt
+Blastyke > Turtubba
+Sharpoon > Bohrmuda
+Tricules > Trikules
+Trampel > Stampfant
+Gorillaimo bleibt gleich
+Cactormus > Attaktus
+Buu bleibt gleich
+Mimmeo > Mimeo
+Decilla > Heuldon
+Gawarhed > Bombardon
+Omegadge > Artilomega
+Squeamata > Bangwalla
+Ministare > Immoballa
+Iguanarch > Rexakralla
+
+Da der Name von Brüllschweif länger als 10 Buchstaben ist, wird sein Name im Spiel als "BR.SCHWEIF" abgekürzt.
+
+Ortsnamen:
+Citrine City > Zitronia City
+Brunswick Trail > Petrolpfad
+Brunswick Grotto > Petrolgrotte
+Brunswick Glade > Petrollichtung
+Garnet Cavern > Karfunkelhöhle
+Celeste Hill > Celestberg
+
+Alle anderen neuen Orte sind gleich oder wurden direkt übersetzt.
 
 Credits
 ====
@@ -429,6 +535,16 @@ Orchid: Luxwan (back), Buu (back)
 Zeta_Null: Porygon (front), All sprites for Pink (Nonbinary player option)
 
 Official sprites: Crobat (front, edited by Memento Martha), Disturban, Espeon (front, edited by Memento Martha), Slowking (front), Steelix (front), Tricules, Umbreon (front, edited by Memento Martha)
+
+Mitwirkende für die deutsche Version
+====
+* LapisOtter - Übersetzung der neuen Texte, Bearbeitung des vorhandenen Textes aus dem deutschen Originalspiel, Schöpfung neuer Namen fast aller neuen Pokémon, Orte, Charaktere und Items, Betreibung des deutschen KEP-Pokédex-Projekts.
+* Kowi - Feedback, Schöpfung des deutschen Namens für Froschubs und weiterer Namensvorschläge im Glossar.
+* Aori & LuciShrimp - Feedback, Hilfe bei der Lokalisierung des "Die unbarmherzigen Hochstapler"-Titels für die Galar-Vögel.
+* Einstein95 - Schöpfung von pokered-de, welches meine Arbeit an der Übersetzung dieses ROM-Hacks deutlich einfacher gemacht hat.
+
+Auch ein großes Dankeschön an dem KEP-Discord-Server, wo ich um Hilfe und Feedback für meine Ideen fragen könnte. Einige Entscheidungen in dieser Übersetzung wurden mittels Umfragen in diesen Server entschieden. Und natürlich die Entwickler dieses ROM-Hacks, die dieses großartige Spiel gemacht haben <3
+
 
 Original README.md proceeding;
 # Pokémon Red and Blue [![Build Status][ci-badge]][ci]

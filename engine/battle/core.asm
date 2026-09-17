@@ -1724,9 +1724,10 @@ NoRunningText:
 	text_end
 
 NoRunningOmega:
-	text "It's far too"
-	line "aggressive! You"
-	cont "can't run!"
+	text "Es ist viel zu"
+	line "aggressiv! Du"
+	cont "kannst nicht"
+	cont "fliehen!"
 	prompt
 	text_end
 
@@ -2169,12 +2170,12 @@ DisplayBattleMenu::
 	ld bc, NAME_LENGTH
 	call CopyData
 ; the following simulates the keystrokes by drawing menus on screen
-	hlcoord 9, 14
+	hlcoord 7, 14
 	ld [hl], "▶"
 	ld c, 80
 	call DelayFrames
 	ld [hl], " "
-	hlcoord 9, 16
+	hlcoord 7, 16
 	ld [hl], "▶"
 	ld c, 50
 	call DelayFrames
@@ -2182,7 +2183,7 @@ DisplayBattleMenu::
 	ld a, $2 ; select the "ITEM" menu
 	jp .upperLeftMenuItemWasNotSelected
 .oldManName
-	db "OLD MAN@"
+	db "GREIS@"
 .handleBattleMenuInput
 	ld a, [wBattleAndStartSavedMenuItem]
 	ld [wCurrentMenuItem], a
@@ -2199,13 +2200,13 @@ DisplayBattleMenu::
 	ld a, " "
 	jr z, .safariLeftColumn
 ; put cursor in left column for normal battle menu (i.e. when it's not a Safari battle)
-	ldcoord_a 15, 14 ; clear upper cursor position in right column
-	ldcoord_a 15, 16 ; clear lower cursor position in right column
-	ld b, $9 ; top menu item X
+	ldcoord_a 12, 14 ; clear upper cursor position in right column
+	ldcoord_a 12, 16 ; clear lower cursor position in right column
+	ld b, $7 ; top menu item X
 	jr .leftColumn_WaitForInput
 .safariLeftColumn
-	ldcoord_a 13, 14
-	ldcoord_a 13, 16
+	ldcoord_a 12, 14
+	ldcoord_a 12, 16
 	hlcoord 7, 14
 	ld de, wNumSafariBalls
 	lb bc, 1, 2
@@ -2232,9 +2233,9 @@ DisplayBattleMenu::
 	ld a, " "
 	jr z, .safariRightColumn
 ; put cursor in right column for normal battle menu (i.e. when it's not a Safari battle)
-	ldcoord_a 9, 14 ; clear upper cursor position in left column
-	ldcoord_a 9, 16 ; clear lower cursor position in left column
-	ld b, $f ; top menu item X
+	ldcoord_a 7, 14 ; clear upper cursor position in left column
+	ldcoord_a 7, 16 ; clear lower cursor position in left column
+	ld b, $c ; top menu item X
 	jr .rightColumn_WaitForInput
 .safariRightColumn
 	ldcoord_a 1, 14 ; clear upper cursor position in left column
@@ -2243,7 +2244,7 @@ DisplayBattleMenu::
 	ld de, wNumSafariBalls
 	lb bc, 1, 2
 	call PrintNumber
-	ld b, $d ; top menu item X
+	ld b, $c ; top menu item X
 .rightColumn_WaitForInput
 	ld hl, wTopMenuItemY
 	ld a, $e
@@ -2825,7 +2826,7 @@ MoveDisabledText:
 	text_end
 
 WhichTechniqueString:
-	db "WHICH TECHNIQUE?@"
+	db "Welche attacke?@"
 
 SelectMenuItem_CursorUp:
 	ld a, [wCurrentMenuItem]
@@ -3025,12 +3026,12 @@ PrintMenuItem:
 	ld de, TypeText
 	call PlaceString
 	hlcoord 1, 11
-	ld a, "<BOLD_P>"
+	ld a, "<AP_A>"
 	ld [hli], a
 	ld [hl], "<BOLD_P>"
 	hlcoord 7, 11
 	ld [hl], "/"
-	hlcoord 5, 9
+	hlcoord 4, 9
 	ld [hl], "/"
 	hlcoord 5, 11
 	ld de, wcd6d
@@ -3049,10 +3050,10 @@ PrintMenuItem:
 	jp Delay3
 
 DisabledText:
-	db "Disabled!@"
+	db "BLOCKIERT@"
 
 TypeText:
-	db "TYPE@"
+	db "TYP@"
 
 SelectEnemyMove:
 	ld a, [wLinkState]
@@ -4072,8 +4073,8 @@ AttackMissedText:
 	text_end
 
 ZeroDamageText:
-	text "It didn't leave"
-	line "a scratch!"
+	text "Es hinterließ"
+	line "keinen Kratzer!"
 	prompt
 	text_end
 
@@ -7066,9 +7067,9 @@ InitWildBattle:
 	ld hl, wEnemyMonNick  ; set name to "GHOST"
 	ld a, "G"
 	ld [hli], a
-	ld a, "H"
+	ld a, "E"
 	ld [hli], a
-	ld a, "O"
+	ld a, "I"
 	ld [hli], a
 	ld a, "S"
 	ld [hli], a
@@ -7285,8 +7286,9 @@ LoadMonBackPic:
 ; I struggled a lot in making this generate the text.
 ; This is the best compromise I can come up with right now.
 StupidBattleTentFix:
-	text "Oops! Better"
-	line "luck next time!"
+	text "Ups! Viel Glück"
+	line "beim nächsten"
+	cont "Mal!"
 	prompt
 
 ; Vermilion Beauty functionality.

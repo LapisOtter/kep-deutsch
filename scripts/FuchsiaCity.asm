@@ -276,25 +276,28 @@ SubstituteGuy:
 	jp TextScriptEnd
 
 TM50PreReceiveText:
-	text "Aww, I wish I was"
-	line "a KANGASKHAN"
-	cont "baby."
+	text "Argh..."
+	line "Ich wünschte,"
+	cont "ich wäre ein"
+	cont "KANGAMA-Baby."
 	
-	para "I'd love to be a"
-	line "SUBSTITUTE for"
-	cont "the baby..."
+	para "Ich wäre so gerne"
+	line "an Stelle des"
+	cont "Babys..."
 	
-	para "And snuggle in"
-	line "the mother"
-	cont "KANGASKHAN's"
-	cont "belly pouch."
+	para "Und würde mich in"
+	line "den Beutel der"
+	cont "Mutter KANGAMA"
+	cont "Kuscheln."
 	
-	para "But only #MON"
-	line "can use the"
-	cont "move SUBSTITUTE."
+	para "Aber nur #MON"
+	line "können DELEGATOR"
+	cont "anwenden..."
 	
-	para "Want to teach it"
-	line "to one?"
+	para "Möchtest Du"
+	line "DELEGATOR einem"
+	cont "deiner #MON"
+	cont "beibringen?"
 	prompt
 
 ReceivedTM50Text:
@@ -303,18 +306,18 @@ ReceivedTM50Text:
 	text_end
 
 TM50ExplanationText:
-	text "Boy, what I'd"
-	line "give to crawl"
-	cont "inside a"
-	cont "KANGASKHAN belly"
-	cont "pouch..."
+	text "Was ich geben"
+	line "würde, wenn ich"
+	cont "in den Beutel von"
+	cont "KANGAMA klettern"
+	cont "könnte..."
 	done
 
 TM50Refused:
-	text "Oh really?"
+	text "Oh wirklich?"
 	
-	para "SUBSTITUTE seems"
-	line "so fun..."
+	para "DELEGATOR macht"
+	line "Spaß..."
 	done
 
 SubstituteNoRoomText:

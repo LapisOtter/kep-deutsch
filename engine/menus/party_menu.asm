@@ -117,9 +117,9 @@ RedrawPartyMenu_::
 	inc c
 	jp .loop
 .ableToLearnMoveText
-	db "ABLE@"
+	db "OK@"
 .notAbleToLearnMoveText
-	db "NOT ABLE@"
+	db "NEIN@"
 	;battletent
 .battleTentMenu
 	ld a, [wWhichPokemon]
@@ -144,13 +144,13 @@ RedrawPartyMenu_::
 	ld bc,20 + 6
 	jr .placeMoveLearnabilityString2
 .BTNotEnteredText
-	db "NOT ENTERED@"
+	db "OK@"
 .BTFirstText
-	db "FIRST@"
+	db "ERSTES@"
 .BTSecondText
-	db "SECOND@"
+	db "ZWEITES@"
 .BTThirdText
-	db "THIRD@"
+	db "DRITTES@"
 	;bt end
 .evolutionStoneMenu
 	push hl
@@ -206,9 +206,9 @@ RedrawPartyMenu_::
 	pop hl
 	jp .printLevel
 .ableToEvolveText
-	db "ABLE@"
+	db "OK@"
 .notAbleToEvolveText
-	db "NOT ABLE@"
+	db "NEIN@"
 .afterDrawingMonEntries
 	ld b, SET_PAL_PARTY_MENU
 	call RunPaletteCommand

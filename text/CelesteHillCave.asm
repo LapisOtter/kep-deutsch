@@ -1,41 +1,41 @@
 _CelesteHillCaveBattleText1::
-	text "Want to try"
-	line "battling my"
-	cont "fairy #MON?"
-	done
+	text "Möchtest du Dich"
+	line "an meine FEEN-"
+	cont "#MON wagen?"
 
 _CelesteHillCaveEndBattleText1::
-	text "I'm"
-	line "shocked at"
-	cont "your strength!"
+	text "Deine"
+	line "Stärke ist"
+	cont "erschütternd!"
 	prompt
 
 _CelesteHillCaveAfterBattleText1::
-	text "I should catch"
-	line "my ferry. I'm"
-	cont "getting a bit"
-	cont "homesick!"
+	text "Ich sollte meine"
+	line "Fähre erwischen."
+	cont "Ich kriege ein"
+	cont "wenig Heimweh!"
 	done
 
 _CelesteHillCaveBattleText2::
-	text "All righty, here"
-	line "goes! The super"
-	cont "# DUDE SHOW!"
+	text "In Ordnung und"
+	line "los! Meine #-"
+	cont "KUMPEL-SHOW!"
 	done
 
 _CelesteHillCaveEndBattleText2::
 	text "...!"
-	line "You are not an"
-	cont "ordinary trainer!"
+	line "Du bist kein"
+	cont "gewöhnlicher"
+	cont "Trainer!"
 	prompt
 
 _CelesteHillCaveAfterBattleText2:: ; Allusion to the lack of a Teachy TV
-	text "Hm? You don't"
-	line "know me? Argh,"
-	cont "that can't be"
-	cont "true!"
+	text "Hm? Du kennst"
+	line "mich nicht?"
+	cont "Das kann doch"
+	cont "nicht Wahr sein!"
 	
-	para "You're just busy"
-	line "right now, aren't"
-	cont "you? Right?"
+	para "Du bist in letzter"
+	line "Zeit beschäftigt,"
+	cont "oder? Stimmt das?"
 	done

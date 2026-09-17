@@ -1,78 +1,85 @@
 _BrunoBeforeBattleText::
-	text "I am BRUNO of"
-	line "the ELITE FOUR!"
+	text "Ich gehöre zu den"
+	line "TOP VIER! Mein"
+	cont "Name ist BRUNO!"
 
-	para "Through rigorous"
-	line "training, people"
-	cont "and #MON can"
-	cont "become stronger!"
+	para "Durch ausgiebiges"
+	line "Training können"
+	cont "#MON sehr"
+	cont "stark werden!"
 
-	para "I've weight"
-	line "trained with"
-	cont "my #MON!"
+	para "Ich habe meine"
+	line "#MON pausenlos"
+	cont "trainiert!"
 
 	para "<PLAYER>!"
 
-	para "We will grind you"
-	line "down with our"
-	cont "superior power!"
+	para "Wir werden Dich"
+	line "mit unserer Kraft"
+	cont "bezwingen!"
 
-	para "Hoo hah!"
+	para "Zum Angriff!"
 	done
 
 _BrunoEndBattleText::
-	text "Why?"
-	line "How could I lose?"
+	text "Wie konnte"
+	line "ich verlieren?"
 	prompt
 
 _BrunoAfterBattleText::
-	text "My job is done!"
-	line "Go face your next"
-	cont "challenge!"
+	text "Ich bin erledigt!"
+	line "Doch die nächste"
+	cont "Herausforderung"
+	cont "wartet bereits..."
 	done
 
 _BrunoDontRunAwayText::
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "EINE STIMME:"
+	line "Lauf nicht davon!"
 	done
 
 _BrunoRematchText::
-	text "I could feel the"
-	line "intensity of your"
-	cont "battle against" 
-	cont "LORELEI, even"
-	cont "from here!"
+
+	text "Den Kampfgeist,"
+	line "den Du LORELEI"
+	cont "gezeigt hast,"
+	cont "konnte man bis"
+	cont "hierher spüren"
+
+	para "Aber ich war auch"
+	line "alles andere als"
+	cont "träge und hab"
+	cont "mein Team uner-"
+	cont "müdlich trainiert."
 	
-	para "Now it's time to"
-	line "show you the true"
-	cont "power of my team!"
+	para "Mach Dich auf ein"
+	line "wahres Feuerwerk"
+	cont "Feuerwerk gefasst!"
+
+	para "Zum Angriff!!!" ; text is taken from LGPE, but the end part here is adjusted to be consistent with the text of german RBY
 	
-	para "We have trained"
-	line "just as hard as"
-	cont "you have, surely!"
-	
-	para "Hoo hah!"
-	
-	para "Hoo! HAH!!!"
 	done
 
 _BrunoRematchEndBattleText::
-	text "I have"
-	line "regrets!"
+	text "Welch eine"
+	line "Schmach!"
 	prompt
 
 _BrunoRematchAfterBattleText::
-	text "Ugh! No!"
+
+	text "Argh!"
 	
-	para "So my training is"
-	line "still lacking..."
+	para "All mein Training"
+	line "reicht immer noch"
+	cont "nicht aus?!"
 	
-	para "...Go."
+	para "Ich muss mich wohl"
+	line "der Wahrheit"
+	cont "stellen..."
 	
-	para "Do not trouble"
-	line "yourself on my"
-	cont "behalf."
-	
-	para "Continue to move"
-	line "forward!"
+	para "So wie Du Dich"
+	line "gleich der"
+	cont "nächsten"
+	cont "Herausforderung"
+	cont "stellen musst!"
 	done

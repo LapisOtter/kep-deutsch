@@ -141,12 +141,12 @@ LinkMenu:
 	call SaveScreenTilesToBuffer1
 	ld hl, WhereWouldYouLikeText
 	call PrintText
-	hlcoord 5, 5
+	hlcoord 4, 5
 	ld b, $6
-	ld c, $d
+	ld c, $e
 	call TextBoxBorder
 	call UpdateSprites
-	hlcoord 7, 7
+	hlcoord 6, 7
 	ld de, CableClubOptionsText
 	call PlaceString
 	xor a
@@ -155,7 +155,7 @@ LinkMenu:
 	ld hl, wTopMenuItemY
 	ld a, $7
 	ld [hli], a
-	ld a, $6
+	ld a, $5
 	ld [hli], a
 	xor a
 	ld [hli], a
@@ -240,11 +240,11 @@ LinkMenu:
 	ld c, d
 .updateCursorPosition
 	ld a, b
-	ldcoord_a 6, 7
+	ldcoord_a 5, 7
 	ld a, c
-	ldcoord_a 6, 9
+	ldcoord_a 5, 9
 	ld a, d
-	ldcoord_a 6, 11
+	ldcoord_a 5, 11
 	ld c, 40
 	call DelayFrames
 	call LoadScreenTilesFromBuffer1
@@ -333,27 +333,27 @@ SpecialEnterMap::
 	jp EnterMap
 
 ContinueText:
-	db "CONTINUE"
+	db "WEITER"
 	next ""
 	; fallthrough
 
 NewGameText:
-	db   "NEW GAME"
-	next "OPTION@"
+	db   "NEUES SPIEL"
+	next "OPTIONEN@"
 
 CableClubOptionsText:
-	db   "TRADE CENTER"
-	next "COLOSSEUM"
-	next "CANCEL@"
+	db   "HANDELSCENTER"
+	next "KOLOSSEUM"
+	next "ZURÜCK@"
 
 DisplayContinueGameInfo:
 	xor a
 	ldh [hAutoBGTransferEnabled], a
-	hlcoord 4, 7
+	hlcoord 3, 7
 	ld b, 8
-	ld c, 14
+	ld c, 15
 	call TextBoxBorder
-	hlcoord 5, 9
+	hlcoord 4, 9
 	ld de, SaveScreenInfoText
 	call PlaceString
 	hlcoord 12, 9
@@ -373,13 +373,13 @@ DisplayContinueGameInfo:
 PrintSaveScreenText:
 	xor a
 	ldh [hAutoBGTransferEnabled], a
-	hlcoord 4, 0
+	hlcoord 3, 0
 	ld b, $8
-	ld c, $e
+	ld c, $f
 	call TextBoxBorder
 	call LoadTextBoxTilePatterns
 	call UpdateSprites
-	hlcoord 5, 2
+	hlcoord 4, 2
 	ld de, SaveScreenInfoText
 	call PlaceString
 	hlcoord 12, 2
@@ -427,10 +427,10 @@ PrintPlayTime:
 	jp PrintNumber
 
 SaveScreenInfoText:
-	db   "PLAYER"
-	next "BADGES    "
+	db   "SPIELER"
+	next "ORDEN     "
 	next "#DEX    "
-	next "TIME@"
+	next "ZEIT@"
 
 DisplayOptionMenu:
 	hlcoord 0, 0
@@ -563,41 +563,41 @@ DisplayOptionMenu:
 	ld a, [wOptionsTextSpeedCursorX] ; text speed cursor X coordinate
 	cp 1	; 1 = Instant
 	jr z, .updateTextSpeedXCoord
-	cp 9	; 9 = Fast
+	cp 8	; 9 = Fast
 	jr nz, .fromMedToFast
-	sub 8	; Fast to Instant
+	sub 7	; Fast to Instant
 	jr .updateTextSpeedXCoord
 .fromMedToFast
-	sub 6	; Med to Fast
+	sub 5	; Med to Fast
 	jr .updateTextSpeedXCoord
 .pressedRightInTextSpeed
 	ld a, [wOptionsTextSpeedCursorX] ; text speed cursor X coordinate
-	cp 15	; 15 = Med
+	cp 13	; 15 = Med
 	jr z, .updateTextSpeedXCoord
-	cp 9	; 9 = Fast
+	cp 8	; 9 = Fast
 	jr nz, .fromInstantToFast
-	add 6	; Fast to Medium
+	add 5	; Fast to Medium
 	jr .updateTextSpeedXCoord
 .fromInstantToFast
-	add 8	; Instant to Fast
+	add 7	; Instant to Fast
 .updateTextSpeedXCoord
 	ld [wOptionsTextSpeedCursorX], a ; text speed cursor X coordinate
 	jp .eraseOldMenuCursor
 
 TextSpeedOptionText:
-	db   "TEXT SPEED"
-	next " INSTANT FAST  MED@"
+	db   "TEXT-TEMPO"
+	next " SOFORT HOCH MITT.@"
 
 BattleAnimationOptionText:
-	db   "BATTLE ANIMATION"
-	next " ON       OFF@"
+	db   "KAMPFANIMATION"
+	next " AN       AUS@"
 
 BattleStyleOptionText:
-	db   "BATTLE STYLE"
-	next " SHIFT    SET@"
+	db   "KAMPFSTIL"
+	next " WECHSEL  FOLGEND@"
 
 OptionMenuCancelText:
-	db "CANCEL@"
+	db "ZURÜCK@"
 
 ; sets the options variable according to the current placement of the menu cursors in the options menu
 SetOptionsFromCursorPositions:
@@ -681,8 +681,8 @@ SetCursorPositionsFromOptions:
 ; 00: X coordinate of menu cursor
 ; 01: delay after printing a letter (in frames)
 TextSpeedOptionData:
-	db 15, TEXT_DELAY_SLOW
-	db  9, TEXT_DELAY_MEDIUM
+	db 13, TEXT_DELAY_SLOW
+	db  8, TEXT_DELAY_MEDIUM
 	db  1, TEXT_DELAY_FAST
 	db  9, -1 ; end (default X coordinate)
 

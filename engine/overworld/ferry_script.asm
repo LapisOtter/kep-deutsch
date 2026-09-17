@@ -195,36 +195,35 @@ DoIslandMenu:
 	ret
 	
 WelcomeToSeagallopText:
-	text "Welcome aboard"
-	line "the SEAGALLOP"
-	cont "FERRY!"
+	text "Willkommen an Bord"
+	line "Der SEESPRINT-"
+	cont "FÄHRE!"
 	
-	para "Do you have a"
-	line "ticket to travel"
-	cont "with us today?@@"
+	para "Besitzt Du ein"
+	line "Ticket, mitdem"
+	cont "Du mit uns"
+	cont "verreisen kannst?@@"
 
 NoTicketText:
-	text "No? That's too"
-	line "bad."
+	text "Nein? Schade!"
 	
-	para "Come back and see"
-	line "us later."
+	para "Komm ein anderes"
+	line "Mal wieder."
 	prompt
 	db "@"
 	
 GoingNowhereText:
-	text "Come back and see"
-	line "us later."
+	text "Komm ein anderes"
+	line "Mal wieder."
 	prompt
 	db "@"
 
 AllAboardText:
-	text "All aboard!"
+	text "Alle an Bord!"
 	prompt
 	db "@"
 	
 AlreadyThereText:
-	text "We're already"
-	line "there!"
+	text "Da sind wir schon!"
 	prompt
 	db "@"

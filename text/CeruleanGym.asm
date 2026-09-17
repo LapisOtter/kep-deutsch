@@ -1,174 +1,201 @@
 _MistyPreBattleText::
-	text "Hi, you're a new"
-	line "face!"
+	text "Du mußt neu sein,"
+	line "ich habe Dich"
+	cont "noch nie gesehen!"
 
-	para "Trainers who want"
-	line "to turn pro have"
-	cont "to have a policy"
-	cont "about #MON!"
+	para "Wenn ein Trainer"
+	line "zum Profi werden"
+	cont "möchte, muß er"
+	cont "sich eine"
+	cont "#MON-TAKTIK"
+	cont "erarbeiten!"
 
-	para "What is your"
-	line "approach when you"
-	cont "catch #MON?"
+	para "Auf welche Weise"
+	line "fängst Du Deine"
+	cont "#MON?"
 
-	para "My policy is an"
-	line "all-out offensive"
-	cont "with WATER-type"
+	para "Meine Strategie"
+	line "basiert auf dem"
+	cont "gnadenlosen"
+	cont "Offensiv-Einsatz"
+	cont "von WASSER-"
 	cont "#MON!"
 	done
 
 _TM11ExplanationText::
-	text "TM11 teaches"
-	line "BUBBLEBEAM!"
+	text "TM11 ist der"
+	line "BLUBBSTRAHL!"
 
-	para "Use it on an"
-	line "aquatic #MON!"
+	para "WASSER-#MON"
+	line "können diese"
+	cont "Attacke erlernen!"
 	done
 
 _MistyCascadeBadgeInfoText::
-	text "The CASCADEBADGE"
-	line "allows you to"
-	cont "use CUT any time!"
+	text "Mit dem QUELLORDEN"
+	line "können Deine"
+	cont "#MON nun jeder-"
+	cont "zeit ZERSCHNEIDER"
+	cont "einsetzen!"
+	
+	para "Du kannst kleine"
+	line "Büsche zerhacken"
+	cont "und so neue Wege"
+	cont "freilegen!"
 
-	para "You can CUT down"
-	line "small bushes to"
-	cont "open new paths!"
-
-	para "You can also have"
-	line "my favorite TM!"
+	para "Zu guter Letzt"
+	line "schenke ich Dir"
+	cont "noch meine"
+	cont "Lieblings-TM!"
 	done
 
 _ReceivedTM11Text::
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "TM11!@"
 	text_end
 
 _TM11NoRoomText::
-	text "You better make"
-	line "room for this!"
+	text "Du hast momentan"
+	line "keinen Platz für"
+	cont "mein Geschenk!"
 	done
 
 _ReceivedCascadeBadgeText::
-	text "Wow!"
-	line "You're too much!"
+	text "Wow! Du"
+	line "bist sehr gut!"
 
-	para "All right!"
+	para "Alles klar!"
 
-	para "You can have the"
-	line "CASCADEBADGE to"
-	cont "show you beat me!@"
+	para "Ich überlasse Dir"
+	line "den QUELLORDEN"
+	cont "als Zeichen"
+	cont "Deines Triumphes!@"
 	text_end
 
 _CeruleanGymBattleText1::
-	text "I'm more than good"
-	line "enough for you!"
+	text "Zuerst fordere"
+	line "ich Dich heraus!"
 
-	para "MISTY can wait!"
+	para "MISTY muß warten!"
 	done
 
 _CeruleanGymEndBattleText1::
-	text "You"
-	line "overwhelmed me!"
+	text "Ich"
+	line "bin überwältigt!"
 	prompt
 
 _CeruleanGymAfterBattleText1::
-	text "You have to face"
-	line "other trainers to"
-	cont "find out how good"
-	cont "you really are."
+	text "Du mußt Dich"
+	line "anderen Trainern"
+	cont "stellen, um "
+	cont "herauszufinden,"
+	cont "wie gut Du bist."
 	done
 
 _CeruleanGymBattleText2::
-	text "Splash!"
+	text "Platsch!"
 
-	para "I'm up! Let's"
-	line "do it!"
+	para "Ich bin dran!"
+	line "Es geht los!"
 	done
 
 _CeruleanGymEndBattleText2::
-	text "That"
-	line "can't be!"
+	text ""
+	line "Das darf nicht"
+	cont "wahr sein!"
 	prompt
 
 _CeruleanGymAfterBattleText2::
-	text "MISTY is going to"
-	line "keep improving!"
+	text "MISTY verbessert"
+	line "stets ihr Können!"
 
-	para "She won't lose to"
-	line "someone like you!"
+	para "Jemand wie Du hat"
+	line "keine Chance, sie"
+	cont "zu besiegen!"
 	done
 
 _CeruleanGymBattleText3::
-	text "Don't skip out on"
-	line "fire safety!"
+	text "Lass den"
+	line "Brandschutz nicht"
+	cont "im Stich!"
 	done
 
 _CeruleanGymEndBattleText3::
-	text "I got"
-	line "burned..."
+	text "Ich"
+	line "wurde verbrannt..."
 	prompt
 
 _CeruleanGymAfterBattleText3::
-	text "Why is a FIRE-"
-	line "FIGHTER in a"
-	cont "GYM for WATER-"
-	cont "type #MON?"
+	text "Was die FEUERWEHR"
+	line "in einer ARENA" 
+	cont "für WASSER-"
+	cont "#MON zu suchen"
+	cont "hat?"
 	
-	para "Haha! You have to" ; Actually happens in real life!
-	line "check for short"
-	cont "circuits!"
+	para "Haha! Man muss" ; Actually happens in real life!
+	line "überprüfen, ob"
+	cont "irgendwo Kurz-"
+	cont "schlüsse sind!"
 	done
 
 _CeruleanGymGuidePreBattleText::
-	text "Yo! Champ in"
-	line "the making!"
+	text "Hey! Warte, Du"
+	line "Champion in spe!"
 
-	para "Here's my advice!"
+	para "Ich habe einen"
+	line "Tip für Dich!"
 
-	para "The LEADER, MISTY,"
-	line "is a pro who uses"
-	cont "WATER-types!"
+	para "MISTY, die"
+	line "ARENALEITERIN,"
+	cont "kämpft mit"
+	cont "WASSER-#MON!"
 
-	para "You can drain all"
-	line "their water with"
-	cont "plant #MON!"
+	para "Du kannst ihnen"
+	line "das Wasser mit"
+	cont "PFLANZEN-#MON"
+	cont "entziehen!"
 
-	para "Or, zap them with"
-	line "electricity!"
+	para "ELEKTRO-#MON"
+	line "dürften sich auch"
+	cont "als nützlich"
+	cont "erweisen!"
 	done
 
 _CeruleanGymGuidePostBattleText::
-	text "You beat MISTY!"
-	line "What'd I tell ya?"
+	text "Du hast MISTY"
+	line "besiegt! Habe ich"
+	cont "es nicht gesagt?"
 
-	para "You and me, kid,"
-	line "we make a pretty"
-	cont "darn good team!"
+	para "Glaub mir, wir"
+	line "beide bilden ein"
+	cont "sehr gutes Team!"
 	done
 
 _MistyRematchPreBattleText::
-	text "I heard an"
-	line "interesting"
-	cont "rumor!"
+	text "Ich hab die"
+	line "Gerüchte schon"
+	cont "gehört!"
+
+	para "Man sagt, dass Du"
+	line "TEAM ROCKET"
+	cont "besiegt hast und"
+	cont "auch noch CHAMP"
+	cont "geworden bist!"
 	
-	para "Not only did you"
-	line "beat those TEAM"
-	cont "ROCKET guys, but"
-	cont "you also became"
-	cont "the CHAMPION!"
+	para "Ich kann's kaum"
+	line "erwarten, noch"
+	cont "einmal mit dir"
+	cont "zu kämpfen!"
 	
-	para "I can't take it"
-	line "anymore! I just"
-	cont "have to battle"
-	cont "you again!"
-	
-	para "You got that?"
-	
-	para "No refusing!"
+	para "Ein Nein"
+	line "akzeptiere ich"
+	cont "nicht, hörst Du?"
 	
 	done
 
 _MistyRematchDefeatedText::
-	text "Hmph!"
-	line "How annoying!"
+	text "Ich bin mit"
+	line "meiner Strategie"
+	cont "ganz schön baden"
+	cont "gegangen..."
 	prompt

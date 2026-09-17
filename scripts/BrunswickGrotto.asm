@@ -37,12 +37,12 @@ GZapBattleText:
 	jp TextScriptEnd
 
 BrunswickSign:
-	text "BRUNSWICK"
-	line "BIRDWATCHING"
+	text "PETROLLICHTUNGS-"
+	line "VOGELBEOBACHTUNG"
 	
-	para "The sign is"
-	line "covered in"
-	cont "scratches..."
+	para "Das Schild ist"
+	line "mit Kratzspuren"
+	cont "übersät..."
 	done
 	text_end
 	

@@ -74,27 +74,28 @@ SeismicTossGuy:
 	jp TextScriptEnd
 
 TM19PreReceiveText:
-	text "The secrets of"
-	line "space..."
+	text "Das Geheimnis des"
+	line "Raumes..."
 	
-	para "The mysteries of"
-	line "earth..."
+	para "Die Rätsel des"
+	line "Planeten..."
 	
-	para "There are so many"
-	line "things about"
-	cont "which we know so"
-	cont "little."
+	para "Es gibt so vieles,"
+	line "worüber wir so"
+	cont "wenig wissen!"
 	
-	para "But that should"
-	line "spur us to study"
-	cont "harder, not toss"
-	cont "in the towel!"
+	para "Aber was treibt"
+	line "uns an, noch mehr"
+	cont "zu hinterfragen"
+	cont "und nicht das"
+	cont "Handtuch zu"
+	cont "werfen?"
 	
-	para "The only thing you"
-	line "should toss..."
+	para "Der einzige"
+	line "erlaubte Wurf..."
 	
-	para "Well, how about"
-	line "SEISMIC TOSS?"
+	para "Wie wäre es mit"
+	line "GEOWURF?"
 	prompt
 
 ReceivedTM19Text:
@@ -103,18 +104,18 @@ ReceivedTM19Text:
 	text_end
 
 TM19ExplanationText:
-	text "I hope you won't"
-	line "toss in the"
-	cont "towel."
+	text "Ich hoffe, Du"
+	line "wirfst nicht Das"
+	cont "Handtuch!"
 	
-	para "Good luck!"
+	para "Mach weiter so!"
 	done
 
 TM19Refused:
-	text "Is that so?"
+	text "So ist das also!"
 	
-	para "I'm sure you'll"
-	line "be back for it."
+	para "Ich bin sicher, Du"
+	line "kommst zurück!"
 	done
 
 SeismicTossNoRoomText:

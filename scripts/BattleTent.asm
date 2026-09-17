@@ -687,7 +687,7 @@ BattleTentTrainer:
 	call Random
 	and $3
 	ld hl, BTLib1
-	ld bc, 9
+	ld bc, 12
 	call AddNTimes
 	ld de, wStringBuffer1
 	call CopyData
@@ -695,7 +695,7 @@ BattleTentTrainer:
 	swap a
 	and $3
 	ld hl, BTLib2
-	ld bc, 7
+	ld bc, 10
 	call AddNTimes
 	ld de, wStringBuffer2
 	call CopyData
@@ -725,7 +725,7 @@ BattleTentTrainer_After:
 	call Random
 	and $3
 	ld hl, BTLib3
-	ld bc, 10
+	ld bc, 12
 	call AddNTimes
 	ld de, wStringBuffer1
 	call CopyData
@@ -733,7 +733,7 @@ BattleTentTrainer_After:
 	swap a
 	and $3
 	ld hl, BTLib4
-	ld bc, 7
+	ld bc, 6
 	call AddNTimes
 	ld de, wStringBuffer2
 	call CopyData
@@ -752,86 +752,91 @@ BattleTentTrainer_After:
 	jp TextScriptEnd
 	
 BattleTentWelcome:
-	text "Welcome to the"
-	line "BATTLE TENT!"
+	text "Willkommen im"
+	line "KAMPFZELT!"
 	
-	para "Here, trainers"
-	line "from far and"
-	cont "wide come to"
+	para "Trainer aus nah"
+	line "und fern kommen"
+	cont "hier her, um"
 	;cont "face a gauntlet"
 	;cont "of 10 trainers!"
-	cont "spar against"
-	cont "one another!"
+	cont "gegeneinander"
+	cont "anzutreten!"
 	
 	;para "If you win them"
 	;line "all, you win"
 	;cont "a prize!"
 	
-	para "Would you like"
-	line "to participate?"
+	para "Möchtest du"
+	line "teilnehmen?"
 	
 	prompt
 	
 BattleTentNotEnough:
-	text "..whoops! You don't"
-	line "have enough"
-	cont "#MON that"
-	cont "follow the rules!"
+	text "...ups! Du hast"
+	line "nicht genug"
+	cont "#MON, die den"
+	cont "Regeln"
+	cont "entsprechen!"
 	prompt
 	
 BattleTentNoBoxTmp:
-	text "..whoops! your"
-	line "current #MON"
-	cont "BOX needs to"
-	cont "be empty!"
+	text "...ups! Du musst"
+	line "eine #MON-BOX"
+	cont "auswählen, die"
+	cont "leer ist!"
 	
-	para "We need to"
-	line "store all of your"
-	cont "party's #MON"
-	cont "into a BOX."
+	para "Wir müssen dein"
+	line "gesamtes #MON-"
+	cont "Team in einer BOX"
+	cont "aufbewahren."
 	
-	para "Try changing"
-	line "or emptying it."
+	para "Du solltest sie"
+	line "wechseln oder"
+	cont "leer machen."
 	
 	prompt
 	
 BattleTentPlsSel:
-	text "Please select the"
-	line "#MON you wish"
-	cont "to enter."
+	text "Bitte wähle die"
+	line "#MON aus, die"
+	cont "teilnehmen."
 	prompt
 	
 BattleTentNoMoreThan3:
-	text "No more than three"
-	line "#MON may enter!"
+	text "Nicht mehr als"
+	line "drei #MON"
+	cont "können antreten!"
 	prompt
 	
 BattleTentConfirm:
-	text "Are you okay with"
-	line "these choices?"
+	text "Ist diese Wahl"
+	line "In Ordnung?"
 	prompt
 	
 BattleTentPleaseWait:
-	text "Please wait…"
+	text "Bitte warten…"
 	done
 	
 BattleTentLetsGo:
-	text "Alright, this way."
+	text "OK. Hier entlang."
 	done
 	
 BattleTentWon:
-	text "Congratulations!"
+	text "Glückwunsch!"
 	
-	para "You beat"
+	para "Du hast"
 	line "@"
 	text_decimal wBTStreakCnt, 1, 3
-	text " opponent(s)!"
+	text " Gegner"
+	cont "besiegt!"
 	prompt
 	
 BattleTentLost:
-	text "It's a shame that"
-	line "you lost."
-	cont "Try again later!"
+	text "Schade, dass du"
+	line "verloren hast."
+	cont "Probier es noch"
+	cont "einmal!"
 	prompt
 	
 BattleTentSeeYouAgain:
@@ -839,10 +844,10 @@ BattleTentSeeYouAgain:
 	db "@"
 	
 BattleTentGuy2_Init:
-	text "Your battle will"
-	line "begin soon."
+	text "Dein Kampf beginnt"
+	line "in Kürze."
 	
-	para "Good luck!"
+	para "Viel Glück!"
 	done
 
 ; Cut in favour of a different system.
@@ -853,50 +858,51 @@ BattleTentGuy2_Streak:
 ;	line "is up next."
 ;	para "Good luck!"
 ;	done
-	text "Here comes a"
-	line "new challenger!" ; I really like fighting games.
+	text "Hier kommt"
+	line "ein neuer" ; I really like fighting games.
+	cont "Herausforderer!" ; Im not into fighting games i am so sorry if this translation is barebones
 	done
 
 BattleTentGuy2_Continue:
-	text "Congratulations!"
+	text "Glückwunsch!"
 
-	para "You're at"
+	para "Du hast"
 	line "@"
 	text_decimal wBTStreakCnt, 1, 3
-	text " win(s)!"
+	text " Mal gewonnen!"
 	
-	para "Do you want to"
-	line "continue?"
+	para "Willst du weiter"
+	line "machen?"
 	prompt
 
 BattleTentGuy2_Win:
 	;text "Congratulations!"
-	text "Well done!"
+	text "Gut gemacht!"
 	
 	;para "You defeated"
 	;line "@"
 	;text_decimal wBTStreakCnt, 1, 3
 	;text " opponent(s)!"
 	
-	para "Please go back to"
-	line "the counter to"
-	cont "claim your prize!"
+	para "Hol dir deinen"
+	line "Preis an der"
+	cont "Theke ab!"
 	done
 
 BattleTentGuy2_Heal:
-	text "Your #MON will"
-	line "be restored to"
-	cont "full health."
+	text "Deine #MON"
+	line "werden vollstän-"
+	cont "dig geheilt."
 	done
 
 ReceivedRewardPreamble:
-	text "Take these,"
-	line "on the house!"
+	text "Nimm das mit, es"
+	line "geht auf's Haus!"
 	prompt
 	text_end
 
 ReceivedRewardText:
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "@"
 	text_decimal wBTRewards, 1, 2
 	text "x @"
@@ -906,7 +912,8 @@ ReceivedRewardText:
 	text_end
 	
 RewardNoRoomText:
-	text "You have no room!"
+	text "Du hast keinen"
+	cont "Platz mehr!"
 	prompt
 	text_end
 

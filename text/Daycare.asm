@@ -1,117 +1,129 @@
 _DayCareIntroText::
-	text "I run a DAYCARE."
-	line "Would you like me"
-	cont "to raise one of"
-	cont "your #MON?"
+	text "Ich leite diese"
+	line "PENSION. Soll"
+	cont "ich eines Deiner"
+	cont "#MON"
+	cont "großziehen?"
 	done
 
 _DayCareWhichMonText::
-	text "Which #MON"
-	line "should I raise?"
+	text "Welches #MON"
+	line "soll hierbleiben?"
 	prompt
 
 _DayCareWillLookAfterMonText::
-	text "Fine, I'll look"
-	line "after @"
+	text "OK, ich kümmere"
+	line "mich eine Weile"
+	cont "um @"
 	text_ram wcd6d
-	text_start
-	cont "for a while."
+	text "."
 	prompt
 
 _DayCareComeSeeMeInAWhileText::
-	text "Come see me in"
-	line "a while."
+	text "Komm später"
+	line "wieder vorbei, um"
+	cont "es abzuholen."
 	done
 
 _DayCareMonHasGrownText::
-	text "Your @"
 	text_ram wcd6d
 	text_start
-	line "has grown a lot!"
+	line "hat sich toll"
+	cont "entwickelt!"
 
-	para "By level, it's"
-	line "grown by @"
+	para "Es ist um @"
 	text_decimal wDayCareNumLevelsGrown, 1, 3
-	text "!"
+	text_start
+	line "Level gestiegen!"
 
-	para "Aren't I great?"
+	para "Das habe ich gut"
+	line "gemacht, oder?"
 	prompt
 
 _DayCareOweMoneyText::
-	text "You owe me ¥@"
+	text "Bevor Du Dein"
+	line "#MON wieder"
+	cont "mitnimmst, "
+	cont "bekomme ich noch"
+	cont "¥@"
 	text_bcd wDayCareTotalCost, 2 | LEADING_ZEROES | LEFT_ALIGN
-	text_start
-	line "for the return"
-	cont "of this #MON."
+	text " von Dir!"
 	done
 
 _DayCareGotMonBackText::
-	text "<PLAYER> got"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wDayCareMonName
-	text " back!"
+	text_start
+	cont "zurück!"
 	done
 
 _DayCareMonNeedsMoreTimeText::
-	text "Back already?"
-	line "Your @"
+	text "Du bist schon"
+	line "wieder zurück?"
+	cont "@"
 	text_ram wcd6d
-	text_start
-	cont "needs some more"
-	cont "time with me."
+	text " sollte"
+	cont "noch ein bißchen"
+	cont "bei mir bleiben."
 	prompt
 
 _MelanieText1::
-	text "I take care of"
-	line "injured #MON."
+	text "Ich kümmere mich"
+	line "um verletzte"
+	cont "#MON."
 
-	para "I nursed this"
-	line "BULBASAUR back to"
-	cont "health!"
+	para "Ich habe dieses"
+	line "BISASAM geheilt"
+	cont "und gepflegt."
 	done
 
 _MelanieText2::
-	text "That said..."
+	text "Doch..."
 
-	para "It needs a good"
-	line "trainer to take"
-	cont "care of it now."
+	para "Es braucht einen"
+	line "guten Trainer,"
+	cont "der für es sorgt."
 
-	para "I know! Would you"
-	line "take care of this"
-	cont "BULBASAUR?"
+	para "Würdest Du Dich"
+	line "um dieses BISASAM"
+	cont "kümmern?"
 	done
 
 _MelanieText3::
-	text "Please take care"
-	line "of BULBASAUR!"
+	text "Kümmere Dich"
+	line "gut um BISASAM!"
 	done
 
 _MelanieText4::
-	text "Is BULBASAUR"
-	line "doing well?"
+	text "Wie macht BISASAM"
+	line "sich?"
 	done
 
 _MelanieText5::
 	text "Oh..."
-	line "That's too bad..."
+	line "Das ist schade..."
 	done
 
 _MelanieText6::
-	text "Umm...your PARTY"
-	line "is full."
+	text "Ähm...Dein TEAM"
+	line "ist voll."
 	
-	para "There's a PC over"
-	line "there, if you"
-	cont "don't mind..."
+	para "Dort drüben ist"
+	line "ein PC, falls es"
+	cont "dir nichts aus"
+	cont "macht..."
 	done
 
 _MelanieText7::
-	text "One day, I think"
-	line "someone will love"
-	cont "to have it."
+	text "Eines Tages wird"
+	line "irgendjemand es"
+	cont "liebend gern"
+	cont "besitzen wollen."
 	
-	para "Someone who began"
-	line "a journey with a"
-	cont "cute #MON!"
+	para "Ein Kind, welches"
+	line "mit einem süßen"
+	cont "#MON auf eine"
+	cont "Reise angetreten"
+	cont "ist!"
 	done

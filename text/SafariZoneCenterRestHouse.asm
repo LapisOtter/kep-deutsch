@@ -1,13 +1,17 @@
 _SafariZoneRestHouse1Text1::
-	text "ATSUKO: Where did" ; JP elements restored, cut "boyfriend" line which was a translation change.
-	line "KOJI go?"
+	text "ATSUKO: Wo ist" ; JP elements restored, cut "boyfriend" line which was a translation change.
+	line "bloß KOJI"
+	cont "hingegangen?"
 	
-	para "He said to meet"
-	line "him here..."
+	para "Er sagte, wir"
+	line "würden uns hier"
+	cont "treffen..."
 	done
 
 _SafariZoneRestHouse1Text2::
-	text "I'm catching"
-	line "#MON to take"
-	cont "home as gifts!"
+	text "Wenn ich #MON"
+	line "fange, verschenke"
+	cont "ich sie, wenn ich"
+	cont "wieder zu Hause"
+	cont "bin!"
 	done

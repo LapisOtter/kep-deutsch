@@ -223,8 +223,7 @@ JamesDone:
 	text_end
 
 JamesAlreadyTrained:
-	text "That #MON is"
-	line "strong enough"
-	cont "already!"
+	text "Dieses #MON ist"
+	line "schon stark genug!"
 	done
 	text_end

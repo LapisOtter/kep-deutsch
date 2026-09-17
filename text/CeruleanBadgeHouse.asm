@@ -1,86 +1,97 @@
 _CeruleanHouse2Text_74e77::
-	text "#MON BADGEs"
-	line "are owned only by"
-	cont "skilled trainers."
+	text "Nur sehr begabte"
+	line "Trainer tragen"
+	cont "#MON-ORDEN."
 
-	para "Those BADGEs have"
-	line "amazing secrets!"
+	para "Die ORDEN sind"
+	line "geheimnisumwoben!"
 	prompt
 
 _CeruleanHouse2Text_74e7c::
-	text "Now then..."
+	text "Also dann..."
 
-	para "Which of the 8"
-	line "BADGEs should I"
-	cont "describe?"
+	para "Über welchen der"
+	line "acht ORDEN soll"
+	cont "ich Dir etwas"
+	cont "erzählen?"
 	done
 
 _CeruleanHouse2Text_74e81::
-	text "Come visit me any"
-	line "time you wish."
+	text "Besuche mich,"
+	line "wann immer Du"
+	cont "möchtest."
 	done
 
 _CeruleanHouse2Text_74e96::
-	text "The ATTACK of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "Der ANGRIFFS-Wert"
+	line "Deiner #MON"
+	cont "wird ein wenig"
+	cont "verstärkt."
 
-	para "It also lets you"
-	line "use FLASH any"
-	cont "time you desire."
+	para "Außerdem kannst"
+	line "Du jederzeit"
+	cont "BLITZ einsetzen."
 	prompt
 
 _CeruleanHouse2Text_74e9b::
-	text "It lets you use"
-	line "CUT outside of"
-	cont "battle."
+	text "Du kannst den"
+	line "ZERSCHNEIDER"
+	cont "außerhalb von"
+	cont "Kämpfen nutzen!"
 	prompt
 
 _CeruleanHouse2Text_74ea0::
-	text "The SPEED of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "Die INITIATIVE"
+	line "Deiner #MON"
+	cont "nimmt zu."
 
-	para "It also lets you"
-	line "use FLY outside"
-	cont "of battle."
+	para "Desweiteren ist"
+	line "es Dir möglich,"
+	cont "FLIEGEN außerhalb"
+	cont "von Kämpfen"
+	cont "einzusetzen."
 	prompt
 
 _CeruleanHouse2Text_74ea5::
-	text "It lets you use"
-	line "STRENGTH outside"
-	cont "of battle."
+	text "Du kannst"
+	line "außerhalb von"
+	cont "Kämpfen STÄRKE"
+	cont "einsetzen."
 	prompt
 
 _CeruleanHouse2Text_74eaa::
-	text "The DEFENSE of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "Die VERTEIDIGUNG"
+	line "Deiner #MON"
+	cont "wird verbessert."
 
-	para "It also lets you"
-	line "use SURF outside"
-	cont "of battle."
+	para "Ferner kannst Du"
+	line "außerhalb von"
+	cont "Kämpfen SURFER"
+	cont "verwenden."
 	prompt
 
 _CeruleanHouse2Text_74eaf::
-	text "Hmm... I can't"
-	line "remember."
-
-	para "Should you beat"
-	line "SABRINA's tough"
-	cont "PSYCHIC #MON,"
-	cont "she may tell"
-	cont "you."
+	text "Hmm... Ich weiß"
+	line "es nicht mehr."
+	
+	para "Doch wenn Du"
+	line "die mächtigen"
+	cont "PSYCHO-#MON"
+	cont "von SABRINA"
+	cont "schlagen kannst,"
+	cont "könnte sie es"
+	cont "dir verraten."
 	prompt
 
 _CeruleanHouse2Text_74eb4::
-	text "Your #MON's"
-	line "SPECIAL abilities"
-	cont "increase a bit."
+	text "Die SPEZIAL-"
+	line "FÄHIGKEITEN"
+	cont "Deiner #MON"
+	cont "werden erhöht."
 	prompt
 
 _CeruleanHouse2Text_74eb9::
-	text "You'll be able to"
-	line "challenge the"
-	cont "#MON LEAGUE!"
+	text "Du wirst Dich der"
+	line "#MON-LIGA"
+	cont "stellen können!"
 	prompt

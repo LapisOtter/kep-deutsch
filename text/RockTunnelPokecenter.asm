@@ -1,52 +1,57 @@
 _RockTunnelPokecenterText2::
-	text "The element types"
-	line "of #MON make"
-	cont "them stronger"
-	cont "than some types"
-	cont "and weaker than"
-	cont "others!"
+	text "Ihre Typen machen"
+	line "manche #MON"
+	cont "anderen gegenüber"
+	cont "stärker bzw."
+	cont "schwächer!"
 	done
 
 _RockTunnelPokecenterText3::
-	text "I sold a useless"
-	line "NUGGET for ¥5000!"
+	text "Ich habe für"
+	line "ein nutzloses"
+	cont "NUGGET 5000¥"
+	cont "bekommen!"
 	done
 
 _DittoSalesmanText1::
-	text "SALESMAN: Hey,"
-	line "kid! Nice to"
-	cont "see you again!"
+	text "HÄNDLER: Hey,"
+	line "Zwerg! Schön Dich"
+	cont "wieder zu sehen!"
+	cont "Möchtest Du ein"
+	cont "weiteres tolles"
+	cont "Geschäft machen?"
 	
-	para "I have another"
-	line "very special"
-	cont "deal for you!"
+	para "Für eine begrenzte"
+	line "Zeit kannst Du"
+	cont "jedes einzelne"
+	cont "#MON auf der"
+	cont "Welt erhalten!"
 	
-	para "For a limited"
-	line "time, you can"
-	cont "get access to"
-	cont "any #MON"
-	cont "in the world!"
-	
-	para "Every single"
-	line "#MON, for just"
-	cont "¥500! You can't"
-	cont "refuse that!"
+	para "Ja, jedes einzelne"
+	line "#MON, für"
+	cont "läppische ¥500!"
+	cont "Dazu kann man"
+	cont "doch nicht Nein"
+	cont "sagen!"
 	
 	done
 
 _DittoSalesmanNoText::
-	text "No? Time's"
-	line "ticking!"
+	text "Nein? Die Zeit"
+	line "Läuft ab, Kiddie!"
 	done
 
 _DittoSalesmanNoMoneyText::
-	text "You'll need more"
-	line "money than that!"
+	text "Schade, Du hast"
+	line "nicht genug Geld!"
 	done
 
 _DittoSalesmanText2::
-	text "SALESMAN: Sold as"
-	line "seen! You can't"
-	cont "get every #MON"
-	cont "at the same time!"
+	text "HÄNDLER: Es wird"
+	line "Verkauft wie"
+	cont "abgebildet! Man"
+	cont "kann nicht jedes"
+	cont "einzelne #MON"
+	cont "gleichzeitig"
+	cont "bekommen!"
 	done

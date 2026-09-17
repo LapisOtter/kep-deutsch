@@ -1,74 +1,83 @@
 _LoreleiBeforeBattleText::
-	text "Welcome to the"
-	line "#MON LEAGUE!"
+	text "Willkommen"
+	line "in der PKMN-LIGA!"
 
-	para "I am LORELEI of"
-	line "the ELITE FOUR!"
+	para "Ich bin LORELEI"
+	line "und gehöre zu den"
+	cont "TOP VIER!"
 
-	para "No one can best"
-	line "me when it comes"
-	cont "to icy #MON!"
+	para "Niemand kann sich"
+	line "mit mir messen,"
+	cont "wenn es um"
+	cont "EIS-#MON geht!"
 
-	para "Freezing moves"
-	line "are powerful!"
+	para "Die Kraft von"
+	line "Eis-Attacken ist"
+	cont "unglaublich!"
 
-	para "Your #MON will"
-	line "be at my mercy"
-	cont "when they are"
-	cont "frozen solid!"
+	para "Du wirst um Gnade"
+	line "winseln, wenn ich"
+	cont "Deine  #MON"
+	cont "eingefroren habe!"
 
 	para "Hahaha!"
-	line "Are you ready?"
+	line "Bist Du bereit?"
 	done
 
 _LoreleiEndBattleText::
-	text "How"
-	line "dare you!"
+	text "Wie"
+	line "kannst Du es"
+	cont "wagen?"
 	prompt
 
 _LoreleiAfterBattleText::
-	text "You're better"
-	line "than I thought!"
-	cont "Go on ahead!"
+	text "Du bist besser,"
+	line "als ich dachte!"
+	cont "Geh ruhig weiter!"
 
-	para "You only got a"
-	line "taste of the"
-	cont "#MON LEAGUE's"
-	cont "power!"
+	para "Das hier war nur"
+	line "ein Vorgeschmack"
+	cont "auf die Dinge,"
+	cont "die Dich noch"
+	cont "erwarten..."
 	done
 
 _LoreleiRematchText::
-	text "Welcome to the"
-	line "#MON LEAGUE!"
+	text "Willkommen in der"
+	line "#MON-LIGA!"
 	
-	para "Fantastic timing!"
-	line "I was thinking"
-	cont "how I'd like to"
-	cont "battle you just"
-	cont "now."
+	para "Du kommst gerade"
+	line "recht, mir ist"
+	cont "nämlich nach"
+	cont "einem Kampf"
+	cont "zumute."
 	
-	para "I hope you're"
-	line "ready!"
+	para "Zieh Dich besser"
+	line "warm an!"
 	done
 	
 _LoreleiRematchEndBattleText::
-	text "Argh!"
-	line "How?!"
+	text "Das darf"
+	line "doch nicht wahr"
+	cont "sein!"
 	prompt
 
 _LoreleiRematchAfterBattleText::
-	text "I may have lost"
-	line "to you, but I'll"
-	cont "never give up on"
-	cont "icy #MON!"
+	text "Ich habe zwar"
+	line "verloren, aber es"
+	cont "käme mir nie in"
+	cont "den Sinn, meine"
+	cont "EIS-#MON"
+	cont "aufzugeben."
 	
-	para "You should aim to"
-	line "win using #MON"
-	cont "you like best,"
-	cont "too!"
+	para "Das gilt auch für"
+	line "Dich: Halte immer"
+	cont "den #MON die"
+	cont "Treue, für die"
+	cont "Dein Herz schlägt."	
 	done
-
+	
 _LoreleiDontRunAwayText::
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "EINE STIMME:"
+	line "Lauf nicht davon!"
 	done
