@@ -7,7 +7,7 @@ Dies ist ein ROM-Hack von Pokémon Rot und Blau, welches darauf strebt, die Kant
 
 Fürs Spielen auf einem Emulator wird BGB dank seiner Genauigkeit und Features dringend empfohlen. Auf ungenauen Emulatoren, wie VBA und TGB Dual, können unbeabsichtigte Glitches entstehen. Dieser Hack ist auch komplett auf offizieller Hardware spielbar.
 
-# Für Pokémon-Infos geht [hier](https://docs.google.com/spreadsheets/d/1jYAvI7OjdmMQpJLTwyK04Be8hR-LZHkRfV3XcMzihM8) hin
+# Pokémon-Infos findet ihr [hier](https://docs.google.com/spreadsheets/d/1WhfmZ3FobXBHSjK5Vhyg8xbY9U7U7SIVh0-Uz6Zy-AU/)
 
 Neue Pokémon
 ====
