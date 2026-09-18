@@ -21,14 +21,14 @@ INCLUDE "text/RocketHideoutB2F.asm"
 INCLUDE "text/RocketHideoutB3F.asm"
 INCLUDE "text/RocketHideoutB4F.asm"
 INCLUDE "text/RocketHideoutElevator.asm"
+
+
+SECTION "Text 1.5", ROMX ; i probably could have avoided having to add this if i didn't translate the dialogue of the unused silph co floors but whatever ~Lapis
+
 INCLUDE "text/SilphCo2F.asm"
 INCLUDE "text/SilphCo3F.asm"
 INCLUDE "text/SilphCo4F.asm"
 INCLUDE "text/SilphCo5F.asm"
-
-
-SECTION "Text 2", ROMX
-
 INCLUDE "text/SilphCo5F_2.asm"
 INCLUDE "text/SilphCo6F.asm"
 INCLUDE "text/SilphCo7F.asm"
@@ -36,6 +36,10 @@ INCLUDE "text/SilphCo8F.asm"
 INCLUDE "text/SilphCo9F.asm"
 INCLUDE "text/SilphCo10F.asm"
 INCLUDE "text/SilphCo11F.asm"
+
+
+SECTION "Text 2", ROMX
+
 INCLUDE "text/PokemonMansion2F.asm"
 INCLUDE "text/PokemonMansion3F.asm"
 INCLUDE "text/PokemonMansionB1F.asm"
@@ -75,15 +79,15 @@ INCLUDE "text/ViridianForestSouthGate.asm"
 INCLUDE "text/MtMoonPokecenter.asm"
 INCLUDE "text/SaffronGates.asm"
 INCLUDE "text/Daycare.asm"
-
-
-SECTION "Text 4", ROMX
-
-INCLUDE "text/Daycare_2.asm"
+INCLUDE "text/Daycare_2.asm"	; this and the underground paths moved in from Text 4
 INCLUDE "text/UndergroundPathRoute6.asm"
 INCLUDE "text/UndergroundPathRoute7.asm"
 INCLUDE "text/UndergroundPathRoute7Copy.asm"
 INCLUDE "text/UndergroundPathRoute8.asm"
+
+
+SECTION "Text 4", ROMX
+
 INCLUDE "text/RockTunnelPokecenter.asm"
 INCLUDE "text/RockTunnel1F.asm"
 INCLUDE "text/PowerPlant.asm"
@@ -290,6 +294,8 @@ INCLUDE "text/SilphGauntlet4F.asm"
 INCLUDE "text/SilphGauntlet5F.asm"
 INCLUDE "text/SilphGauntlet6F.asm"
 INCLUDE "text/SilphGauntlet7F.asm"
+
+SECTION "Text 13", ROMX
 INCLUDE "text/CitrinePokecenter.asm"
 INCLUDE "text/CitrineMart.asm"
 INCLUDE "text/GarnetCavern1F.asm"

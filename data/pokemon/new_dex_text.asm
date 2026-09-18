@@ -274,8 +274,8 @@ _GorotoraDexEntry::
 	next "Trainer es zähmen"
 
 	page "können. Sein"
-	next "Knurren klingt wie"
-	next "Donnergrollen"
+	next "Knurren klingt"
+	next "wie Donnergrollen"
 	dex
 
 _OmegadgeDexEntry::
@@ -359,13 +359,13 @@ _BalumbaDexEntry::
 	dex
 
 _BellignanDexEntry::		; references Sprout Tower in Johto
-	text "Es wird in einer "
-	next "anderen Region"
-	next "verehrt. Es nimmt"
-
-	page "nützliche Nähr-"
-	next "stoffe auf, die es"
-	next "im Boden findet"
+	text "Es nimmt nützliche"
+	next "Nährstoffe auf,"
+	next "die es im Boden"
+	
+	page "findet. Es wird"
+	next "in einer anderen"
+	next "Region verehrt"
 	dex
 
 _MimmeoDexEntry::
@@ -431,9 +431,9 @@ _ScizorDexEntry::
 _BellossomDexEntry::
 	text "Besonders übel"
 	next "riechende DUFLOR"
-	next "bekommen als"
+	next "bekommen angeblich"
 
-	page "BLUBELLA angeblich"
+	page "als BLUBELLA"
 	next "besonders schön"
 	next "aussehende Blumen"
 	dex
@@ -479,13 +479,13 @@ _LeafeonDexEntry::
 	dex
 	
 _GlaceonDexEntry::
-	text "Es kann die Luft-"
-	next "feuchtigkeit ein-"
-	next "frieren, sodass es"
-
-	page "im Lauf eine Spur"
-	next "von pulverigem"
-	next "Schnee hinterläßt" ; ß is neccessary for the entry to fit
+	text "Es hinterlässt im"
+	next "Lauf eine Spur von"
+	next "pulverigem Schnee,"
+	
+	page "indem es im Gang"
+	next "die Luftfeuchtig-"
+	next "keit einfriert"
 	dex
 	
 _SylveonDexEntry::
@@ -509,13 +509,13 @@ _CrobatDexEntry::
 	dex
 
 _PolitoedDexEntry::
-	text "QUAPSEL und QUA-"
-	next "PUTZI respektieren"
-	next "ihn als Anführer."
-
-	page "Mit einem Quak"
-	next "versammeln sie"
-	next "sich um QUAXO"
+	text "Mit einem Quak"
+	next "versammeln sich"
+	next "QUAPSEL & QUAPUTZI"
+	
+	page "um QUAXO, die"
+	next "ihn als Anführer"
+	next "respektieren"
 	dex
 
 _SlowkingDexEntry::
@@ -539,13 +539,13 @@ _SteelixDexEntry::
 	dex
 
 _HitmontopDexEntry::
-	text "Während es auf"
-	next "seinem Kopf balan-"
-	next "ciert, dreht es"
-
-	page "sich rasant und"
-	next "teilt kraftvolle"
-	next "Tritte aus"
+	text "Es dreht sich"
+	next "rasant und teilt"
+	next "kraftvolle Tritte"
+	
+	page "aus, während es"
+	next "auf seinem Kopf"
+	next "balanciert"
 	dex
 	
 _BlisseyDexEntry::
@@ -604,8 +604,8 @@ _TangrowthDexEntry::
 	next "verlängerbaren"
 
 	page "Ranken-Armen. Sie"
-	next "können schnell"
-	next "nachwachsen"
+	next "wachsen schnell"
+	next "wieder nach"
 	dex
 
 _ElectivireDexEntry::
@@ -879,8 +879,8 @@ _PersianADexEntry::
 	dex
 
 _GolemADexEntry::
-	text "Ladet Steine elek-"
-	next "trisch auf und"
+	text "Es ladet Steine"
+	next "elektrisch auf und"
 	next "verschießt sie."
 	
 	page "Sind keine in der"

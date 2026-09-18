@@ -29,17 +29,17 @@ _NidoranMDexEntry::
 	dex
 
 _ClefairyDexEntry:: ; new entry, altered from the original.
-	text "Viele bewundern"
-	next "es wegen seines"
-	next "possierlichen Aus-"
-
-	page "sehens. Überrascht"
+	text "Sein niedliches"
+	next "Aussehen gibt ihm"
+	next "viele Bewunderer."
+	
+	page "Es überrascht"
 	next "sich mit METRONOM"
 	next "manchmal selbst"
 	dex
 
 _SpearowDexEntry:: ; new entry
-	text "Es ist Aggressiver"
+	text "Es ist aggressiver"
 	next "als TAUBSI. Eifrig"
 	next "huscht es durch"
 
@@ -61,9 +61,9 @@ _VoltorbDexEntry::
 _NidokingDexEntry:: ; new entry
 	text "Man erkennt es an"
 	next "seiner steinharten"
-	next "Haut und dem gif-"
+	next "Haut und dem Gift-"
 
-	page "tigen Horn. Scheut"
+	page "horn. Es scheut"
 	next "sich vor Kämpfe"
 	next "gegen NIDOQUEEN"
 	dex
@@ -80,11 +80,11 @@ _SlowbroDexEntry:: ; new entry
 
 _IvysaurDexEntry:: ; new entry
 	text "Badet oft in der"
-	next "Sonne. Nachdem es"
-	next "genug Licht und"
+	next "Sonne. Hat es"
+	next "genügend Licht"
 
-	page "Nährstoffe absor-"
-	next "biert hat, blüht"
+	page "und Nährstoffe"
+	next "absorbiert, blüht"
 	next "seine Knospe auf"
 	dex
 
@@ -431,11 +431,11 @@ _ArbokDexEntry:: ; new entry
 _ParasectDexEntry:: ; new entry
 	text "Lebt in dunklen,"
 	next "feuchten Wäldern."
-	next "In China werden"
+	next "In China wird"
 	
-	page "aus den toxischen"
-	next "Giftsporen Medizin"
-	next "hergestellt."
+	page "aus den Sporen"
+	next "Kräutermedizin"
+	next "hergestellt"
 	dex
 
 _PsyduckDexEntry:: ; new entry
@@ -460,8 +460,8 @@ _DrowzeeDexEntry:: ; new entry
 
 _GolemDexEntry:: ; new entry
 	text "Sein schroffer"
-	next "Panzer besteht aus"
-	next "Steintafeln."
+	next "Panzer besteht"
+	next "aus Steintafeln."
 
 	page "Jedes Jahr häutet"
 	next "es sich, um noch"
@@ -499,13 +499,13 @@ _MagnetonDexEntry:: ; new entry
 	dex
 
 _KoffingDexEntry:: ; new entry
-	text "Seine Giftgase"
-	next "können einem zum"
-	next "tränen bringen. Es"
-
-	page "wurde erstmals in"
-	next "einer Munitions-"
-	next "fabrik entdeckt"
+	text "Es wurde in einer"
+	next "Munitionsfabrik"
+	next "erstmals entdeckt."
+	
+	page "Seine Giftgase"
+	next "können einen zum"
+	next "tränen bringen"
 	dex
 
 _MankeyDexEntry:: ; new entry
@@ -930,7 +930,7 @@ _PoliwrathDexEntry:: ; new entry, modified from original.
 	dex
 
 _WeedleDexEntry:: ; new entry, modified from the original, including adding the omitted gingko leaf bit
-	text "Frisst oft Ginkgo-"
+	text "Frißt oft Ginkgo-"
 	next "blätter im Wald."
 	next "Es schwenkt seinen"
 
@@ -1015,8 +1015,8 @@ _CaterpieDexEntry:: ; new page
 	next "RAUPY, dass TAUBSI"
 
 	page "in der Nähe ist,"
-	next "gräbt es sich zü-"
-	next "gig in den Boden"
+	next "gräbt es sich"
+	next "zügig in die Erde"
 	dex
 
 _MetapodDexEntry:: ; new entry
@@ -1030,13 +1030,13 @@ _MetapodDexEntry:: ; new entry
 	dex
 
 _ButterfreeDexEntry:: ; new entry
-	text "Seine Flügel sind"
-	next "mit wasserabwei-"
-	next "sendem Staub über-"
-
-	page "zogen, mit denen"
-	next "es sogar im Regen"
-	next "fliegen kann"
+	text "Wasserabweisender"
+	next "Staub überzieht"
+	next "seine Flügel, der"
+	
+	page "ihm erlaubt, sogar"
+	next "an regnerischen"
+	next "Tagen zu fliegen"
 	dex
 
 _MachampDexEntry:: ; new entry
@@ -1146,7 +1146,7 @@ _ElectrodeDexEntry:: ; new entry
 	
 	page "explodiert. So er-"
 	next "hielt es den Namen"
-	next "'Die Bombenkugel'."
+	next "'Die Bombenkugel'"
 	dex
 
 _ClefableDexEntry:: ; new entry
@@ -1155,8 +1155,8 @@ _ClefableDexEntry:: ; new entry
 	next "Es kann den Fall"
 
 	page "einer Nadel von"
-	next "1 km weiter"
-	next "Entfernung hören"
+	next "einer Entfernung"
+	next "von 1 km hören"
 	dex
 
 _WeezingDexEntry:: ; new entry
@@ -1201,8 +1201,8 @@ _HaunterDexEntry:: ; new entry
 
 _AbraDexEntry:: ; new entry
 	text "Es kann sogar im"
-	next "Schlaf telekine-"
-	next "tische Kräfte"
+	next "Schlaf teleki-"
+	next "netische Kräfte"
 
 	page "verwenden. Ein"
 	next "niedriger Bestand"
@@ -1290,12 +1290,12 @@ _GoldeenDexEntry:: ; new entry
 	dex
 
 _SeakingDexEntry:: ; new entry
-	text "Mit seinem Bohrer-"
-	next "artigen Horn kann"
-	next "es Löcher in"
-
-	page "Felsen bohren,"
-	next "in die es dann"
+	text "Es kann mit seinem"
+	next "bohrerartigen Horn"
+	next "Löcher in Felsen"
+	
+	page "bohren, in die es"
+	next "Nester baut, wo es"
 	next "GOLPIN-Eier legt"
 	dex
 
@@ -1420,8 +1420,8 @@ _SquirtleDexEntry:: ; i wrote my own translation of this entry before realizing 
 	dex
 
 _CharmeleonDexEntry:: ; new entry
-	text "Es kann 300 kg mit"
-	next "seinem Schweif"
+	text "Es kann mit seinem"
+	next "Schweif 300 kg"
 	next "hochheben. Es"
 
 	page "schlägt damit um"
@@ -1431,11 +1431,11 @@ _CharmeleonDexEntry:: ; new entry
 
 _WartortleDexEntry:: ; new entry
 	text "Sein buschiger"
-	next "Schweif ist ein"
-	next "Symbol der Lang-"
+	next "Schweif gilt als"
+	next "ein Symbol der"
 
-	page "lebigkeit. Es ist"
-	next "als niedliches"
+	page "Langlebigkeit. Es"
+	next "ist als niedliches"
 	next "Haustier beliebt"
 	dex
 
@@ -1464,19 +1464,19 @@ _GloomDexEntry:: ; new entry
 	next "einen unglaublich"
 	next "faulen Gestank ab,"
 
-	page "Der selbst 2 km"
+	page "der selbst 2 km"
 	next "entfernte Gegner"
 	next "bewusstlos macht"
 	dex
 
 _VileplumeDexEntry:: ; new entry
-	text "GIFLORs Blüten"
-	next "sind die größten"
-	next "der Welt. Seine"
-
-	page "Pollen verursachen"
-	next "heftige aller-"
-	next "gische Reaktionen"
+	text "Seine Pollen"
+	next "verursachen starke"
+	next "allergische"
+	
+	page "Reaktionen. Seine"
+	next "Blüten sind die"
+	next "größten der Welt"
 	dex
 
 _BellsproutDexEntry:: ; new entry
