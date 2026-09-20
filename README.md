@@ -136,21 +136,21 @@ Neue Musik
 
 Verbesserte Orte
 ====
-- 
+- Einige Barrieren, die das durchqueren der Region verlangsamten, wurden entfernt (zum Beispiel kann Marmoria City verlassen werden, ohne Rocko besiegen zu müssen), was dem Spiel ein bisschen mehr Open-World-Gameplay verleiht. Aber nur ein bisschen!
+	- Um das zu fördern, haben die Arenaleiter nun Level-Scaling, was das Spiel einen etwas mehr einheitlicheren Schwierigkeitsgrad verleiht.
+	- Man erhält hiermit praktisch zwei Stufen: Marmoria/Azuria/Orania, dann Prismania/Fuchsania/Saffronia/Zinnober. Da die Pokémon ab Prismania City um einiges stärker werden, wurden einige Grenzen gesetzt.
+- Giovanni werwendet nun seinen unbenutzten Themensong aus Pokémon Gelb, und hat nun eine abgewandelte Version von seinem LGPE-Monolog im Rocket-Hauptquartier.
+- Jessie und James wurden aus Gelb rückportiert, und erscheinen im Mondberg, Rocket-Hauptquartier, Pokémon-Turm und dem Silph Co.-Gebäude. Zusätzlich haben sie eine Abschlussrolle im Postgame.
+- Vertania City hat nun eine Vor-Arena, was auf dem was im Helix Chamber PokéThon-ROMHack zu finden war aufbaut. Hier kann man gegen Yujirou kämpfen. Das KEP-Team hält das für die beste Interpretation der Prototyp-Materialen!
+- Digdas Höhle hat ein neues Layout, und Onix, Schligda und Schligdri sind dort jetzt auch zu finden!
+- Die Pokémon-Pansion enthält nun ein PC, ist generell detaillierter, und beinhaltet Melanie aus Gelb. Wenn man Pikachu oder Evoli als Starter gewählt hat und Misty besiegt, erhält man von Melanie ein Bisasam.
+- Route 24 hat ein Paar Veränderungen:
+	- hier ist ein n
 
 
 
 
-Improved Areas
-====
-- Some barriers to travel across the region have been removed (for example, Pewter City can be left without defeating Brock) allowing for slightly more open world gameplay. Not all, though! 
-	- To encourage this, Gym Leaders now have level scaling, giving more consistent challenge across the game. 
-	- In effect, you get two stages: Pewter/Cerulean/Vermilion, then Celadon/Fuchsia/Saffron/Cinnabar. Some limits were placed due to the power spike introduced by Celadon City.
-- Giovanni now uses his unused theme song from Yellow, plus has his LGPE monologue in the Rocket Hideout.
-- Jessie and James have been backported from Yellow, appearing in Mt. Moon, Rocket Hideout, Pokemon Tower, and Silph Co. Additionally, they have a closure role in the post-game.
-- Viridian City features a Pre-Gym, building on what was seen in the Helix Chamber PokeThon ROM Hack, featuring Yujirou. In the KEP team's opinion, this was the best interpretation of the prototype materials!
-- Diglett's Cave has a more detailed map with Onix, Wiglett, and Wugtrio also appearing! It also has its prototype music!
-- The Day Care now contains a PC, is generally more detailed, and houses Melanie from Yellow. If you pick Pikachu or Eevee and beat Misty, Melanie will give you a Bulbasaur.
+
 - Route 24 now features two things;
 	- There's a new Fishing Rod house, which merges all the Rods in the game.
 	- It also features Damien, the Charmander trainer from Yellow. He only appears if Pikachu or Eevee are chosen, and his text has been altered to be more accurate to his anime appearance.

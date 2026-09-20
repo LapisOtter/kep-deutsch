@@ -7,7 +7,7 @@ _MistyPreBattleText::
 	line "zum Profi werden"
 	cont "möchte, muß er"
 	cont "sich eine"
-	cont "#MON-TAKTIK"
+	cont "#MON-Taktik"
 	cont "erarbeiten!"
 
 	para "Auf welche Weise"
@@ -34,8 +34,9 @@ _TM11ExplanationText::
 _MistyCascadeBadgeInfoText::
 	text "Mit dem QUELLORDEN"
 	line "können Deine"
-	cont "#MON nun jeder-"
-	cont "zeit ZERSCHNEIDER"
+	cont "#MON den"
+	cont "ZERSCHNEIDER"
+	cont "jederzeit"
 	cont "einsetzen!"
 	
 	para "Du kannst kleine"

@@ -144,9 +144,10 @@ _Route3AfterBattleText7::
 	cont "wildlebende!"
 	done
 
-_Route3BattleText8::
-	text "Eek! Did you"
-	line "touch me?"
+_Route3BattleText8:: ; from LGPE. the original just felt rlly weird 
+	text "Huch! Hast Du"
+	line "mich etwa gerade"
+	cont "geschubst?!"
 	done
 
 _Route3EndBattleText8::

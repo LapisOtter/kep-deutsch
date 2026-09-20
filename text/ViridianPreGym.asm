@@ -32,8 +32,9 @@ _YujirouAfterBattleText::
 	cont "sind, die es"
 	cont "gibt!"
 	
-	para "Eines Tages werden"
-	line "wir Dich besiegen!"
+	para "Eines Tages"
+	line "werden wir Dich"
+	cont "besiegen!"
 	
 	done
 
@@ -51,8 +52,9 @@ _BeforeReceivedBottleCapText::
 	cont "sind, die es"
 	cont "gibt!"
 	
-	para "Eines Tages werden"
-	line "wir Dich besiegen!"
+	para "Eines Tages"
+	line "werden wir Dich"
+	cont "besiegen!"
 
 	para "Oh ja! Weil Du"
 	line "gewonnen hast,"

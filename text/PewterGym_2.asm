@@ -120,7 +120,7 @@ _PewterGymGuidePreAdviceText::
 	text "Hallo! Sieht aus,"
 	line "als hättest Du"
 	cont "das Zeug zu einem"
-	cont "#MON-CHAMPION!"
+	cont "#MON-Champion!"
 
 	para "Ich bin kein"
 	line "Trainer, aber ich"

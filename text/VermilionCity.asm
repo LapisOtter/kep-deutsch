@@ -136,7 +136,8 @@ _VermilionCityText13::
 
 _BeautyText1::
 	text "Hey! Magst Du"
-	line "Katzen oder Hunde?"
+	line "lieber Katzen"
+	cont "oder Hunde?"
 	prompt
 
 _BeautyText2::
@@ -211,7 +212,7 @@ _OfficerJennyText1::
 
 	para "Ich denke, ein"
 	line "guter Trainer"
-	cont "sollte SCHIGGY."
+	cont "sollte SCHIGGY"
 	cont "richtig erziehen"
 	cont "können."
 	done
@@ -224,7 +225,7 @@ _OfficerJennyText2::
 	line "guter Trainer!"
 
 	para "Ich habe ein"
-	line "SCHIGGY gefangen."
+	line "SCHIGGY gefangen"
 	cont "Aber dieses"
 	cont "#MON macht nur"
 	cont "Dummheiten!"

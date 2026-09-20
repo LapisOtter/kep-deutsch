@@ -10,7 +10,7 @@ _BillsHouseText_1e865::
 	cont "#MANIAC!" ; so I held a poll what I should do. Keeping it as Pokémaniac won with 8 out of 11 votes, so I ended up undoing this change
 
 	para "Glaubst Du mir"
-	cont "nicht?"
+	line "nicht?"
 
 	para "Mir ist ein"
 	line "Experiment"
@@ -29,8 +29,8 @@ _BillsHouseText_1e86a::
 	line "TELEPORTER, und"
 	cont "Du startest von"
 	cont "meinem PC aus das"
-	cont "ZELLTEILUNGS-"
-	cont "PROGRAMM."
+	cont "Zellteilungs-"
+	cont "Programm."
 	done
 
 _BillsHouseText_1e86f::
@@ -52,7 +52,7 @@ _BillThankYouText::
 
 	para "Bist Du hier, um"
 	line "Dir meine"
-	cont "#MON-SAMMLUNG"
+	cont "#MON-Sammlung"
 	cont "anzusehen? Nein?"
 	cont "Das ist schade!"
 
@@ -88,7 +88,7 @@ _BillsHouseText_1e8cb::
 	cont "eingeladen, aber"
 	cont "ich mag so viel"
 	cont "Trubel nicht."
-	cont "Hättest Du Lust, "
+	cont "Hättest Du Lust,"
 	cont "hinzugehen?"
 	done
 

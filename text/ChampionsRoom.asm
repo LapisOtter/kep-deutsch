@@ -56,8 +56,8 @@ _GaryDefeatedText::
 
 	para "Nach all den"
 	line "Anstrengungen,"
-	cont "LIGA-CHAMPION"
-	cont "zu werden?"
+	cont "CHAMP der PKMN-"
+	cont "LIGA zu werden?"
 
 	para "Das ist nicht"
 	line "fair!"
@@ -93,8 +93,8 @@ _GaryText_76103::
 	cont "aufgezogen..."
 
 	para "Verdammt!"
-	line "Du bist der neue"
-	cont "CHAMPION der"
+	line "Du bist der"
+	cont "neue CHAMP der"
 	cont "PKMN-LIGA!"
 
 	para "Aber ich gönne"
@@ -182,7 +182,7 @@ _BlueRematchText::
 	done
 
 _BlueRematchEndBattleText::
-	text "1234567: Nein, Das"
+	text "Nein, Das"
 	line "will ich einfach"
 	cont "nicht glauben..."
 	cont "Nein!"

@@ -56,8 +56,7 @@ FanClubMeetChairText::
 	para "Bist Du"
 	line "hergekommen, um"
 	cont "etwas über meine"
-	cont "#MON zu"
-	cont "hören?"
+	cont "#MON zu hören?"
 	done
 
 FanClubChairStoryText::

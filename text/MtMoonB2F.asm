@@ -154,8 +154,8 @@ _MtMoonCraterGuard::
 	done
 
 _MtMoonJessieJamesText1::
-	text "Bleib auf der@"
-	line "Stelle stehen!"
+	text "Bleib auf der"
+	line "Stelle stehen!@"
 	text_end
 
 _MtMoonJessieJamesText2::
@@ -178,6 +178,6 @@ _MtMoonJessieJamesText4::
 	line "Schuss in den"
 	cont "Ofen!"
 	
-	para "Wer werden"
+	para "Wir werden"
 	line "wiederkehren!@"
 	text_end

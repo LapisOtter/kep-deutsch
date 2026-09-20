@@ -1,8 +1,7 @@
 _Route25BattleText1::
 	text "Die Trainer der"
 	line "Gegend kommen"
-	cont "zum Üben"
-	cont "hierher!"
+	cont "zum Üben hierher!"
 	done
 
 _Route25EndBattleText1::

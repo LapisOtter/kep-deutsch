@@ -460,8 +460,8 @@ CatsDogsChoice:
 InitCatsDogsTextBoxParameters:
 	ld a, $2 ; loads the value for the unused SOUTH/EAST choice, which was changed to say CATS/DOGS
 	ld [wTwoOptionMenuID], a
-	hlcoord 12, 8
-	lb bc, 10, 13
+	hlcoord 11, 8
+	lb bc, 10, 12
 	ret
  	   
 DisplayCatsDogsChoice:
