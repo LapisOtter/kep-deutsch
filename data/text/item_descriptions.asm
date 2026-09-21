@@ -321,7 +321,7 @@ _BottleCapDescription::
 
 _FishingRodDescription::
 	text "Eine ANGEL zum"
-	next "Fischen."
+	next "fischen."
 	prompt
 
 _PPUpDescription::
@@ -421,7 +421,7 @@ _TM04Description::
 
 _TM05Description::
 	text "Starke"
-	next "Fuß-Attacke"
+	next "Fuß-Attacke."
 	prompt
 
 _TM06Description::

@@ -47,7 +47,7 @@ _SilphCo9AfterBattleText2::
 	line "Schwachstellen"
 	cont "zu Nutze! Denke"
 	cont "auch mal an die"
-	cont "Element-Typen!"
+	cont "Element-TYPEN!"
 	done
 
 _SilphCo9BattleText3::

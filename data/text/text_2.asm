@@ -397,12 +397,12 @@ _CinnabarQuizQuestionsText4::
 
 _CinnabarQuizQuestionsText5::
 	text "Ist KRAKLEX vom"
-	line "Typ WASSER und"
+	line "TYP WASSER und"
 	cont "FEE?"
 	done
 
 _CinnabarQuizQuestionsText6::
-	text "Ist TM28 die "
+	text "Ist TM28 die"
 	line "FROSCH-ATTACKE?"
 	done
 

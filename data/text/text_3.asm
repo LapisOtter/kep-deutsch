@@ -272,7 +272,7 @@ _HitWithRecoilText::
 
 _ConvertedTypeText::
 	text "<TARGET>s"
-	line "Elem. adaptiert!"
+	line "TYP adaptiert!"
 	prompt
 
 _StatusChangesEliminatedText::

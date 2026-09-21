@@ -1,5 +1,5 @@
 _RockTunnelPokecenterText2::
-	text "Ihre Typen machen"
+	text "Ihre TYPEN machen"
 	line "manche #MON"
 	cont "anderen gegenüber"
 	cont "stärker bzw."

@@ -1,4 +1,4 @@
-BattleCore:
+BattleCore: 
 
 INCLUDE "data/battle/residual_effects_1.asm"
 INCLUDE "data/battle/set_damage_effects.asm"
@@ -2826,7 +2826,7 @@ MoveDisabledText:
 	text_end
 
 WhichTechniqueString:
-	db "Welche attacke?@"
+	db "Welche Attacke?@"
 
 SelectMenuItem_CursorUp:
 	ld a, [wCurrentMenuItem]

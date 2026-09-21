@@ -341,8 +341,14 @@ DisplayTwoOptionMenu:
 ; The bottom and right edges of the menu may remain after the function returns.
 
 TwoOptionMenu_SaveScreenTiles:
+; Normally, a lot of sixes here and in TwoOptionMenu_RestoreScreenTiles should be sevens to be more accurate to the german version
+; and not have the most right part of the bar stay after the rest of the yes/no box disappears.
+; Unfortunately, this also causes a nasty glitch.
+; When you defeat a trainer's last Pokémon, making one of your own Pokémon reach a level where they try to learn a new move, gamebreaking terribleness ensues once the game tries to display the trainer's after battle text.
+; As i do not know how to code, and cannot figure out what exactly german RBY does different, I have to keep it in like this.
+; I am genuinely sorry. If someone figures out how to fix this, so wider yes/no boxes work with this circumstance, please help me. ~Lapis
 	ld de, wBuffer
-	lb bc, 5, 7
+	lb bc, 5, 6
 .loop
 	ld a, [hli]
 	ld [de], a
@@ -350,17 +356,17 @@ TwoOptionMenu_SaveScreenTiles:
 	dec c
 	jr nz, .loop
 	push bc
-	ld bc, SCREEN_WIDTH - 7
+	ld bc, SCREEN_WIDTH - 6
 	add hl, bc
 	pop bc
-	ld c, $7
+	ld c, $6 ; changing this number to a 7 causes the game to glitch out after trying to show the after battle text after displaying the trainer's name.
 	dec b
 	jr nz, .loop
 	ret
 
 TwoOptionMenu_RestoreScreenTiles:
 	ld de, wBuffer
-	lb bc, 5, 7
+	lb bc, 5, 6
 .loop
 	ld a, [de]
 	inc de
@@ -368,10 +374,10 @@ TwoOptionMenu_RestoreScreenTiles:
 	dec c
 	jr nz, .loop
 	push bc
-	ld bc, SCREEN_WIDTH - 7
+	ld bc, SCREEN_WIDTH - 6
 	add hl, bc
 	pop bc
-	ld c, 7
+	ld c, 6
 	dec b
 	jr nz, .loop
 	call UpdateSprites

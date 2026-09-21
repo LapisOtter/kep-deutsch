@@ -64,7 +64,7 @@ _Route14EndBattleText3::
 
 _Route14AfterBattleText3::
 	text "Bringe #MON"
-	line "ihrem Element"
+	line "ihrem TYPEN"
 	cont "entsprechende"
 	cont "Attacken bei, um"
 	cont "ihre volle Stärke"
