@@ -35,7 +35,7 @@ _LavenderHouse1Text_1d94c::
 	text "MR.FUJI: <PLAYER>!"
 
 	para "Du kannst Deinen"
-	line "#DEX  nicht"
+	line "#DEX nicht"
 	cont "vollenden, wenn"
 	cont "Du Deinen #MON"
 	cont "nicht genügend"

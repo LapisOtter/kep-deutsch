@@ -22,7 +22,7 @@ _PlayerBlackedOutText::
 _RepelWoreOffText::
 	text "Der SCHUTZ wirkt"
 	line "nicht mehr."
-	done
+	prompt
 
 _RepelUseAnotherText::
 	text "Erneut einsetzen?"

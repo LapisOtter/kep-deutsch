@@ -159,7 +159,7 @@ _BlastykeDexEntry::
 	dex
 
 _BuuDexEntry::
-	text "BUU galt lang als"
+	text "Es galt lange als"
 	next "Großstadtlegende,"
 	next "bis ein Exemplar"
 
@@ -209,7 +209,7 @@ _OrfryDexEntry::				; reworked, thank you Ness :3  ~Martha
 	dex
 
 _GorochuDexEntry::
-	text "Lädt sich auf,"
+	text "Es lädt sich auf,"
 	next "indem es Blitze"
 	next "auffängt. Seine"
 
@@ -279,9 +279,9 @@ _GorotoraDexEntry::
 	dex
 
 _OmegadgeDexEntry::
-	text "Es wurde von der"
-	next "SILPH CO. im Bild"
-	next "von BOMBARDON mit"
+	text "Es wurde im Bild"
+	next "von BOMBARDON von"
+	next "der SILPH CO. mit"
 
 	page "dem Ziel erbaut,"
 	next "über verheerende"
@@ -420,7 +420,7 @@ _CarapthorDexEntry::
 
 _ScizorDexEntry::
 	text "Es kann schwere"
-	next "Objekte mit leich-"
+	next "Objekte mit Leich-"
 	next "tigkeit zermalmen."
 
 	page "Kämpfe zwischen"
@@ -487,7 +487,7 @@ _GlaceonDexEntry::
 	next "die Luftfeuchtig-"
 	next "keit einfriert"
 	dex
-	
+
 _SylveonDexEntry::
 	text "Beruhigende Wellen"
 	next "strömen von seinen"
@@ -519,7 +519,7 @@ _PolitoedDexEntry::
 	dex
 
 _SlowkingDexEntry::
-	text "EGELHAUPTs Gift"
+	text "EGELHAUPTS Gift"
 	next "regte sein Gehirn"
 	next "an und machte es"
 
@@ -649,8 +649,8 @@ _KleavorDexEntry::
 	dex
 
 _AnnihilapeDexEntry::
-	text "Mit seiner neuen,"
-	next "Geister-artigen"
+	text "Mit seiner neuen"
+	next "geisterartigen"
 	next "Kraft kann es"
 
 	page "Schläge austeilen,"
@@ -703,9 +703,9 @@ _ScreamTailDexEntry::
 	next "#MON aus einem"
 	next "rätselhaften Buch,"
 
-	page "wo es als ein"
+	page "das ihn als ein"
 	next "antikes PUMMELUFF"
-	next "vorstellt wird"
+	next "darstellt"
 	dex
 	
 _SandyShocksDexEntry::
@@ -827,7 +827,7 @@ _RaticateADexEntry:: ; this entry hypercompresses most Gen 7 entries
 	next "Mengen an Futter"
 	next "ins Nest zu holen"
 	dex
-	
+
 _RaichuADexEntry:: 
 	text "Mit Psycho-Kräften"
 	next "steuert es seinen"
@@ -888,7 +888,7 @@ _GolemADexEntry::
 	next "mit KLEINSTEIN"
 	dex
 
-_RapidashGDexEntry:: ; REALLY weirdly worded admittedly, but I didn't know how to do it otherwise. ~Lapis
+_RapidashGDexEntry:: ; admittedly REALLY weirdly worded, but I didn't know how to do it otherwise. ~Lapis
 	text "Mit Psycho-Kräften" ; adapting from similar psychic-based entries.
 	next "gallopiert es"
 	next "leichtfüßig, und"

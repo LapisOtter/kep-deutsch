@@ -12,7 +12,7 @@ _Route17EndBattleText1::
 _Route17AfterBattleText1::
 	text "Auf dem RADWEG"
 	line "liegen nützliche"
-	cont "ITEMs herum!"
+	cont "Items herum!"
 	done
 
 _Route17BattleText2::

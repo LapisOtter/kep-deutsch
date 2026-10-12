@@ -60,7 +60,7 @@ _CeladonUniversityOutsideWinText::
 
 _CeladonUniversityOutsideAfterBattleText::
 	text "Nächstes Mal"
-	line "krieg ich Dich!"
+	line "kriege ich Dich!"
 	done
 
 _CeladonUniversityOutsideYesNo2::
@@ -116,7 +116,7 @@ _CeladonUniversityOutsideNPC2::
 	
 	para "Sie weiß unfassbar"
 	line "viel über den"
-	cont "PFLANZEN-Typ!"
+	cont "TYP PFLANZE!"
 
 	done
 

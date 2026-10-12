@@ -77,7 +77,8 @@ _ChiefLetterText::
 	text "Guten Tag," ; there are no other professional sounding letter greetings that aren't affected by gender as far as im aware. -Lapis
 	line "<PLAYER>!"
 	cont "Ich lade Dich"
-	cont "herzlich zu meiner"
+	cont "herzlichst"
+	cont "zu meiner"
 	cont "großartigsten"
 	cont "Veranstaltung"
 	cont "ein!"
@@ -103,7 +104,8 @@ _ChiefLetterText::
 
 _MomAmazing::
 	text "Oh! Ist das nicht"
-	line "wunderbar, Schatz?"
+	line "wunderbar, mein"
+	cont "Schatz?"
 	
 	para "Ich bin mir"
 	line "sicher, Du wirst"

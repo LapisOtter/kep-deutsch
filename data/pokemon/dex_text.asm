@@ -49,11 +49,11 @@ _SpearowDexEntry:: ; new entry
 	dex
 
 _VoltorbDexEntry::
-	text "Gelangen in Stadt-" ; removed "sometimes"
-	next "gebiete, indem sie"
+	text "Gelangt in Stadt-" ; removed "sometimes"
+	next "gebiete, indem es"
 	next "auf Freileitungen"
 
-	page "rollen. Es neigt"
+	page "rollt. Es neigt"
 	next "dazu, plötzlich"
 	next "zu explodieren"
 	dex
@@ -114,8 +114,8 @@ _ExeggcuteDexEntry:: ; new entry
 	next "samen. Es wird"
 
 	page "spekuliert, es sei"
-	next "verwandt mit"
-	next "BISASAMs Pflanze" ; it just says "it could be related to Bulbasaur's plant", not specifying where it is, because of space. ~Lapis
+	next "mit BISASAMS"
+	next "Pflanze verwandt" ; it just says "it could be related to Bulbasaur's plant", not specifying where it is, because of space. ~Lapis
 	dex
 
 _GrimerDexEntry:: ; new entry
@@ -130,7 +130,7 @@ _GrimerDexEntry:: ; new entry
 
 _GengarDexEntry:: ; new entry
 	text "Es wurden Schreine"
-	next "Zu seinem Ehren"
+	next "zu seinem Ehren"
 	next "erbaut. Man sagt,"
 
 	page "es tötet Leute,"
@@ -193,16 +193,16 @@ _ArcanineDexEntry:: ; new entry
 	next "chinesischer"
 	next "Folklore gezeigt."
 
-	page "Es kann sogar"
-	next "ein Rennauto"
-	next "überholen"
+	page "Es ist dazu fähig,"
+	next "selbst Rennautos"
+	next "zu überholen"
 	dex
 
 _MewDexEntry:: ; does not have an entry in the book, so based it off FireRed's
-	text "Ein seltenes" ; the german version of that game's entry is really barebones. I put in some details originally omitted
-	next "#MON aus Süd-"
-	next "amerika, das als"
-
+	text "Ein #MON aus" ; altered to keep it consistent with the localization change of Mew's home within german RBY
+	next "dem Niemandsland,"
+	next "welches als"
+	
 	page "ausgestorben galt."
 	next "Es kann fast jede"
 	next "Attacke erlernen"
@@ -290,7 +290,7 @@ _PinsirDexEntry:: ; new entry
 
 _TangelaDexEntry:: ; new entry
 	text "Forscher versuch-"
-	next "ten, TANGELAs"
+	next "ten, TANGELAS"
 	next "wahre Gestalt zu"
 
 	page "offenbaren, doch"
@@ -359,13 +359,13 @@ _KadabraDexEntry:: ; new entry
 	dex
 
 _GravelerDexEntry:: ; new entry
-	text "Dieses #MON" ; "oftenly" was altered to "likes to", and the "Novice HIKERs" was changed to "some HIKERs"
-	next "rollt sich gerne"
+	text "Es rollt sich gern"
 	next "Berge hinunter."
-
-	page "Manche WANDERER"
-	next "finden sein Läch-"
-	next "eln verstörend"
+	next "WANDERER-Neulinge"
+	
+	page "finden sein"
+	next "seltsames Lächeln"
+	next "oft verstörend"
 	dex
 
 _ChanseyDexEntry:: ; new entry
@@ -531,7 +531,7 @@ _SeelDexEntry::
 _DiglettDexEntry:: ; new entry
 	text "Gräbt sich durch"
 	next "die Erde auf der"
-	next "Suche nach ONIXs"
+	next "Suche nach ONIXS"
 	
 	page "Essensresten. Es"
 	next "hinterlässt Pfade"
@@ -584,8 +584,8 @@ _DoduoDexEntry:: ; new entry
 	next "3 Jahren entdeckt"
 
 	page "wurde. Es rennt,"
-	next "weil ihm das Flie-"
-	next "gen schwer fällt"
+	next "weil das Fliegen"
+	next "ihm schwer fällt"
 	dex
 
 _PoliwagDexEntry:: ; new entry
@@ -593,7 +593,7 @@ _PoliwagDexEntry:: ; new entry
 	next "sind durch seine"
 	next "dünne, weiße Haut"
 
-	page "Sichtbar. Man hält"
+	page "sichtbar. Man hält"
 	next "es für eine Kaul-"
 	next "quappen-Mutation"
 	dex
@@ -606,7 +606,6 @@ _JynxDexEntry:: ; new entry
 	page "klingt, aber noch"
 	next "nicht übersetzt"
 	next "werden kann"
-	
 	dex
 
 _MoltresDexEntry:: ; new entry
@@ -680,9 +679,9 @@ _VulpixDexEntry::			        ; Changed to make it not too similar to Mikon's dex 
 	dex
 
 _NinetalesDexEntry:: ; new entry
-	text "'VULNONA, Tausend"
+	text "'VULNONA, tausend"
 	next "Jahre, SCHILTALGA,"
-	next "Zehntausend Jahre'"
+	next "zehntausend Jahre'"
 	
 	page "ist ein Sprichwort"
 	next "zum Merken seiner"
@@ -725,7 +724,7 @@ _DragonairDexEntry:: ; new entry, altered original
 	next "Regen und Schnee"
 
 	page "beschwören kann."
-	next "Es ist Flügellos,"
+	next "Es ist flügellos,"
 	next "kann aber fliegen"
 	dex
 
@@ -750,10 +749,10 @@ _KabutopsDexEntry:: ; new entry
 	dex
 
 _HorseaDexEntry:: ; new entry
-	text "Bei Gefahr ver-"
-	next "sprüht es schwarze"
+	text "Es versprüht bei"
+	next "Gefahr schwarze"
 	next "Tinte. Die meisten"
-
+	
 	page "Eier, die es legt,"
 	next "werden von GOLDINI"
 	next "gefressen" ; the amount of eggs laid and when it lays them had to be omitted. i hate it too.
@@ -836,7 +835,7 @@ _EeveeDexEntry:: ; new entry
 
 	page "artigen Gen-Codes"
 	next "verschiedenst"
-	next "Entwickeln kann"
+	next "entwickeln kann"
 	dex
 
 _FlareonDexEntry:: ; new entry, sort of modified off the original
@@ -862,7 +861,7 @@ _JolteonDexEntry:: ; new entry
 _VaporeonDexEntry:: ; new entry
 	text "Seine Zellstruktur"
 	next "ähnelt dem von"
-	next "Wasser, womit es"
+	next "Wasser, sodass es"
 
 	page "beim Schwimmen"
 	next "hinschmilzt und"
@@ -972,7 +971,7 @@ _DodrioDexEntry:: ; new entry
 _PrimeapeDexEntry:: ; this entry is just like the pokedex, so no new one
 	text "Dieses #MON ist"
 	next "sehr wild und"
-	next "ausdauernd. "
+	next "ausdauernd."
 
 	page "Es verfolgt seine"
 	next "Beute, bis es sie"
@@ -1324,7 +1323,7 @@ _RattataDexEntry:: ; new entry
 	next "Zeug an, um seine"
 	next "Zähne kurz zu"
 
-	page "Halten. Frißt Nüße" ; the ß allows me to squeeze this in
+	page "halten. Frißt Nüße" ; the ß allows me to squeeze this in
 	next "und Eicheln, doch"
 	next "es mag auch Käse"
 	dex
@@ -1402,7 +1401,7 @@ _MagnemiteDexEntry:: ; new entry altered from original
 _CharmanderDexEntry:: ; new entry
 	text "Benötigt das Feuer"
 	next "auf seinem Schweif"
-	next "zum Überleben."
+	next "zum überleben."
 	
 	page "Raucher halten es,"
 	next "um es als Feuer-"
@@ -1420,13 +1419,13 @@ _SquirtleDexEntry:: ; i wrote my own translation of this entry before realizing 
 	dex
 
 _CharmeleonDexEntry:: ; new entry
-	text "Es kann mit seinem"
-	next "Schweif 300 kg"
-	next "hochheben. Es"
-
-	page "schlägt damit um"
-	next "sich und zerreißt"
+	text "Es zerreißt seine"
 	next "Gegner mit Klauen"
+	next "und schlägt mit"
+	
+	page "seinem Schweif um"
+	next "sich, mit dem es"
+	next "300 kg heben kann"
 	dex
 
 _WartortleDexEntry:: ; new entry

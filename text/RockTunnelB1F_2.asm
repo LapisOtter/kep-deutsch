@@ -30,12 +30,12 @@ _TM48PreReceiveText::
 	
 	para "Kannst Du dir"
 	line "vorstellen, dass"
-	cont "dir Felden auf"
+	cont "dir Felsen auf"
 	cont "den Kopf fallen?"
 	
 	para "Das wäre doch..."
 	line "Einfach"
-	cont "Unvorstellbar"
+	cont "unvorstellbar"
 	cont "schrecklich!"
 	
 	para "Du scheinst keine"

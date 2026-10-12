@@ -21,6 +21,7 @@ _LTSurgePreBattleText:: ; Yellow text, which works better with his rematch text.
 	para "Du hast keine"
 	line "Wahl, Du mußt"
 	cont "aufgeben!"
+	done
 
 ; I usually use LGPE text, but honestly, Surge's just sucks, so I doctored it a bit.
 _SurgeRematchPreBattleText::

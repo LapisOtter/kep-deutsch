@@ -29,7 +29,7 @@ _CurrentTooFastText::
 
 _CyclingIsFunText::
 	text "Radfahren macht"
-	line "Spaß! Surfen"
+	line "Spaß! SURFEN"
 	cont "dagegen ist"
 	cont "nichts!"
 	prompt
@@ -102,7 +102,7 @@ _SentToBoxText::
 	text_ram wStringBuffer
 	text_start
 	cont "transferiert!"
-	done
+	prompt
 
 _BoxIsFullText::
 	text "Es ist kein Platz"
@@ -117,4 +117,4 @@ _BoxIsFullText::
 	para "Wechsle in einem"
 	line "#MON-CENTER"
 	cont "die BOX!"
-	done
+	prompt

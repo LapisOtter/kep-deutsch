@@ -87,14 +87,14 @@ _GiovannisRoomText3::
 	cont "sind auf dem"
 	cont "Boden verteilt..."
 	
-	para "SCHÜTZER: ¥3,000" ; Giovanni discovered the Protector's use with Rhyperior.
+	para "SCHÜTZER: ¥3000" ; Giovanni discovered the Protector's use with Rhyperior.
 
-	para "X-ANGRIFF: ¥8,000" ; Giovanni uses this in battle.
+	para "X-ANGRIFF: ¥8000" ; Giovanni uses this in battle.
 
-	para "TM27 FuE: ¥15,000" ; Giovanni is confirmed to have created Fissure in vanilla RBY. He also says he made Earthquake in FRLG, but it feels contrived.
+	para "TM27 FuE: ¥15000" ; Giovanni is confirmed to have created Fissure in vanilla RBY. He also says he made Earthquake in FRLG, but it feels contrived.
 ; While I did use the &-Symbol in my Translation to squeeze some dex entries in, it didn't actually exist in the font of the european versions, so writing it as FuE instead of F&E would be a more faithful localization.
 
-	para "Geschäft: ¥250,000"
+	para "Geschäft: ¥250000"
 	
 	para "Es geht weiter"
 	line "und weiter..."

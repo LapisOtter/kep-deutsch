@@ -23,7 +23,8 @@ _ChiefMonologueMasterBallNotUsed::
 	para "Ich weiß, ich habe"
 	line "dir als Belohnung"
 	cont "den MEISTERBALL"
-	cont "geschenkt, aber..."
+	cont "anvertraut,"
+	cont "aber..."
 	
 	para "Er hat in Deinen"
 	line "Händen nichts zu"
@@ -58,7 +59,8 @@ _ChiefMonologueMasterBallUsed::
 	para "Ich weiß, ich habe"
 	line "dir als Belohnung"
 	cont "den MEISTERBALL"
-	cont "geschenkt, aber..."
+	cont "anvertraut,"
+	cont "aber..."
 	
 	para "Er hat in Deinen"
 	line "Händen nichts zu"
@@ -88,6 +90,7 @@ _ChiefMonologueMasterBallUsed::
 	para "MACH DICH BEREIT"	; When describing how the Master Ball works in the german version, Chief briefly uses all caps for regular words. Im trying to expand on this.
 	line "FÜR EINE WELT"
 	cont "VOLLER QUALEN!!!" ; Like Giovanni, but with a slightly more pompous tone in using "hurt".
+	done
 
 _ChiefMonologueMasterBallNotCollected::
 	text "Da ich gesehen"
@@ -121,8 +124,9 @@ _ChiefMonologueMasterBallNotCollected::
 	done
 
 _ChiefDefeatedText::
-	text "NEIN!!!"
-	line "ICH... Ich..."
+	text ""
+	line "NEIN!!! ICH..."
+	cont "Ich..."
 	prompt
 
 _ChiefVictoryText::

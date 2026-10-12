@@ -44,9 +44,9 @@ _FishingGuruHouseText_564d4::
 	text "Hallo, <PLAYER>!"
 	
 	para "Benutze die"
-	line "ANGEL in allen"
-	cont "Gewässern. Du"
-	cont "kannst die"
+	line "#ANGEL in"
+	cont "allen Gewässern."
+	cont "Du kannst die"
 	cont "verschiedensten"
 	cont "#MON damit"
 	cont "fangen!"

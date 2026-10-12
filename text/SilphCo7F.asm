@@ -48,8 +48,8 @@ _SilphCo7Text_51e00::
 	line "ist hinter dem"
 	cont "MEISTERBALL her,"
 	cont "mit dem man jedes"
-	cont "#MON"
-	cont "fangen kann!"
+	cont "#MON fangen"
+	cont "kann!"
 	done
 
 _CanceledMasterBallText::

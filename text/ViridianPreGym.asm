@@ -85,7 +85,7 @@ _BottleCapExplanationText::
 _BottleCapNoRoomText::
 	text "Warte, Du hast"
 	line "schon viel zu"
-	cont "viele ITEMS!"
+	cont "viele Items!"
 	done
 
 _YujirouIntro2::
@@ -196,7 +196,7 @@ _ViridianPreGymSign2::
 	cont "Nebeneffekte"
 	cont "gegnerischer"
 	cont "Attacken, mit dem"
-	cont "sie einen Typ"
+	cont "sie einen TYP"
 	cont "gemeinsam haben!"
 	done
 

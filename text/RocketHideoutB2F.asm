@@ -12,7 +12,7 @@ _RocketHideout2EndBattleText2::
 
 _RocketHideout2AfterBattleTxt2::
 	text "Das TEAM ROCKET-"
-	line "Hauptquartier hat"
+	line "HAUPTQUARTIER hat"
 	cont "4 Untergeschosse."
 	cont "Du findest den"
 	cont "BOSS niemals!!!"

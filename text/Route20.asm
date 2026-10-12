@@ -100,15 +100,13 @@ _Route20EndBattleText6::
 _Route20AfterBattleText6::
 	text "Es dürfte Spaß"
 	line "machen, auf einem"
-	cont "#MON zu"
-	cont "reiten!"
+	cont "#MON zu reiten!"
 	done
 
 _Route20BattleText7::
-	text "Mein"
-	line "Vogel-#MON"
-	cont "hat mich hierher"
-	cont "getragen!"
+	text "Mein Vogel-"
+	line "#MON hat mich"
+	cont "hierher getragen!"
 	done
 
 _Route20EndBattleText7::

@@ -1562,7 +1562,7 @@ _RareCandyText::
 	text_ram wcd6d
 	text_start
 	line "erreicht"
-	cont "Level  @"
+	cont "Level @"
 	text_decimal wCurEnemyLVL, 1, 3
 	text "!@"
 	text_end
@@ -1702,7 +1702,7 @@ _DepositWhichMonText::
 _MonWasStoredText::
 	text_ram wStringBuffer
 	text " wurde"
-	line "in Box @"
+	line "in BOX @"
 	text_ram wBoxNumString
 	text_start
 	cont "transferiert."

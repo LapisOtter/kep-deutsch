@@ -89,9 +89,9 @@ _CeladonMansionMorimotoGreeting:: ; LGPE
 ;	cont "I have my reasons." this is insanely cringe it's off by ONE CHARACTER
 	
 	para "Ich bin eines der"
-	line "stärksten. Willst"
+	line "Stärksten. Willst"
 	cont "Du gegen mich"
-	cont "Kämpfen?" ; okay so the Ace Trainer Class is just known as "Trainer" in german RBY. This makes this dialogue really weird...
+	cont "Kämpfen?" ; okay so the Ace Trainer Class is known as just "Trainer" in german RBY. This makes this dialogue really weird...
 	prompt
 
 _CeladonMansionMorimotoFight:: ; LGPE

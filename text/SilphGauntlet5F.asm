@@ -85,7 +85,7 @@ _SilphGauntlet5FBattleText5::
 	text "Als es noch keine"
 	line "#BÄLLE gab,"
 	cont "hatten wir"
-	cont "DOMTEURE das"
+	cont "DOMPTEURE das"
 	cont "sagen!"
 	done
 
@@ -117,13 +117,15 @@ _SilphGauntlet5FEndBattleText6::
 
 _SilphGauntlet5FAfterBattleText6::
 	text "Schon viele"
-	line "Trainer trugen"
+	line "Trainer haben"
 	cont "einmal den Titel"
-	cont "des CHAMPS!"
+	cont "des CHAMPS"
+	cont "getragen!"
 	
 	para "Tatsächlich"
 	line "erkenne ich"
-	cont "einige hier!"
+	cont "einige von ihnen"
+	cont "hier!"
 	done
 	
 _SilphGauntlet5FBattleText7::
@@ -142,10 +144,11 @@ _SilphGauntlet5FEndBattleText7::
 
 _SilphGauntlet5FAfterBattleText7::
 	text "Du verwendest ja"
-	line "keines der"
+	line "keine der"
 	cont "klassischen"
 	cont "Techniken. Das"
-	cont "überraschte mich."
+	cont "habe ich nicht"
+	cont "erwartet."
 	
 	para "Ich vermute Mal,"
 	line "sie zählen nicht"

@@ -175,7 +175,7 @@ _SafariBallBagFull::
 	text "Moment Mal! Ich"
 	line "kann sie dir"
 	cont "nicht geben, wenn"
-	cont "Dein Beutel so"
+	cont "Dein BEUTEL so"
 	cont "voll ist!"
 	done
 

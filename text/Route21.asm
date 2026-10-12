@@ -117,8 +117,7 @@ _Route21EndBattleText7::
 _Route21AfterBattleText7::
 	text "Die Sonne hat"
 	line "mich wie ein"
-	cont "Hähnchen"
-	cont "geröstet!"
+	cont "Hähnchen geröstet!"
 	done
 
 _Route21BattleText8::

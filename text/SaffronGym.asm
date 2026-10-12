@@ -105,7 +105,7 @@ _SaffronGymGuidePostBattleText::
 
 	para "Wenn ich sie"
 	line "hätte, würde ich"
-	cont "in der Spielhalle"
+	cont "in der SPIELHALLE"
 	cont "reich werden!"
 	done
 

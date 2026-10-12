@@ -4,10 +4,15 @@ _MoveRelearnerGreetingText::
 	cont "unterrichte auch"
 	cont "#MON."
 	
-	para "Ich kann ihnen"
-	line "Attacken bei-"
-	cont "bringen, die sie"
-	cont "vergessen haben."
+	para "Ich kann deinen"
+	line "#MON Attacken"
+	cont "beibringen, die"
+	cont "sie vergessen"
+	cont "haben."
+	
+	para "Eine Lektion"
+	line "kostet ¥1000."
+	cont "Wie sieht's aus?"
 	done
 
 _MoveRelearnerSaidYesText::

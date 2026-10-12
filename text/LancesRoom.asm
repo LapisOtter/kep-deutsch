@@ -5,7 +5,7 @@ _LanceBeforeBattleText::
 
 	para "Ich bin"
 	line "SIEGFRIED,"
-	cont "Drachen-Trainer"
+	cont "DRACHEN-Trainer"
 	cont "und Oberhaupt der"
 	cont "TOP VIER!"
 
@@ -28,7 +28,7 @@ _LanceBeforeBattleText::
 
 	para "Für Dich endet"
 	line "der Ausflug in"
-	cont "die PKMN-Liga"
+	cont "die PKMN-LIGA"
 	cont "hier, <PLAYER>!"
 	done
 
@@ -69,16 +69,16 @@ _LanceAfterBattleText::
 	para "Er ist der"
 	line "amtierende"
 	cont "Champion der"
-	cont "PKMN-Liga!@"
+	cont "PKMN-LIGA!@"
 	text_end
 
 _LanceRematchText::
 	text "Schön, Dich wieder"
 	line "hier zu sehen!"
 	cont "Dank dir ist der"
-	cont "Ruf der #MON-"
-	cont "LIGA in luftige"
-	cont "Höhen geschnellt."
+	cont "Ruf der PKMN-LIGA"
+	cont "in luftige Höhen"
+	cont "geschnellt."
 	
 	para "Als Drachenprofi"
 	line "und Oberhaupt der"
@@ -103,23 +103,23 @@ _LanceRematchEndBattleText::
 _LanceRematchAfterBattleText::
 	text "Aber... Aber..."
 	line "Mein Drachenheer"
-	cont "sollte hätte doch"
+	cont "hätte doch"
 	cont "eigentlich den"
 	cont "Sieg davontragen"
 	cont "sollen...!"
 	
-	text "Das zeigt wohl"
+	para "Das zeigt wohl"
 	line "deutlich, dass Du"
 	cont "einfach eine"
 	cont "Klasse für Dich"
 	cont "bist."
 	
-	text "Du weißt ja, was"
+	para "Du weißt ja, was"
 	line "Dich jetzt"
 	cont "erwartet..."
 	
-	text "Ich hoffe, Du bist"
+	para "Ich hoffe, Du bist"
 	line "bereit für Deinen"
 	cont "bisher größten"
-	cont "Kampf!"
+	cont "Kampf!@"
 	text_end

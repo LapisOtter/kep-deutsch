@@ -31,7 +31,7 @@ _CandyJarPreReceiveText::
 	line "ich dieses Glas"
 	cont "gefunden."
 	
-	text "Willst du sie mir"
+	para "Willst du sie mir"
 	line "von meinen Händen"
 	cont "nehmen?"
 	

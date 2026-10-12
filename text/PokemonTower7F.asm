@@ -14,10 +14,12 @@ _PokemonTowerJessieJamesText2::
 	line "Dich vom Acker!"
 	cont "Oder Du bekommst"
 	cont "'ne Menge Ärger!"
+	done
 
 _PokemonTowerJessieJamesText3::
-	text "Dafür"
-	line "wirst Du büßen!"
+	text ""
+	line "Dafür wirst Du"
+	cont "büßen!"
 	prompt
 
 _PokemonTowerJessieJamesText4::
@@ -51,7 +53,6 @@ _TowerRescueFujiText::
 	cont "Sorge um mich!"
 
 	para "Folge mir in das"
-	line "PKMN-CLUBHAUS am"
-	cont "Fuße dieses"
-	cont "Turms."
+	line "#MON-HAUS am" ; changed from the inaccurate "PKMN-CLUBHAUS" to what it says on the entrance
+	cont "Fuße dieses Turms."
 	done

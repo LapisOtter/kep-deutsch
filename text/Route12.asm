@@ -52,11 +52,11 @@ _Route12EndBattleText2::
 	line "mir entwischt!"
 	prompt
 
-_Route12AfterBattleText2::
-	text "Hätte ich eine"
-	line "bessere Angel,"
-	cont "würde ich bessere"
-	cont "#MON fangen!"
+_Route12AfterBattleText2:: ; changed to reference different Pokéballs, because there is only one rod now ~Lapis
+	text "Hätte ich bessere"
+	line "BÄLLE, würde ich"
+	cont "bessere #MON"
+	cont "fangen können!"
 	done
 
 _Route12BattleText3::

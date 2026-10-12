@@ -4,9 +4,9 @@ _CardKeySuccessText1::
 
 _CardKeySuccessText2::
 	text_start
-	line "Der"
-	line "TÜRÖFFNER hat die"
-	cont "Tür entriegelt!"
+	line "Der TÜRÖFFNER"
+	cont "hat die Tür"
+	cont "entriegelt!"
 	done
 
 _CardKeyFailText::

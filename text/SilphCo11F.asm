@@ -75,8 +75,8 @@ _SilphCo11Text2::
 	
 	para "Ich weiß nur, das"
 	line "der SILPH-CHEF es"
-	cont "letztes Jahr"
-	cont "eilig erbaut hat."
+	cont "letztes Jahr in"
+	cont "Eile erbaut hat."
 	
 	done
 
@@ -174,7 +174,7 @@ _OmegaBattleText::
 ; Fun fact: For some reason, this text is stored in 10F. Seems to be a beta element - they ARE encountered in 11F.
 _SilphCoJessieJamesText1::
 	text "Bleib sofort"
-	cont "stehen, Du Balg!@"
+	line "stehen, Du Balg!@"
 	text_end
 
 _SilphCoJessieJamesText2::

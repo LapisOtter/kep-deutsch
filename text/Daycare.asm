@@ -110,9 +110,9 @@ _MelanieText6::
 	line "ist voll."
 	
 	para "Dort drüben ist"
-	line "ein PC, falls es"
-	cont "dir nichts aus"
-	cont "macht..."
+	line "ein PC, falls"
+	cont "es dir nichts"
+	cont "ausmacht..."
 	done
 
 _MelanieText7::

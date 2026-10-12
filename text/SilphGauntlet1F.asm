@@ -106,8 +106,8 @@ _SilphGauntlet1FBattleText5::
 	done
 
 _SilphGauntlet1FEndBattleText5::
-	text "Huch!"
-	line "Unfassbar!"
+	text ""
+	line "Huch! Unfassbar!"
 	prompt
 
 _SilphGauntlet1FAfterBattleText5::

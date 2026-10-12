@@ -134,7 +134,7 @@ FanClubChairFinalText::
 FanClubBagFullText::
 	text "Du hast keinen"
 	line "Platz für weitere"
-	cont "ITEMS!"
+	cont "Items!"
 	done
 
 _FanClubText6::

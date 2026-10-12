@@ -24,7 +24,7 @@ _HallofFameRoomText1::
 	cont "der PKMN-LIGA"
 	cont "bestanden!"
 
-	para "<PLAYER>!  Du"
+	para "<PLAYER>! Du"
 	line "wirst gemeinsam"
 	cont "mit Deinen"
 	cont "#MON in der"

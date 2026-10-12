@@ -347,7 +347,7 @@ _WannaTrade5Text::
 	cont "anders!"
 	
 	para "Willst du mir"
-	line "deins tauschen?"
+	line "Deines tauschen?"
 	done
 	
 _NoTrade5Text::

@@ -161,13 +161,13 @@ _PewterGymGuidePostBattleText::
 	text "Ganz wie ich es"
 	line "mir gedacht habe! "
 	cont "Aus Dir kann ein"
-	cont "#MON-CHAMPION"
+	cont "#MON-Champion"
 	cont "werden!"
 	done
 
 _BrockRematchDefeatedText::
-	text "Ich wusste ja"
-	line "schon, dass du"
+	text "Ich wusste"
+	line "ja schon, dass du"
 	cont "einiges auf dem"
 	cont "Kasten hast, aber"
 	cont "das haut mich aus"

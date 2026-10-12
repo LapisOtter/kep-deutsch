@@ -12,12 +12,12 @@ _LoreleiBeforeBattleText::
 	cont "EIS-#MON geht!"
 
 	para "Die Kraft von"
-	line "Eis-Attacken ist"
+	line "EIS-Attacken ist"
 	cont "unglaublich!"
 
 	para "Du wirst um Gnade"
 	line "winseln, wenn ich"
-	cont "Deine  #MON"
+	cont "Deine #MON"
 	cont "eingefroren habe!"
 
 	para "Hahaha!"
@@ -58,8 +58,7 @@ _LoreleiRematchText::
 	
 _LoreleiRematchEndBattleText::
 	text "Das darf"
-	line "doch nicht wahr"
-	cont "sein!"
+	line "nicht wahr sein!"
 	prompt
 
 _LoreleiRematchAfterBattleText::

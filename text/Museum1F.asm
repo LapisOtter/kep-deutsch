@@ -66,7 +66,7 @@ _Museum1FText_5c28e::
 	text "Pst! Ich glaube,"
 	line "in diesem Stück"
 	cont "BERNSTEIN ist"
-	cont "#MON-DNA"
+	cont "#MON-DNS" ; changed from DNA to DNS for consistency ~Lapis
 	cont "enthalten!"
 
 	para "Es wäre grandios,"

@@ -68,7 +68,7 @@ _PoryZSalesmanText2::
 	done
 
 _PoryZBagFull::
-	text "Hey, Dein Beutel"
+	text "Hey, Dein BEUTEL"
 	line "ist voll! Ich"
 	cont "kann dir so"
 	cont "nichts verkaufen!"

@@ -9,8 +9,8 @@ _BrunswickGladeSign::
 
 _GZapGladeRunText::
 	text "Es ist schon"
-	line "wieder ent-"
-	cont "kommen..."
+	line "wieder"
+	cont "entkommen..."
 	done
 
 _BrunswickGladeBattleText1:: ; Leaf

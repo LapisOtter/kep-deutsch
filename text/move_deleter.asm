@@ -1,8 +1,9 @@
 _MoveDeleterGreetingText::
-	text "Mama sagt, dass"
-	line "ich so vergess-"
-	cont "lich bin, dass es"
-	cont "ansteckend ist."
+	text "Meine Mama sagt,"
+	line "ich sei so"
+	cont "vergeßlich, dass"
+	cont "es ansteckend"
+	cont "ist."
 	
 	para "Willst Du, dass"
 	line "ich ein #MON"
@@ -23,10 +24,11 @@ _MoveDeleterWhichMoveText::
 	done
 
 _MoveDeleterConfirmText::
-	text "Soll es @"
+	text "Soll dein #MON"
+	line "@"
 	text_ram wStringBuffer
 	text_start
-	line "vergessen?"
+	cont "vergessen?"
 	prompt
 
 _MoveDeleterForgotText::
@@ -37,7 +39,7 @@ _MoveDeleterForgotText::
 	prompt
 
 _MoveDeleterByeText::
-	text "Besuche mich Mal"
+	text "Besuche mich mal"
 	line "wieder!"
 	done
 

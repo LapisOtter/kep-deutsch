@@ -3,23 +3,23 @@ _CeladonUniversityInsideText1::
 	line "WESTWOOD V.!"
 	
 	para "Meine Vorfahren"
-	line "haben den #-"
-	cont "BALL erfunden!"
+	line "haben den"
+	cont "#BALL erfunden!"
 	done
 
 _CeladonUniversityInsideText2::
 	text "Eine Rechnung von"
-	line "SILPH, welches"
-	cont "den #BALL"
+	line "der SILPH CO.,"
+	cont "die den #BALL"
 	cont "gekauft hat." ; Is this a correct translation of "It's an invoice selling the #BALL to SILPH."?
 	
 	done
 
 _CeladonUniversityInsideText3::
 	text "Ein Thesenpapier,"
-	line "welches Spekula-"
-	cont "tion zum Thema"
-	cont "Menschengemachter"
+	line "das Spekulation"
+	cont "zum Thema"
+	cont "menschengemachter"
 	cont "#MON enthält."
 	
 	done
@@ -32,7 +32,8 @@ _KHRP::
 	cont "einsetzen!"
 	
 	para "Wie? Du möchtest"
-	line "Es Deinem auch"
+	line "es Deinem"
+	cont "KARPADOR auch"
 	cont "beibringen?"
 	
 	para "Aber sicher doch!"
@@ -56,27 +57,24 @@ _BookcaseText1::
 	cont "etwa 2 Millionen"
 	cont "Jahre zurück."
 
-	para "BARON TAJIRIN"
-	line "aus Frankreich"
-	cont "hat im 18. Jahr-"
-	cont "hundert 30 Arten"
-	cont "entdeckt."
+	para "Im 18. Jahrhundert"
+	line "hat BARON TAJIRIN"
+	cont "aus Frankreich"
+	cont "30 Arten entdeckt."
 	done
 
 _BookcaseText2::
-	text "Im Jahr 1899 hat"
-	line "PROF. WESTWOOD"
-	cont "aus Japan #-"
-	cont "MON-Entwicklung"
-	cont "entdeckt und"
-	cont "50 Arten"
+	text "PROF. WESTWOOD aus"
+	line "Japan entdeckte"
+	cont "1899 #MON-"
+	cont "Entwicklung und"
+	cont "hat 50 Arten"
 	cont "dokumentiert."
 
 	para "Seitdem hat PROF."
 	line "EICH 120 weitere"
 	cont "Arten"
 	cont "dokumentiert." ; Total: 200.
-	
 	done
 	
 _BookcaseText3::
@@ -91,11 +89,11 @@ _BookcaseText3::
 	;cont "PRIMEAPE."
 	; too long and doesn't seem to fit.
 	
-	text "Der moderne #-"
-	line "BALL wurde 1925"
-	cont "von Forschern in"
-	cont "der UNIVERSITÄT"
-	cont "VON PRISMANIA"
+	text "Forscher an der"
+	line "UNIVERSITÄT VON"
+	cont "PRISMANIA CITY"
+	cont "haben 1925 den"
+	cont "modernen #BALL"
 	cont "erschaffen."
 	
 	done
@@ -126,7 +124,7 @@ _TM23ExplanationText::
 	text "TM23 ist"
 	line "DRACHENWUT!"
 
-	para "Sie eignet sich"
+	para "Es eignet sich"
 	line "gut gegen"
 	cont "schwache #MON!"
 	done
@@ -134,5 +132,5 @@ _TM23ExplanationText::
 _TM23NoRoomText::
 	text "Du hast momentan"
 	line "keinen Platz für"
-	cont "weitere ITEMs!"
+	cont "weitere Items!"
 	done

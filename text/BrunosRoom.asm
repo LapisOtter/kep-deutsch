@@ -44,19 +44,20 @@ _BrunoRematchText::
 	line "den Du LORELEI"
 	cont "gezeigt hast,"
 	cont "konnte man bis"
-	cont "hierher spüren"
+	cont "hierher spüren."
 
 	para "Aber ich war auch"
 	line "alles andere als"
 	cont "träge und hab"
-	cont "mein Team uner-"
-	cont "müdlich trainiert."
+	cont "mein Team"
+	cont "unermüdlich"
+	cont "trainiert."
 	
 	para "Mach Dich auf ein"
 	line "wahres Feuerwerk"
-	cont "Feuerwerk gefasst!"
+	cont "gefasst!"
 
-	para "Zum Angriff!!!" ; text is taken from LGPE, but the end part here is adjusted to be consistent with the text of german RBY
+	para "Zum Angriff!!!" ; text was taken from LGPE, but the end part here is adjusted to be consistent with the text of german RBY
 	
 	done
 

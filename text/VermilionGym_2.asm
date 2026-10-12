@@ -43,7 +43,7 @@ _TM24ExplanationText::
 	para "ELEKTRO-#MON"
 	line "wie PIKACHU oder"
 	cont "GAOTORA können"
-	line "diese Attacke"
+	cont "diese Attacke"
 	cont "erlernen!"
 	done
 
@@ -146,7 +146,7 @@ _VermilionGymGuidePreBattleText::
 	line "Experte für"
 	cont "ELEKTRO-#MON!"
 
-	para "Vögel und"
+	para "FLUG- und"
 	line "WASSER-#MON"
 	cont "sind ihm hilflos"
 	cont "ausgeliefert! Er"

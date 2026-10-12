@@ -86,7 +86,7 @@
 	const CRED_LUCI
 	const CRED_ZUMI
 	const CRED_BGVC
-	const CRED_KEP_THANKS
+	const CRED_ABCBOY ; changed from CRED_KEP_THANKS
 	const CRED_FRRF
 	const CRED_MISTY
 	const CRED_THORNAVERY

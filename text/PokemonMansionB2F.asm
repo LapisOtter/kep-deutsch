@@ -8,7 +8,7 @@ _B2FBook1::
 	
 	para "Wir erhalten hohe"
 	line "Energielesungen"
-	cont "von MEWTUs"
+	cont "von MEWTUS"
 	cont "Psycho-Kräften!"
 	
 	para "Aber..."

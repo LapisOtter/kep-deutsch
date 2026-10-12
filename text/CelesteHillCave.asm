@@ -2,6 +2,7 @@ _CelesteHillCaveBattleText1::
 	text "Möchtest du Dich"
 	line "an meine FEEN-"
 	cont "#MON wagen?"
+	done
 
 _CelesteHillCaveEndBattleText1::
 	text "Deine"
@@ -18,8 +19,8 @@ _CelesteHillCaveAfterBattleText1::
 
 _CelesteHillCaveBattleText2::
 	text "In Ordnung und"
-	line "los! Meine #-"
-	cont "KUMPEL-SHOW!"
+	line "los! Meine"
+	cont "#KUMPEL-SHOW!"
 	done
 
 _CelesteHillCaveEndBattleText2::

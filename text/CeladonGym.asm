@@ -91,6 +91,7 @@ _CeladonGymBattleText2::
 	line "eine PKMN-ARENA"
 	cont "nur mit Mädchen"
 	cont "selten ist?"
+	done
 
 _CeladonGymEndBattleText2::
 	text "Sei nicht"

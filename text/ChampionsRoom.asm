@@ -56,8 +56,8 @@ _GaryDefeatedText::
 
 	para "Nach all den"
 	line "Anstrengungen,"
-	cont "CHAMP der PKMN-"
-	cont "LIGA zu werden?"
+	cont "LIGA-Champion"
+	cont "zu werden?"
 
 	para "Das ist nicht"
 	line "fair!"
@@ -76,7 +76,7 @@ _GaryVictoryText::
 	cont "geschafft! Ich"
 	cont "hätte aber mehr"
 	cont "von Dir erwartet,"
-	cont "<RIVAL>!"
+	cont "<PLAYER>!" ; this is unused but im correcting this anyways. The german version is a completely different sentence, causing him to call the player the rival's name.
 
 	para "Vielleicht beim"
 	line "nächsten mal, Du"

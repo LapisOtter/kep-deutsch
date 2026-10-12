@@ -77,7 +77,7 @@ ItemNames::
 	li "EP-TEILER"
 	li "BONBONGLAS" ; was old rod
 	li "KRONKORKEN" ; was good rod
-	li "ANGEL"
+	li "POKéANGEL" ; Renamed the fishing rod to something resembling the Pokéflute, because just naming it "Angel" may make players think its just the Old Rod again. The Name Pokéangel won over just reverting it to Superangel with 5 out of 9 votes
 	li "AP-PLUS"
 	li "ÄTHER"
 	li "TOP-ÄTHER"

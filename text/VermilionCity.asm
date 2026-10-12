@@ -225,7 +225,7 @@ _OfficerJennyText2::
 	line "guter Trainer!"
 
 	para "Ich habe ein"
-	line "SCHIGGY gefangen"
+	line "SCHIGGY gefangen."
 	cont "Aber dieses"
 	cont "#MON macht nur"
 	cont "Dummheiten!"

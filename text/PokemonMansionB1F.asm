@@ -51,6 +51,6 @@ _MansionGuardText::
 	line "diesem Bereich"
 	cont "ist verboten!"
 	
-	para "Zisch ab, Knirps!"
+	para "Zisch ab, Du Balg!"
 	
 	done

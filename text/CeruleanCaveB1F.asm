@@ -1,5 +1,5 @@
 _MewtwoBattleText::
-	text "MEWTWO: ..."
+	text "MEWTU: ..."
 
 	para "..."
 

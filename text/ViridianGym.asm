@@ -54,7 +54,7 @@ _GiovanniPostBattleAdviceText::
 _GiovanniEarthBadgeInfoText::
 	text "Der ERDORDEN"
 	line "stellt den"
-	line "Beweis Deines"
+	cont "Beweis Deines"
 	cont "Könnens als"
 	cont "#MON-TRAINER"
 	cont "dar!"

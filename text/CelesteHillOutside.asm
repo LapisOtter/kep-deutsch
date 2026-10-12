@@ -57,9 +57,9 @@ _CelesteHillOutsideEndBattleText3::
 
 _CelesteHillOutsideAfterBattleText3::
 	text "Ich war einmal ein"
-	line "leidenschaftlich-"
-	cont "er Trainer! Mein"
-	cont "Sieg war"
+	line "leidenschaft-"
+	cont "licher Trainer!"
+	cont "Mein Sieg war"
 	cont "garantiert!"
 	
 	para "Aber ich bin aus"
@@ -88,7 +88,7 @@ _HikerNPC::
 	
 	para "Es hatte diesen"
 	line "echt gemeinen"
-	cont "Blick auf seinen"
+	cont "Blick auf seinem"
 	cont "Gesicht, und"
 	cont "seine Flügel"
 	cont "sahen aus, als"

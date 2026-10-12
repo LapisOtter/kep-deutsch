@@ -120,7 +120,8 @@ _SilphGauntlet6FAfterBattleText3::
 	
 	para "Komm schon, damals"
 	line "war ich noch"
-	cont "nicht geboren!" ; This explains the age gap. He fought in the Vietnam War, deployed from the Japanese base.
+	cont "einmal auf der"
+	cont "Welt!" ; This explains the age gap. He fought in the Vietnam War, deployed from the Japanese base.
 	
 	; Old text.
 	; We wanted to reference the Chinese and German translations.

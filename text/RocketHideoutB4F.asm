@@ -3,7 +3,6 @@ _RocketHideout4Text_4557a::
 	line "beeindruckt. Du"
 	cont "bist tatsächlich"
 	cont "weit gekommen!"
-	done
 	
 	para "Wir, TEAM ROCKET,"
 	line "finanzieren mit"
@@ -40,7 +39,7 @@ _RocketHideout4Text_4557a::
 	
 	para "Mach Dich bereit,"
 	line "Höllenqualen zu"
-	cont "erleiden!, Wicht!"
+	cont "erleiden, Wicht!"
 	
 	done
 	

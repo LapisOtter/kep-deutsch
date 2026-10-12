@@ -87,7 +87,7 @@ CreditsTextPointers:
 	dw CredLuci
 	dw CredZumi
 	dw CredBGVC
-	dw CredKEPThanks
+	dw CredAbcBoy ; changed from CredKEPThanks
 	dw CredFrrf
 	dw CredMisty
 	dw CredThornAvery
@@ -278,8 +278,8 @@ CredZumi:
 	db -5, "ZUMIISAWHAT?@"
 CredBGVC:
 	db -2, "BGVC@"
-CredKEPThanks:
-	db -7, "BESONDERER DANK@"
+CredAbcBoy: ; changed from CredKEPThanks, as its contents were already identical to CredSpecial and the credits have a 103 entry limit
+	db -3, "ABCBOY@"
 CredFrrf:
 	db -2, "FRRF@"
 CredMisty:

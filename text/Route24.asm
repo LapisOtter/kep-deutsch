@@ -111,10 +111,6 @@ _Route24DamienText3::
 	done
 
 _Route24DamienText4::
-	text "How's it doing?"
-	line "It couldn't even"
-	cont "beat a KRABBY!"
-	
 	text "Wie geht es dem"
 	line "GLUMANDA?"
 	cont "Es konnte nicht"
@@ -123,9 +119,6 @@ _Route24DamienText4::
 	done
 
 _DamienFullParty::
-	text "Huh? Your BOX"
-	line "is full?"
-	
 	text "Hä? Deine BOX"
 	line "ist voll?"
 	done

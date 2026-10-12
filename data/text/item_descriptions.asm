@@ -250,7 +250,7 @@ _SSTicketDescription::
 	prompt
 
 _GoldTeethDescription::
-	text "Verlorenes Gebiss"
+	text "Verlorenes Gebiß"
 	next "vom WÄRTER."
 	prompt
 
@@ -275,7 +275,7 @@ _XSpecialDescription::
 	prompt
 
 _CoinCaseDescription::
-	text "Kann bis zu 9.999"
+	text "Kann bis zu 9999"
 	next "Münzen aufnehmen."
 	prompt
 
@@ -295,8 +295,8 @@ _SilphScopeDescription::
 	prompt
 
 _PokeFluteDescription::
-	text "Weckt jedes #-"
-	next "MON sofort auf."
+	text "Weckt sofort jedes"
+	next "#MON auf."
 	prompt
 
 _LiftKeyDescription::
@@ -366,7 +366,7 @@ _MysteryBoxDescription:: ; GO Description: A mysterious old box. Opening it caus
 
 _TeaDescription::
 	text "Heißes Getränk,"
-	next "das Durst löscht."
+	next "der Durst löscht."
 	prompt
 
 _SilphLetterDescription::
@@ -480,8 +480,8 @@ _TM16Description::
 	prompt
 
 _TM17Description::
-	text "Eine Attacke, die"
-	next "Anwender verletzt."
+	text "Anwender wird"
+	next "verletzt."
 	prompt
 
 _TM18Description::

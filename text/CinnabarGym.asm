@@ -22,7 +22,7 @@ _ReceivedVolcanoBadgeText::
 
 	para "Du hast Dir den"
 	line "VULKANORDEN"
-	cont "redlich verdient@"
+	cont "redlich verdient!@" ; there was no punctuation mark in the original text for some reason... ~Lapis
 	text_end
 
 _BlainePostBattleAdviceText::

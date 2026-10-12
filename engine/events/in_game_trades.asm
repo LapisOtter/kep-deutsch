@@ -493,7 +493,7 @@ BillWannaTradeText:
 	
 	para "Du kannst es gern"
 	line "haben, wenn du"
-	cont "mir deines"
+	cont "mir Deines"
 	cont "tauschst!"
 	done
 	text_end

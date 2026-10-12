@@ -53,8 +53,8 @@ _BrunswickBattleText1::
 	done
 
 _BrunswickEndBattleText1::
-	text "Das"
-	line "hat nicht"
+	text ""
+	line "Das hat nicht"
 	cont "gereicht..."
 	prompt
 
@@ -69,8 +69,8 @@ _BrunswickAfterBattleText1::
 
 _BrunswickBattleText2::
 	text "Mein Ehemann hat"
-	text "mich hier her"
-	text "gebracht!"
+	line "mich hierher"
+	cont "gebracht!"
 	done
 
 _BrunswickEndBattleText2::

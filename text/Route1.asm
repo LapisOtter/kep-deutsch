@@ -131,7 +131,7 @@ _OakFirstWin::
 	cont "Dich..."
 	
 	para "Es erinnert mich"
-	line "an die schönen"
+	line "an die guten"
 	cont "alten Zeiten..."
 	
 	para "Aber, jetzt ist"
@@ -155,14 +155,14 @@ _OakCitrineExplain::
 	line "Ticket für"
 	cont "ZITRONIA CITY."
 	
-	para "Ein Ort, wo die"
+	para "Ein Ort, den die"
 	line "besten Trainer"
 	cont "besuchen, um"
 	cont "noch stärker zu"
 	cont "werden."
 	
 	para "Er dient auch als"
-	line "Ruhestelle für"
+	line "Ruheort für"
 	cont "einige seltsame"
 	cont "Vogel-#MON,"
 	cont "doch sie sind so"

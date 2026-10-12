@@ -74,9 +74,10 @@ _AgathaRematchAfterBattleText::
 	cont "so viel von Dir"
 	cont "hält."
 	
-	para "...So wie Du und"
-	line "<RIVAL> miteinan-"
-	cont "der wetteifert..."
+	para "...Genau So wie"
+	line "Du und <RIVAL>"
+	cont "miteinander"
+	cont "wetteifert..."
 	
 	para "erinnert ihr mich"
 	line "sehr an uns, als"

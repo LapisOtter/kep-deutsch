@@ -84,7 +84,7 @@ _CitrineCityText4::
 	text "Jedes Jahr lassen"
 	line "sich einige"
 	cont "Vogel-#MON"
-	cont "auf den Berg"
+	cont "auf dem Berg"
 	cont "nördlich von hier"
 	cont "nieder."
 	

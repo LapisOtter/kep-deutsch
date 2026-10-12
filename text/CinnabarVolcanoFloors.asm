@@ -1,11 +1,11 @@
 _CinnabarVolcanoFloorsBattleText1::
-	text "Pass auf! Du wirst"
+	text "Paß auf! Du wirst"
 	line "wirst Dich noch"
 	cont "verbrennen!"
 	done
 
 _CinnabarVolcanoFloorsEndBattleText1::
-	text "FEUERWEHR: Du"
+	text "Du"
 	line "bist nicht"
 	cont "schlecht!"
 	prompt
@@ -38,8 +38,8 @@ _CinnabarVolcanoFloorsAfterBattleText2::
 
 _CinnabarVolcanoFloorsBattleText3::
 	text "Meine WASSER-"
-	line "#MON können uns"
-	cont "kühl halten!"
+	line "#MON können"
+	cont "uns kühl halten!"
 	done
 
 _CinnabarVolcanoFloorsEndBattleText3::
