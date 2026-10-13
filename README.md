@@ -2,7 +2,6 @@ Kanto Expansion Pak
 ===================
 
 ACHTUNG: Das gesamte Spiel ist zwar auf Deutsch, doch der Patch muss immernoch auf eine englische ROM von Pokémon Rote Edition (Pokémon Red Version) angebracht werden!!!
-Speicherdaten von 
 
 Dies ist ein ROM-Hack von Pokémon Rot und Blau, welches danach strebt, die Kanto-Region mit neuen Kanto-bezogenen Pokémon, interessanteren Orten und Lebensqualitäts-Verbesserungen zu erweitern. Es fing gewissermaßen als ein Port der [Mod für Pokemon Showdown](https://github.com/ShiraTheMogul/gen1expansionpack) des selben Namens an.
 
