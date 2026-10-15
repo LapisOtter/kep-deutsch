@@ -13,7 +13,7 @@ _CeladonMansion5Text1::
 
 ; Unused for now. Doesn't make much sense.
 _JackyPostBeatText::
-	text "Willst du ein"
+	text "Willst Du ein"
 	line "Rematch? Ich bin"
 	cont "wirklich eine"
 	cont "Liga über dir!"
@@ -37,9 +37,9 @@ _JackyWinText::
 	prompt
 
 _JackyLossText::
-	text "JACKY: Ich habe"
+	text "Ich habe"
 	line "verloren!?"
-	cont "Unfassbar!"
+	cont "Unfaßbar!"
 	prompt
 
 _JackyThief::
@@ -49,14 +49,13 @@ _JackyThief::
 
 _JackyAfterBattle::
 	text "Es war so, als"
-	line "ob ich Dich in"
-	cont "der Zeitlupe"
-	cont "bekämpfen"
-	cont "würde..."
+	line "ob Du in der"
+	cont "Zeitlupe kämpfen"
+	cont "würdest..."
 	
-	para "OK! Ich gebe dir"
+	para "OK! Ich gebe Dir"
 	line "ein Geschenk, das"
-	cont "dir auf Deiner"
+	cont "Dir auf Deiner"
 	cont "Reise helfen"
 	cont "wird!"
 	
@@ -75,15 +74,15 @@ _JackyGift::
 	done
 
 _JackyN64::
-	text "Eine NINTENDO"
-	line "64! Die neueste"
+	text "Eine NINTENDO 64!"
+	line "Die neueste"
 	cont "Spielkonsole!"
 	done
 
 _JackyTVMario::
 	text "Ein Klempner"
-	line "springt 3D herum!"
-	cont "Wie cool!"
+	line "springt in 3D"
+	cont "herum! Wie cool!"
 	done
 
 _JackyTVWaveRace::
