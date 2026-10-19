@@ -70,7 +70,7 @@ _GiovanniEarthBadgeInfoText::
 	done
 
 _ReceivedTM27Text::
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "TM27!@"
 	text_end
 

@@ -1,7 +1,7 @@
 Kanto Expansion Pak
 ===================
 
-ACHTUNG: Das gesamte Spiel ist zwar auf Deutsch, doch der Patch muss immernoch auf eine englische ROM von Pokémon Rote Edition (Pokémon Red Version) angebracht werden!!!
+ACHTUNG: Das gesamte Spiel ist zwar auf Deutsch, doch der Patch muss immernoch auf eine englische ROM von Pokémon Rote Edition (Pokémon - Red Version) angebracht werden!!!
 
 Dies ist ein ROM-Hack von Pokémon Rot und Blau, welches danach strebt, die Kanto-Region mit neuen Kanto-bezogenen Pokémon, interessanteren Orten und Lebensqualitäts-Verbesserungen zu erweitern. Es fing gewissermaßen als ein Port der [Mod für Pokemon Showdown](https://github.com/ShiraTheMogul/gen1expansionpack) des selben Namens an.
 
@@ -97,7 +97,7 @@ Hier gibt es ein Paar neue Items, um die neuen Pokémon unterzubringen, neue Fea
 - Der Kronkorken wurde gemeinsam mit dem Super-Spezialtraining hinzugefügt. Der Kronkorken ist praktisch wie ein Goldkronkorken.
 - Die Alte Karte wurde hinzugefügt, die dem Spieler Zugang zu Ferneiland und Mew schafft.
 - Der Silph-Brief dient als Einladung zu einer neuen Herausforderung im Postgame. Man erhält ihn, nachdem man das Spiel durchgespielt hat.
-- Der Zitroniapass wurde hinzugefügt, die Zugang zu einem neuen Postgame-Areal schafft, die auf dem unbenutzten "C"-Gebiet basiert. Sie kann im Postgame erhalten werden.
+- Der Zitroniapass wurde hinzugefügt, der Zugang zu einem neuen Postgame-Areal schafft, die auf dem unbenutzten "C"-Gebiet basiert. Er kann im Postgame erhalten werden.
 
 Neue Orte
 ====
@@ -192,7 +192,7 @@ QoL-Verbesserungen
 - Turbotreter lassen sich mit dem Halten vom B-Knopf verwenden. Damit kann man auch schneller mit dem Fahrrad fahren.
 - Die Textgeschwindigkeit 3 (jetzt im Options-Menü als Hoch bekannt) hat kein Frame-Delay mehr, was die Scroll-Geschwindigkeit verdoppelt. Sie ist nun auch die Standard-Option, sodass man nicht mehr dafür in die Optionen gehen muss.
 	- Eine neue Textgeschwindigkeit namens "Sofort" ist jetzt auch auswählbar, dank der Arbeit von BlueZangoose.
-- Die normale Angel und die Profiangel wurden entfernt, und die Superangel, jetzt als Pokéangel bekannt, ist nun auf Route 24 erhältlich. Mit der lassen sich jetzt Pokémon angeln, die ein ähnliches Level mit den wilden Pokémon der Umgebung haben.
+- Die normale Angel und die Profiangel wurden entfernt, und die Superangel, die in Pokéangel umgetauft wurde, ist nun auf Route 24 erhältlich. Mit der lassen sich jetzt Pokémon angeln, die ein ähnliches Level mit den wilden Pokémon der Umgebung haben.
 - Die Top 4 und der Champ haben im Postgame nun verbesserte Teams. Die Top 4 verwendet in den Rematches nun Text basierend auf ihren Auftritt in LGPE.
 	- Außerdem, wenn man die Top 4 besiegt, werden besiegte Legendäre Pokémon wieder erscheinen, wie in späteren Spielen!
 - Getauschte Pokémon ("Außenseiter") können beim Namenbewerter jetzt Spitznamen gegeben werden.
@@ -213,7 +213,7 @@ QoL-Verbesserungen
 	- TM23 (Drachenwut) kann nun Karpador beigebracht werden (July '98 Shogakukan)
 	- HM02 (Fliegen) kann nun der Pikachu-Reihe beigebracht werden (Corocoro)
 	- HM03 (Surfer) kann nun der Pikachu-Reihe beigebracht werden (Stadium / Corocoro)
-	- Enton erlernt nun Amnesie auch Lv15. (Stadium)
+	- Enton erlernt nun Amnesie auf Lv15 (Stadium)
 - Die Spielhalle ist nun schneller und bringt mehr Profit, sodass sich alles viel mehr lohnt;
 	- 3x Kirsche gibt nun 50 Münzen (früher 8)
 	- 3x Arbok/Smogon/Mauzi gibt nun 100 Münzen (früher 15)
