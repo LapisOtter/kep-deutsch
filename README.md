@@ -414,7 +414,7 @@ Es gibt auch einige Veränderungen an dem Skript, die weder im deutschen RBG noc
 - Von der Trainerin mit dem Lahmus in Azuria City wurde ein Teil ihres Dialoges entfernt.
 - Die Beschreibung von TM48 wurde verändert, da Steinhagel in diesem Spiel kein Zurückschrecken verursachen kann.
 - Bill wird immernoch als Pokémaniac bezeichnet. KEP änderte seinen Titel in "Pokémon-Fanatiker" um, weil dies eine akkuratere Übersetzung aus späteren Spielen ist, doch im Deutschen wird er bis heute noch als Pokémaniac bezeichnet.
-- Der Angler auf Route 12, der sich eine bessere Angel wünscht, spricht jetzt über Bälle, da es mit der Pokéangel jetzt nur eine Angel gibt.
+- Der Text vom Angler auf Route 12, der sich eine bessere Angel wünscht, wurde mit dem Text seines Pendanten aus LGPE überschrieben, da es mit der Pokéangel jetzt nur eine Angel gibt.
 
 Mit der neuen Sprache kommen auch neue Namen für die Beta-Pokémon, sowie die neuen Items und Orte. Ihre Namen wurden um die bereits existierenden Pokémon gestaltet.
 Informationen über die Ursprünge der neuen Namen sind im [deutschen KEP-Lokalisierungsglossar](https://docs.google.com/spreadsheets/d/1jYAvI7OjdmMQpJLTwyK04Be8hR-LZHkRfV3XcMzihM8/) zu finden.

@@ -42,7 +42,7 @@ _Route12AfterBattleText1::
 
 _Route12BattleText2::
 	text "Nur mit der Ruhe!"
-	line "Als Angler muß"
+	line "Als ANGLER muß"
 	cont "man geduldig"
 	cont "sein!"
 	done
@@ -52,11 +52,12 @@ _Route12EndBattleText2::
 	line "mir entwischt!"
 	prompt
 
-_Route12AfterBattleText2:: ; changed to reference different Pokéballs, because there is only one rod now ~Lapis
-	text "Hätte ich bessere"
-	line "BÄLLE, würde ich"
-	cont "bessere #MON"
-	cont "fangen können!"
+_Route12AfterBattleText2:: ; changed to (what I believe is) the LGPE counterpart, because there is only one rod now ~Lapis
+	text "Wer ohne ANGEL"
+	line "WASSER-#MON"
+	cont "fangen will, tut"
+	cont "sich wahrlich"
+	cont "keinen Gefallen."
 	done
 
 _Route12BattleText3::
@@ -111,7 +112,7 @@ _Route12AfterBattleText5::
 	line "verstehst Du sehr"
 	cont "viel, doch ich"
 	cont "bin der bessere"
-	cont "Angler!"
+	cont "ANGLER!"
 	done
 
 _Route12BattleText6::
