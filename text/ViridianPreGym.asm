@@ -8,9 +8,8 @@ _YujirouIntro::
 	para "Ich und meine"   ; originally Lickitung, but didn't work when taking rematches into account
 	line "#MON werden"
 	cont "jeden schlagen,"
-	cont "der sich in"
-	cont "unseren Weg"
-	cont "stellt!"
+	cont "der sich uns in"
+	cont "den Weg stellt!"
 	
 	para "Denkst Du, Du"
 	line "könntest es mit"
@@ -130,7 +129,7 @@ _YujirouAfterBattleText2::
 _ViridianPreGymBattleText1::
 	text "Wußtest Du, daß"
 	line "die besten"
-	cont "#MON vom Typ"
+	cont "#MON vom TYP"
 	cont "NORMAL sind?"
 	done
 
