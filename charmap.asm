@@ -166,14 +166,25 @@
 	charmap "ü",         $cf
 	charmap "ß",         $d1
 	
-	charmap "<AP_A>",    $d2 ; Distinct from BOLD_A, its to turn the PP symbol in the battle and status screens to AP
+	charmap "<AP_A>",    $d2 ; Distinct from BOLD_A, its to turn the PP symbol in the battle and status screens into AP
+
+	charmap "+",         $d3 ; added this just for importing the german versions credits, im pathetic ik
+
+; squished JA and NEIN for the Yes/No menu box, as resizing that box causes either graphical bugs or game crashes at the end of battle.
+	charmap "<J1>",		 $d4
+	charmap "<J2>",		 $d5
+	charmap "<N1>",		 $d6
+	charmap "<N2>",		 $d7
+	charmap "<N3>",		 $d8
+
+; originally wanted to make the squished words a shortcut like how <PKMN> works, but doing so exceeded ROM space
+;	charmap "<JA>",		 $d9
+;	charmap "<NEIN>",	 $da
 
 	charmap "'",         $e0
 	charmap "<PK>",      $e1
 	charmap "<MN>",      $e2
 	charmap "-",         $e3
-	
-	charmap "+",         $d3 ; added this just for importing the german versions credits, im pathetic ik
 
 	charmap "'r",        $e4
 	charmap "'m",        $e5

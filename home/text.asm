@@ -103,6 +103,8 @@ PlaceNextChar::
 	dict "<DEXEND>",  PlaceDexEnd
 	dict "<TARGET>",  PlaceMoveTargetsName
 	dict "<USER>",    PlaceMoveUsersName
+;	dict "<JA>",	  SquishedJa
+;	dict "<NEIN>",	  SquishedNein
 
 	ld [hli], a
 	call PrintLetterDelay
@@ -139,6 +141,8 @@ RocketChar::  print_name RocketCharText
 PlacePOKe::   print_name PlacePOKeText
 SixDotsChar:: print_name SixDotsCharText
 PlacePKMN::   print_name PlacePKMNText
+;SquishedJa::  print_name SquishedJaText
+;SquishedNein:: print_name SquishedNeinText
 
 PlaceMoveTargetsName::
 	ldh a, [hWhoseTurn]
@@ -180,6 +184,8 @@ PlacePOKeText::   db "POKé@"
 SixDotsCharText:: db "……@"
 EnemyText::       db "Gegn. @"
 PlacePKMNText::   db "<PK><MN>@"
+;SquishedJaText::  db "<J1><J2>@"
+;SquishedNeinText:: db "<N1><N2><N3>@"
 
 ContText::
 	push de

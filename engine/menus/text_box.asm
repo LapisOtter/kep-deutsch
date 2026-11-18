@@ -341,12 +341,12 @@ DisplayTwoOptionMenu:
 ; The bottom and right edges of the menu may remain after the function returns.
 
 TwoOptionMenu_SaveScreenTiles:
-; Normally, a lot of sixes here and in TwoOptionMenu_RestoreScreenTiles should be sevens to be more accurate to the german version
-; and not have the most right part of the bar stay after the rest of the yes/no box disappears.
-; Unfortunately, this also causes a nasty glitch.
+; Normally, a lot of the sixes here and in TwoOptionMenu_RestoreScreenTiles should be sevens, to be in line with the bigger Yes/No boxes of the german version.
+; otherwise, the most right part of the bar would stay after the rest of the bigger yes/no box disappears.
+; Unfortunately, doing that would cause a nasty glitch.
 ; When you defeat a trainer's last Pokémon, making one of your own Pokémon reach a level where they try to learn a new move, gamebreaking terribleness ensues once the game tries to display the trainer's after battle text.
-; As i do not know how to code, and cannot figure out what exactly german RBY does different, I have to keep it in like this.
-; I am genuinely sorry. If someone figures out how to fix this, so wider yes/no boxes work with this circumstance, please help me. ~Lapis
+; As i do not know how to code, and cannot figure out what exactly german RBY does different, I ended up going with the route of making new squished Ja/Nein characters that fit within the smaller english Yes/No box.
+; I know an actual fix is possible, I just don't know how to do it, and what exactly german RBY does differently. If anyone can help me figure out a solution so wider yes/no boxes work without crashing, im willing to listen. ~Lapis
 	ld de, wBuffer
 	lb bc, 5, 6
 .loop

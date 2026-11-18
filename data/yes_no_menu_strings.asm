@@ -18,12 +18,12 @@ TwoOptionMenuStrings:
 	assert_table_length NUM_TWO_OPTION_MENUS
 
 .NoYesMenu:
-	db   "NEIN"
-	next "JA@"
+	db   "<N1><N2><N3>"
+	next "<J1><J2>@"
 
 .YesNoMenu:
-	db   "JA"
-	next "NEIN@"
+	db   "<J1><J2>"
+	next "<N1><N2><N3>@"
 
 ; There is probably a better way to word this...
 ; Replaced North/West

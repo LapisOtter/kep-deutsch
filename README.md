@@ -274,8 +274,6 @@ Bekannte Bugs
 - Versucht man, auf dem Radweg auf der Oberwelt zu Surfen, wird man von einer unsichtbaren Textbox aufgehalten, doch durch wiederholtes Drücken von A erhält man die Kontrolle wieder zurück.
 - Spingt man von einer bestimmten Stufe in Azuria City, landet man auf einem Zaun. Das wird im Spiel gelassen, weil es witzig ist.
 - Ein Paar der NPCs der Rasthäuser der Safari-Zone sind verbuggt.
-- An Stellen, wo eine Ja/Nein-Auswahlbox erscheint, (Lernen von Attacken, Speichern) bleibt der rechte Teil vom Rahmen für eine Weile kleben.
-	- Dieser Harmlose Grafik-Bug wird fürs erste in dieser Übersetzung gelassen, da ein Versuch, das zu beheben, einen anderen Bug einführt, der das Spiel am Ende eines Trainer-Kampfes einfrieren lassen kann. Es ist behebbar, doch mir ist nicht bewusst wie.
 
 Entwicklungsmethoden für neue Pokémon
 ====
@@ -387,6 +385,7 @@ Es existieren jedoch einige Ausnahmen:
 	- Der Name von Brüllschweif wird als "BR.SCHWEIF" geschrieben. Der Vollständige Name ist immernoch im Museum von Marmoria City zu finden.
 	- Die Attacken Kniefalltrick und Kniefallspalter sind als Falltrick und Fallspalter bekannt.
 	- Einige Pokémon-Kategorien, wie die von Bisselbat, Galar-Laschoking und Magnezone wurden abgekürzt.
+- Die Größe der Ja/Nein-Auswahlboxen konnte nicht auf ihre Größe in der offiziellen deutschen Version gebracht werden, ohne einen potentiellen Absturz einzuführen. Als Entschädigung wurden besondere Zeichen eingeführt, die es erlauben, das Wort Nein in 3 Zeichen zu quetschen. Es sieht zwar ein bisschen Bootleg-artig aus, doch es ist besser als die Alternativen.
 
 Verbesserungen an der originalen Übersetzung:
 - Der Effekt von Egelsamen wird nicht mehr als "Schmarotzer-Attacke" bezeichnet.
