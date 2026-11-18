@@ -181,7 +181,7 @@ MoveNames:: ; 12chr limit
 	li "SCHMALHORN"
 	li "TRUGTRÄNE"
 	li "FALLTRICK"		; Kniefalltrick
-	li "FALLSCHNITT"	; Kniefallschnitt
+	li "FALLSPALTER"	; Kniefallspalter
 	li "SÄUSELSTIMME"
 	li "RÄNKESCHMIED"
 	li "UPPERCUT"

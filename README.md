@@ -81,7 +81,7 @@ Eigenschaften von Stahl, Unlicht und Fee zum Nachschlagen:
 
 Natürlich bekommen diese Typen passende Attacken. Momentan erhalten bloß neue Pokémon diese Attacken, während die Pokémon aus dem Originalspiel unberührt bleiben. Auf Einheitlichkeit wurden bloß Attacken mit Effekten importiert, die im Code von RBG schon existierten.
 - Stahl: Patronenhieb, Eisenabwehr, Eisenschädel, Magnetbombe, Metallsound, Spiegelsalve (nur durch Metronom), Schmalhorn
-- Unlicht: Wirbler, Trugträne, Kniefalltrick (heißt im Spiel Falltrick), Finte, Kniefallschnitt (heißt im Spiel Fallschnitt), Ränkeschmied, Nachthieb
+- Unlicht: Wirbler, Trugträne, Kniefalltrick (heißt im Spiel Falltrick), Finte, Kniefallspalter (heißt im Spiel Fallspalter), Ränkeschmied, Nachthieb
 - Fee: Charme, Zauberschein, Säuselstimme, Diebeskuss, Feenbrise, Bitterkuss
 
 Neue items
@@ -385,7 +385,7 @@ Es existieren jedoch einige Ausnahmen:
 - Wegen der Erweiterten Auswahl an Spielercharakteren wurden viele Texte im Spiel geschlechtsneutraler gemacht, was im Deutschen verglichen mit der englischen Version weit mehr Veränderungen mit sich bringt. Die veränderten Texte haben Einflüsse aus Kristall, FRBG und LGPE.
 - Da in den alten Spielen weniger Platz für Namen sind, wurden einige Namen abgekürzt:
 	- Der Name von Brüllschweif wird als "BR.SCHWEIF" geschrieben. Der Vollständige Name ist immernoch im Museum von Marmoria City zu finden.
-	- Die Attacken Kniefalltrick und Kniefallschnitt sind als Falltrick und Fallschnitt bekannt.
+	- Die Attacken Kniefalltrick und Kniefallspalter sind als Falltrick und Fallspalter bekannt.
 	- Einige Pokémon-Kategorien, wie die von Bisselbat, Galar-Laschoking und Magnezone wurden abgekürzt.
 
 Verbesserungen an der originalen Übersetzung:

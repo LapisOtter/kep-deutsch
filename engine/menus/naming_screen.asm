@@ -13,8 +13,8 @@ AskName:
 	call GetMonName
 	ld hl, DoYouWantToNicknameText
 	call PrintText
-	hlcoord 13, 7
-	lb bc, 8, 14
+	hlcoord 14, 7
+	lb bc, 8, 15
 	ld a, TWO_OPTION_MENU
 	ld [wTextBoxID], a
 	call DisplayTextBoxID

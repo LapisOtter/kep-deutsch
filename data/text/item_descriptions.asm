@@ -3,7 +3,7 @@
 
 _MasterBallDescription::
 	text "Der beste BALL."
-	next "Erfolg garantiert!"
+	next "Fang garantiert!"
 	prompt
 
 _UltraBallDescription::
@@ -225,8 +225,8 @@ _MaxRepelDescription::
 	prompt
 
 _DireHitDescription::
-	text "Hebt Volltreffer-"
-	next "quote für 1 Kampf."
+	text "Für 1 Kampf höhere"
+	next "Volltrefferquote."
 	prompt
 
 _FreshWaterDescription::
@@ -365,8 +365,8 @@ _MysteryBoxDescription:: ; GO Description: A mysterious old box. Opening it caus
 	prompt
 
 _TeaDescription::
-	text "Heißes Getränk,"
-	next "der Durst löscht."
+	text "Heißes Getränk"
+	next "zum durstlöschen."
 	prompt
 
 _SilphLetterDescription::
@@ -396,7 +396,7 @@ _HM04Description::
 
 _HM05Description::
 	text "Blendet Gegner"
-	next "& senkt Präzision."
+	next "und senkt GENA."
 	prompt
 
 _TM01Description::

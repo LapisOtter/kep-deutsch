@@ -28,7 +28,7 @@ _CuboneSalesmanText1::
 	
 	para "Siehst Du diesen"
 	line "Schädel auf"
-	cont "seinem Kopf!"
+	cont "seinem Kopf?"
 	
 	para "Nur für ¥500!"
 	line "Sowas kann man"
