@@ -17,12 +17,14 @@ TwoOptionMenuStrings:
 	two_option_menu 4, 3, FALSE, .NoYesMenu
 	assert_table_length NUM_TWO_OPTION_MENUS
 
+; I had to squish the NEIN into something that could fit in a 3-character space, as enlargening the yes/no box caused bugs.
+; I considered also squishing the JA to match, but most people prefered the JA being left as it is, so the squished JA graphics ended up unused.
 .NoYesMenu:
 	db   "<N1><N2><N3>"
-	next "<J1><J2>@"
+	next "JA@"
 
 .YesNoMenu:
-	db   "<J1><J2>"
+	db   "JA"
 	next "<N1><N2><N3>@"
 
 ; There is probably a better way to word this...

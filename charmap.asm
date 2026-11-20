@@ -171,8 +171,8 @@
 	charmap "+",         $d3 ; added this just for importing the german versions credits, im pathetic ik
 
 ; squished JA and NEIN for the Yes/No menu box, as resizing that box causes either graphical bugs or game crashes at the end of battle.
-	charmap "<J1>",		 $d4
-	charmap "<J2>",		 $d5
+;	charmap "<J1>",		 $d4
+;	charmap "<J2>",		 $d5
 	charmap "<N1>",		 $d6
 	charmap "<N2>",		 $d7
 	charmap "<N3>",		 $d8
